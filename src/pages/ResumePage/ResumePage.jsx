@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-class Resume extends React.Component {
+class ResumePage extends React.Component {
     render() {
         return(
             <>
@@ -11,4 +11,4 @@ class Resume extends React.Component {
     }
 }
 
-export default Resume
+export default ResumePage
