@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
+import './LeftLink.css';
 
 export default function LeftLink() {
     return (
-        <div>
-            <Link to="/portfolio">TATYANA KARLEN - FULL STACK DEVELOPER</Link>
+        <div className="left-link">
+            <Link className="link" to="/portfolio">TATYANA KARLEN - FULL STACK DEVELOPER</Link>
         </div>
     )
 }
