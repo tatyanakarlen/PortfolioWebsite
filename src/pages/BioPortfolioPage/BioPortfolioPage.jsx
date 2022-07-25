@@ -5,7 +5,7 @@ class BioPortfolioPage extends React.Component {
     render() {
         return(
             <>
-            <h1>BioPortfolioPage Test</h1>
+            <TopNav />
             </>
         )
     }

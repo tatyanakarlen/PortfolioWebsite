@@ -3,7 +3,7 @@
 export default function LeftLink() {
     return (
         <div>
-            <h5>FULL STACK DEVELOPER</h5>
+            <h5>TATYANA KARLEN - FULL STACK DEVELOPER</h5>
         </div>
     )
 }

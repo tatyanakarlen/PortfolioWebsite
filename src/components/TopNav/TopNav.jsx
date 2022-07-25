@@ -1,5 +1,6 @@
 // import OrderDetail from '../../components/OrderDetail/OrderDetail';
 import LeftLink from '../LeftLink/LeftLink.jsx'
+import RightNav from '../RightNav/RightNav.jsx'
 
 
 export default function TopNav() {
@@ -7,6 +8,7 @@ export default function TopNav() {
        <div>
          <h5>THIS IS TOP NAV test</h5>
          <LeftLink />
+         <RightNav />
        </div>
    )
 }
