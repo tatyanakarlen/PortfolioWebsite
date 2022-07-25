@@ -1,9 +1,9 @@
-
+import { Link } from 'react-router-dom';
 
 export default function LeftLink() {
     return (
         <div>
-            <h5>TATYANA KARLEN - FULL STACK DEVELOPER</h5>
+            <Link to="/portfolio">TATYANA KARLEN - FULL STACK DEVELOPER</Link>
         </div>
     )
 }

@@ -1,9 +1,13 @@
-
+import { Link } from 'react-router-dom';
 
 export default function RightNav() {
     return (
         <>
           <h3>This is right navigation</h3>
+          <Link to="/portfolio">PORTFOLIO</Link>
+          <br/>
+          <Link to="/resume">RESUME</Link>
+          
         </>
     )
 }

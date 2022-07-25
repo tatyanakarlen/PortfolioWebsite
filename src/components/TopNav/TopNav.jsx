@@ -6,7 +6,6 @@ import RightNav from '../RightNav/RightNav.jsx'
 export default function TopNav() {
    return (
        <div>
-         <h5>THIS IS TOP NAV test</h5>
          <LeftLink />
          <RightNav />
        </div>
