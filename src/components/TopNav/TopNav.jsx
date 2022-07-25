@@ -1,4 +1,4 @@
-// import OrderDetail from '../../components/OrderDetail/OrderDetail';
+
 import LeftLink from '../LeftLink/LeftLink.jsx'
 import RightNav from '../RightNav/RightNav.jsx'
 
