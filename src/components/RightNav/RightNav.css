@@ -1,4 +1,4 @@
-.link {
+/* .link {
     display: inline-block;
     text-align: center;
     padding: 14px;
@@ -6,92 +6,28 @@
     text-decoration: none;
     font-size: 17px;
     font-weight: bolder;
- }
+ } */
 
-
- @media screen and (max-width: 768px) {
  .right-links {
-    /* top: 60px; */
-    /* left: 0; */
     display: flex; 
-    flex-direction: column; 
-    width: 40%;
-    /* height: calc(100vh - 60px); */
-    background-color: white;
- }
- .right-links a {
-    text-align: center;
-    margin: 0;
-    color: black;
-    width: 100%;
-    padding: 0.75rem 0;
-  }
-}
-
-.hamburger {
-    /* // removes default border on button element */
-    border: 0;
-    height: 40px;
-    width: 40px;
-    padding: 0.5rem;
-    border-radius: 50%;
-    background-color: black;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  /* // positions the icon to the right and center aligns it vertically */
-    position: absolute;
-    top: 50%;
-    right: 25px;
-    transform: translateY(-50%);
-    display: none;
+    justify-content: flex-end; 
+    width: 50%; 
  }
 
- .hamburger:hover {
-    background-color: #2642af;
-  }
+ .navRightList {
+     display: inline-block; 
+ }
+
+ .navRightli {
+    display: inline; 
+    padding: 1rem; 
+ }
 
 
-  @media screen and (max-width: 768px) {
-    .hamburger {
-      display: block;
-    }
-  }
-
-  /* @media screen and (max-width: 768px) {
-    .right-links {
-      display: none;
-    }
-  } */
 
 
- /* @media screen and (max-width: 768px) {
-    .navigation-menu ul {
-      // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar)
-      position: absolute;
-      top: 60px;
-      left: 0;
-      // stacks the li tags vertically 
-      flex-direction: column;
-     // makes menu span full height and width
-      width: 100%;
-      height: calc(100vh - 77px);
-      background-color: white;
-      border-top: 1px solid black;
-    }
-    .navigation-menu li {
-      // centers link text and strips off margin
-      text-align: center;
-      margin: 0;
-    }
-    .navigation-menu li a {
-      color: black;
-      // increases the surface area of the anchor tag to span the full width of the menu
-      width: 100%;
-      padding: 1.5rem 0;
-    }
-    .navigation-menu li:hover {
-      background-color: #eee;
-    }
-  } */
+
+
+ 
 
  

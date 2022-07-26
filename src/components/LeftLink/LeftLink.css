@@ -1,8 +1,11 @@
 .left-link{
-    flex:1 1 200px;
+    /* flex:1 1 200px; */
+    display: flex; 
+    justify-content: flex-start; 
+    width: 50%; 
  }
 
- .link {
+ /* .link {
     display: inline-block;
     text-align: center;
     padding: 14px;
@@ -10,4 +13,4 @@
     text-decoration: none;
     font-size: 17px;
     font-weight: bolder;
- }
+ } */
