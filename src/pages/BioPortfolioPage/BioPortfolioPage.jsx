@@ -7,6 +7,7 @@ class BioPortfolioPage extends React.Component {
         return(
             <>
             <TopNav />
+            <h1>This is MAIN bio portfolio page</h1>
             </>
         )
     }
