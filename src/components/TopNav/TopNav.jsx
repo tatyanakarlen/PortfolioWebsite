@@ -8,9 +8,12 @@ export default function TopNav() {
        <div className="Nav">
          <LeftLink />
          <RightNav />
+        
        </div>
    )
 }
+
+
 
 
 

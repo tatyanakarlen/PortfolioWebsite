@@ -7,8 +7,8 @@ class ResumePage extends React.Component {
     render() {
         return(
             <>
-            <h1>This is Resume page</h1>
             <TopNav />
+            <h1>This is Resume page</h1>
             </>
         )
     }
