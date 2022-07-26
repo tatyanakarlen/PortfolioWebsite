@@ -1,7 +1,5 @@
 import './TopNav.css';
 import { useState} from 'react'
-// import LeftLink from '../LeftLink/LeftLink.jsx'
-// import RightNav from '../RightNav/RightNav.jsx'
 import { Link } from 'react-router-dom';
 
 
