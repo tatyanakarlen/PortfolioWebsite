@@ -5,10 +5,15 @@ import { Link } from 'react-router-dom';
 class BioPortfolioPage extends React.Component {
     render() {
         return(
-            <>
+            <div>
             <TopNav />
-            <h1>This is MAIN bio portfolio page</h1>
-            </>
+            <div className="container">
+        <article>
+          <h1>This is BioPortfolioPage </h1>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+        </article>
+            </div>
+            </div>
         )
     }
 }
