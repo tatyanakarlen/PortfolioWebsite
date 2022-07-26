@@ -1,14 +1,18 @@
 import './TopNav.css';
-import LeftLink from '../LeftLink/LeftLink.jsx'
-import RightNav from '../RightNav/RightNav.jsx'
+import { useState} from 'react'
+// import LeftLink from '../LeftLink/LeftLink.jsx'
+// import RightNav from '../RightNav/RightNav.jsx'
 import { Link } from 'react-router-dom';
 
 
 export default function TopNav() {
+    const [isNavExpanded, setIsNavExpanded] = useState(false)
     return (
         <div className="Nav">
             <Link className="nav-left-link" to="/portfolio">TATYANA KARLEN - FULL STACK DEVELOPER</Link>
-            <button className="hamburger">
+            <button className="hamburger" onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}>
                 {/* icon from heroicons.com */}
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -23,8 +27,11 @@ export default function TopNav() {
                     />
                 </svg>
             </button>
+            {/* {
+                    isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+                  } */}
             <div
-                className="navigation-menu">
+                className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
                 <ul>
                     <li><Link className="link" to="/portfolio">PORTFOLIO</Link></li>
                     <li><Link className="link" to="/resume">RESUME</Link></li>

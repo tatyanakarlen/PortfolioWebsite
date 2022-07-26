@@ -60,6 +60,7 @@
     }
   }
 
+
   
 
   @media screen and (max-width: 768px) {
@@ -73,6 +74,20 @@
       background-color: white;
       border-top: 1px solid black;
     }
+
+    @media screen and (max-width: 768px) {
+        .navigation-menu ul {
+          /* previous styles */
+          display: none;
+        }
+
+      }
+
+      @media screen and (max-width: 768px) {
+        .navigation-menu.expanded ul {
+          display: block;
+        }
+      }
     .navigation-menu li {
       text-align: center;
       margin: 0;
