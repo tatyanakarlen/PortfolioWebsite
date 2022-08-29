@@ -1,0 +1,35 @@
+#port-piece-container {
+    background-color: rgb(209, 202, 202);
+    display: flex; 
+    flex-direction: row; 
+    /* min-height: 60vh; */
+}
+
+#left-size-image {
+    width: 50%; 
+    display: 'flex'; 
+    /* background-size: auto; */
+}
+
+#right-size-text {
+    width: 50%; 
+    padding: 1rem; 
+    
+    flex-grow: 2;
+}
+
+#bottom-text-div {
+    background-color: rgb(209, 202, 202);
+    padding: 1rem; 
+}
+
+/* #port-image {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+   
+  
+   
+    
+} */
