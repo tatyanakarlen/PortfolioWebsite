@@ -14,8 +14,10 @@ import { BsLinkedin } from 'react-icons/bs'
 const Hero = () => {
   return (
     <div class="hero-container">
+        <div style={{letterSpacing: '0.5px'}}>
       <h1>TATYANA KARLEN</h1>
-      <h3>Front-End/Full Stack Developer</h3>
+      <h3>Front-End / Full Stack Developer</h3>
+      </div>
       <br />
       <article>
         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -30,11 +32,11 @@ const Hero = () => {
       </article>
       <br/>
       <br/>
-      <p>
+      <article>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
         officiis numquam ratione assumenda ex recusandae laborum rerum fuga
         optio corrupti, veritatis facere. 
-      </p>
+        </article>
       <br/>
       <br/>
       <div id="icon-container">
