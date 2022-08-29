@@ -19,15 +19,16 @@ const PortfolioPiece = () => {
           <br />
           <br />
           <p>
-            Wordpress-style responsive content-management CRUD SPA built with
+            Responsive content-management dashboard SPA built with
             React, MongoDB, NodeJS and Express.
           </p>
           <br />
           <p>
-            -Magazine page where readers can scroll, read, search and share articles. 
+            -Features an additioanl magazine page where readers can scroll, read, search and share articles. 
           </p>
+          <br />
           <p>
-            -Built both back-end and front-end utilizing MongoDB and Bootstrap
+            -Designed both back-end and front-end utilizing MongoDB and Bootstrap
             CSS
           </p>
           <br />
@@ -35,10 +36,10 @@ const PortfolioPiece = () => {
             -Created AJAX API endpoints to fetch data based on user interactions
           </p>
           <br />
-          <p>
+          {/* <p>
             -Implemented JWT User Authentication, React Hooks, photo
             image-uploads via Cloudinary, and social-media share links
-          </p>
+          </p> */}
           <br />
         </div>
       </div>
