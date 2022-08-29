@@ -1,13 +1,22 @@
-import './Hero.css';
-
 import React from 'react';
+import './Hero.css';
+import { BsFillEnvelopeFill} from 'react-icons/bs'
+import { BsLinkedin } from 'react-icons/bs'
+
+
+
+
+
+
+
+
 
 const Hero = () => {
   return (
     <div class="hero-container">
       <h1>TATYANA KARLEN</h1>
       <h3>Front-End/Full Stack Developer</h3>
-      <br/>
+      <br />
       <article>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -19,7 +28,21 @@ const Hero = () => {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum
       </article>
+      <br/>
+      <br/>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+        officiis numquam ratione assumenda ex recusandae laborum rerum fuga
+        optio corrupti, veritatis facere. 
+      </p>
+      <br/>
+      <br/>
+      <div id="icon-container">
+      <BsFillEnvelopeFill style={{fontSize: '20px', marginRight: '20px'}} />
+      <BsLinkedin style={{fontSize: '20px'}}/>
+      </div>
     </div>
+    
   );
 };
 
