@@ -10,7 +10,7 @@ function App() {
 
  const [projects, setProjects] = useState([
    {
-     title: "MERN stack 'Untitled' Dashboard+Magazine", 
+     title: "MERN stack 'Untitled' React Dashboard+Magazine", 
      headline: "Responsive content-management dashboard SPA built with React, MongoDB, NodeJS and Express and Bootstrap CSS", 
      image: {}, 
      bullet1: "Features an additioanl magazine page where readers can scroll, read, search and share articles",
@@ -20,6 +20,29 @@ function App() {
      herokuLink: 'https://untitled-magazine.herokuapp.com/', 
      gitHubLink: 'https://github.com/tatyanakarlen/Untitled-Magazine',
    },
+   {
+    title: "TINTEREST Social-Media Mobile App (Python, Django, SQL)", 
+    headline: "Responsive Pinterest/Instagram-style app built with Django, Python, SQL, Material UI and AWS.", 
+    image: {}, 
+    bullet1: "Developed a social-media mobile-app where users can create, update and delete ‘interest’-type posts, as well as save and comment on each other’s posts",
+    bullet2: "Implemented photo-upload functionality with Amazon S3 - Cloud Object Storage", 
+    bullet3: "Utilized a PostgresSQL database and Django Authentication",
+    body: "Tinterest is an image sharing social media community designed for users to share, browse, discover, save and comment on images.",
+    herokuLink: 'https://tinterest.herokuapp.com/', 
+    gitHubLink: 'https://github.com/RyanneZ/project3',
+  },
+  {
+    title: "THRIFTD e-Commerce website (NodeJS/Express/MongoDB)", 
+    headline: "Depop/Shopify-style peer-to-peer shopping application built with NodeJS, Express, MongoDB ", 
+    image: {}, 
+    bullet1: "Developed a RESTful MEN-stack CRUD application where users can post items for sale and purchase other user’s items",
+    bullet2: "Implemented user’s wishlist and comments for a fun and social shopping experience", 
+    bullet3: "Implemented Google Oauth 2.0 authentication, Imgur API for photo-uploads and no-SQL database",
+    body: "Thriftd is a peer-to-peer shopping community of style addicts. Users can sign up, post their own items for sale, browse, wish-list/save, comment and buy each other’s items. ",
+    herokuLink: 'https://thriftd-p2p-ecommerce.herokuapp.com/products', 
+    gitHubLink: 'https://github.com/tatyanakarlen/Thriftd-P2P-e-commerce-Node-Express',
+  },
+
    
  
 
