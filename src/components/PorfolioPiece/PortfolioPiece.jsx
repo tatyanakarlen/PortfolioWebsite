@@ -11,7 +11,7 @@ const PortfolioPiece = () => {
           <img
             id="port-image"
             src={img}
-            style={{ width: '100%', height: 'auto', backgroundSize: 'cover'}}
+            style={{ width: '100%', height: 'auto'}}
           ></img>
         </div>
         <div id="right-size-text">
