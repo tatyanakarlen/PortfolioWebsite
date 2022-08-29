@@ -11,16 +11,15 @@ const PortfolioPiece = () => {
           <img
             id="port-image"
             src={img}
-            style={{ width: '100%', height: 'auto', align: 'left' }}
+            style={{ width: '100%', height: 'auto', backgroundSize: 'cover'}}
           ></img>
         </div>
         <div id="right-size-text">
-          <h2>PROJECT NAME</h2>
+          <h2>MERN stack 'Untitled' Dashboard+Magazine</h2>
           <br />
-          <h3>MERN stack 'Untitled' Dashboard+Magazine</h3>
           <br />
           <p>
-            -Wordpress-style responsive content-management CRUD SPA built with
+            Wordpress-style responsive content-management CRUD SPA built with
             React, MongoDB, NodeJS and Express.
           </p>
           <br />
