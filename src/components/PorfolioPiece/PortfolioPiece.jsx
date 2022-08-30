@@ -3,7 +3,7 @@ import img from './untitled.png';
 
 import React from 'react';
 
-const PortfolioPiece = () => {
+const PortfolioPiece = (props) => {
   return (
     <div>
       <div id="port-piece-container">
@@ -11,11 +11,11 @@ const PortfolioPiece = () => {
           <img
             id="port-image"
             src={img}
-            style={{ width: '100%', height: 'auto'}}
+            style={{ width: '100%'}}
           ></img>
         </div>
         <div id="right-size-text">
-          <h2>MERN stack 'Untitled' Dashboard+Magazine</h2>
+          <h2>{props.title}</h2>
           <br />
           <br />
           <p>

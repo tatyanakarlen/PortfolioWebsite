@@ -3,11 +3,14 @@
     display: flex; 
     flex-direction: row; 
     /* min-height: 60vh; */
+    
+    
 }
 
 #left-size-image {
-    width: 50%; 
+    width: 60%; 
     display: 'flex'; 
+    height: auto; 
     /* flex-grow: 2; */
    
     /* background-size: auto; */
@@ -27,13 +30,3 @@
     padding: 1rem; 
 }
 
-/* #port-image {
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-   
-  
-   
-    
-} */

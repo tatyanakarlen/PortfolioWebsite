@@ -13,10 +13,10 @@ function App() {
      title: "MERN stack 'Untitled' React Dashboard+Magazine", 
      headline: "Responsive content-management dashboard SPA built with React, MongoDB, NodeJS and Express and Bootstrap CSS", 
      image: {}, 
-     bullet1: "Features an additioanl magazine page where readers can scroll, read, search and share articles",
+     bullet1: "Features an a magazine page where readers can scroll, read, search and share articles",
      bullet2: "Created AJAX API endpoints to fetch data based on user interactions", 
      bullet3: "Implemented JWT User Authentication, React Hooks, photo image-uploads via Cloudinary, and social-media share links",
-     body: "Untitled Magazine is a content-management admin dashboard with an additional user-side, read-only magazine where content is rendered. Readers are able to scroll through an artice list with titles, images and headers and click on individual articles to read the full article. Readers are also able to search articles by tags, browse a 'latest' articles page and share indivdual articles via social-media. The content-management admin dashboard is set up for content managers to add, update and delete contrubutors, as well as peform similiar CRUD operations with articles. Content managers are also able to view and read each article in the same format as the magazine readers",
+     body: "Untitled Magazine is a content-management admin dashboard and online magazine where article content is rendered. Readers are able to scroll through an artice list with titles, images and headers and click on individual articles to read the full article. Readers are also able to search articles by tags, browse a 'latest' articles page and share indivdual articles via social-media. The content-management admin dashboard is set up for content managers to view, add, update and delete contributors, as well as peform similiar CRUD operations with articles.",
      deployedAppLink: 'https://untitled-magazine.herokuapp.com/', 
      gitHubLink: 'https://github.com/tatyanakarlen/Untitled-Magazine',
    },
@@ -62,7 +62,7 @@ function App() {
     return (
       <div className="App">
          <Routes>
-        <Route path='/portfolio' element={<BioPortfolioPage />} />
+        <Route path='/portfolio' element={<BioPortfolioPage projects={projects}/>} />
         <Route path='/resume' element={<ResumePage />} />
         <Route path="*" element={<Navigate to="/portfolio" replace />} />
         </Routes>
