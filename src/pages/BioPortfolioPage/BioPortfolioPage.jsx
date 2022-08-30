@@ -5,18 +5,17 @@ import PortfolioBox from '../../components/PortfolioBox/PortfolioBox';
 import { Link } from 'react-router-dom';
 
 
-class BioPortfolioPage extends React.Component {
-    render() {
+function BioPortfolioPage(props) {
         return(
             <div>
             <TopNav />
             <Hero />
-            <PortfolioBox />
+            <PortfolioBox projects={props.projects}/>
            
          
             </div>
         )
-    }
+    
 }
 
 export default BioPortfolioPage

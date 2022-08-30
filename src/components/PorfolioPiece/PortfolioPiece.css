@@ -1,21 +1,30 @@
 #port-piece-container {
-    background-color: rgb(209, 202, 202);
+    
     display: flex; 
     flex-direction: row; 
     /* min-height: 60vh; */
+    
+    
 }
 
 #left-size-image {
-    width: 50%; 
+    width: 60%; 
     display: 'flex'; 
+   
+    /* height: auto;  */
+    /* flex-grow: 2; */
+    /* height: 100%;  */
+   
     /* background-size: auto; */
 }
 
 #right-size-text {
     width: 50%; 
-    padding: 1rem; 
+    padding-left: 2rem; 
+    padding-right: 2rem; 
+    /* display: flex; 
+    flex-direction: column; */
     
-    flex-grow: 2;
 }
 
 #bottom-text-div {
@@ -23,13 +32,3 @@
     padding: 1rem; 
 }
 
-/* #port-image {
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-   
-  
-   
-    
-} */
