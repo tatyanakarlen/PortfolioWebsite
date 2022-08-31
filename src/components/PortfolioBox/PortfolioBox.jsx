@@ -8,7 +8,7 @@ const PortfolioBox = (props) => {
       <h2>PORTFOLIO</h2><br/>
       {props.projects.map((m) => (
        <PortfolioPiece 
-       img={m.img}
+       images={m.images}
        title={m.title} 
        headline={m.headline} 
        bullet1={m.bullet1} 

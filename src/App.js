@@ -18,7 +18,7 @@ function App() {
    {
      title: "MERN stack 'Untitled' React Dashboard+Magazine", 
      headline: "Responsive content-management dashboard SPA built with React, MongoDB, NodeJS and Express and Bootstrap CSS", 
-     img: [img, img1], 
+     images: [img, img1], 
      bullet1: "Features an a magazine page where readers can scroll, read, search and share articles",
      bullet2: "Created AJAX API endpoints to fetch data based on user interactions", 
      bullet3: "Implemented JWT User Authentication, React Hooks, photo image-uploads via Cloudinary, and social-media share links",
@@ -29,7 +29,7 @@ function App() {
    {
     title: "TINTEREST Social-Media Mobile App (Python, Django, SQL)", 
     headline: "Responsive Pinterest/Instagram-style app built with Django, Python, SQL, Material UI and AWS.", 
-    img: [img, img1], 
+    images: [img, img1], 
     bullet1: "Developed a social-media mobile-app where users can create, update and delete ‘interest’-type posts, as well as save and comment on each other’s posts",
     bullet2: "Implemented photo-upload functionality with Amazon S3 - Cloud Object Storage", 
     bullet3: "Utilized a PostgresSQL database and Django Authentication",
@@ -40,7 +40,7 @@ function App() {
   {
     title: "THRIFTD e-Commerce website (NodeJS/Express/MongoDB)", 
     headline: "Depop/Shopify-style peer-to-peer shopping application built with NodeJS, Express, MongoDB ", 
-    img: [img, img1], 
+    images: [img, img1], 
     bullet1: "Developed a RESTful MEN-stack CRUD application where users can post items for sale and purchase other user’s items",
     bullet2: "Implemented user’s wishlist and comments for a fun and social shopping experience", 
     bullet3: "Implemented Google Oauth 2.0 authentication, Imgur API for photo-uploads and no-SQL database",
@@ -51,7 +51,7 @@ function App() {
   {
     title: "Classical Trivia (Javascript, HTML, CSS)", 
     headline: "Browser-based trivia game with a Western Classical Music theme", 
-    img: [img, img1], 
+    images: [img, img1], 
     bullet1: "Developed a DOM game using vanilla Javascript with efficient win/lose logic ",
     bullet2: "Designed a fun modern/classic user-interface with HTML and CSS", 
     bullet3: "Utilized Git for version control ",
