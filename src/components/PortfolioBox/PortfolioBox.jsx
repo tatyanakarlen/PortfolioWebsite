@@ -17,6 +17,7 @@ const PortfolioBox = (props) => {
        body={m.body}
        deployedAppLink={m.deployedAppLink}
        gitHubLink={m.gitHubLink}
+      
 
         />
       ))}

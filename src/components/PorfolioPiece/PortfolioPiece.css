@@ -7,7 +7,7 @@
     
 }
 
-#left-size-image {
+.left-size-image {
     width: 60%; 
     display: 'flex'; 
    
@@ -17,6 +17,10 @@
    
     /* background-size: auto; */
 }
+
+/* .left-size-image-active {
+  width: 80vh; 
+} */
 
 #right-size-text {
     width: 50%; 
