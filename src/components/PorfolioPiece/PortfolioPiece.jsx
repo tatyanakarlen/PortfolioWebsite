@@ -8,6 +8,29 @@ import React from 'react';
 const PortfolioPiece = (props) => {
   const [enlargedPhotoActive, setenlargedPhotoActive] = useState(false);
 
+  // slides = []
+
+  // const slides = [
+  //   { url: img1, title: "beach" },
+  //   { url: img2, title: "boat" },
+  //   { url: img3, title: "forest" },
+
+  // ];
+
+  let newSlides = []
+  props.img.forEach(el => newSlides.push({[el.url]: el}))
+  
+
+  console.log('these are the new slides',newSlides)
+
+  // data.forEach(item => newData.push({[item.country]: item.states})); 
+  // newData = data.map(item => ({[item.country]: item.states}));
+
+  // const slides = props.img.map((el) =>
+  // {url: el})
+
+  // console.log(slides)
+
   // enlargedPhotoActive={props.enlargedPhotoActive}
   // setenlargedPhotoActive={props.setenlargedPhotoActive}
 
@@ -25,12 +48,22 @@ const PortfolioPiece = (props) => {
       <div class="showcase">
         <div id="port-piece-container">
           <div class="left-size-image">
-            <img
+          {/* {props.projects.map((m) => ( */}
+            {/* ))} */}
+            {props.img.map((el) => (
+               <img
+               onClick={() => setenlargedPhotoActive(!enlargedPhotoActive)}
+               id="port-image"
+               src={el}
+               style={{ width: '50%', height: 'auto' }}
+             ></img>
+            ))}
+            {/* <img
               onClick={() => setenlargedPhotoActive(!enlargedPhotoActive)}
               id="port-image"
               src={props.img}
               style={{ width: '100%', height: 'auto' }}
-            ></img>
+            ></img> */}
           </div>
           <div id="right-size-text">
             <h2>{props.title}</h2>
