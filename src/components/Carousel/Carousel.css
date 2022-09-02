@@ -1,0 +1,46 @@
+#image {
+    width: 50vw;
+    height: 55vh;
+    margin-top: 1rem;
+    user-select: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    object-fit: fill;
+  }
+  
+  .right-arr {
+    font-size: 2.5rem;
+    color: rgb(49, 49, 49);
+    transition: 200ms;
+    margin: 0.5rem;
+  }
+  
+  .right-arr:hover {
+    color: rgb(88, 88, 88);
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 300ms ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 300ms;
+  }
+  
+  #title {
+    font-size: 2rem;
+    user-select: none;
+    font-family: 'Arial'; 
+    color: black; 
+  }
+
+  .col-2-pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }

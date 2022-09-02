@@ -40,7 +40,7 @@ const Hero = () => {
       <br/>
       <br/>
       <div id="icon-container">
-      <BsFillEnvelopeFill style={{fontSize: '20px', marginRight: '20px'}} />
+      <a href="mailto:tatyanakarlen@gmail.com" target="_blank" aria-label="Mail"><BsFillEnvelopeFill style={{fontSize: '20px', marginRight: '20px'}} /></a>
       <BsLinkedin style={{fontSize: '20px'}}/>
       </div>
     </div>
