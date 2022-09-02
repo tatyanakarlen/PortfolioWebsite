@@ -10,6 +10,18 @@ import img2 from './components/Images/UntitledImages/Untitled2.png'
 import img3 from './components/Images/UntitledImages/untitled3.png'
 import img4 from './components/Images/UntitledImages/Untitled4.png'
 import img5 from './components/Images/UntitledImages/Untitled5.png'
+import img6 from './components/Images/Tinterest/TinScreenShot1.jpg'
+import img7 from './components/Images/Tinterest/TinScreenShot2.jpg'
+import img8 from './components/Images/Tinterest/TinScreenShot3.jpg'
+import img9 from './components/Images/Tinterest/TinScreenShot4.jpg'
+import img10 from './components/Images/Thriftd/Thriftd1.png'
+import img11 from './components/Images/Thriftd/Thriftd2.png'
+import img12 from './components/Images/Thriftd/Thriftd3.png'
+import img13 from './components/Images/Thriftd/Thriftd4.png'
+import img14 from './components/Images/Thriftd/Thriftd5.png'
+import img15 from './components/Images/Classical/Classical1.png'
+import img16 from './components/Images/Classical/Classical2.png'
+import img17 from './components/Images/Classical/Classical3.png'
 
 
 function App() {
@@ -30,7 +42,7 @@ function App() {
    {
     title: "TINTEREST Social-Media Mobile App (Python, Django, SQL)", 
     headline: "Responsive Pinterest/Instagram-style app built with Django, Python, SQL, Material UI and AWS.", 
-    images: [img1, img2], 
+    images: [img6, img7, img8, img9], 
     bullet1: "Developed a social-media mobile-app where users can create, update and delete ‘interest’-type posts, as well as save and comment on each other’s posts",
     bullet2: "Implemented photo-upload functionality with Amazon S3 - Cloud Object Storage", 
     bullet3: "Utilized a PostgresSQL database and Django Authentication",
@@ -41,7 +53,7 @@ function App() {
   {
     title: "THRIFTD e-Commerce website (NodeJS/Express/MongoDB)", 
     headline: "Depop/Shopify-style peer-to-peer shopping application built with NodeJS, Express, MongoDB ", 
-    images: [img1, img2], 
+    images: [img10, img11, img12, img13, img14], 
     bullet1: "Developed a RESTful MEN-stack CRUD application where users can post items for sale and purchase other user’s items",
     bullet2: "Implemented user’s wishlist and comments for a fun and social shopping experience", 
     bullet3: "Implemented Google Oauth 2.0 authentication, Imgur API for photo-uploads and no-SQL database",
@@ -52,7 +64,7 @@ function App() {
   {
     title: "Classical Trivia (Javascript, HTML, CSS)", 
     headline: "Browser-based trivia game with a Western Classical Music theme", 
-    images: [img1, img2], 
+    images: [img15, img16, img17], 
     bullet1: "Developed a DOM game using vanilla Javascript with efficient win/lose logic ",
     bullet2: "Designed a fun modern/classic user-interface with HTML and CSS", 
     bullet3: "Utilized Git for version control ",

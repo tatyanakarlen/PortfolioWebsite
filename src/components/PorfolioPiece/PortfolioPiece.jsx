@@ -70,7 +70,10 @@ const PortfolioPiece = (props) => {
             </a>
           </p>
           <br />
+          <br />
+          <br />
         </div>
+
       </div>
       {/* )} */}
     </div>
