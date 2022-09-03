@@ -5,16 +5,18 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #fff;
+  background-color: rgba(241, 238, 238, 0.836);
   color: black;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
  }
 
+
  .nav-left-link {
     text-decoration: none;
-    color: black;
-    font-size: 1.3rem;
+    font-weight: bold;
     margin-left: 1rem;
+    color: #2e313a;
+    font-size: 1.1rem;
   }
 
   .navigation-menu {
@@ -33,6 +35,9 @@
     text-decoration: none;
     display: block;
     width: 100%;
+    color: #2e313a;
+    font-size: 1.1rem;
+    font-weight: bold;
   }
 
   .hamburger {

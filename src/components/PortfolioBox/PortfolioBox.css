@@ -2,3 +2,13 @@
     width: 85%; 
     margin: auto; 
 }
+
+#Projects-container {
+    font-size: large;
+
+}
+
+#PROJECTS {
+    color: rgb(151, 35, 151); 
+    text-decoration: underline;  
+}

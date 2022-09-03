@@ -1,1 +1,26 @@
 
+.project-title {
+    color: #2e313a;
+    text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
+}
+
+.project-details {
+color: #2e313a;
+font-size: 1.1rem;
+}
+
+#project-headline {
+    font-weight: bold;
+    /* text-decoration: underline; */
+    color: #2e313a; 
+    font-style: italic;
+}
+
+.proj-links {
+    font-weight: bold;
+}
+
+.project-details a {
+    /* color: rgb(151, 35, 151) */
+    color: #d4124d;
+}

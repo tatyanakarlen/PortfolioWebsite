@@ -31,8 +31,8 @@ export default function TopNav() {
                   } */}
             <div
                 className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
-                <ul>
-                    <li><Link className="link" to="/portfolio">PORTFOLIO</Link></li>
+                <ul id="ul">
+                    <li id="PORTFOLIO-link"><Link className="link" to="/portfolio">PORTFOLIO</Link></li>
                     <li><Link className="link" to="/resume">RESUME</Link></li>
                 </ul>
             </div>

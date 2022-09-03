@@ -32,16 +32,16 @@ const PortfolioPiece = (props) => {
         <div id="port-piece-container">
           
           {/* <div id="right-size-text"> */}
-            <h2>{props.title}</h2>
+            <h2 class="project-title">{props.title}</h2>
             <br />
+            <p id="project-headline" class="project-details">{props.headline}</p>
+           
             <br />
-            <p>{props.headline}</p>
+            <p class="project-details">-{props.bullet1}</p>
             <br />
-            <p>-{props.bullet1}</p>
+            <p class="project-details">-{props.bullet2}</p>
             <br />
-            <p>-{props.bullet2}</p>
-            <br />
-            <p>-{props.bullet3}</p>
+            <p class="project-details">-{props.bullet3}</p>
             <br />
 
             <br />
@@ -54,16 +54,16 @@ const PortfolioPiece = (props) => {
             <Carousel SliderData={SliderData}/>
             {/* </div> */}
         <div id="bottom-text-div">
-          <p>{props.body}</p>
+          <p class="project-details">{props.body}</p>
           <br />
-          <p>
+          <p class="project-details proj-links">
             Visit the app here:{' '}
             <a href={props.deployedAppLink} target="_blank">
               {props.deployedAppLink}
             </a>
           </p>
           <br />
-          <p>
+          <p class="project-details proj-links">
             View code on GitHub:{' '}
             <a href={props.gitHubLink} target="_blank">
               {props.gitHubLink}
