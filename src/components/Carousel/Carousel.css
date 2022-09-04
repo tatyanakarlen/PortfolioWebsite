@@ -1,11 +1,11 @@
 #image {
     width: 85vw;
-    height: 85vh;
+    height: auto;
     margin-top: 1rem;
     user-select: none;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
-    object-fit: fill;
+    /* object-fit: fill; */
     object-fit: contain;
     /* tried contain, works better */
   }
