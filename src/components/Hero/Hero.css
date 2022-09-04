@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
 
 .hero-container {
     height: 70%; 
@@ -17,11 +21,11 @@
 
 .header {
     text-transform: uppercase;
-    font-size:3rem;
+    font-size:2.5rem;
    
     color: #2e313a;
     text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
-    font-family: Archivo Black; 
+    font-family: Tenor Sans; 
 }
 
 /* #header-container {
@@ -33,13 +37,13 @@
     /* text-transform: uppercase; */
     font-size:1.25rem;
     color: #2e313a;
-    font-family: Poppins;
+    font-family: Archivo Narrow; 
 }
 
 .article {
     color: #2e313a;
     font-size:1.2rem;
-    /* font-family: Poppins; */
+    font-family: Archivo Narrow; 
 }
 
 #icon-container a {

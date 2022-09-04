@@ -69,9 +69,10 @@ const PortfolioPiece = (props) => {
           onClick={() => setCarouselActive(!carouselActive)}
           class="image" 
           src={props.images[0]} 
-          style={{width: '100%', height: '100%'}}
+          style={{width: '100%', height: '100%', borderRadius: '10px'}}
           >
           </img>
+          <br/>
         </div>
         :
         
@@ -80,11 +81,13 @@ const PortfolioPiece = (props) => {
         setCarouselActive={setCarouselActive}
         carouselActive={carouselActive}
         SliderData={SliderData}/>
+        
            
       
          
         }
         </div>
+        <br/>
             
         
             
@@ -92,14 +95,14 @@ const PortfolioPiece = (props) => {
           <p class="project-details">{props.body}</p>
           <br />
           <p class="project-details proj-links">
-            Visit the app here:{' '}
+            <span class="links-text">Visit the app here:{' '}</span>
             <a href={props.deployedAppLink} target="_blank">
               {props.deployedAppLink}
             </a>
           </p>
           <br />
           <p class="project-details proj-links">
-            View code on GitHub:{' '}
+          <span>View code on GitHub:{' '}</span>
             <a href={props.gitHubLink} target="_blank">
               {props.gitHubLink}
             </a>

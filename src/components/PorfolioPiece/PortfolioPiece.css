@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
 
 .project-title {
     color: #2e313a;
     text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
     color: #c93082; 
+    font-family: Archivo Narrow;
 }
 
 .project-details {
 color: #2e313a;
 font-size: 1.1rem;
+font-family: Archivo Narrow;
 }
 
 #project-headline {
@@ -15,15 +18,16 @@ font-size: 1.1rem;
     /* text-decoration: underline; */
     color: #2e313a; 
     font-style: italic;
+    font-family: Archivo Narrow;
 }
 
-.proj-links {
-    font-weight: bold;
-}
+
 
 .project-details a {
     /* color: rgb(151, 35, 151) */
-   color: #2965f1; 
+    color: #2e313a;
+    font-weight: bold;
+    font-family: Archivo Narrow;
 }
 
 #img-container:hover .image {

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
 
 
 .Nav{
@@ -21,7 +22,7 @@
     margin-left: 1rem;
     color: #2e313a;
     font-size: 1.1rem;
-    font-family: Poppins;
+    font-family: Archivo Narrow;
     
   }
 
@@ -49,7 +50,8 @@
     color: #2e313a;
     font-size: 1.1rem;
     font-weight: bold;
-    font-family: Poppins;
+    font-family: Archivo Narrow;
+
   }
 
   .navigation-menu li a:hover {

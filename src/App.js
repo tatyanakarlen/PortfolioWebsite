@@ -30,7 +30,7 @@ function App() {
 
  const [projects, setProjects] = useState([
    {
-     title: "MERN stack 'Untitled' React Dashboard+Magazine", 
+     title: "MERN stack 'Untitled Magazine' React Dashboard+Magazine", 
      headline: "Responsive content-management dashboard SPA built with React, MongoDB, NodeJS and Express and Bootstrap CSS", 
      images: [img1, img2, img3, img4, img5, img6], 
      bullet1: "Features an a magazine page where readers can scroll, read, search and share articles",
