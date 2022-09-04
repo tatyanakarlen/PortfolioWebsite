@@ -22,6 +22,11 @@
     color: #2e313a;
     font-size: 1.1rem;
     font-family: Poppins;
+    
+  }
+
+  .nav-left-link:hover {
+    color: #c93082; 
   }
 
   .navigation-menu {
@@ -45,6 +50,12 @@
     font-size: 1.1rem;
     font-weight: bold;
     font-family: Poppins;
+  }
+
+  .navigation-menu li a:hover {
+    color: #c93082; 
+    
+    
   }
 
   .hamburger {

@@ -6,9 +6,12 @@ import { Link } from 'react-router-dom';
 
 export default function TopNav() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
+    const [currentLink, setCurrentLink] = useState('portfolio')
+
     return (
         <div className="Nav">
-            <Link className="nav-left-link" to="/portfolio">Tatyana Karlen - Full Stack Developer</Link>
+           <a className="nav-left-link" href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/">Tatyana Karlen - Full Stack Developer</a>
+            
             <button className="hamburger" onClick={() => {
           setIsNavExpanded(!isNavExpanded);
         }}>
@@ -33,6 +36,8 @@ export default function TopNav() {
                 className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
                 <ul id="ul">
                     <li id="PORTFOLIO-link"><Link className="link" to="/portfolio">PORTFOLIO</Link></li>
+                    {/* how to condionally style:   style={{color: currentLink ? '#2965f1' : '#2e313a'}} */}
+                    
                     <li><Link className="link" to="/resume">RESUME</Link></li>
                     <li> <a href="mailto:tatyanakarlen@gmail.com" target="_blank" aria-label="Mail">CONTACT</a></li>
                 </ul>

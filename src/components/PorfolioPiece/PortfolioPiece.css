@@ -2,6 +2,7 @@
 .project-title {
     color: #2e313a;
     text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
+    color: #c93082; 
 }
 
 .project-details {
@@ -22,7 +23,7 @@ font-size: 1.1rem;
 
 .project-details a {
     /* color: rgb(151, 35, 151) */
-    color: #9c103a;
+   color: #2965f1; 
 }
 
 #img-container:hover .image {
