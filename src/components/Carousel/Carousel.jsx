@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import './Carousel.css'
+import { AiFillCloseCircle } from "react-icons/ai"
+
+import { AiOutlineCloseSquare } from "react-icons/ai"
+
 
 export default function Carousel(props) {
   const SliderData = [
@@ -51,10 +55,14 @@ export default function Carousel(props) {
               <>
                 {/* <div id="title">Screenshots</div> */}
                 <img id="image" alt="test" src={slide.image}>
-                    
                 </img>
-                <button
-                onClick={() => props.setCarouselActive(false)}>close</button>
+                <AiFillCloseCircle id='X'
+                onClick={() => props.setCarouselActive(false)}
+                />
+                {/* <button
+                onClick={() => props.setCarouselActive(false)}
+                style={{position: 'absolute'}}>close
+                </button> */}
               </>
             )}
           </div>

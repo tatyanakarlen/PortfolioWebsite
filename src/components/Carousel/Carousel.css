@@ -6,6 +6,7 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
     object-fit: fill;
+    /* tried contain, works better */
   }
   
   .right-arr {
@@ -43,5 +44,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid red; 
+    /* border: 2px solid red;  */
+    position: relative; 
+  }
+
+  #X {
+    transform: translateY(-0.8rem);
+    position: absolute; 
+    font-size: 2.2rem; 
+    cursor: pointer;
   }
