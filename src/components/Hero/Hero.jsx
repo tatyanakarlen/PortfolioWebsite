@@ -45,8 +45,8 @@ const Hero = () => {
       <br/>
       <br/>
       <article class="article">
-        Below is a list of my portfolio projects, most of which I built on my own. 
-        Looking to collaborate or hire me? Contact me below: 
+        Below is a list of my developer skills and portfolio projects, most of which I built on my own. 
+        Looking to collaborate or hire me? I'd love to hear from you!
         </article>
         <br/>
         <br/>
@@ -63,10 +63,7 @@ const Hero = () => {
         
         </div>
       <br/>
-      <div id="icon-container">
-      <a href="mailto:tatyanakarlen@gmail.com" target="_blank" aria-label="Mail"><BsFillEnvelopeFill style={{fontSize: '25px', marginRight: '25px'}} /></a>
-      <BsLinkedin style={{fontSize: '25px'}}/>
-      </div>
+     
     </div>
     
   );

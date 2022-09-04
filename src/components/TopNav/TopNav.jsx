@@ -8,7 +8,7 @@ export default function TopNav() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     return (
         <div className="Nav">
-            <Link className="nav-left-link" to="/portfolio">TATYANA KARLEN - FULL STACK DEVELOPER</Link>
+            <Link className="nav-left-link" to="/portfolio">Tatyana Karlen - Full Stack Developer</Link>
             <button className="hamburger" onClick={() => {
           setIsNavExpanded(!isNavExpanded);
         }}>
@@ -34,6 +34,7 @@ export default function TopNav() {
                 <ul id="ul">
                     <li id="PORTFOLIO-link"><Link className="link" to="/portfolio">PORTFOLIO</Link></li>
                     <li><Link className="link" to="/resume">RESUME</Link></li>
+                    <li> <a href="mailto:tatyanakarlen@gmail.com" target="_blank" aria-label="Mail">CONTACT</a></li>
                 </ul>
             </div>
         </div>
