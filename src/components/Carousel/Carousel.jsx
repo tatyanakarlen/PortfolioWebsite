@@ -36,6 +36,9 @@ export default function Carousel(props) {
     console.log(length);
   };
 
+//   setCarouselActive={setCarouselActive}
+//   carouselActive={carouselActive}
+
   return (
     <div className="col-2-pics">
       {props.SliderData.map((slide, index) => {
@@ -47,10 +50,15 @@ export default function Carousel(props) {
             {index === current && (
               <>
                 {/* <div id="title">Screenshots</div> */}
-                <img id="image" alt="test" src={slide.image}></img>
+                <img id="image" alt="test" src={slide.image}>
+                    
+                </img>
+                <button
+                onClick={() => props.setCarouselActive(false)}>close</button>
               </>
             )}
           </div>
+          
         );
       })}
       <div id="icon-container">

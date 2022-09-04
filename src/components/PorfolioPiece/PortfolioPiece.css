@@ -22,5 +22,23 @@ font-size: 1.1rem;
 
 .project-details a {
     /* color: rgb(151, 35, 151) */
-    color: #d4124d;
+    color: #9c103a;
 }
+
+#img-container:hover .image {
+    opacity: 0.6; 
+}
+
+#img-container {
+    cursor: pointer; 
+}
+
+
+
+
+/* .container:hover .image {
+    opacity: 0.3;
+  } */
+
+
+

@@ -1,6 +1,6 @@
 #image {
-    width: 60vw;
-    height: 68vh;
+    width: 85vw;
+    height: 85vh;
     margin-top: 1rem;
     user-select: none;
     border-radius: 5px;
@@ -43,4 +43,5 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: 2px solid red; 
   }

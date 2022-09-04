@@ -16,10 +16,25 @@ const PortfolioPiece = (props) => {
 
   // ];
 
+  const [carouselActive, setCarouselActive] = useState(false)
+
   let SliderData = [];
   props.images.forEach((el) => SliderData.push({ ['image']: el }));
 
   console.log('these are the new slides', SliderData);
+
+//   const mainImg =  
+//   <div id="img-container" style={{width: '60%', height: '50%', margin: '0 auto'}}>
+//   <img 
+//   onClick={() => setCarouselActive(!carouselActive)}
+//   class="image" 
+//   src={props.images[0]} 
+//   style={{width: '100%', height: '100%'}}
+//   >
+//   </img>
+//   <br/>
+//   <br/>
+// </div>
 
   
 
@@ -47,12 +62,32 @@ const PortfolioPiece = (props) => {
             <br />
           {/* </div> */}
         </div>
-        {/* <div id="img-container" style={{width: '100%', height: '100%'}}> */}
+        <div>
+        {!carouselActive ? 
+        <div id="img-container" style={{width: '60%', height: '50%', margin: '0 auto'}}>
+        <img 
+          onClick={() => setCarouselActive(!carouselActive)}
+          class="image" 
+          src={props.images[0]} 
+          style={{width: '100%', height: '100%'}}
+          >
+          </img>
+        </div>
+        :
         
-            <br/>
-            <br/>
-            <Carousel SliderData={SliderData}/>
-            {/* </div> */}
+      
+        <Carousel 
+        setCarouselActive={setCarouselActive}
+        carouselActive={carouselActive}
+        SliderData={SliderData}/>
+           
+      
+         
+        }
+        </div>
+            
+        
+            
         <div id="bottom-text-div">
           <p class="project-details">{props.body}</p>
           <br />
