@@ -1,0 +1,28 @@
+.resume-container {
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+#resume-header {
+    margin-top: 2rem; 
+}
+
+#skills-list {
+    list-style-type: square;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.job {
+    font-weight: bold;
+}
+
+.job-italic {
+    font-style: italic;
+}
+
+.job-place-date {
+    font-style: normal;
+}
