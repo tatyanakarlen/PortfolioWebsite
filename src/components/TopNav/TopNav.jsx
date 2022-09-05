@@ -2,7 +2,7 @@ import React from 'react';
 import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { BsFillEnvelopeFill} from 'react-icons/bs'
+import { BsFillEnvelopeFill } from 'react-icons/bs';
 
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -66,16 +66,6 @@ export default function TopNav() {
               RESUME
             </Link>
           </li>
-          {/* <li>
-            {' '}
-            <a
-              href="mailto:tatyanakarlen@gmail.com"
-              target="_blank"
-              aria-label="Mail"
-            >
-              CONTACT
-            </a>
-          </li> */}
         </ul>
       </div>
     </div>

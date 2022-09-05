@@ -68,7 +68,8 @@ class ResumePage extends React.Component {
           </ul>
           <br />
           <h3 class="underlined">Projects</h3>
-          <p class="text">See portfolio page</p>
+          <p class="text">See <Link id="portfolio-link" 
+          to="/portfolio">portfolio</Link> page</p>
           <br />
           <h3 class="underlined">Education</h3>
           <p class="text level">Software Engineering Immersive</p>

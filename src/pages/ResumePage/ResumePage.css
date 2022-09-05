@@ -79,3 +79,15 @@
     text-align: center; 
     color: #2e313a; 
 }
+
+#portfolio-link {
+    text-decoration: none;
+    color: #2e313a; 
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#portfolio-link:hover {
+    color: #c93082; 
+}
