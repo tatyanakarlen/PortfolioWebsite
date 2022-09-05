@@ -6,7 +6,7 @@ const PortfolioBox = (props) => {
   return (
     <div class="Portfolio-Box-Container">
       <div id="Projects-container">
-      <h2 id="PROJECTS">PROJECTS</h2><br/>
+      <h3 id="PROJECTS">PROJECTS</h3><br/>
       </div>
       {props.projects.map((m) => (
        <PortfolioPiece 
