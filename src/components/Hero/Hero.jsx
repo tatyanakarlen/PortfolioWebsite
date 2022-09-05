@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <br />
       <article class="article">
-        Hello! I'm a full-stack developer with a passion for UI/front-end. I'm experienced in both front and back-end development and up-to-date with the industry’s most
+        Hello! I'm a web developer with a passion for UI/front-end. I'm experienced in both front and back-end development and up-to-date with the industry’s most
         in-demand technologies. My background in fashion marketing gives me a
         creative edge. When I'm not coding I'm playing/teaching piano, thrifting or watching bad movies. 
       </article>
