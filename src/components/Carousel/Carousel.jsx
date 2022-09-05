@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import './Carousel.css'
+import { AiFillCloseCircle } from "react-icons/ai"
+
+import { AiOutlineCloseSquare } from "react-icons/ai"
+
 
 export default function Carousel(props) {
   const SliderData = [
@@ -36,6 +40,9 @@ export default function Carousel(props) {
     console.log(length);
   };
 
+//   setCarouselActive={setCarouselActive}
+//   carouselActive={carouselActive}
+
   return (
     <div className="col-2-pics">
       {props.SliderData.map((slide, index) => {
@@ -43,14 +50,24 @@ export default function Carousel(props) {
           <div
             className={index === current ? "slide active" : "slide"}
             key={index}
+            
           >
             {index === current && (
-              <>
+              <div
+            //   style={{ background: `url('${slide.image}')`, backgroundRepeat: 'no-repeat', height: '100%',  width: '100%'}}
+              >
                 {/* <div id="title">Screenshots</div> */}
-                <img id="image" alt="test" src={slide.image}></img>
-              </>
+                <img id="image" alt="test" src={slide.image}>
+                </img>
+                <AiFillCloseCircle id='X'
+                onClick={() => props.setCarouselActive(false)}
+                />
+              {/* Using background image works! Thank you! My use case:
+               <div style={{ background: `url('${imageUrl}') center / contain`, backgroundRepeat: 'no-repeat' }}></div> */}
+              </div>
             )}
           </div>
+          
         );
       })}
       <div id="icon-container">

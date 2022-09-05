@@ -1,11 +1,16 @@
 #image {
-    width: 65vw;
-    height: 68vh;
+    /* width: 85vw;
+    height: 85vh; */
+    height: 100%; 
+    width: 100%; 
     margin-top: 1rem;
     user-select: none;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
-    object-fit: fill;
+    /* object-fit: fill; */
+    /* object-fit: contain; */
+    object-fit: cover;
+    /* tried contain, works better */
   }
   
   .right-arr {
@@ -24,11 +29,15 @@
   .slide {
     opacity: 0;
     transition-duration: 300ms ease;
+    
   }
   
   .slide.active {
     opacity: 1;
     transition-duration: 300ms;
+   
+    
+    /* transition-duration: 2s; */
   }
   
   #title {
@@ -43,4 +52,20 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /* border: 2px solid red;  */
+    position: relative; 
+  }
+
+  #X {
+    transform: translateY(-0.8rem);
+    position: absolute; 
+    font-size: 2.2rem; 
+    cursor: pointer;
+    color: rgb(49, 49, 49);
+  }
+
+  #X:hover {
+    color: rgb(88, 88, 88);
+    cursor: pointer;
+    
   }

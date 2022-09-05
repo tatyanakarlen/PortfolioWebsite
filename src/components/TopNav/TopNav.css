@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+
 .Nav{
   height: 60px;
   width: 100%;
@@ -5,16 +9,44 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #fff;
+  background-color: rgba(241, 238, 238, 0.836);
   color: black;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
  }
+ 
+
 
  .nav-left-link {
     text-decoration: none;
-    color: black;
-    font-size: 1.3rem;
-    margin-left: 1rem;
+    font-weight: bold;
+    margin-left: 1.7rem;
+    color: #2e313a;
+    font-size: 1.1rem;
+    font-family: Archivo Narrow;
+    
+  }
+
+  @media only screen and (max-width: 329px) {
+    .nav-left-link {
+    font-size:1rem;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .nav-left-link {
+    margin-left: 2.3rem;
+}
+}
+
+@media only screen and (max-width:434px) {
+  .nav-left-link {
+    margin-left: 2rem;
+}
+}
+
+  .nav-left-link:hover {
+    color: #c93082; 
   }
 
   .navigation-menu {
@@ -28,11 +60,23 @@
   .navigation-menu li {
     list-style-type: none;
     margin: 0 1rem;
+
   }
   .navigation-menu li a {
     text-decoration: none;
     display: block;
     width: 100%;
+    color: #2e313a;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Archivo Narrow;
+
+  }
+
+  .navigation-menu li a:hover {
+    color: #c93082; 
+    
+    
   }
 
   .hamburger {
@@ -41,7 +85,7 @@
     width: 40px;
     padding: 0.5rem;
     border-radius: 50%;
-    background-color: #283b8b;
+    background-color: #2e313a; 
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     position: absolute;
@@ -51,7 +95,7 @@
     display: none;
   }
   .hamburger:hover {
-    background-color: #2642af;
+    background-color:#c93082; 
   }
 
   @media screen and (max-width: 768px) {
@@ -70,8 +114,10 @@
       left: 0;
       flex-direction: column;
       width: 100%;
-      height: calc(100vh - 77px);
-      background-color: white;
+      height: calc(100vh - 59px);
+      /* above was 77px */
+      /* background-color: rgb(221, 216, 216); */
+      background-color: rgba(241, 238, 238); 
       border-top: 1px solid black;
     }
 

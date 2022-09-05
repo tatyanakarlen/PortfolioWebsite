@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
 .Portfolio-Box-Container {
     width: 85%; 
     margin: auto; 
+}
+
+#Projects-container {
+    font-size: large;
+
+}
+
+#PROJECTS {
+    text-decoration: underline;  
+    font-family: Archivo Narrow;
 }

@@ -1,14 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+/* If the browser window is 600px or smaller, the background color will be lightblue: */
+
 .hero-container {
-    height: 70%; 
-    width: 50%; 
-    
-    margin: auto; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column;
-    min-height: 70vh;
+  height: 70%;
+  width: 50%;
+
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* min-height: 70vh; */
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 1260px) {
+  .hero-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-container {
+    width: 80%;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .hero-container {
+    width: 85%;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 437px) {
+  .hero-container {
+    width: 85%;
+    margin-top: 2rem;
+  }
+}
+
+.header {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+
+  color: #2e313a;
+  text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
+  font-family: Tenor Sans;
+}
+
+@media only screen and (max-width: 437px) {
+  .header {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .header {
+    font-size: 1.5rem;
+  }
 }
 
 
+.sub-header {
+  text-align: center;
+  /* text-transform: uppercase; */
+  font-size: 1.25rem;
+  color: #2e313a;
+  font-family: Archivo Narrow;
+}
 
+@media only screen and (max-width: 349px) {
+  .sub-header {
+    font-size: 1rem;
+  }
+}
+
+.article {
+  color: #2e313a;
+  font-size: 1.2rem;
+  font-family: Archivo Narrow;
+}
+
+#icon-container a {
+  color: #2e313a;
+}
+
+#skills-icon-container {
+    display: flex; 
+    flex-wrap: wrap;
+}
