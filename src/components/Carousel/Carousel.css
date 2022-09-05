@@ -1,12 +1,15 @@
 #image {
-    width: 85vw;
-    height: auto;
+    /* width: 85vw;
+    height: 85vh; */
+    height: 100%; 
+    width: 100%; 
     margin-top: 1rem;
     user-select: none;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
     /* object-fit: fill; */
-    object-fit: contain;
+    /* object-fit: contain; */
+    object-fit: cover;
     /* tried contain, works better */
   }
   
@@ -26,11 +29,15 @@
   .slide {
     opacity: 0;
     transition-duration: 300ms ease;
+    
   }
   
   .slide.active {
     opacity: 1;
     transition-duration: 300ms;
+   
+    
+    /* transition-duration: 2s; */
   }
   
   #title {

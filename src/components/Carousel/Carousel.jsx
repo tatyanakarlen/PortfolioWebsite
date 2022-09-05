@@ -50,20 +50,21 @@ export default function Carousel(props) {
           <div
             className={index === current ? "slide active" : "slide"}
             key={index}
+            
           >
             {index === current && (
-              <>
+              <div
+            //   style={{ background: `url('${slide.image}')`, backgroundRepeat: 'no-repeat', height: '100%',  width: '100%'}}
+              >
                 {/* <div id="title">Screenshots</div> */}
                 <img id="image" alt="test" src={slide.image}>
                 </img>
                 <AiFillCloseCircle id='X'
                 onClick={() => props.setCarouselActive(false)}
                 />
-                {/* <button
-                onClick={() => props.setCarouselActive(false)}
-                style={{position: 'absolute'}}>close
-                </button> */}
-              </>
+              {/* Using background image works! Thank you! My use case:
+               <div style={{ background: `url('${imageUrl}') center / contain`, backgroundRepeat: 'no-repeat' }}></div> */}
+              </div>
             )}
           </div>
           

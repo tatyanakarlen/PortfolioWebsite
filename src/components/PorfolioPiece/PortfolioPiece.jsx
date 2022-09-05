@@ -65,6 +65,7 @@ const PortfolioPiece = (props) => {
         <div>
         {!carouselActive ? 
         <div id="img-container" style={{width: '60%', height: '50%', margin: '0 auto'}}>
+          {/* style={{width: '60%', height: '50%', margin: '0 auto'}} */}
         <img 
           onClick={() => setCarouselActive(!carouselActive)}
           class="image" 
@@ -76,11 +77,12 @@ const PortfolioPiece = (props) => {
         </div>
         :
         
-      
+        <div id="img-container-carousel">
         <Carousel 
         setCarouselActive={setCarouselActive}
         carouselActive={carouselActive}
         SliderData={SliderData}/>
+        </div>
         
            
       

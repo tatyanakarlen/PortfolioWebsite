@@ -36,7 +36,18 @@ font-family: Archivo Narrow;
 
 #img-container {
     cursor: pointer; 
+    height: auto; 
 }
+
+#img-container-carousel {
+    cursor: pointer; 
+    height: 100%; 
+    width: 85vw; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+/* style={{width: '85vw', height: 'auto', margin: '0 auto'}} */
 
 
 
