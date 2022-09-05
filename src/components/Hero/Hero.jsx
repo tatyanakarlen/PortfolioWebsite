@@ -62,6 +62,8 @@ const Hero = () => {
         <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/70/000000/external-sql-web-hosting-flaticons-lineal-color-flat-icons.png"/>
         <img src="https://img.icons8.com/fluency/70/000000/python.png"/>
         <img src="https://img.icons8.com/windows/70/000000/django.png"/>
+       
+
         
         </div>
       <br/>

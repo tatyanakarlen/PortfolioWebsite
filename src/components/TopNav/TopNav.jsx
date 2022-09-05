@@ -66,7 +66,7 @@ export default function TopNav() {
               RESUME
             </Link>
           </li>
-          <li>
+          {/* <li>
             {' '}
             <a
               href="mailto:tatyanakarlen@gmail.com"
@@ -75,7 +75,7 @@ export default function TopNav() {
             >
               CONTACT
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

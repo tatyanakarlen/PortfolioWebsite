@@ -91,3 +91,8 @@
 #icon-container a {
   color: #2e313a;
 }
+
+#skills-icon-container {
+    display: flex; 
+    flex-wrap: wrap;
+}
