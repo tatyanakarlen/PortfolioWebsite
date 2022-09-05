@@ -2,6 +2,7 @@ import React from 'react';
 import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { BsFillEnvelopeFill} from 'react-icons/bs'
 
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -45,26 +46,22 @@ export default function TopNav() {
         }
       >
         <ul id="ul">
-          <li 
-           style={{ color: currentLink === 'portfolio' ? '#c93082' : '#2e313a' }}
-          id="PORTFOLIO-link">
+          <li id="PORTFOLIO-link">
             <Link
               onClick={() => setCurrentLink('portfolio')}
               className="link"
               to="/portfolio"
-            //   style={{ color: currentLink === 'portfolio' ? '#c93082' : '#2e313a' }}
             >
               PORTFOLIO
             </Link>
           </li>
           {/* how to condionally style:   style={{color: currentLink ? '#c93082' : '#2e313a'}} */}
 
-          <li style={{ color: currentLink === 'resume' ? '#c93082' : '#2e313a' }}>
+          <li>
             <Link
               onClick={() => setCurrentLink('resume')}
               className="link"
               to="/resume"
-            //   style={{ color: currentLink === 'resume' ? '#c93082' : '#2e313a' }}
             >
               RESUME
             </Link>

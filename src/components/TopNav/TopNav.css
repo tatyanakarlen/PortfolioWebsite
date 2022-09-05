@@ -19,12 +19,24 @@
  .nav-left-link {
     text-decoration: none;
     font-weight: bold;
-    margin-left: 1rem;
+    margin-left: 1.7rem;
     color: #2e313a;
     font-size: 1.1rem;
     font-family: Archivo Narrow;
     
   }
+
+  @media only screen and (max-width: 329px) {
+    .nav-left-link {
+    font-size:1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-left-link {
+    margin-left: 2.3rem;
+}
+}
 
   .nav-left-link:hover {
     color: #c93082; 
@@ -95,8 +107,10 @@
       left: 0;
       flex-direction: column;
       width: 100%;
-      height: calc(100vh - 77px);
-      background-color: white;
+      height: calc(100vh - 59px);
+      /* above was 77px */
+      /* background-color: rgb(221, 216, 216); */
+      background-color: rgba(241, 238, 238); 
       border-top: 1px solid black;
     }
 

@@ -10,7 +10,7 @@ function BioPortfolioPage(props) {
     // const [enlargedPhotoActive, setenlargedPhotoActive] = useState(false)
 
         return(
-            <div>
+            <div style={{backgroundColor: 'rgba(241, 238, 238, 0.836)'}}>
             <TopNav />
             <Hero />
             <PortfolioBox projects={props.projects}/>
@@ -18,5 +18,7 @@ function BioPortfolioPage(props) {
         )
     
 }
+
+/* background-color: rgba(241, 238, 238, 0.836); */
 
 export default BioPortfolioPage

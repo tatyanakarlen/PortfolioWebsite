@@ -63,3 +63,9 @@
     cursor: pointer;
     color: rgb(49, 49, 49);
   }
+
+  #X:hover {
+    color: rgb(88, 88, 88);
+    cursor: pointer;
+    
+  }
