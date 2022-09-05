@@ -64,7 +64,7 @@ const PortfolioPiece = (props) => {
         </div>
         <div>
         {!carouselActive ? 
-        <div id="img-container" style={{width: '60%', height: '50%', margin: '0 auto'}}>
+        <div id="img-container">
           {/* style={{width: '60%', height: '50%', margin: '0 auto'}} */}
         <img 
           onClick={() => setCarouselActive(!carouselActive)}
