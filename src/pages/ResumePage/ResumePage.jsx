@@ -19,7 +19,6 @@ class ResumePage extends React.Component {
           <h3 class="underlined">Contact Info:</h3>
           <p class="text">tatyanakarlen@gmail.com</p>
           <p class="text">416-662-6937</p>
-          <br />
           <div id="icon-container">
             <a
               href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
