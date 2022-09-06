@@ -3,6 +3,7 @@ import './App.css';
 import BioPortfolioPage from './pages/BioPortfolioPage/BioPortfolioPage'
 import ResumePage from './pages/ResumePage/ResumePage'
 import { Route, Routes, Navigate } from 'react-router-dom';
+// import { Router, Route, Navigate } from 'react-router-dom';
 // import img from './components/Images/UntitledImages/photo1.jpeg'
 // import img1 from './components/Images/UntitledImages/photo5.jpeg'
 import img1 from './components/Images/UntitledImages/UntitledTEST5.png'
@@ -82,9 +83,10 @@ function App() {
     return (
       <div className="App">
          <Routes>
-        <Route path='/portfolio' element={<BioPortfolioPage projects={projects}/>} />
+        <Route path='/' element={<BioPortfolioPage projects={projects}/>} />
+       
         <Route path='/resume' element={<ResumePage />} />
-        <Route path="*" element={<Navigate to="/portfolio" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
     )
