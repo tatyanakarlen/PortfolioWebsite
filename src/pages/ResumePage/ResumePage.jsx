@@ -24,6 +24,7 @@ class ResumePage extends React.Component {
             <a
               href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <BsLinkedin class="icon" style={{ fontSize: '25px' }} />
             </a>
@@ -32,6 +33,7 @@ class ResumePage extends React.Component {
               href="mailto:tatyanakarlen@gmail.com"
               target="_blank"
               aria-label="Mail"
+              rel="noopener noreferrer"
             >
               <BsFillEnvelopeFill
                 id="envelope"

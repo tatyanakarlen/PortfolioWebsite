@@ -69,3 +69,10 @@
     cursor: pointer;
     
   }
+
+  
+
+  #icon-container {
+    background-color: rgba(241, 238, 238, 0.836);
+    margin-top: 1rem; 
+  }

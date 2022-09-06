@@ -1,4 +1,4 @@
-import React, { Component, useState} from 'react'
+import React, { useState} from 'react'
 import './App.css';
 import BioPortfolioPage from './pages/BioPortfolioPage/BioPortfolioPage'
 import ResumePage from './pages/ResumePage/ResumePage'
@@ -28,7 +28,7 @@ import img18 from './components/Images/Classical/Classical3.png'
 function App() {
 
 
- const [projects, setProjects] = useState([
+ const [projects] = useState([
    {
      title: "MERN stack 'Untitled Magazine' React Dashboard+Magazine", 
      headline: "Responsive content-management dashboard SPA built with React, MongoDB, NodeJS and Express and Bootstrap CSS", 

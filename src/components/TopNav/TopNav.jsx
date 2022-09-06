@@ -2,11 +2,11 @@ import React from 'react';
 import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { BsFillEnvelopeFill } from 'react-icons/bs';
+
 
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
-  const [currentLink, setCurrentLink] = useState('portfolio');
+  
 
   return (
     <div className="Nav">
@@ -48,7 +48,6 @@ export default function TopNav() {
         <ul id="ul">
           <li id="PORTFOLIO-link">
             <Link
-              onClick={() => setCurrentLink('portfolio')}
               className="link"
               to="/portfolio"
             >
@@ -59,7 +58,6 @@ export default function TopNav() {
 
           <li>
             <Link
-              onClick={() => setCurrentLink('resume')}
               className="link"
               to="/resume"
             >

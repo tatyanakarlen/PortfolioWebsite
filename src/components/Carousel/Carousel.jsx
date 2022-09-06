@@ -3,7 +3,7 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import './Carousel.css'
 import { AiFillCloseCircle } from "react-icons/ai"
 
-import { AiOutlineCloseSquare } from "react-icons/ai"
+
 
 
 export default function Carousel(props) {
