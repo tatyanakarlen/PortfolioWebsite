@@ -45,12 +45,11 @@ class ResumePage extends React.Component {
           <br />
           <h3 class="underlined">Profile</h3>
           <p class="text">
-            I am a developer with a passion for all things visual and dynamic. I
+            I'm a full-stack developer with a passion for all things visual and dynamic. I
             successfully completed GA’s Software Engineering Immersive program
             where I learned front and back-end development and the industry’s
             most in-demand technologies. My background in fashion marketing
-            gives me a creative edge. In my cohort I was known to be extremely
-            hard working, humble and approachable.{' '}
+            gives me a creative edge. In my cohort I was known to be hard working, determined, social and approachable.{' '}
           </p>
           <br />
           <h3 class="underlined">Skills</h3>
@@ -72,7 +71,7 @@ class ResumePage extends React.Component {
           <p class="text">See <Link id="portfolio-link" 
           to="/portfolio">portfolio</Link> page</p>
           <br />
-          <h3 class="underlined">Education</h3>
+          <h3 class="underlined">Education</h3> <br />
           <p class="text level">Software Engineering Immersive</p>
           <p class="text school">General Assembly, 480+ hours</p>
           <p class="text">Toronto | Mar 2022-Aug 2022</p>

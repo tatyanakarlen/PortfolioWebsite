@@ -1,93 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
 
-
 .resume-container {
-    width: 90%; 
-    margin: 0 auto; 
+  width: 90%;
+  margin: 0 auto;
 }
 
 #resume-header {
-    margin-top: 2rem; 
-    font-family: Tenor Sans;
-    font-size: 1.75rem;
-    /* text-transform: uppercase; */
-    text-decoration: underline; 
-    color: #2e313a; 
+  margin-top: 2rem;
+  font-family: Tenor Sans;
+  font-size: 1.75rem;
+  /* text-transform: uppercase; */
+  text-decoration: underline;
+  color: #2e313a;
 }
 
 .icon {
-    color: #2e313a; 
+  color: #2e313a;
 }
 
-/* #icon-container {
-    display: flex; 
-   justify-content: start;
-} */
+.icon:hover {
+    color: rgb(88, 88, 88);
+}
+
+.underlined {
+  text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
+  color: #c93082;
+  font-family: Archivo Narrow;
+  font-size: 1.5rem;
+}
+
+.job {
+  font-weight: bold;
+  color: #2e313a;
+}
+
+.job-italic {
+  font-style: italic;
+  color: #2e313a;
+}
+
+.job-place-date {
+  font-style: normal;
+  color: #2e313a;
+}
+
+.text {
+  font-family: Archivo Narrow;
+  font-size: 1.1rem;
+  color: #2e313a;
+}
+
+.level {
+  font-weight: bold;
+  color: #2e313a;
+}
+
+.school {
+  font-style: italic;
+  color: #2e313a;
+}
+
+#footer {
+  text-align: center;
+  color: #2e313a;
+}
+
+#portfolio-link {
+  text-decoration: none;
+  color: #2e313a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#portfolio-link:hover {
+  color: #c93082;
+}
+
+#skills-list {
+    list-style-type: none;
+}
 
 #envelope {
     margin-left: 0.5rem; 
 }
 
-#skills-list {
-    list-style-type: square;
-    color: #2e313a; 
-}
-
-.underlined {
-    /* text-decoration: underline; */
-    text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
-    color: #c93082; 
-    font-family: Archivo Narrow;
-    font-size: 1.5rem;
-    
-}
-
-.job {
-    font-weight: bold;
-    color: #2e313a; 
-}
-
-.job-italic {
-    font-style: italic;
-    color: #2e313a; 
-}
-
-.job-place-date {
-    font-style: normal;
-    color: #2e313a; 
-}
-
-.text {
-    font-family: Archivo Narrow;
-    font-size: 1.1rem;
-    color: #2e313a; 
-}
-
-.level {
-    font-weight: bold;
-    color: #2e313a; 
-}
-
-.school {
-    font-style: italic;
-    color: #2e313a; 
-}
-
-
-#footer {
-    text-align: center; 
-    color: #2e313a; 
-}
-
-#portfolio-link {
-    text-decoration: none;
-    color: #2e313a; 
-    font-weight: bold;
-    cursor: pointer;
-
-}
-
-#portfolio-link:hover {
-    color: #c93082; 
-}
