@@ -89,7 +89,7 @@ class ResumePage extends React.Component {
           <h3 class="underlined">Work Experience</h3>
           <br />
           <p class="job text">Piano Teacher</p>
-          <p class="job-italic">
+          <p class="job-italic text">
             Alla Breve Academy of Music/Private Practice,{' '}
             <span class="job-place-date">Toronto/Vaughan, 2016 - 2022</span>
           </p>

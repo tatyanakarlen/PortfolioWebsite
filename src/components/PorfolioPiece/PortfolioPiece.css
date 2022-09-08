@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 .project-title {
     color: #2e313a;
     text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
     color: #c93082; 
-    font-family: Archivo Narrow;
+    font-family: Poppins;
 }
 
 .project-details {
 color: #2e313a;
 font-size: 1.1rem;
-font-family: Archivo Narrow;
+font-family: Lora;
 }
 
 #project-headline {
@@ -18,7 +19,7 @@ font-family: Archivo Narrow;
     /* text-decoration: underline; */
     color: #2e313a; 
     font-style: italic;
-    font-family: Archivo Narrow;
+    font-family: Lora;
 }
 
 
@@ -27,7 +28,7 @@ font-family: Archivo Narrow;
     /* color: rgb(151, 35, 151) */
     color: #2e313a;
     font-weight: bold;
-    font-family: Archivo Narrow;
+    font-family: Lora;
 }
 
 #img-container:hover .image {

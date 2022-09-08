@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 .resume-container {
   width: 90%;
@@ -8,7 +10,7 @@
 
 #resume-header {
   margin-top: 2rem;
-  font-family: Tenor Sans;
+  font-family: Poppins;
   font-size: 1.75rem;
   /* text-transform: uppercase; */
   text-decoration: underline;
@@ -26,8 +28,8 @@
 .underlined {
   text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
   color: #c93082;
-  font-family: Archivo Narrow;
-  font-size: 1.5rem;
+  font-family: Poppins;
+  font-size: 1.3rem;
 }
 
 .job {
@@ -46,7 +48,7 @@
 }
 
 .text {
-  font-family: Archivo Narrow;
+  font-family: Lora;
   font-size: 1.1rem;
   color: #2e313a;
 }
