@@ -74,10 +74,11 @@ font-family: Archivo Narrow;
 #img-container-carousel {
     cursor: pointer; 
     height: 100%; 
-    width: 85vw; 
+    width: 80vw; 
     height: auto; 
     margin: 0 auto; 
 }
+/* changed from 85vw to 80vw */
 
 /* style={{width: '85vw', height: 'auto', margin: '0 auto'}} */
 
