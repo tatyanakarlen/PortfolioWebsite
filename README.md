@@ -26,6 +26,7 @@ Simple porfolio site built to showcase my developer projects with project detail
 
 ![clone](https://imgur.com/22jKAID.png)
 <br>
+<br>
 ![clone](https://imgur.com/YxAa9Lp.png)
 
 
