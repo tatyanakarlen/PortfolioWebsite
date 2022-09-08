@@ -28,6 +28,14 @@ Simple porfolio site built to showcase my developer projects with project detail
 <br>
 ![clone](https://imgur.com/YxAa9Lp.png)
 
+## Techonologies Used:
+
+1. React
+
+2. JSX/CSS
+
+3. JavaScript
+
 
 
 
