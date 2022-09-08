@@ -16,7 +16,15 @@ Simple porfolio site built to showcase my developer projects with project detail
 
 ![clone](https://imgur.com/FRXCHfH.png)
 
-## Resume/skills page with Linkdln and E-mail link:
+## Resume/skills page with Linkedln and E-mail link:
 <br>
 
 ![clone](https://imgur.com/ywO0fki.png)
+
+## Tablet and mobile responsive layout:
+<br>
+
+![clone](https://imgur.com/22jKAID.png)
+
+
+
