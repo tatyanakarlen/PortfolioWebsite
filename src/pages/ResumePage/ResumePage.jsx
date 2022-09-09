@@ -53,7 +53,6 @@ class ResumePage extends React.Component {
           </p>
           <br />
           <h3 class="underlined">Skills</h3>
-          <br />
           <ul id="skills-list">
             <li class="text">React</li>
             <li class="text">HTML/CSS</li>
@@ -118,7 +117,7 @@ class ResumePage extends React.Component {
             OK-47, <span class="job-place-date text">Toronto, 2005 - 2006</span>
           </p>{' '}
           <br />
-          <p>
+          <p class="text">
             Worked as an intern/assistant to owner-designer of Toronto fashion
             label OK-47 in their Garment district showroom. Duties included
             inventory, showroom maintenance, working with samples, managing
@@ -131,7 +130,7 @@ class ResumePage extends React.Component {
             <span class="job-place-date text"> Toronto | 2004 - 2005 </span>
           </p>
           <br />
-          <p>
+          <p class="text">
             Retail sales, showroom maintenance and store merchandising in
             streetwear clothing boutique Lounge (re-branded as Community 54) in
             the heart of the Garment district in Toronto.

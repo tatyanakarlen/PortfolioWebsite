@@ -11,7 +11,7 @@
 .project-details {
 color: #2e313a;
 font-size: 1.1rem;
-font-family: Lora;
+font-family: Archivo Narrow;
 }
 
 #project-headline {
@@ -19,7 +19,7 @@ font-family: Lora;
     /* text-decoration: underline; */
     color: #2e313a; 
     font-style: italic;
-    font-family: Lora;
+    font-family: Archivo Narrow;
 }
 
 
@@ -28,7 +28,7 @@ font-family: Lora;
     /* color: rgb(151, 35, 151) */
     color: #2e313a;
     font-weight: bold;
-    font-family: Lora;
+    font-family: Archivo Narrow;
 }
 
 #img-container:hover .image {

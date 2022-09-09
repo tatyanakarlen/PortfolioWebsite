@@ -76,7 +76,7 @@
   text-transform: uppercase;
   font-size: 1.1rem;
   color: #2e313a;
-  font-family: Poppins;
+  font-family: Archivo Narrow;
   margin-top: -0.5rem;
   
 }
@@ -89,8 +89,8 @@
 
 .article {
   color: #2e313a;
-  font-size: 1.1rem;
-  font-family: Lora;
+  font-size: 1.2rem;
+  font-family: Archivo Narrow;
 }
 
 #icon-container a {
