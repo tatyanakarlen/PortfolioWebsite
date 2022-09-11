@@ -12,6 +12,9 @@
   background-color: #F2F2F2;
   color: black;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  /* position: fixed;
+  top: 0px; 
+  z-index: 1; */
  }
  
 
@@ -26,10 +29,35 @@
     
   }
 
-  @media only screen and (max-width: 329px) {
+  @media only screen and (max-width: 430px) {
+    .nav-left-link {
+    font-size:1rem;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .nav-left-link {
+  font-size:0.9rem;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .nav-left-link {
+  font-size:0.8rem;
+  
+}
+}
+
+  @media only screen and (max-width: 344px) {
     .nav-left-link {
     font-size:0.75rem;
   }
+}
+
+@media only screen and (max-width: 330px) {
+  .nav-left-link {
+  font-size:0.65rem;
+}
 }
 
 

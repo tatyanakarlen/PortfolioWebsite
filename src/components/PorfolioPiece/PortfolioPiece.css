@@ -31,9 +31,13 @@ font-family: Archivo Narrow;
     font-family: Archivo Narrow;
 }
 
+
+
 #img-container:hover .image {
     opacity: 0.6; 
+
 }
+
 
 #img-container {
     cursor: pointer; 
@@ -41,6 +45,7 @@ font-family: Archivo Narrow;
     width: 60%; 
     height:50%; 
     margin: 0 auto;
+    
 }
 
 @media only screen and (max-width: 1225px) {
