@@ -41,10 +41,10 @@ font-family: Archivo Narrow;
 
 #img-container {
     cursor: pointer; 
-    height: auto; 
+    height: auto;  
     width: 60%; 
-    height:50%; 
-    margin: 0 auto;
+    /* height:50%;  */
+    margin: 0 auto; 
     
 }
 

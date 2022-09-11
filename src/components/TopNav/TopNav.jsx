@@ -10,12 +10,14 @@ export default function TopNav() {
 
   return (
     <div className="Nav">
+      <div id='name-link'>
       <a
         className="nav-left-link"
         href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
       >
         Tatyana Karlen - Full Stack Developer
       </a>
+      </div>
 
       <button
         className="hamburger"

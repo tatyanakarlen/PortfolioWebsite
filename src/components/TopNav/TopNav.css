@@ -16,6 +16,11 @@
   top: 0px; 
   z-index: 1; */
  }
+
+ #name-link {
+   display: flex; 
+   flex-direction: column; 
+ }
  
 
 
@@ -29,7 +34,7 @@
     
   }
 
-  @media only screen and (max-width: 430px) {
+  /* @media only screen and (max-width: 430px) {
     .nav-left-link {
     font-size:1rem;
   }
@@ -71,7 +76,7 @@
   .nav-left-link {
     margin-left: 2rem;
 }
-}
+} */
 
   .nav-left-link:hover {
     color: #c93082; 
