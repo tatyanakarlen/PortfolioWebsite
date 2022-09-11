@@ -28,16 +28,13 @@
   
   .slide {
     opacity: 0;
-    transition-duration: 300ms ease;
+    transition-duration: 100ms ease;
     
   }
   
   .slide.active {
     opacity: 1;
-    transition-duration: 300ms;
-   
-    
-    /* transition-duration: 2s; */
+    transition-duration: 100ms;
   }
   
   #title {
