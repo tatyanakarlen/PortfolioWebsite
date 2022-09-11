@@ -8,18 +8,18 @@ import './ResumePage.css';
 class ResumePage extends React.Component {
   render() {
     return (
-      <div style={{ backgroundColor: 'rgba(241, 238, 238, 0.836)' }}>
+      <div style={{ backgroundColor: '#F2F2F2' }}>
         <TopNav />
         <div
           class="resume-container"
-          style={{ backgroundColor: 'rgba(241, 238, 238, 0.836)' }}
+          style={{ backgroundColor: '#F2F2F2' }}
         >
           <h1 id="resume-header">Resume</h1>
           <br />
           <h3 class="underlined">Contact Info:</h3>
           <p class="text">tatyanakarlen@gmail.com</p>
           <p class="text">416-662-6937</p>
-          <div id="icon-container">
+          <div id="icon-container-resume">
             <a
               href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
               target="_blank"
