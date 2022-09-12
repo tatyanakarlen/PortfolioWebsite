@@ -12,6 +12,7 @@
   background-color: #F2F2F2;
   color: black;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  overflow-wrap: break-word;
   /* position: fixed;
   top: 0px; 
   z-index: 1; */
@@ -19,7 +20,8 @@
 
  #name-link {
    display: flex; 
-   flex-direction: column; 
+   flex-direction: column;   
+   max-width: 80%; 
  }
  
 
@@ -29,10 +31,12 @@
     font-weight: bold;
     margin-left: 1.7rem;
     color: #2e313a;
-    font-size: 1.1rem;
+    font-size: 1.1 rem;
+    /* display: block;
+    max-width: 100%; */
     font-family: Poppins;
-    
-  }
+    /* line-height: 1.4em !important; */
+    }
 
   
 
