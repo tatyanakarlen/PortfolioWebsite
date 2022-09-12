@@ -61,14 +61,14 @@ const PortfolioPiece = (props) => {
           <p class="project-details">{props.body}</p>
           <br />
           <p class="project-details proj-links">
-            <span class="links-text">Visit the app here:</span>
+            <span class="links-text">Visit the app here: </span>
             <a href={props.deployedAppLink} target="_blank" rel="noopener noreferrer">
               {props.deployedAppLink}
             </a>
           </p>
           <br />
           <p class="project-details proj-links">
-            <span>View code on GitHub:</span>
+            <span>View code on GitHub: </span>
             <a href={props.gitHubLink} target="_blank" rel="noopener noreferrer">
               {props.gitHubLink}
             </a>
