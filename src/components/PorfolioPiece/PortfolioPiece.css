@@ -6,6 +6,7 @@
     text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
     color: #c93082; 
     font-family: Poppins;
+    
 }
 
 .project-details {
@@ -18,7 +19,7 @@ font-family: Archivo Narrow;
     font-weight: bold;
     /* text-decoration: underline; */
     color: #2e313a; 
-    font-style: italic;
+    /* font-style: italic; */
     font-family: Archivo Narrow;
 }
 
