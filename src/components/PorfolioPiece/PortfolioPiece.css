@@ -44,9 +44,14 @@ font-family: Archivo Narrow;
     cursor: pointer; 
     height: auto;  
     width: 60%; 
-    /* height:50%;  */
-    margin: 0 auto; 
     
+    margin: 0 auto; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+    border-radius: 10px;
+}
+
+#main-img-container {
+    height: auto; 
 }
 
 @media only screen and (max-width: 1225px) {

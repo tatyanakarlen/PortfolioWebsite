@@ -33,14 +33,14 @@ const PortfolioPiece = (props) => {
           <br />
           {/* </div> */}
         </div>
-        <div>
+        <div id='main-img-container'>
           {!carouselActive ? (
             <div id="img-container">
               <img
                 onClick={() => setCarouselActive(!carouselActive)}
                 class="image"
                 src={props.images[0]}
-                style={{ width: '100%', height: '100%', borderRadius: '10px' }}
+                style={{ width: '100%', height: '100%', borderRadius: '10px', verticalAlign: 'top' }}
                 alt="slides"
               ></img>
               <br />

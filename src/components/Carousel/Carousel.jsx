@@ -53,8 +53,8 @@ export default function Carousel(props) {
             
           >
             {index === current && (
-              <div
-            //   style={{ background: `url('${slide.image}')`, backgroundRepeat: 'no-repeat', height: '100%',  width: '100%'}}
+              <div 
+              
               >
                 {/* <div id="title">Screenshots</div> */}
                 <img id="image" alt="test" src={slide.image}>

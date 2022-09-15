@@ -5,11 +5,13 @@
     width: 100%; 
     margin-top: 1rem;
     user-select: none;
-    border-radius: 5px;
+    
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
     /* object-fit: fill; */
     /* object-fit: contain; */
     object-fit: cover;
+    
     /* tried contain, works better */
   }
   
@@ -51,6 +53,7 @@
     flex-direction: column;
     /* border: 2px solid red;  */
     position: relative; 
+    
   }
 
   #X {
@@ -70,6 +73,6 @@
   
 
   #icon-container {
-    background-color: rgba(241, 238, 238, 0.836);
-    margin-top: 0.3rem; 
+    background-color: #FFFFFF;
+    margin-top: 0.4rem; 
   }
