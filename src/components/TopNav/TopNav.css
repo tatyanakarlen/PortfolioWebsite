@@ -11,7 +11,8 @@
   padding: 0.5rem 0rem;
   background-color: #FFFFFF;
   color: #2e313a;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 10, 0.23);
+  /* box-shadow: 0 2px 2px 2px rgba(9, 9, 10, 0.23); */
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 8%);
   overflow-wrap: break-word;
   /* position: fixed;
   top: 0px; 
