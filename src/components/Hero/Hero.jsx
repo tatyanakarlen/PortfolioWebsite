@@ -46,6 +46,7 @@ const Hero = () => {
         <img src="https://img.icons8.com/windows/70/000000/django.png" alt="icon"/>
       </div>
       <br />
+      <br />
     </div>
   );
 };
