@@ -20,7 +20,7 @@ const Hero = () => {
       </article> */}
       <article class="article">
         I'm a <span style={{color: '#D2042D' , fontSize: '1.5rem'}}>full-stack</span> developer with a passion for UI and front-end.
-        I'm experienced in both front and back-end development, having a background in classical music (piano) and fashion marketing. 
+        I'm experienced in both front and back-end development and have a background in classical music (piano) and fashion marketing. 
         
        
 
