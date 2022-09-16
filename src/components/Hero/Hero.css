@@ -53,8 +53,9 @@
   letter-spacing: 1px;
 
   color: #2e313a;
-  text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
+  /* text-shadow: 2px 2px 2px rgb(150 150 150 / 40%); */
   font-family: Poppins;
+  
 
 }
 
