@@ -19,15 +19,16 @@ const Hero = () => {
         creative edge. When I'm not coding I'm playing/teaching piano, thrifting or watching off-beat movies. 
       </article> */}
       <article class="article">
-        I'm a <span style={{color: '#D2042D' , fontSize: '1.5rem'}}>full-stack</span> web developer with a passion for UI and the front-end side of things. I'm experienced in both front and back-end development,
-        my background in fashion marketing gives me a
-        creative edge.
+        I'm a <span style={{color: '#D2042D' , fontSize: '1.5rem'}}>full-stack</span> web developer with a passion for UI and the front-end side of things.
+        I'm experienced in both front and back-end development, my background in fashion marketing gives me a creative edge. 
+        
+       
 
       </article>
       
-      <br />
+      <br /> 
       
-      <article class="article">
+       <article class="article">
         Below is a list of my developer skills and portfolio projects. Looking to collaborate or hire me? I'd love to
         hear from you!
       </article>
