@@ -54,6 +54,7 @@
 
   /* color: #2e313a; */
   color: black; 
+  color: rgb(9, 30, 66);
   /* text-shadow: 2px 2px 2px rgb(150 150 150 / 40%); */
   font-family: Poppins;
   
@@ -78,7 +79,7 @@
   text-align: center;
   text-transform: uppercase;
   font-size: 1.1rem;
-  color: #2e313a;
+  color: rgb(9, 30, 66);
   color: black; 
   font-family: Archivo Narrow;
   margin-top: -0.5rem;

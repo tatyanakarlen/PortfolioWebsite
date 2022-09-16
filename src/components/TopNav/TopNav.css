@@ -32,7 +32,7 @@
     font-weight: bold;
     margin-left: 1.7rem;
     color: #2e313a;
-    color: black; 
+    color: rgb(9, 30, 66);
     font-size: 1.1 rem;
     /* display: block;
     max-width: 100%; */
@@ -64,7 +64,8 @@
     display: block;
     width: 100%;
     color: #2e313a;
-    color: black; 
+    color: rgb(9, 30, 66);
+
     font-size: 1.1rem;
     font-weight: bold;
     font-family: Poppins;
