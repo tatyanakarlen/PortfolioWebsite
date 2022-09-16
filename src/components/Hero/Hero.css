@@ -49,7 +49,7 @@
 
 .header {
   /* text-transform: uppercase; */
-  font-size: 3.5rem;
+  font-size: 3rem;
   letter-spacing: 1px;
 
   /* color: #2e313a; */
@@ -63,7 +63,7 @@
 
 @media only screen and (max-width: 443px) {
   .header {
-    font-size: 2rem;
+    font-size: 2.5rem;
     
   }
 }
