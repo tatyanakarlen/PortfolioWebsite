@@ -32,9 +32,9 @@ function App() {
  const [projects] = useState([
    {
      title: "MERN stack 'Untitled Magazine' React Dashboard+Magazine", 
-     headline: "Responsive content-management dashboard SPA built with React, MongoDB, NodeJS, Express and Bootstrap CSS", 
+     headline: "Responsive content-management dashboard SPA built with React, Mongo-DB, Node-JS, Express and Bootstrap CSS", 
      images: [img1, img2, img3, img4, img5, img6], 
-     bullet1: "Features an a magazine page where readers can scroll, read, search and share articles on social-media",
+     bullet1: "Features a magazine page where readers can scroll, read, search and share articles on social-media",
      bullet2: "Created AJAX API endpoints to fetch data based on user interactions", 
      bullet3: "Implemented JWT User Authentication, React Hooks, photo image-uploads via Cloudinary, and social-media share links",
      body: "Untitled Magazine is a content-management admin dashboard and online magazine. Readers are able to scroll through an artice list with titles, images and headers and click on individual articles to read the full article. Readers are also able to search articles by tags, browse a 'latest' articles page and share individual articles via social-media. The content-management admin dashboard is set up for content managers to view, add, update and delete contributors, as well as peform similiar CRUD operations on articles.",
@@ -43,7 +43,7 @@ function App() {
    },
    {
     title: "TINTEREST Social-Media Mobile App (Python, Django, postgresSQL)", 
-    headline: "Responsive Pinterest/Instagram-style app built with Django, Python, postgresSQL, Materialize CSS and AWS", 
+    headline: "Responsive Pinterest/Instagram-style app built with Django, Python, postgres-SQL, Materialize CSS and AWS", 
     images: [img7, img8, img9, img10], 
     bullet1: "Developed a social-media mobile-app where users can create, update and delete ‘interest’-type posts, as well as save and comment on each other’s posts",
     bullet2: "Implemented photo-upload functionality with Amazon S3 - Cloud Object Storage", 
@@ -54,7 +54,7 @@ function App() {
   },
   {
     title: "THRIFTD e-Commerce website (NodeJS/Express/MongoDB)", 
-    headline: "Depop/Shopify-style peer-to-peer shopping application built with NodeJS, Express, MongoDB ", 
+    headline: "Depop/Shopify-style peer-to-peer shopping application built with Node-JS, Express, Mongo-DB ", 
     images: [img13, img11, img12, img14, img15], 
     bullet1: "Developed a RESTful MEN-stack CRUD application where users can post items for sale and wish-list/buy other user’s items",
     bullet2: "Implemented user’s wishlist and comments for a fun and social shopping experience", 
