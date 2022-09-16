@@ -11,7 +11,8 @@ function BioPortfolioPage(props) {
 
 
         return(
-            <div style={{backgroundColor: '#FFFFFF'}}>
+            <div style={{backgroundColor: '#ffffff'}}>
+              
             <TopNav />
             <Hero />
             <PortfolioBox projects={props.projects}/>

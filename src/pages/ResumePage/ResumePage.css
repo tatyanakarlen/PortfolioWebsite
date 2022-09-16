@@ -15,10 +15,12 @@
   /* text-transform: uppercase; */
   text-decoration: underline;
   color: #2e313a;
+  color: black; 
 }
 
 .icon {
   color: #2e313a;
+  color: black; 
 }
 
 .icon:hover {
@@ -35,42 +37,51 @@
 .job {
   font-weight: bold;
   color: #2e313a;
+  color: black; 
 }
 
 .job-italic {
   font-style: italic;
   color: #2e313a;
+  color: black; 
 }
 
 .job-place-date {
   font-style: normal;
   color: #2e313a;
+  color: black; 
 }
 
 .text {
   font-family: Archivo Narrow;
   font-size: 1.1rem;
   color: #2e313a;
+  color: black; 
 }
 
 .level {
   font-weight: bold;
   color: #2e313a;
+  color: black; 
 }
 
 .school {
   font-style: italic;
   color: #2e313a;
+  color: black; 
 }
 
 #footer {
   text-align: center;
   color: #2e313a;
+  color: black; 
+
 }
 
 #portfolio-link {
   text-decoration: none;
   color: #2e313a;
+  color: black; 
   font-weight: bold;
   cursor: pointer;
 }

@@ -3,6 +3,7 @@
 
 .project-title {
     color: #2e313a;
+    color: black; 
     text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
     color: #c93082; 
     font-family: Poppins;
@@ -11,6 +12,7 @@
 
 .project-details {
 color: #2e313a;
+color: black; 
 font-size: 1.1rem;
 font-family: Archivo Narrow;
 }
@@ -19,6 +21,7 @@ font-family: Archivo Narrow;
     font-weight: bold;
     /* text-decoration: underline; */
     color: #2e313a; 
+    color: black; 
     /* font-style: italic; */
     font-family: Archivo Narrow;
 }
@@ -28,6 +31,7 @@ font-family: Archivo Narrow;
 .project-details a {
     /* color: rgb(151, 35, 151) */
     color: #2e313a;
+    color: black; 
     font-weight: bold;
     font-family: Archivo Narrow;
 }
