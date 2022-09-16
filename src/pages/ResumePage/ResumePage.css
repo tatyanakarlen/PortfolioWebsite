@@ -13,14 +13,13 @@
   font-family: Poppins;
   font-size: 1.75rem;
   /* text-transform: uppercase; */
-  text-decoration: underline;
-  color: #2e313a;
-  color: black; 
+  /* text-decoration: underline; */
+  color: #333; 
 }
 
 .icon {
   color: #2e313a;
-  color: black; 
+  
 }
 
 .icon:hover {
@@ -28,16 +27,25 @@
 }
 
 .underlined {
-  text-shadow: 2px 2px 2px rgb(150 150 150 / 40%);
-  color: #c93082;
+  /* text-shadow: 2px 2px 2px rgb(150 150 150 / 40%); */
+  color: #D2042D;
   font-family: Poppins;
   font-size: 1.3rem;
+  text-decoration: underline;
+ 
+  
+}
+
+.text {
+  font-family: Archivo Narrow;
+  font-size: 1.1rem;
+  
+  color: #505458; 
 }
 
 .job {
   font-weight: bold;
-  color: #2e313a;
-  color: black; 
+  color: #333; 
 }
 
 .job-italic {
@@ -52,17 +60,11 @@
   color: black; 
 }
 
-.text {
-  font-family: Archivo Narrow;
-  font-size: 1.1rem;
-  color: #2e313a;
-  color: black; 
-}
+
 
 .level {
   font-weight: bold;
-  color: #2e313a;
-  color: black; 
+  color: #333; 
 }
 
 .school {
@@ -73,22 +75,20 @@
 
 #footer {
   text-align: center;
-  color: #2e313a;
-  color: black; 
+  color: #333; 
 
 }
 
 #portfolio-link {
   text-decoration: none;
-  color: #2e313a;
-  color: black; 
+  color: #333; 
   font-weight: bold;
   cursor: pointer;
 }
 
-#portfolio-link:hover {
-  color: #c93082;
-}
+/* #portfolio-link:hover {
+  color: #D2042D; 
+} */
 
 #skills-list {
     list-style-type: none;
@@ -98,7 +98,8 @@
     margin-left: 0.5rem; 
 }
 
-#icone-container-resume {
-  background-color: #F2F2F2;
+#icon-container-resume {
+  background-color: #f7f7f7;
+  margin-top: 1rem; 
 }
 

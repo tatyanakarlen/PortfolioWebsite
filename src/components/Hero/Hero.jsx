@@ -6,14 +6,23 @@ const Hero = () => {
   return (
     <div class="hero-container">
       <div id="header-container">
-        <h1 class="header">Tatyana Karlen</h1>
-        <h3 class="sub-header">front-End / full-stack developer</h3>
+        {/* <h1 class="header">Tatyana Karlen</h1>
+        <h3 class="sub-header">front-End / full-stack developer</h3> */}
+        <h1 class="sub-header">Hi, My name is</h1>
+        <h3 class="header">Tatyana</h3>
+       
       </div>
       <br />
-      <article class="article">
+      {/* <article class="article">
         Hello! I'm a web developer with a passion for UI/front-end. I'm experienced in both front and back-end development and up-to-date with the industry’s most
         in-demand technologies. My background in fashion marketing gives me a
         creative edge. When I'm not coding I'm playing/teaching piano, thrifting or watching off-beat movies. 
+      </article> */}
+      <article class="article">
+        I'm a <span style={{color: '#D2042D' , fontSize: '1.5rem'}}>full-stack</span> web developer with a passion for UI and the front-end side of things. I'm experienced in both front and back-end development,
+        my background in fashion marketing gives me a
+        creative edge.
+
       </article>
       
       <br />

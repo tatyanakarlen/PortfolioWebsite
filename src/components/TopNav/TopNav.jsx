@@ -47,7 +47,7 @@ export default function TopNav() {
           isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
         }
       >
-        <ul id="ul">
+        <ul id="ul" style={{backgroundColor: '#f7f7f7'}}>
           <li id="PORTFOLIO-link">
             <Link
               className="link"
