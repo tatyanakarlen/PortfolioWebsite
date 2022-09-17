@@ -16,7 +16,7 @@ const PortfolioPiece = (props) => {
     <div>
       <div class="showcase">
         <div id="port-piece-container">
-          <h2 class="project-title">{props.title}</h2>
+          <h3 class="project-title">{props.title}</h3>
           <br />
           <p id="project-headline" class="project-details">
             {props.headline}

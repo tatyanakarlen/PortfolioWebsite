@@ -7,8 +7,9 @@
     color: #333; 
     /* color: #D2042D;  */
     font-family: Poppins;
-    text-decoration: underline;
-    
+    /* text-decoration: underline;
+     */
+     font-weight: bold;
 }
 
 .project-details {
