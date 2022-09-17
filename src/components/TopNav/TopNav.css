@@ -96,9 +96,9 @@
     transform: translateY(-50%);
     display: none;
   }
-  .hamburger:hover {
+  /* .hamburger:hover {
     background-color:#D2042D; 
-  }
+  } */
 
   @media screen and (max-width: 768px) {
     .hamburger {
