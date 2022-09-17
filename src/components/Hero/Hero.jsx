@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <div class="hero-container">
       <div id="header-container">
-        {/* <h1 class="header">Tatyana Karlen</h1>
-        <h3 class="sub-header">front-End / full-stack developer</h3> */}
-        <h1 class="sub-header">Hi, My name is</h1>
-        <h3 class="header">Tatyana</h3>
+        <h1 class="header">Tatyana Karlen</h1>
+        <h3 class="sub-header">front-End / full-stack developer</h3>
+        
+        
        
       </div>
       <br />
