@@ -32,7 +32,7 @@
     text-decoration: none;
     font-weight: bold;
     margin-left: 1.7rem;
-    color: #333; 
+    color: #505458; 
     font-size: 1.1 rem;
     /* display: block;
     max-width: 100%; */
@@ -64,7 +64,7 @@
     text-decoration: none;
     display: block;
     width: 100%;
-    color: #333; 
+    color: #505458; 
     /* color: rgb(9, 30, 66); */
 
     font-size: 1.1rem;
@@ -75,6 +75,7 @@
 
   .navigation-menu li a:hover {
     color: #D2042D; 
+    
     
     
   }
