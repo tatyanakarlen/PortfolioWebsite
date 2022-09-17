@@ -7,7 +7,7 @@ const Hero = () => {
     <div class="hero-container">
       <div id="header-container">
         <h1 class="header">Tatyana Karlen</h1>
-        <h3 class="sub-header">front-End / full-stack developer</h3>
+        <h3 class="sub-header">full-stack / front-end developer</h3>
         
         
        
@@ -19,7 +19,7 @@ const Hero = () => {
         creative edge. When I'm not coding I'm playing/teaching piano, thrifting or watching off-beat movies. 
       </article> */}
       <article class="article">
-        I'm a <span style={{color: '#D2042D' , fontSize: '1.5rem'}}>full-stack</span> developer with a passion for UI and front-end.
+        I'm a <span style={{color: '#D2042D' , fontSize: '1.5rem'}}>full-stack</span> developer with a passion for the visual side of things. 
         I'm experienced in front and back-end development and have a background in classical music (piano) and fashion marketing. 
         
        
