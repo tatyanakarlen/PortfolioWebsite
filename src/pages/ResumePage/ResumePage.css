@@ -13,75 +13,68 @@
   font-family: Poppins;
   font-size: 1.75rem;
   /* text-transform: uppercase; */
-  /* text-decoration: underline; */
-  color: #333; 
+  text-decoration: underline;
+  color: #333;
 }
 
 .icon {
   color: #2e313a;
-  
 }
 
 .icon:hover {
-    color: rgb(88, 88, 88);
+  color: rgb(88, 88, 88);
 }
 
 .underlined {
-  /* text-shadow: 2px 2px 2px rgb(150 150 150 / 40%); */
-  color: #D2042D;
+  color: #d2042d;
   font-family: Poppins;
-  font-size: 1.3rem;
-  text-decoration: underline;
- 
-  
+
+  text-transform: uppercase;
 }
 
 .text {
   font-family: Archivo Narrow;
   font-size: 1.1rem;
-  
-  color: #505458; 
+
+  color: #505458;
 }
 
 .job {
   font-weight: bold;
-  color: #333; 
+  color: #333;
 }
 
 .job-italic {
   font-style: italic;
   color: #2e313a;
-  color: black; 
+  color: black;
 }
 
 .job-place-date {
   font-style: normal;
   color: #2e313a;
-  color: black; 
+  color: black;
 }
-
-
 
 .level {
   font-weight: bold;
-  color: #333; 
+  color: #333;
 }
 
 .school {
   font-style: italic;
   color: #2e313a;
-  color: black; 
+  color: black;
 }
 
 #footer {
   text-align: center;
-  color: #333; 
-
+  color: #333;
 }
 
 #portfolio-link {
   text-decoration: none;
-  color: #333; 
+  color: #333;
   font-weight: bold;
   cursor: pointer;
 }
@@ -91,15 +84,14 @@
 } */
 
 #skills-list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #envelope {
-    margin-left: 0.5rem; 
+  margin-left: 0.5rem;
 }
 
 #icon-container-resume {
   background-color: #f7f7f7;
-  margin-top: 1rem; 
+  margin-top: 1rem;
 }
-
