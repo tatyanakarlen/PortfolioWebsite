@@ -45,15 +45,14 @@
 }
 
 .job-italic {
-  font-style: italic;
-  color: #2e313a;
-  color: black;
+  /* font-style: italic; */
+  color: #333;
 }
 
 .job-place-date {
   font-style: normal;
   color: #2e313a;
-  color: black;
+  color: #333;
 }
 
 .level {
@@ -62,9 +61,7 @@
 }
 
 .school {
-  font-style: italic;
-  color: #2e313a;
-  color: black;
+  color: #333;
 }
 
 #footer {
