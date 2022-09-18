@@ -29,21 +29,21 @@
 @media only screen and (max-width: 900px) {
   .hero-container {
     width: 80%;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
   }
 }
 
 @media only screen and (max-width: 788px) {
   .hero-container {
     width: 85%;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
   }
 }
 
 @media only screen and (max-width: 443px) {
   .hero-container {
     width: 85%;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   }
 }
 
