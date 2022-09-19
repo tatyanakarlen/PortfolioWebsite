@@ -19,7 +19,7 @@ const Hero = () => {
         creative edge. When I'm not coding I'm playing/teaching piano, thrifting or watching off-beat movies. 
       </article> */}
       <article class="article">
-        I'm a <span style={{color: '#D2042D' , fontSize: '1.5rem'}}>full-stack</span> developer with a passion for UI. 
+        I'm a <span style={{color: '#cd2026' , fontSize: '1.5rem'}}>full-stack</span> developer with a passion for UI. 
         I'm experienced in front and back-end development and have a background in classical music (piano) and fashion marketing. 
         
        
