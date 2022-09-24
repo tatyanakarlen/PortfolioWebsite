@@ -1,4 +1,4 @@
-![clone](https://imgur.com/ALvafeN.png)
+![clone](https://imgur.com/FuhYVvL.png)
 
 ## Responsive developer-porfolio site built with React, Javascript and CSS
 <br>
@@ -7,7 +7,8 @@ Simple porfolio site built to showcase my developer projects with project detail
 ## Project details with slideshow:
 <br>
 
-![clone](https://imgur.com/LVOC7Ty.png)
+![clone](https://imgur.com/xKt2kul.png)
+
 
 
 ## Image slideshow/carousel showcasing screenshots for each project:
@@ -15,18 +16,6 @@ Simple porfolio site built to showcase my developer projects with project detail
 
 ![clone](https://imgur.com/FRXCHfH.png)
 
-## Resume/skills page with Linkedln and E-mail link:
-<br>
-
-![clone](https://imgur.com/ywO0fki.png)
-
-## Tablet and mobile responsive layout:
-<br>
-
-![clone](https://imgur.com/22jKAID.png)
-<br>
-<br>
-![clone](https://imgur.com/YxAa9Lp.png)
 
 ## Techonologies Used:
 
