@@ -14,14 +14,15 @@ Simple porfolio site built to showcase my developer projects with project detail
 ## Image slideshow/carousel showcasing screenshots for each project:
 <br>
 
-![clone](https://imgur.com/FRXCHfH.png)
+![clone](https://imgur.com/9Rrr7xb.png)
+
 
 
 ## Techonologies Used:
 
 1. React
 
-2. JSX/CSS
+2. CSS
 
 3. JavaScript
 
