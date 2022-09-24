@@ -1,38 +1,28 @@
-![clone](https://imgur.com/ALvafeN.png)
+![clone](https://imgur.com/FuhYVvL.png)
 
-## Responsive developer-porfolio site built with React, Javascript and CSS
+## Responsive developer portfolio site built with React, Javascript and CSS
 <br>
 Simple porfolio site built to showcase my developer projects with project details, links, SVG icons, image-slide shows, e-mail link, hamburger menu for mobile version and respnsive layout built with plain CSS (no libraries). 
 
 ## Project details with slideshow:
 <br>
 
-![clone](https://imgur.com/LVOC7Ty.png)
+![clone](https://imgur.com/xKt2kul.png)
+
 
 
 ## Image slideshow/carousel showcasing screenshots for each project:
 <br>
 
-![clone](https://imgur.com/FRXCHfH.png)
+![clone](https://imgur.com/9Rrr7xb.png)
 
-## Resume/skills page with Linkedln and E-mail link:
-<br>
 
-![clone](https://imgur.com/ywO0fki.png)
-
-## Tablet and mobile responsive layout:
-<br>
-
-![clone](https://imgur.com/22jKAID.png)
-<br>
-<br>
-![clone](https://imgur.com/YxAa9Lp.png)
 
 ## Techonologies Used:
 
 1. React
 
-2. JSX/CSS
+2. CSS
 
 3. JavaScript
 
