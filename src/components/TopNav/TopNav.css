@@ -81,13 +81,16 @@
     
   }
 
+
+  /* background-color: #f7f7f7; */
+
   .hamburger {
     border: 0;
     height: 40px;
     width: 40px;
     padding: 0.5rem;
-    border-radius: 50%;
-    background-color: #2e313a; 
+    /* border-radius: 50%;
+    background-color: #2e313a;  */
     /* color: black;  */
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
