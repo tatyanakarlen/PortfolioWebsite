@@ -3,20 +3,18 @@ import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
-  
 
   return (
     <div className="Nav">
-      <div id='name-link'>
-      <a
-        className="nav-left-link"
-        href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
-      >
-        Tatyana Karlen - Full Stack Developer
-      </a>
+      <div id="name-link">
+        <a
+          className="nav-left-link"
+          href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
+        >
+          Tatyana Karlen - Full Stack Developer
+        </a>
       </div>
 
       <button
@@ -40,11 +38,21 @@ export default function TopNav() {
           />
         </svg>  */}
 
-        <svg style={{backgroundColor: 'unset', color: '#505458'}} xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-</svg>
-
-        
+        <svg
+          style={{ backgroundColor: 'unset', color: '#505458' }}
+          xmlns="http://www.w3.org/2000/svg"
+          fill="white"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
       </button>
       {/* {
                     isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
@@ -54,22 +62,16 @@ export default function TopNav() {
           isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
         }
       >
-        <ul id="ul" style={{backgroundColor: '#f7f7f7'}}>
+        <ul id="ul" style={{ backgroundColor: '#f7f7f7' }}>
           <li id="PORTFOLIO-link">
-            <Link
-              className="link"
-              to="/portfolio"
-            >
+            <Link className="link" to="/portfolio">
               PORTFOLIO
             </Link>
           </li>
           {/* how to condionally style:   style={{color: currentLink ? '#c93082' : '#2e313a'}} */}
 
           <li>
-            <Link
-              className="link"
-              to="/resume"
-            >
+            <Link className="link" to="/resume">
               RESUME
             </Link>
           </li>
