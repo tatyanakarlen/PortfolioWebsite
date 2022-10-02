@@ -1,6 +1,27 @@
 import React from 'react';
 import './Hero.css';
 import bioPic from '../Images/1660857374155.jpeg';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsFillEnvelopeFill } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
+import { useMediaQuery } from 'react-responsive'
+import resume from '../assets/TATYANA KARLEN-RESUME.pdf'
+
+
+// const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
+//if(isMobile && isBelow) {
+//   inputContainer = ''
+// }
+
+// {isBelow && (
+//   <h2 style={{ color: 'white' }}>
+//     UNTITLED
+//     <span class="text-warning">magazine</span>
+//   </h2>
+// )}
+
+
 
 const Hero = () => {
   return (
@@ -17,21 +38,22 @@ const Hero = () => {
         <p>
           Hi, thanks for stopping by! I'm a full-stack developer with a passion for UI. I'm experienced in front and back-end development and have a
           background in classical music (piano) and fashion arts. When I'm not
-          coding, I'm playing or teaching piano. <br/><br/>
+          coding, I'm playing or teaching piano. I have an addiction to terrible b-movies.<br/><br/>
           Looking to collaborate or hire me? I'd love to hear from you!
         </p>
          
         <div class="btn-icons-container">
-          <button>Contact Me</button>
+        <a target="_blank" href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf">Resume</a>
           <ul class="right-side-icons">
+          
             <li>
-              <i class="fa fa-bars"></i>
+           <BsLinkedin/>
             </li>
             <li>
-              <i class="fa fa-bars"></i>
+            <BsGithub/>
             </li>
             <li>
-              <i class="fa fa-bars"></i>
+            <BsInstagram />
             </li>
           </ul>
         </div>

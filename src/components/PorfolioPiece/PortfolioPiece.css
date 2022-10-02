@@ -10,6 +10,7 @@
     /* text-decoration: underline;
      */
      font-weight: bold;
+     text-align: left; 
 }
 
 .project-details {
@@ -23,6 +24,7 @@ font-family: Archivo Narrow;
     /* text-decoration: underline; */
     color: #333; 
     color: #c787bcef; 
+    text-align: left; 
     text-transform: uppercase;
     
     /* font-style: italic; */
