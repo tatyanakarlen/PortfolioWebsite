@@ -63,6 +63,11 @@ export default function TopNav() {
         }
       >
         <ul id="ul" style={{ backgroundColor: '#f7f7f7' }}>
+        <li>
+            <Link className="link" to="/resume">
+              ABOUT
+            </Link>
+          </li>
           <li id="PORTFOLIO-link">
             <Link className="link" to="/portfolio">
               PORTFOLIO
@@ -72,7 +77,7 @@ export default function TopNav() {
 
           <li>
             <Link className="link" to="/resume">
-              RESUME
+              SKILLS
             </Link>
           </li>
         </ul>

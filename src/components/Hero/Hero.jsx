@@ -15,13 +15,12 @@ const Hero = () => {
       <div id="right-div" class="inner-div">
         <h1>&lt; &frasl; About Me&gt;</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
-          voluptatibus quos nemo vel pariatur obcaecati perferendis quia saepe
-          maxime eaque praesentium, laborum, dignissimos nostrum vero repellat
-          quibusdam iusto, porro aspernatur! Velit iure, sint tempora vero
-          aliquam consectetur nemo voluptas accusantium veritatis quam. Voluptas
-          necessitatibus, aperiam inventore nesciunt quasi est quisquam?
+          Hi, thanks for stopping by! I'm a full-stack developer with a passion for UI. I'm experienced in front and back-end development and have a
+          background in classical music (piano) and fashion arts. When I'm not
+          coding, I'm playing or teaching piano. <br/><br/>
+          Looking to collaborate or hire me? I'd love to hear from you!
         </p>
+         
         <div class="btn-icons-container">
           <button>Contact Me</button>
           <ul class="right-side-icons">

@@ -186,6 +186,7 @@ h3 {
 
  #right-div p {
   font-size: 1.5rem; 
+  margin-top: 3rem;
 } 
 
 #right-div button {
@@ -203,6 +204,7 @@ h3 {
     display: flex; 
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 
 }
 
