@@ -26,7 +26,8 @@ import isNavExpanded from '../TopNav/TopNav.jsx'
 
 const Hero = () => {
   return (
-    <div class="header">
+    <div class="header" id="hero">
+      <div class="header-wrapper">
       <div id="left-div" class="inner-div">
         <img src={bioPic} />
         <h1>&lt;Tatyana Karlen&gt;</h1>
@@ -44,20 +45,21 @@ const Hero = () => {
         </p>
          
         <div class="btn-icons-container">
-        <a target="_blank" href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf">Resume</a>
+       <a target="_blank" href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf">Resume</a>
           <ul class="right-side-icons">
           
             <li>
-           <BsLinkedin/>
+           <BsLinkedin class="icon"/>
             </li>
             <li>
-            <BsGithub/>
+            <BsGithub class="icon"/>
             </li>
             <li>
-            <BsInstagram />
+            <BsInstagram class="icon"/>
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </div>
     // <div class="hero-container">

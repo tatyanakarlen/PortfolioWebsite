@@ -2,7 +2,6 @@ import React from 'react';
 import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
- 
 
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -10,10 +9,7 @@ export default function TopNav() {
   return (
     <div className="Nav">
       <div id="name-link">
-        <a
-          className="nav-left-link"
-          href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
-        >
+        <a className="nav-left-link" href="#hero">
           Tatyana Karlen - Full Stack Developer
         </a>
       </div>
@@ -55,34 +51,36 @@ export default function TopNav() {
           />
         </svg>
       </button>
-      {/* {
-                    isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-                  } */}
+
       <div
         className={
           isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
         }
       >
         <ul id="ul" style={{ backgroundColor: '#f7f7f7' }}>
-        <li>
-            <Link className="link" to="/resume">
-              ABOUT
-            </Link>
+          <li>
+            <a
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+              href="#portfolio"
+              className="link"
+            >
+              SKILLS
+            </a>
           </li>
-          <li id="PORTFOLIO-link">
-            <Link className="link" to="/portfolio">
-              PORTFOLIO
-            </Link>
-          </li>
+
           {/* how to condionally style:   style={{color: currentLink ? '#c93082' : '#2e313a'}} */}
 
           <li>
-            <a 
-             onClick={() => {
-              setIsNavExpanded(!isNavExpanded);
-            }}
-            href="#portfolio" className="link">
-              SKILLS
+            <a
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+              href="#portfolio"
+              className="link"
+            >
+              PORTFOLIO
             </a>
           </li>
         </ul>

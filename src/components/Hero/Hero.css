@@ -121,6 +121,21 @@
   padding:4rem; 
 }
 
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* gap: 4rem; */
+  padding: 15rem;
+  margin-top: 4rem; 
+  
+}
+
 .inner-div {
     background-color: #ffffff;
   height: 100%;
@@ -144,6 +159,10 @@
   margin-top: 3.2rem;
 }
 
+#right-div h1 {
+  font-size: 7rem;
+}
+
 #left-div img {
   width: 60%;
   height: auto;
@@ -153,6 +172,13 @@
 }
 
 #left-div h1 {
+  font-size: 5rem; 
+  margin-top: 4rem;
+ 
+}
+
+#left-div h3 {
+  font-size: 3rem; 
   margin-top: 1.5rem;
 }
 
@@ -161,9 +187,7 @@ h3 {
   text-align: center;
 }
 
-#left-div h3 {
-  margin-top: 0.5rem;
-}
+
 
 #left-div button {
   width: 60%;
@@ -185,8 +209,8 @@ h3 {
 }
 
  #right-div p {
-  font-size: 1.5rem; 
-  margin-top: 3rem;
+  font-size: 3rem;
+  margin-top: 7rem;
 } 
 
 #right-div button {
@@ -208,6 +232,14 @@ h3 {
 
 }
 
+.btn-icons-container a {
+  font-size: 2.5rem;
+}
+
+.icon {
+  font-size: 2.5rem; 
+}
+
 .right-side-icons {
     display: inherit; 
     list-style: none;
@@ -216,4 +248,13 @@ h3 {
 
 .right-side-icons li {
     padding: 10px; 
+}
+
+@media only screen and (max-width: 1600px) {
+  #left-div img {width: 50%;}
+  #left-div h1 {font-size:4rem;}
+  #left-div h3 {font-size:2.5rem;}
+  #right-div h1 {font-size: 6rem;}
+  #right-div p {font-size: 2.5rem;}
+
 }

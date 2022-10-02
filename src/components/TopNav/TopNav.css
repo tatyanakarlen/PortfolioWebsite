@@ -3,7 +3,8 @@
 
 
 .Nav{
-  height: 60px;
+  /* height: 60px; */
+  height: 75px;
   /* width: 100%; */
   width: 100vw; 
   display: flex;
@@ -16,9 +17,9 @@
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 8%);
   /* wsd */
   overflow-wrap: break-word;
-  /* position: fixed;
+  position: fixed;
   top: 0px; 
-  z-index: 1; */
+  z-index: 1;
  }
 
  #name-link {
@@ -34,7 +35,7 @@
     font-weight: bold;
     margin-left: 1.7rem;
     color: #505458; 
-    font-size: 1.1 rem;
+    font-size: 2rem;
     /* display: block;
     max-width: 100%; */
     font-family: Poppins;
@@ -43,9 +44,9 @@
 
   
 
-  .nav-left-link:hover {
+  /* .nav-left-link:hover {
     color: #cd2026
-  }
+  } */
 
   .navigation-menu {
     margin-left: auto;
@@ -66,13 +67,13 @@
     display: block;
     width: 100%;
     color: #505458; 
-    /* color: rgb(9, 30, 66); */
-
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: bold;
     font-family: Poppins;
+    padding: 8px;
+}
 
-  }
+ 
 
   .navigation-menu li a:hover {
     color: #cd2026
@@ -121,9 +122,6 @@
       flex-direction: column;
       width: 100%;
       height: calc(100vh - 59px);
-      /* above was 77px */
-      /* background-color: rgb(221, 216, 216); */
-      /* background-color: rgba(241, 238, 238);  */
       background-color: #FFFFFF;
       border-top: 1px solid black; 
       
