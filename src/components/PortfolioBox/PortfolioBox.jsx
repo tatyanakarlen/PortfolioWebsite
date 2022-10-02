@@ -4,7 +4,7 @@ import React from 'react'
 
 const PortfolioBox = (props) => {
   return (
-    <div class="Portfolio-Box-Container">
+    <div class="Portfolio-Box-Container" id="portfolio">
       <div id="Projects-container">
       <h3 id="PROJECTS">PROJECTS</h3><br/>
       </div>

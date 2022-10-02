@@ -76,9 +76,9 @@ export default function TopNav() {
           {/* how to condionally style:   style={{color: currentLink ? '#c93082' : '#2e313a'}} */}
 
           <li>
-            <Link className="link" to="/resume">
+            <a style={{transition: "all .4s"}}href="#portfolio" className="link">
               SKILLS
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

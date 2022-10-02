@@ -17,3 +17,7 @@
 }
 
 /* background-color: rgba(241, 238, 238, 0.836); */
+
+html {
+  scroll-behavior: smooth;
+}
