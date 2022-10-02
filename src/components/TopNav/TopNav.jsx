@@ -2,6 +2,7 @@ import React from 'react';
 import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+ 
 
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -76,7 +77,11 @@ export default function TopNav() {
           {/* how to condionally style:   style={{color: currentLink ? '#c93082' : '#2e313a'}} */}
 
           <li>
-            <a style={{transition: "all .4s"}}href="#portfolio" className="link">
+            <a 
+             onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+            href="#portfolio" className="link">
               SKILLS
             </a>
           </li>

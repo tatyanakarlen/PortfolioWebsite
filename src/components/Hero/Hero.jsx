@@ -7,6 +7,7 @@ import { BsGithub } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 import { useMediaQuery } from 'react-responsive'
 import resume from '../assets/TATYANA KARLEN-RESUME.pdf'
+import isNavExpanded from '../TopNav/TopNav.jsx'
 
 
 // const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
