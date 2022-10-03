@@ -2,6 +2,7 @@ import React from 'react';
 import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
 
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -12,10 +13,15 @@ export default function TopNav() {
       }
     : ''
 
+    const isMobile = useMediaQuery({ query: '(max-width: 990px)' });
+
+    let aboutScrollTo = ""
+    isMobile ? aboutScrollTo = "#about-me" : aboutScrollTo = "#about"
+
   return (
     <div className="Nav">
       <div id="name-link">
-        <a className="nav-left-link" href="#hero">
+        <a className="nav-left-link" href={aboutScrollTo}>
           Tatyana Karlen - Full Stack Developer
         </a>
       </div>

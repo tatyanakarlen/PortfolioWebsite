@@ -26,7 +26,7 @@ const Hero = () => {
   return (
     <>
       {isMobile ? (
-        <div class="mobile-header-container">
+        <div id="about-me" class="mobile-header-container">
           <div class="mobile-header">
           <img src={bioPic} />
           <h1>&lt;Tatyana Karlen&gt;</h1>
@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
         </div>
       ) : (
-        <div class="header" id="hero">
+        <div class="header" id="about">
           <div class="header-wrapper">
             <div id="left-div" class="inner-div">
               <img src={bioPic} />
