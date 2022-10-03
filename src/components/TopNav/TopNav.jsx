@@ -59,10 +59,14 @@ export default function TopNav() {
       >
         <ul id="ul" style={{ backgroundColor: '#f7f7f7' }}>
           <li>
+            {/* this should only work if hamburger is kicked in */}
             <a
-              onClick={() => {
+              onClick={ isNavExpanded ?
+                () => {
                 setIsNavExpanded(!isNavExpanded);
-              }}
+              } : ''
+            }
+              
               href="#portfolio"
               className="link"
             >

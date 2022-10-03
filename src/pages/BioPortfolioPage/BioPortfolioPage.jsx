@@ -21,6 +21,4 @@ function BioPortfolioPage(props) {
   );
 }
 
-
-
 export default BioPortfolioPage;
