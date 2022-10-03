@@ -6,6 +6,12 @@ import { Link } from 'react-router-dom';
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
+  const linkNavStateTrigger = isNavExpanded
+    ? () => {
+        setIsNavExpanded(!isNavExpanded);
+      }
+    : ''
+
   return (
     <div className="Nav">
       <div id="name-link">
@@ -59,17 +65,7 @@ export default function TopNav() {
       >
         <ul id="ul" style={{ backgroundColor: '#f7f7f7' }}>
           <li>
-            {/* this should only work if hamburger is kicked in */}
-            <a
-              onClick={ isNavExpanded ?
-                () => {
-                setIsNavExpanded(!isNavExpanded);
-              } : ''
-            }
-              
-              href="#portfolio"
-              className="link"
-            >
+            <a onClick={linkNavStateTrigger} href="#portfolio" className="link">
               SKILLS
             </a>
           </li>

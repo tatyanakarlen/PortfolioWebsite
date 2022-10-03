@@ -5,12 +5,10 @@ import { BsLinkedin } from 'react-icons/bs';
 import { BsFillEnvelopeFill } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
-import { useMediaQuery } from 'react-responsive'
-import resume from '../assets/TATYANA KARLEN-RESUME.pdf'
-import isNavExpanded from '../TopNav/TopNav.jsx'
+import { useMediaQuery } from 'react-responsive';
+import resume from '../assets/TATYANA KARLEN-RESUME.pdf';
+import isNavExpanded from '../TopNav/TopNav.jsx';
 
-
-// const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
 //if(isMobile && isBelow) {
 //   inputContainer = ''
 // }
@@ -22,46 +20,87 @@ import isNavExpanded from '../TopNav/TopNav.jsx'
 //   </h2>
 // )}
 
-
-
 const Hero = () => {
-  return (
-    <div class="header" id="hero">
-      <div class="header-wrapper">
-      <div id="left-div" class="inner-div">
-        <img src={bioPic} />
-        <h1>&lt;Tatyana Karlen&gt;</h1>
-        <h3>Full-Stack Developer</h3>
-        <button>Contact Me</button>
-      </div>
+  const isMobile = useMediaQuery({ query: '(max-width: 990px)' });
 
-      <div id="right-div" class="inner-div">
-        <h1>&lt; &frasl; About Me&gt;</h1>
-        <p>
-          Hi, thanks for stopping by! I'm a full-stack developer with a passion for UI. I'm experienced in front and back-end development and have a
-          background in classical music (piano) and fashion arts. When I'm not
-          coding, I'm playing or teaching piano. I have an addiction to terrible b-movies.<br/><br/>
-          Looking to collaborate or hire me? I'd love to hear from you!
-        </p>
-         
-        <div class="btn-icons-container">
-       <a target="_blank" href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf">Resume</a>
-          <ul class="right-side-icons">
-          
-            <li>
-           <BsLinkedin class="icon"/>
-            </li>
-            <li>
-            <BsGithub class="icon"/>
-            </li>
-            <li>
-            <BsInstagram class="icon"/>
-            </li>
-          </ul>
+  return (
+    <>
+      {isMobile ? (
+        <div class="mobile-header-container">
+          <div class="mobile-header">
+          <img src={bioPic} />
+          <h1>&lt;Tatyana Karlen&gt;</h1>
+              <h3>I'm a full stack developer with a passion for frontend development. Check out my skills and portfolio below.
+                Looking to collaborate or hire me? I'd love to hear from you!
+              </h3>
+              <div class="btn-icons-container">
+                <a
+                  target="_blank"
+                  href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+                >
+                  Resume
+                </a>
+                <ul class="right-side-icons">
+                  <li>
+                    <BsLinkedin class="icon" />
+                  </li>
+                  <li>
+                    <BsGithub class="icon" />
+                  </li>
+                  <li>
+                    <BsInstagram class="icon" />
+                  </li>
+                </ul>
+              </div>
+          </div>
         </div>
-      </div>
-      </div>
-    </div>
+      ) : (
+        <div class="header" id="hero">
+          <div class="header-wrapper">
+            <div id="left-div" class="inner-div">
+              <img src={bioPic} />
+              <h1>&lt;Tatyana Karlen&gt;</h1>
+              <h3>Full-Stack Developer</h3>
+              <button>Contact Me</button>
+            </div>
+
+            <div id="right-div" class="inner-div">
+              <h1>&lt; &frasl; About Me&gt;</h1>
+              <p>
+                Hi, thanks for stopping by! I'm a full-stack developer with a
+                passion for UI. I'm experienced in front and back-end
+                development and have a background in classical music (piano) and
+                fashion arts. When I'm not coding, I'm playing or teaching
+                piano. I have an addiction to terrible b-movies.
+                <br />
+                <br />
+                Looking to collaborate or hire me? I'd love to hear from you!
+              </p>
+
+              <div class="btn-icons-container">
+                <a
+                  target="_blank"
+                  href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+                >
+                  Resume
+                </a>
+                <ul class="right-side-icons">
+                  <li>
+                    <BsLinkedin class="icon" />
+                  </li>
+                  <li>
+                    <BsGithub class="icon" />
+                  </li>
+                  <li>
+                    <BsInstagram class="icon" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
     // <div class="hero-container">
     //   <div id="header-container">
     //     <h1 class="header">Tatyana Karlen</h1>
