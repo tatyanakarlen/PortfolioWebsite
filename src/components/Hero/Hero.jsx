@@ -9,23 +9,57 @@ import { useMediaQuery } from 'react-responsive';
 import resume from '../assets/TATYANA KARLEN-RESUME.pdf';
 import isNavExpanded from '../TopNav/TopNav.jsx';
 
-//if(isMobile && isBelow) {
-//   inputContainer = ''
-// }
-
-// {isBelow && (
-//   <h2 style={{ color: 'white' }}>
-//     UNTITLED
-//     <span class="text-warning">magazine</span>
-//   </h2>
-// )}
-
 const Hero = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 990px)' });
 
   return (
     <>
-      {isMobile ? (
+      <div class="outerHeroDiv">
+        <div class="innerHeroDiv">
+          <header class="header">
+            <div class="left-img-title-container">
+              <img src={bioPic}></img>
+              <h1>&lt;Tatyana Karlen&gt;</h1>
+              <h3>Full-Stack Developer</h3>
+              <button>Contact Me</button>
+
+            </div>
+            <div class="right-about-me-container">
+            <h1>&lt; &frasl; About Me&gt;</h1>
+              <p>
+                Hi, thanks for stopping by! I'm a full-stack developer with a
+                passion for UI. I'm experienced in front and back-end
+                development and have a background in classical music (piano) and
+                fashion arts. When I'm not coding, I'm playing or teaching
+                piano. I have an addiction to terrible b-movies.
+                <br />
+                <br />
+                Looking to collaborate or hire me? I'd love to hear from you!
+              </p>
+              <div class="btn-icons-container">
+                <a
+                  target="_blank"
+                  href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+                >
+                  Resume
+                </a>
+                <ul class="right-side-icons">
+                  <li>
+                    <BsLinkedin class="icon" />
+                  </li>
+                  <li>
+                    <BsGithub class="icon" />
+                  </li>
+                  <li>
+                    <BsInstagram class="icon" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </header>
+        </div>
+      </div>
+      {/* {isMobile ? (
         <div id="about-me" class="mobile-header-container">
           <div class="mobile-header">
           <img src={bioPic} />
@@ -99,8 +133,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </>
+
     // <div class="hero-container">
     //   <div id="header-container">
     //     <h1 class="header">Tatyana Karlen</h1>
