@@ -1,115 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 
 .project-title {
-    
-  
-    color: #333; 
-    /* color: #D2042D;  */
-    font-family: Poppins;
-    /* text-decoration: underline;
-     */
-     font-weight: bold;
-     text-align: left; 
+  color: #333;
+  font-weight: bold;
+  text-align: left;
 }
 
 .project-details {
-color: #505458; 
-font-size: 1.1rem;
-font-family: Archivo Narrow;
+  color: #505458;
+  font-size: 1.1rem;
 }
 
 #project-headline {
-    font-weight: bold;
-    /* text-decoration: underline; */
-    color: #333; 
-    color: #c787bcef; 
-    text-align: left; 
-    text-transform: uppercase;
-    
-    /* font-style: italic; */
-    font-family: Archivo Narrow;
+  font-weight: bold;
+  /* text-decoration: underline; */
+  color: #333;
+  color: #c787bcef;
+  text-align: left;
+  text-transform: uppercase;
 }
-
-
 
 .project-details a {
-    /* color: rgb(151, 35, 151) */
-    color: #2e313a;
-    color: black; 
-    color: #333; 
-    font-weight: bold;
-    font-family: Archivo Narrow;
+  color: #333;
+  font-weight: bold;
 }
-
-
 
 #img-container:hover .image {
-    opacity: 0.6; 
-
+  opacity: 0.6;
 }
 
-
 #img-container {
-    cursor: pointer; 
-    height: auto;  
-    width: 60%; 
-    
-    margin: 0 auto; 
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
-    border-radius: 10px;
+  cursor: pointer;
+  height: auto;
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+  border-radius: 10px;
 }
 
 #main-img-container {
-    height: auto; 
+  height: auto;
 }
 
 @media only screen and (max-width: 1225px) {
-    #img-container {
-        width: 65%; 
-        height:55%; 
-    }
+  #img-container {
+    width: 65%;
+    height: 55%;
   }
+}
 
-  @media only screen and (max-width: 1000px) {
-    #img-container {
-        width: 75%; 
-        height:65%; 
-    }
+@media only screen and (max-width: 1000px) {
+  #img-container {
+    width: 75%;
+    height: 65%;
   }
+}
 
-  @media only screen and (max-width: 850px) {
-    #img-container {
-        width: 80%; 
-        height:70%; 
-    }
+@media only screen and (max-width: 850px) {
+  #img-container {
+    width: 80%;
+    height: 70%;
   }
+}
 
-  @media only screen and (max-width: 785px) {
-    #img-container {
-        width: 100%; 
-        height:75%; 
-    }
+@media only screen and (max-width: 785px) {
+  #img-container {
+    width: 100%;
+    height: 75%;
   }
-
+}
 
 #img-container-carousel {
-    cursor: pointer; 
-    height: 100%; 
-    width: 80vw; 
-    height: auto; 
-    margin: 0 auto; 
+  cursor: pointer;
+  height: 100%;
+  width: 80vw;
+  height: auto;
+  margin: 0 auto;
 }
 /* changed from 85vw to 80vw */
-
-/* style={{width: '85vw', height: 'auto', margin: '0 auto'}} */
-
-
-
 
 /* .container:hover .image {
     opacity: 0.3;
   } */
-
-
-

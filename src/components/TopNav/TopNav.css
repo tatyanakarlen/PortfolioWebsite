@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap'); */
 
 .Nav {
   /* height: 60px; */
@@ -35,7 +35,7 @@
   font-size: 2rem;
   /* display: block;
     max-width: 100%; */
-  font-family: Poppins;
+  /* font-family: Poppins; */
   /* line-height: 1.4em !important; */
 }
 
@@ -62,7 +62,7 @@
   color: #505458;
   font-size: 2rem;
   font-weight: bold;
-  font-family: Poppins;
+  /* font-family: Poppins; */
   padding: 8px;
 }
 

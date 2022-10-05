@@ -14,10 +14,11 @@
 
 #PROJECTS {
     text-decoration: underline;  
-    font-family: Poppins;
+    /* font-family: Poppins; */
     color: #333; 
     font-size:1.5rem; 
-    text-align: left; 
+    text-align: left;
+    padding-top: 75px; 
     
     
     
