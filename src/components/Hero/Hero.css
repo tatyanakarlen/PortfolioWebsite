@@ -491,16 +491,17 @@ color: white;
   flex: 0 0 70%;
   padding: 0 15px;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 .right-about-me-container h1 {
   margin: 24px 0;
-  font-size: 9vh;
+  font-size: 8vh;
 }
 
 .right-about-me-container p {
   font-size: 2rem;
-  padding: 20px;
+  
 }
 
 .right-about-me-container a {
@@ -531,6 +532,18 @@ color: white;
   cursor: pointer;
 }
 
+#resume-link {
+  margin-right: 8px;
+    padding: 8px 20px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    background-color: red;
+    /* display: inline-block; */
+    color: white;
+}
+
 
 
 
@@ -539,13 +552,17 @@ color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
+  margin-top: 15px;
   justify-content: center;
   align-items: baseline;
 }
 
 #mobile-icon-container .icon {
   font-size: 2rem;
+}
+
+#mobile-about {
+  margin-bottom: 3rem
 }
 
 /* #mobile-icon-container a .contact-me-link {
@@ -582,7 +599,7 @@ color: white;
 }
 
 .right-about-me-container li {
-  padding: 10px;
+  padding: 15px;
 }
 
 .mobile-contact-btn {
@@ -601,6 +618,16 @@ color: white;
   margin-top:1rem; 
 }
 
+#envelope-icon {
+  background-color: red;
+  border-radius: 10px;  
+
+}
+
+#envelope-SVG {
+  color: white; 
+}
+
 
 @media (max-width: 990px) {
   .outerHeroDiv {
@@ -615,7 +642,7 @@ color: white;
   }
   .right-about-me-container {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 35px;
   }
   .btn-icons-container {
     -webkit-box-pack: center;
@@ -637,9 +664,15 @@ color: white;
   }
 }
 
+
+
 @media (max-width: 450px) {
+
+  .left-img-title-container h1 {
+    font-size:4rem; 
+  }
   .header {
-    padding: 90px 0;
+    padding: 165px 0;
 
   }
 
@@ -656,7 +689,7 @@ color: white;
         -ms-flex-pack: center;
             justify-content: center;
     margin-left: 0;
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
 

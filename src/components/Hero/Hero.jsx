@@ -10,6 +10,7 @@ import { AiOutlineDown} from 'react-icons/ai';
 
 
 
+
 import resume from '../assets/TATYANA KARLEN-RESUME.pdf';
 import isNavExpanded from '../TopNav/TopNav.jsx';
 
@@ -31,46 +32,57 @@ const Hero = () => {
               <h3>Full-Stack Developer</h3>
              
               { isMobile ?  <><div class="btn-icons-container" id="mobile-icon-container">
-                <a class="resume-link"
+             
+                {/* <a id="resume-link"
                   target="_blank"
                   href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
                 >
                   Resume  
-                </a>
+                </a> */}
+                
                 <ul class="right-side-icons">
+                <li id="envelope-icon">
+                    <BsFillEnvelopeFill class="icon" id="envelope-SVG"/>
+                  </li>
                   <li>
                     <BsLinkedin class="icon" />
                   </li>
                   <li>
                     <BsGithub class="icon" />
                   </li>
-                  <li>
+                  {/* <li>
                     <BsInstagram class="icon" />
-                  </li>
+                  </li> */}
                 </ul>
               </div>
-              <div class="mobile-arrow-down-container"><a href="#mobile-about"><AiOutlineDown id="arrow-down-icon"/></a></div>
+              {/* <div class="mobile-arrow-down-container"><a href="#mobile-about"><AiOutlineDown id="arrow-down-icon"/></a></div> */}
               </>
               
               
-              : <a class="contact-me-link" href="#">Contact Me</a>}
+              : <a class="contact-me-link" href="#"><BsFillEnvelopeFill /></a>}
             </div>
             
             <div class="right-about-me-container">
-             {/* { isMobile && <h1 id="mobile-about" class="mobile-H1">&lt; &frasl; About Me&gt;</h1>} */}
+             { !isMobile && <h1>&lt; &frasl; About Me&gt;</h1>}
               <p id="mobile-about">
                 Hi, thanks for stopping by! I'm a full-stack developer with a
-                passion for frontend development. I have a background in classical music and
+                passion for frontend development. { !isMobile && <span>I have a background in classical music and
                 fashion arts. When I'm not coding, I'm playing or teaching
-                piano. I have a well-known addiction to terrible b-movies.
+                piano.</span>} 
                 <br />
                 <br />
                 Looking to collaborate or hire me? I'd love to hear from you!
               </p>
-              { isMobile &&  <button class="mobile-contact-btn">Contact Me</button>}
+              { isMobile &&  <a id="resume-link"
+                  target="_blank"
+                  href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+                >
+                  Resume  
+                </a>}
               { !isMobile && 
               <div class="btn-icons-container">
                 <a
+                  id="resume-link"
                   target="_blank"
                   href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
                 >
