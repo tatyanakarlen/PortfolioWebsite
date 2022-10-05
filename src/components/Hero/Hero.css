@@ -420,7 +420,7 @@ h3 {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .left-img-title-container {
@@ -457,8 +457,28 @@ h3 {
     margin-top: 10px;
 }
 
-.left-img-title-container button {
-  margin-top: 22px; 
+.contact-me-link {
+      margin-top: 22px;
+    padding: 8px 15px;
+   
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    background-color: red;
+   
+    color: white;
+}
+
+.resume-link {
+margin-top: 2rem;
+padding: 8px 20px;
+border-radius: 40px;
+letter-spacing: 2px;
+font-size: 1.8rem;
+font-weight: 300;
+background-color: red;
+/* display: inline-block; */
+color: white;
 }
 
 
@@ -480,6 +500,18 @@ h3 {
 
 .right-about-me-container p {
   font-size: 2rem;
+  padding: 20px;
+}
+
+.right-about-me-container a {
+  padding: 13px 25px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    background-color: red;
+    /* display: inline-block; */
+    color: white;
 }
 
 .right-about-me-container .btn-icons-container {
@@ -488,8 +520,20 @@ h3 {
   display: flex;
   margin-top: 30px;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
+
+.right-about-me-container .icon {
+  font-size: 2rem;
+}
+
+.right-about-me-container .icon:hover {
+  cursor: pointer;
+}
+
+
+
+
 
 #mobile-icon-container {
   display: -webkit-box;
@@ -497,7 +541,30 @@ h3 {
   display: flex;
   margin-top: 30px;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
+}
+
+#mobile-icon-container .icon {
+  font-size: 2rem;
+}
+
+/* #mobile-icon-container a .contact-me-link {
+  padding: 8px 20px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    background-color: red;
+    /* display: inline-block; */
+    /* color: white;
+} */ 
+
+.mobile-arrow-down-container {
+  margin-top: 4rem; 
+}
+
+#arrow-down-icon {
+  font-size: 3rem;
 }
 
 #mobile-icon-container .right-side-icons {
@@ -517,6 +584,23 @@ h3 {
 .right-about-me-container li {
   padding: 10px;
 }
+
+.mobile-contact-btn {
+  margin-top: 2rem; 
+  padding: 8px 20px;
+  border-radius: 40px;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  background-color: red;
+  /* display: inline-block; */
+  color: white;
+}
+
+.mobile-contact-me-link {
+  margin-top:1rem; 
+}
+
 
 @media (max-width: 990px) {
   .outerHeroDiv {
