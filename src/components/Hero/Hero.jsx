@@ -20,50 +20,79 @@ const Hero = () => {
 
   return (
     <>
-      <div class="outerHeroDiv">
-        <div class="innerHeroDiv">
-          <header class="header">
-            <div class="left-img-title-container">
-              <img src={bioPic}></img>
-              <h1>&lt;Tatyana Karlen&gt;</h1>
-              <h3>Full-Stack Developer</h3>
-              <a href="#">Contact Me</a>
-            </div>
-            <div class="right-about-me-container">
-              <h1>&lt; &frasl; About Me&gt;</h1>
-              <p>
-                Hi, thanks for stopping by! I'm a software developer with a
-                passion for UI. I have a background in classical music and
-                fashion arts. When I'm not coding, I'm playing or teaching
-                piano. I have a well-known addiction to terrible b-movies.
-                <br />
-                <br />
-                Looking to collaborate or hire me? I'd love to hear from you!
-              </p>
-              <div class="btn-icons-container">
-                <a
-                  id="resume-link"
-                  target="_blank"
-                  href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
-                >
-                  Resume
-                </a>
-                <ul class="right-side-icons">
-                  <li>
-                    <BsLinkedin class="icon" />
-                  </li>
-                  <li>
-                    <BsGithub class="icon" />
-                  </li>
-                  <li>
-                    <BsInstagram class="icon" />
-                  </li>
-                </ul>
+      {' '}
+      {!isMobile ? (
+        <div class="outerHeroDiv">
+          <div class="innerHeroDiv">
+            <header class="header">
+              <div class="left-img-title-container">
+                <img src={bioPic}></img>
+                <h1>&lt;Tatyana Karlen&gt;</h1>
+                <h3>Full-Stack Developer</h3>
+                <a href="#">Contact Me</a>
               </div>
+              <div class="right-about-me-container">
+                <h1>&lt; &frasl; About Me&gt;</h1>
+                <p>
+                  Hi, thanks for stopping by! I'm a full-stack developer with a
+                  passion for frontend development. I completed General Assembly's Software Enginnering Program. I have a background in classical music and
+                  fashion arts. When I'm not coding, I'm playing or teaching
+                  piano. I have a well-known addiction to terrible b-movies.
+                  <br />
+                  <br />
+                  Looking to collaborate or hire me? I'd love to hear from you!
+                </p>
+                <div class="btn-icons-container">
+                  <a
+                    id="resume-link"
+                    target="_blank"
+                    href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+                  >
+                    Resume
+                  </a>
+                  <ul class="right-side-icons">
+                    <li>
+                      <BsLinkedin class="icon" />
+                    </li>
+                    <li>
+                      <BsGithub class="icon" />
+                    </li>
+                    <li>
+                      <BsInstagram class="icon" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </header>
+          </div>
+        </div>
+      ) : (
+        <div class="mobile-header-outer-div">
+          <header class="mobile-header">
+            <img src={bioPic}></img>
+            <h1>&lt;Tatyana Karlen&gt;</h1>
+            <h3>Full-Stack Developer</h3>
+            <div class="btn-icons-container-mobile">
+              <ul class="right-side-icons-mobile">
+                <li id="envelope-icon">
+                  <BsFillEnvelopeFill class="icon" />
+                </li>
+                <li>
+                  <BsLinkedin class="icon" />
+                </li>
+                <li>
+                  <BsGithub class="icon" />
+                </li>
+              </ul>
             </div>
+            <p>
+              Hi, thanks for stopping by! I'm a full-stack developer with a
+              passion for UI. My skills and past projects can be found below.
+            </p>
+            <a class="resume-link" href="#">Resume</a>
           </header>
         </div>
-      </div>
+      )}
     </>
     // <>
     //   <div class="outerHeroDiv" id="about">
