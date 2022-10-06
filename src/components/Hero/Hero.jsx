@@ -12,7 +12,7 @@ import resume from '../assets/TATYANA KARLEN-RESUME.pdf';
 import isNavExpanded from '../TopNav/TopNav.jsx';
 
 const Hero = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 1052px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 900px)' });
   const isSmallMobile = useMediaQuery ({ query: '(max-width: 500px)'})
 
   // id={
