@@ -6,10 +6,7 @@ import { BsFillEnvelopeFill } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 import { useMediaQuery } from 'react-responsive';
-import { AiOutlineDown} from 'react-icons/ai';
-
-
-
+import { AiOutlineDown } from 'react-icons/ai';
 
 import resume from '../assets/TATYANA KARLEN-RESUME.pdf';
 import isNavExpanded from '../TopNav/TopNav.jsx';
@@ -23,63 +20,26 @@ const Hero = () => {
 
   return (
     <>
-      <div class="outerHeroDiv" id="about">
+      <div class="outerHeroDiv">
         <div class="innerHeroDiv">
           <header class="header">
             <div class="left-img-title-container">
               <img src={bioPic}></img>
               <h1>&lt;Tatyana Karlen&gt;</h1>
               <h3>Full-Stack Developer</h3>
-             
-              { isMobile ?  <><div class="btn-icons-container" id="mobile-icon-container">
-             
-                {/* <a id="resume-link"
-                  target="_blank"
-                  href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
-                >
-                  Resume  
-                </a> */}
-                
-                <ul class="right-side-icons">
-                <li id="envelope-icon">
-                    <BsFillEnvelopeFill class="icon" id="envelope-SVG"/>
-                  </li>
-                  <li>
-                    <BsLinkedin class="icon" />
-                  </li>
-                  <li>
-                    <BsGithub class="icon" />
-                  </li>
-                  {/* <li>
-                    <BsInstagram class="icon" />
-                  </li> */}
-                </ul>
-              </div>
-              {/* <div class="mobile-arrow-down-container"><a href="#mobile-about"><AiOutlineDown id="arrow-down-icon"/></a></div> */}
-              </>
-              
-              
-              : <a class="contact-me-link" href="#"><BsFillEnvelopeFill /></a>}
+              <a href="#">Contact Me</a>
             </div>
-            
             <div class="right-about-me-container">
-             { !isMobile && <h1>&lt; &frasl; About Me&gt;</h1>}
-              <p id="mobile-about">
-                Hi, thanks for stopping by! I'm a full-stack developer with a
-                passion for frontend development. { !isMobile && <span>I have a background in classical music and
+              <h1>&lt; &frasl; About Me&gt;</h1>
+              <p>
+                Hi, thanks for stopping by! I'm a software developer with a
+                passion for UI. I have a background in classical music and
                 fashion arts. When I'm not coding, I'm playing or teaching
-                piano.</span>} 
+                piano. I have a well-known addiction to terrible b-movies.
                 <br />
                 <br />
                 Looking to collaborate or hire me? I'd love to hear from you!
               </p>
-              { isMobile &&  <a id="resume-link"
-                  target="_blank"
-                  href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
-                >
-                  Resume  
-                </a>}
-              { !isMobile && 
               <div class="btn-icons-container">
                 <a
                   id="resume-link"
@@ -99,12 +59,87 @@ const Hero = () => {
                     <BsInstagram class="icon" />
                   </li>
                 </ul>
-              </div>}
+              </div>
             </div>
           </header>
         </div>
       </div>
-      {/* {isMobile ? (
+    </>
+    // <>
+    //   <div class="outerHeroDiv" id="about">
+    //     <div class="innerHeroDiv">
+    //       <header class="header">
+    //         <div class="left-img-title-container">
+    //           <img src={bioPic}></img>
+    //           <h1>&lt;Tatyana Karlen&gt;</h1>
+    //           <h3>Full-Stack Developer</h3>
+
+    //           { isMobile ?  <><div class="btn-icons-container" id="mobile-icon-container">
+
+    //             <ul class="right-side-icons">
+    //             <li id="envelope-icon">
+    //                 <BsFillEnvelopeFill class="icon" id="envelope-SVG"/>
+    //               </li>
+    //               <li>
+    //                 <BsLinkedin class="icon" />
+    //               </li>
+    //               <li>
+    //                 <BsGithub class="icon" />
+    //               </li>
+
+    //             </ul>
+    //           </div>
+
+    //           </>
+
+    //           : <a class="contact-me-link" href="#"><BsFillEnvelopeFill /></a>}
+    //         </div>
+
+    //         <div class="right-about-me-container">
+    //          { !isMobile && <h1>&lt; &frasl; About Me&gt;</h1>}
+    //           <p id="mobile-about">
+    //             Hi, thanks for stopping by! I'm a software developer with a
+    //             passion for UI. { isMobile && <span>Looking to collaborate or hire me? I'd love to hear from you!</span>}{ !isMobile && <span>I have a background in classical music and
+    //             fashion arts. When I'm not coding, I'm playing or teaching
+    //             piano.</span>}
+    //             <br />
+    //             <br />
+    //             { !isMobile && <span>Looking to collaborate or hire me? I'd love to hear from you!</span>}
+
+    //           </p>
+    //           { isMobile &&  <a id="resume-link"
+    //               target="_blank"
+    //               href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+    //             >
+    //               Resume
+    //             </a>}
+
+    //           { !isMobile &&
+    //           <div class="btn-icons-container">
+    //             <a
+    //               id="resume-link"
+    //               target="_blank"
+    //               href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+    //             >
+    //               Resume
+    //             </a>
+    //             <ul class="right-side-icons">
+    //               <li>
+    //                 <BsLinkedin class="icon" />
+    //               </li>
+    //               <li>
+    //                 <BsGithub class="icon" />
+    //               </li>
+    //               <li>
+    //                 <BsInstagram class="icon" />
+    //               </li>
+    //             </ul>
+    //           </div>}
+    //         </div>
+    //       </header>
+    //     </div>
+    //   </div>
+    /* {isMobile ? (
         <div id="about-me" class="mobile-header-container">
           <div class="mobile-header">
           <img src={bioPic} />
@@ -178,8 +213,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      )} */}
-    </>
+      )} */
+    // </>
 
     // <div class="hero-container">
     //   <div id="header-container">
