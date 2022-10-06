@@ -13,7 +13,7 @@ import isNavExpanded from '../TopNav/TopNav.jsx';
 
 const Hero = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 1052px)' });
-  // const is smallMobile 
+  const isSmallMobile = useMediaQuery ({ query: '(max-width: 500px)'})
 
   // id={
   //   isMobile ? "about" : "about-me"
@@ -85,10 +85,17 @@ const Hero = () => {
                 </li>
               </ul>
             </div>
+            <>
+            { isSmallMobile ? 
             <p>
+              Hi, thanks for stopping by! I'm a full-stack developer with a
+              passion for front-end development.  
+            </p> : <p>
               Hi, thanks for stopping by! I'm a full-stack developer with a
               passion for front-end development. My skills and past projects can be found below.
             </p>
+            }
+            </>
             <a class="resume-link" href="#">Resume</a>
           </header>
         </div>
