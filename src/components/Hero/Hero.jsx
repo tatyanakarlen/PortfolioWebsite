@@ -12,7 +12,8 @@ import resume from '../assets/TATYANA KARLEN-RESUME.pdf';
 import isNavExpanded from '../TopNav/TopNav.jsx';
 
 const Hero = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 990px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 1052px)' });
+  // const is smallMobile 
 
   // id={
   //   isMobile ? "about" : "about-me"
@@ -35,8 +36,7 @@ const Hero = () => {
                 <h1>&lt; &frasl; About Me&gt;</h1>
                 <p>
                   Hi, thanks for stopping by! I'm a full-stack developer with a
-                  passion for frontend development. I completed General Assembly's Software Enginnering Program. I have a background in classical music and
-                  fashion arts. When I'm not coding, I'm playing or teaching
+                  passion for frontend development. My daily grind is to find simple solutions to complicated problems. When I'm not coding, I'm playing or teaching
                   piano. I have a well-known addiction to terrible b-movies.
                   <br />
                   <br />
@@ -87,7 +87,7 @@ const Hero = () => {
             </div>
             <p>
               Hi, thanks for stopping by! I'm a full-stack developer with a
-              passion for UI. My skills and past projects can be found below.
+              passion for front-end development. My skills and past projects can be found below.
             </p>
             <a class="resume-link" href="#">Resume</a>
           </header>

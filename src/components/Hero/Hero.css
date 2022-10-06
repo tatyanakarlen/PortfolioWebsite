@@ -828,7 +828,7 @@ color: white;
 
 
 .mobile-header-outer-div {
-  padding-top: 40px; 
+  padding-top: 0px; 
 }
 
 .mobile-header {
@@ -918,6 +918,44 @@ color: white;
     
     color: white;
     margin-top: 2rem;
+}
+
+@media (max-width: 1052px) {
+  .mobile-header img {
+    height:300px; 
+    width:300px; 
+    
+  }
+
+  .mobile-header h1 {
+    font-size:4.5rem; 
+    margin-top: 20px;
+
+  }
+  .mobile-header h3 {
+    font-size:3rem; 
+    margin-top: 1rem;
+  }
+  .btn-icons-container-mobile .right-side-icons-mobile .icon {
+    font-size:3rem;
+  }
+  .mobile-header p {
+    font-size:3rem; 
+    padding-top: 30px;
+  }
+
+  .mobile-header .resume-link {
+    margin-top: 6rem; 
+    padding: 12px 25px;
+  }
+  .mobile-header-outer-div {
+    padding-top:40px; 
+  }
+
+  .btn-icons-container-mobile {
+    margin-top: 30px; 
+  }
+
 }
 
 
