@@ -36,7 +36,7 @@ const Hero = () => {
                 <h1>&lt; &frasl; About Me&gt;</h1>
                 <p>
                   Hi, thanks for stopping by! I'm a full-stack developer with a
-                  passion for frontend development. My daily grind is to find simple solutions to complicated problems. When I'm not coding, I'm playing or teaching
+                  passion for frontend development. When I'm not coding, I'm playing or teaching
                   piano. I have a well-known addiction to terrible b-movies.
                   <br />
                   <br />

@@ -703,7 +703,8 @@ color: white;
 /* third attempt below */
 
 .outerHeroDiv {
-  width: calc(90% - 90px);
+  /* width: calc(90% - 90px); */
+  width:90%; 
   margin-left: 60px;
   /* overflow: hidden; */
 }
@@ -908,10 +909,15 @@ color: white;
   margin-top: 2rem;
 }
 
-@media (max-width: 1052px) {
-  .mobile-header-outer-div {
-    padding-top: 155px;
+@media (max-width: 900px) {
+
+  .mobile-header {
+    padding: 100px 0;
+    height: auto;
   }
+  /* .mobile-header-outer-div {
+    padding-top: 155px;
+  } */
   .mobile-header img {
     height: 250px;
     width: 250px;
@@ -929,8 +935,8 @@ color: white;
     font-size: 3rem;
   }
   .mobile-header p {
-    font-size: 3rem;
-    padding-top: 30px;
+    font-size: 2.5rem;
+    /* padding-top: 30px; */
     width: 90%;
   }
 
@@ -947,11 +953,11 @@ color: white;
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .mobile-header-outer-div {
     padding-top: 60px;
   }
-}
+} */
 
 @media (max-width: 650px) {
   .mobile-header .resume-link {
@@ -976,8 +982,8 @@ color: white;
 
   .mobile-header p {
     font-size: 2.5rem;
-    padding: 20px 20px 0 20px;
-    margin-top: 1rem;
+    /* padding: 20px 20px 0 20px; */
+    /* margin-top: 1rem; */
     max-width: 90%;
   }
   .mobile-header .resume-link {
@@ -1000,7 +1006,7 @@ color: white;
   }
 }
 
-@media (max-width: 385px) {
+/* @media (max-width: 385px) {
   .mobile-header p {
     max-width: 97%;
   }
@@ -1016,15 +1022,19 @@ color: white;
 
 .mobile-header h3 {
   font-size: 2.5rem;
-}
+} */
 
-@media (max-width: 374px) {
+@media (max-width: 400px) {
   .mobile-header img {
     height: 225px;
     width: 225px;
   }
   .mobile-header h1 {
     font-size: 3.5rem;
+  }
+
+  .mobile-header h3 {
+    font-size: 2.5rem; 
   }
   .btn-icons-container-mobile {
     margin-top: 20px;
@@ -1065,7 +1075,7 @@ color: white;
   }
 }
 
-@media screen and (max-width: 387px) and (max-height: 652px) {
+@media screen and (max-width: 387px) and (max-height: 774px) {
   .mobile-header img {
     height: 175px;
     width: 175px;
