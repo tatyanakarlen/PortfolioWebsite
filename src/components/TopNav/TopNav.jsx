@@ -15,13 +15,13 @@ export default function TopNav() {
 
     const isMobile = useMediaQuery({ query: '(max-width: 990px)' });
 
-    // let aboutScrollTo = ""
-    // isMobile ? aboutScrollTo = "#about-me" : aboutScrollTo = "#about"
+    let aboutScrollTo = ""
+    isMobile ? aboutScrollTo = "#about-me" : aboutScrollTo = "#about"
 
   return (
     <div className="Nav">
       <div id="name-link">
-        <a onClick={linkNavStateTrigger} className="nav-left-link" href="#about">
+        <a onClick={linkNavStateTrigger} className="nav-left-link" href={aboutScrollTo}>
           Tatyana Karlen - Full Stack Developer
         </a>
       </div>

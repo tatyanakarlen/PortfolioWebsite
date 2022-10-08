@@ -23,21 +23,21 @@ const Hero = () => {
     <>
       {' '}
       {!isMobile ? (
-        <div class="outerHeroDiv">
+        <div class="outerHeroDiv" id="about">
           <div class="innerHeroDiv">
             <header class="header">
               <div class="left-img-title-container">
                 <img src={bioPic}></img>
                 <h1>&lt;Tatyana Karlen&gt;</h1>
-                <h3>Full-Stack Developer</h3>
-                <a href="#">Contact Me</a>
+                <h3><span>Full-Stack</span> Developer</h3>
+                <a class="contact-me-link" href="#">Contact  <BsFillEnvelopeFill /></a>
               </div>
               <div class="right-about-me-container">
                 <h1>&lt; &frasl; About Me&gt;</h1>
                 <p>
-                  Hi, thanks for stopping by! I'm a full-stack developer with a
+                  <span class="hi-wave-intro">Hi &#128075; thanks for stopping by!</span> I'm a <span class="full-stack-developer">full-stack developer</span> with a
                   passion for frontend development. When I'm not coding, I'm playing or teaching
-                  piano. I have a well-known addiction to terrible b-movies.
+                  piano. My skills and past projects can be found below.
                   <br />
                   <br />
                   Looking to collaborate or hire me? I'd love to hear from you!
@@ -52,13 +52,19 @@ const Hero = () => {
                   </a>
                   <ul class="right-side-icons">
                     <li>
+                      <a class="icon-container" href="#">
                       <BsLinkedin class="icon" />
+                      </a>
                     </li>
                     <li>
+                    <a class="icon-container"  href="#">
                       <BsGithub class="icon" />
+                      </a>
                     </li>
                     <li>
+                    <a class="icon-container" href="#">
                       <BsInstagram class="icon" />
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -67,7 +73,7 @@ const Hero = () => {
           </div>
         </div>
       ) : (
-        <div class="mobile-header-outer-div">
+        <div class="mobile-header-outer-div" id="about-me">
           <header class="mobile-header">
             <img src={bioPic}></img>
             <h1>&lt;Tatyana Karlen&gt;</h1>
