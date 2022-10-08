@@ -29,8 +29,8 @@ const Hero = () => {
               <div class="left-img-title-container">
                 <img src={bioPic}></img>
                 <h1>&lt;Tatyana Karlen&gt;</h1>
-                <h3><span>Full-Stack</span> Developer</h3>
-                <a class="contact-me-link" href="#">Contact  <BsFillEnvelopeFill /></a>
+                <h3>Full-Stack Developer</h3>
+                <a class="contact-me-link" href="#">Contact&nbsp;<BsFillEnvelopeFill style={{fontSize: '2rem'}}/></a>
               </div>
               <div class="right-about-me-container">
                 <h1>&lt; &frasl; About Me&gt;</h1>
@@ -40,7 +40,7 @@ const Hero = () => {
                   piano. My skills and past projects can be found below.
                   <br />
                   <br />
-                  Looking to collaborate or hire me? I'd love to hear from you!
+                  <span class="collaborate">Looking to collaborate or hire me? I'd love to hear from you!</span>
                 </p>
                 <div class="btn-icons-container">
                   <a

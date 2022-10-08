@@ -24,7 +24,7 @@
   align-items: center;
   width: 100%;
   padding-top: 50px;
-  color:#000000;
+  color: #1c1c1c; 
 }
 
 .left-img-title-container {
@@ -54,7 +54,7 @@
 .left-img-title-container h1 {
   font-size: 3.5rem;
   margin-top: 15px;
-  font-weight: 400;
+  /* font-weight: 400; */
   
 }
 
@@ -63,7 +63,8 @@
 .left-img-title-container h3 {
   font-size: 2rem;
   margin-top: 4px;
-  font-weight: 600;
+  
+  /* font-weight: 600; */
   
 }
 
@@ -73,16 +74,20 @@
 
 .contact-me-link {
   /* background-color: red;  */
-    padding: 8px 11px;
+    padding: 8px 17px;
     border-radius: 40px;
     /* border-radius: 40px; */
     letter-spacing: 2px;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.8rem;
-    color: #f61129; 
+    color: #dd0c13; 
+    
     text-decoration: none;
     border: 2px solid;
-    margin-top: 2rem; 
+    margin-top: 1.5rem; 
+    display: flex; 
+    align-items: center;
+
 }
 
 .right-about-me-container {
@@ -96,21 +101,22 @@
 
 .right-about-me-container h1 {
   margin: 24px 0;
-  font-size: 5.5rem;
-  font-weight: 200;
+  font-size: 5rem;
+  /* font-weight: 200; */
 }
 
 .right-about-me-container p {
   font-size: 2rem;
-  font-weight:200; 
+  color: #505458; 
+  /* font-weight:200;  */
   /* font-weight: bold; */
   
   
 }
 
 .right-about-me-container .full-stack-developer {
-  color:#f61129; 
-  font-weight: bold; 
+  color:#dd0c13; 
+  /* font-weight: bold;  */
   font-size: 2.5rem; 
 }
 
@@ -119,17 +125,22 @@
   font-weight: bold; 
 }
 
+/* .right-about-me-container .collaborate {
+  font-weight: bold; 
+} */
+
 
 #resume-link {
-  padding: 13px 25px;
+  padding: 13px 30px;
   border-radius: 40px;
   letter-spacing: 2px;
   font-size: 1.8rem;
-  font-weight: 300;
-  background-color: d7263d; 
+  font-weight: 500;
+  background-color: #dd0c13; 
 text-decoration: none;
   color: white;
-  background-color: #f61129; 
+  margin-right: 2rem;
+  
   
 }
 
@@ -154,7 +165,7 @@ text-decoration: none;
 }
 
 .icon-container {
-  border: 2px solid #f61129; 
+  border: 2px solid #dd0c13; 
   padding: 9px 10px;
   display: flex;
   justify-content: center;
@@ -162,12 +173,13 @@ text-decoration: none;
 }
 
 .right-about-me-container ul li  SVG{
-  color:  #f61129; 
+  color:  #ea0707; 
   }
 
 
 .right-about-me-container .icon:hover {
   cursor: pointer;
+  color: #dd0c13; 
 }
 
 .right-about-me-container .right-side-icons {
