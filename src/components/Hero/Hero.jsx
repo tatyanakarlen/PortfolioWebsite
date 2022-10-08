@@ -36,7 +36,7 @@ const Hero = () => {
                 <h1>&lt; &frasl; About Me&gt;</h1>
                 <p>
                   <span class="hi-wave-intro">Hi &#128075; thanks for stopping by!</span> I'm a <span class="full-stack-developer">full-stack developer</span> with a
-                  passion for frontend development. When I'm not coding, I'm playing or teaching
+                  passion for front-end development. When I'm not coding, I'm playing or teaching
                   piano. My skills and past projects can be found below.
                   <br />
                   <br />

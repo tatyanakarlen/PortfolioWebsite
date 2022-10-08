@@ -24,7 +24,7 @@
   align-items: center;
   width: 100%;
   padding-top: 50px;
-  color: #1c1c1c; 
+  color: #000000; 
 }
 
 .left-img-title-container {
@@ -107,7 +107,7 @@
 
 .right-about-me-container p {
   font-size: 2rem;
-  color: #505458; 
+  /* color: #505458;  */
   /* font-weight:200;  */
   /* font-weight: bold; */
   
