@@ -92,7 +92,9 @@ const Hero = () => {
               passion for front-end development.  
             </p> : <p>
               Hi, thanks for stopping by! I'm a full-stack developer with a
-              passion for front-end development. My skills and past projects can be found below.
+              passion for front-end development. When I'm not coding, I'm playing or teaching
+                  piano. My skills and past projects can be found below.
+                  
             </p>
             }
             </>
