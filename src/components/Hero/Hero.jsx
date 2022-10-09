@@ -109,14 +109,36 @@ const Hero = () => {
             <h3>Full-Stack Developer</h3>
             <div class="btn-icons-container-mobile">
               <ul class="right-side-icons-mobile">
-                <li id="envelope-icon">
-                  <BsFillEnvelopeFill class="icon" />
+                <li>
+                  <a
+                    class="icon-container"
+                    href="mailto:tatyanakarlen@gmail.com"
+                    target="_blank"
+                    aria-label="Mail"
+                    rel="noopener noreferrer"
+                  >
+                    <BsFillEnvelopeFill class="icon" />
+                  </a>
                 </li>
                 <li>
-                  <BsLinkedin class="icon" />
+                  <a
+                    class="icon-container"
+                    href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <BsLinkedin class="icon" />
+                  </a>
                 </li>
                 <li>
-                  <BsGithub class="icon" />
+                  <a
+                    class="icon-container"
+                    href="https://github.com/tatyanakarlen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <BsGithub class="icon" />
+                  </a>
                 </li>
               </ul>
             </div>
@@ -135,7 +157,7 @@ const Hero = () => {
                 </p>
               )}
             </>
-            <a class="resume-link" href="#">
+            <a id="mobile-resume-link" href="#">
               Resume
             </a>
           </header>

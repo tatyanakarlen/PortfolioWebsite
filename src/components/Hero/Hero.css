@@ -226,20 +226,22 @@ text-decoration: none;
 .mobile-header h1 {
   /* font-size: 3.5rem;  */
   font-size: 2em;
-  margin-top: 25px;
+  margin-top: 15px; 
+  
 }
 
 .mobile-header h3 {
   /* font-size: 2rem; */
   margin-top: 1rem;
   font-size: 1.5em;
+  font-weight: 500;
 }
 
 .btn-icons-container-mobile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 25px;
+  margin-top: 12px; 
   justify-content: center;
   align-items: baseline;
 }
@@ -253,8 +255,25 @@ text-decoration: none;
   padding: 10px;
 }
 
-.btn-icons-container-mobile .right-side-icons-mobile .icon {
+.btn-icons-container-mobile .right-side-icons-mobile li SVG {
+  color: #b20456; 
+  
+}
+
+.btn-icons-container-mobile .right-side-icons-mobile .icon SVG {
   font-size: 2rem;
+}
+
+#mobile-resume-link {
+  padding: 13px 30px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: #b20456;
+    text-decoration: none;
+    color: white;
+    margin-top: 2rem;
 }
 
 #envelope-icon {
@@ -275,7 +294,7 @@ text-decoration: none;
 .mobile-header p {
   /* font-size: 2rem; */
   font-size: 1.5em;
-  padding-top: 30px;
+  padding-top: 10px; 
   width: 85%;
 }
 
@@ -311,7 +330,7 @@ text-decoration: none;
     font-size: 3em;
   }
   .mobile-header h3 {
-    font-size: 2em;
+    font-size: 1.75em;
   }
   .btn-icons-container-mobile .right-side-icons-mobile .icon {
     font-size: 3rem;
@@ -324,9 +343,9 @@ text-decoration: none;
   }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .mobile-header {
-    padding: 165px 0;
+    padding: 132px 0;
   }
   .mobile-header img {
     height: 275px;
@@ -341,11 +360,11 @@ text-decoration: none;
   .mobile-header p {
     font-size: 1.75em;
   }
-}
+} */
 
 @media (max-width: 500px) {
   .mobile-header {
-    padding: 140px 0;
+    padding: 132px 0;
   }
   .mobile-header img {
     height: 250px;

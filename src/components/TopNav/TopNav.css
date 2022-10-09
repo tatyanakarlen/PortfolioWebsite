@@ -31,7 +31,7 @@
   text-decoration: none;
   font-weight: bold;
   margin-left: 1.7rem;
-  color: #505458;
+  /* color: #505458; */
   font-size: 2rem;
   /* display: block;
     max-width: 100%; */
@@ -59,15 +59,16 @@
   text-decoration: none;
   display: block;
   width: 100%;
-  color: #505458;
-  font-size: 2rem;
-  font-weight: bold;
+  color: #000000;
+  font-size: 1.75rem;
+  font-weight: 600; 
+  /* font-weight: bold; */
   /* font-family: Poppins; */
   padding: 8px;
 }
 
 .navigation-menu li a:hover {
-  color: #cd2026;
+  color: #b20456;
 }
 
 /* background-color: #f7f7f7; */

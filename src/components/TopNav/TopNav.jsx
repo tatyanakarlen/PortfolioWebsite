@@ -3,6 +3,7 @@ import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
+import logo from '../../components/Images/Tatycropped.png'
 
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -22,7 +23,7 @@ export default function TopNav() {
     <div className="Nav">
       <div id="name-link">
         <a onClick={linkNavStateTrigger} className="nav-left-link" href={aboutScrollTo}>
-          Tatyana Karlen - Full Stack Developer
+          <img src={logo} style={{width: '170px', marginTop: '0.5rem'}}/>
         </a>
       </div>
 
@@ -70,6 +71,7 @@ export default function TopNav() {
         }
       >
         <ul id="ul" style={{ backgroundColor: '#f7f7f7' }}>
+          
           <li>
             <a href="#skills" onClick={linkNavStateTrigger} className="link">
               SKILLS
