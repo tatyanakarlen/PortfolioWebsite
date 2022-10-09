@@ -108,6 +108,7 @@ const Hero = () => {
           <header class="mobile-header">
             <img src={bioPic}></img>
             <h1>&lt;Tatyana Karlen&gt;</h1>
+            {/* <h1>Tatyana Karlen</h1> */}
             <h3>Full-Stack Developer</h3>
             <div class="btn-icons-container-mobile">
               <ul class="right-side-icons-mobile">
