@@ -1,39 +1,26 @@
-import React from 'react'
-import TopNav from '../../components/TopNav/TopNav'
-import Hero from '../../components/Hero/Hero'
+import React from 'react';
+import TopNav from '../../components/TopNav/TopNav';
+import Hero from '../../components/Hero/Hero';
 import PortfolioBox from '../../components/PortfolioBox/PortfolioBox';
-
-
-
-
+import Skills from '../../components/Skills/Skills'
 
 function BioPortfolioPage(props) {
-
-
-        return(
-            // <div style={{backgroundColor: '#ffffff'}}>
-              <div style={{backgroundColor: '#f7f7f7'}}>
-              
-              
-              
-              
-
-              
-            <TopNav />
-            <Hero />
-            <PortfolioBox projects={props.projects}/>
-            <br />
-          <br />
-          <footer id="footer" class="text">
-            Copyright Tatyana Karlen 2022
-          </footer>
-          <br />
-          <br />
-           </div>
-        )
-    
+  return (
+    // <div style={{backgroundColor: '#ffffff'}}>
+    <div>
+      <TopNav />
+      <Hero />
+      <Skills />
+      <PortfolioBox projects={props.projects} />
+      <br />
+      <br />
+      <footer id="footer" class="text">
+        Copyright Tatyana Karlen 2022
+      </footer>
+      <br />
+      <br />
+    </div>
+  );
 }
 
-/* background-color: rgba(241, 238, 238, 0.836); */
-
-export default BioPortfolioPage
+export default BioPortfolioPage;

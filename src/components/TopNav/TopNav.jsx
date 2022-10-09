@@ -2,21 +2,29 @@ import React from 'react';
 import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import { useMediaQuery } from 'react-responsive';
+import logo from '../../components/Images/TKcropped.png'
 
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
-  
+
+  const linkNavStateTrigger = isNavExpanded
+    ? () => {
+        setIsNavExpanded(!isNavExpanded);
+      }
+    : ''
+
+    const isMobile = useMediaQuery({ query: '(max-width: 990px)' });
+
+    let aboutScrollTo = ""
+    isMobile ? aboutScrollTo = "#about-me" : aboutScrollTo = "#about"
 
   return (
     <div className="Nav">
-      <div id='name-link'>
-      <a
-        className="nav-left-link"
-        href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
-      >
-        Tatyana Karlen - Full Stack Developer
-      </a>
+      <div id="name-link">
+        <a onClick={linkNavStateTrigger} className="nav-left-link" href={aboutScrollTo}>
+          <img src={logo} style={{width: '70px', marginTop: '0.5rem'}}/>
+        </a>
       </div>
 
       <button
@@ -40,38 +48,48 @@ export default function TopNav() {
           />
         </svg>  */}
 
-        <svg style={{backgroundColor: 'unset', color: '#505458'}} xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-</svg>
-
-        
+        <svg
+          style={{ backgroundColor: '#f7f7f7', color: '#000000' }}
+          xmlns="http://www.w3.org/2000/svg"
+          fill="white"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
       </button>
-      {/* {
-                    isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-                  } */}
+
       <div
         className={
           isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
         }
       >
-        <ul id="ul" style={{backgroundColor: '#f7f7f7'}}>
-          <li id="PORTFOLIO-link">
-            <Link
-              className="link"
-              to="/portfolio"
-            >
-              PORTFOLIO
-            </Link>
+        <ul id="ul" style={{ backgroundColor: '#f7f7f7' }}>
+          
+          <li>
+            <a href="#skills" onClick={linkNavStateTrigger} className="link">
+              SKILLS
+            </a>
           </li>
+
           {/* how to condionally style:   style={{color: currentLink ? '#c93082' : '#2e313a'}} */}
 
           <li>
-            <Link
+            <a
+              onClick={() => {
+                setIsNavExpanded(!isNavExpanded);
+              }}
+              href="#portfolio"
               className="link"
-              to="/resume"
             >
-              RESUME
-            </Link>
+              PORTFOLIO
+            </a>
           </li>
         </ul>
       </div>

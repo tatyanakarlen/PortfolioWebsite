@@ -3,17 +3,29 @@
   padding: 0px;
   width: 100vw;  
   overflow: hidden; 
+
+  background-color: #f7f7f7;
+  color: #000000; 
+  /* background-color: #FFFFFF;  */
+ 
   
 }
+
+
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   
   /* width: 100vw;  */
   
 }
 
 /* background-color: rgba(241, 238, 238, 0.836); */
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; 
+}
