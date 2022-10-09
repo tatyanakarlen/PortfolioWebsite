@@ -145,12 +145,12 @@ const Hero = () => {
             <>
               {isSmallMobile ? (
                 <p>
-                  Hi, thanks for stopping by! I'm a full-stack developer with a
+                  <span style={{fontWeight: 'bold'}}>Hi &#128075; thanks for stopping by!</span> I'm a <span style={{color: '#b20456', fontWeight:'bold'}}>full-stack developer</span> with a
                   passion for front-end development.
                 </p>
               ) : (
                 <p>
-                  Hi, thanks for stopping by! I'm a full-stack developer with a
+                  <span style={{fontWeight: 'bold'}}>Hi &#128075; thanks for stopping by!</span> I'm a <span style={{color: '#b20456', fontWeight:'bold'}}>full-stack developer</span> with a
                   passion for front-end development. When I'm not coding, I'm
                   playing or teaching piano. My skills and past projects can be
                   found below.

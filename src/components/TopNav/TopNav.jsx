@@ -49,7 +49,7 @@ export default function TopNav() {
         </svg>  */}
 
         <svg
-          style={{ backgroundColor: 'unset', color: '#505458' }}
+          style={{ backgroundColor: '#f7f7f7', color: '#000000' }}
           xmlns="http://www.w3.org/2000/svg"
           fill="white"
           viewBox="0 0 24 24"
