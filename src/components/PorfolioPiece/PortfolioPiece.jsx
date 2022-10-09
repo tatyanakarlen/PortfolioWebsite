@@ -12,16 +12,30 @@ const PortfolioPiece = (props) => {
 
   console.log('these are the new slides', SliderData);
 
+  let lastEl = props.tech[props.tech.length - 1]
+  
+
   return (
     <div>
       <div class="showcase">
         <div id="port-piece-container">
           <h3 class="project-title">{props.title}</h3>
+          
           <br />
+          <br />
+         
+         
           <p id="project-headline" class="project-details">
             {props.headline}
-          </p>
+            
+            {props.tech.map((m) => (
+             
+              
 
+              <span class="tech"> {m}{m != lastEl && <span class="punctuation">,</span>}</span>
+            ))}
+          </p>
+          <br />
           <br />
           <p class="project-details">-{props.bullet1}</p>
           <br />
