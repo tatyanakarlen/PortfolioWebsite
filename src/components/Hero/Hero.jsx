@@ -29,6 +29,7 @@ const Hero = () => {
               <div class="left-img-title-container">
                 <img src={bioPic}></img>
                 <h1>&lt;Tatyana Karlen&gt;</h1>
+                {/* <h1>Tatyana Karlen</h1> */}
                 <h3>Full-Stack Developer</h3>
                 <a
                   class="contact-me-link"
@@ -43,13 +44,14 @@ const Hero = () => {
               </div>
               <div class="right-about-me-container">
                 <h1>&lt; &frasl; About Me&gt;</h1>
+                {/* <h1>About Me</h1> */}
                 <p>
                   <span class="hi-wave-intro">
                     Hi &#128075; thanks for stopping by!
                   </span>{' '}
                   I'm a{' '}
                   <span class="full-stack-developer">
-                    full-stack web developer
+                    full-stack developer
                   </span>{' '}
                   with a passion for front-end development. When I'm not coding,
                   I'm playing or teaching piano. My skills and past projects can
