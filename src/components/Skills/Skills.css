@@ -1,5 +1,42 @@
 
-.skills-container {
+.skills-outter-wrapper{
     width: 85%; 
     margin: auto;
+    padding-top: 85px;
+   
 }
+
+.skills-outter-wrapper h1 {
+    font-size: 3rem; 
+}
+
+.skills-icon-container {
+    display: flex; 
+    gap: 6rem;
+    flex-wrap: wrap;
+    width: 80%; 
+    margin: 0 auto; 
+    justify-content: center;
+    
+}
+
+.skill-icon-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    padding:5px; 
+    width: 90px; 
+    border: 1px solid #eee;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgb(134 151 168 / 10%);
+    
+
+}
+
+.icon-text {
+    font-size: 1.25rem; 
+    margin-top: 0.5rem; 
+}
+

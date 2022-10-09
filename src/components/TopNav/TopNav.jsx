@@ -71,7 +71,7 @@ export default function TopNav() {
       >
         <ul id="ul" style={{ backgroundColor: '#f7f7f7' }}>
           <li>
-            <a onClick={linkNavStateTrigger} href="#portfolio" className="link">
+            <a href="#skills" onClick={linkNavStateTrigger} className="link">
               SKILLS
             </a>
           </li>
