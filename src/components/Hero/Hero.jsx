@@ -30,7 +30,7 @@ const Hero = () => {
                 <img src={bioPic}></img>
                 <h1>&lt;Tatyana Karlen&gt;</h1>
                 {/* <h1>Tatyana Karlen</h1> */}
-                <h3>Full-Stack Developer</h3>
+                <h3>FULL-STACK DEVELOPER</h3>
                 <a
                   class="contact-me-link"
                   href="mailto:tatyanakarlen@gmail.com"
@@ -109,7 +109,7 @@ const Hero = () => {
             <img src={bioPic}></img>
             <h1>&lt;Tatyana Karlen&gt;</h1>
             {/* <h1>Tatyana Karlen</h1> */}
-            <h3>Full-Stack Developer</h3>
+            <h3>FULL STACK DEVELOPER</h3>
             <div class="btn-icons-container-mobile">
               <ul class="right-side-icons-mobile">
                 <li>
