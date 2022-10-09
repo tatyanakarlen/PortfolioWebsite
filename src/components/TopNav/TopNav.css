@@ -3,7 +3,7 @@
 
 .Nav {
   /* height: 60px; */
-  height: 60px;
+  height: 50px;
   /* width: 100%; */
   width: 100vw;
   display: flex;
@@ -11,7 +11,7 @@
   position: relative;
   padding: 0.5rem 0rem;
   background-color: #f7f7f7;
-  color: #333;
+  /* color: #333; */
   /* box-shadow: 0 2px 2px 2px rgba(9, 9, 10, 0.23); */
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 8%);
   /* wsd */
@@ -59,7 +59,7 @@
   text-decoration: none;
   display: block;
   width: 100%;
-  color: #000000;
+  color: #2b2929; 
   font-size: 1.75rem;
   font-weight: 500; 
   /* font-weight: bold; */
@@ -108,7 +108,7 @@
     width: 100%;
     height: calc(100vh - 59px);
     background-color: #ffffff;
-    border-top: 1px solid black;
+    border-top: 1px solid #2b2929; 
   }
 
   @media screen and (max-width: 768px) {
@@ -128,7 +128,7 @@
     margin: 0;
   }
   .navigation-menu li a {
-    color: #2e313a;
+    color: #2b2929; 
     width: 100%;
     padding: 1.5rem 0;
   }
