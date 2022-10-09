@@ -8,6 +8,8 @@ const Skills = () => {
       <br />
       <br />
       <br />
+      <br />
+      <br />
       <div class="skills-icon-container">
         <div class="skill-icon-container">
           <img

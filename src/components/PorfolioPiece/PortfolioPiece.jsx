@@ -43,10 +43,12 @@ const PortfolioPiece = (props) => {
           <br />
           <p class="project-details">-{props.bullet3}</p>
           <br />
-
+          <br />
           <br />
           {/* </div> */}
         </div>
+        <br />
+          <br />
         <div id='main-img-container'>
           {!carouselActive ? (
             <div id="img-container">

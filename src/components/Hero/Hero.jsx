@@ -13,7 +13,7 @@ import isNavExpanded from '../TopNav/TopNav.jsx';
 
 const Hero = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 900px)' });
-  const isSmallMobile = useMediaQuery ({ query: '(max-width: 500px)'})
+  const isSmallMobile = useMediaQuery({ query: '(max-width: 500px)' });
 
   // id={
   //   isMobile ? "about" : "about-me"
@@ -30,17 +30,36 @@ const Hero = () => {
                 <img src={bioPic}></img>
                 <h1>&lt;Tatyana Karlen&gt;</h1>
                 <h3>Full-Stack Developer</h3>
-                <a class="contact-me-link" href="#">Contact&nbsp;<BsFillEnvelopeFill style={{fontSize: '2rem'}}/></a>
+                <a
+                  class="contact-me-link"
+                  href="mailto:tatyanakarlen@gmail.com"
+                  target="_blank"
+                  aria-label="Mail"
+                  rel="noopener noreferrer"
+                >
+                  Contact&nbsp;
+                  <BsFillEnvelopeFill style={{ fontSize: '2rem' }} />
+                </a>
               </div>
               <div class="right-about-me-container">
                 <h1>&lt; &frasl; About Me&gt;</h1>
                 <p>
-                  <span class="hi-wave-intro">Hi &#128075; thanks for stopping by!</span> I'm a <span class="full-stack-developer">full-stack web developer</span> with a
-                  passion for front-end development. When I'm not coding, I'm playing or teaching
-                  piano. My skills and past projects can be found below.
+                  <span class="hi-wave-intro">
+                    Hi &#128075; thanks for stopping by!
+                  </span>{' '}
+                  I'm a{' '}
+                  <span class="full-stack-developer">
+                    full-stack web developer
+                  </span>{' '}
+                  with a passion for front-end development. When I'm not coding,
+                  I'm playing or teaching piano. My skills and past projects can
+                  be found below.
                   <br />
                   <br />
-                  <span class="collaborate">Looking to collaborate or hire me? I'd love to hear from you!</span>
+                  <span class="collaborate">
+                    Looking to collaborate or hire me? I'd love to hear from
+                    you!
+                  </span>
                 </p>
                 <div class="btn-icons-container">
                   <a
@@ -52,18 +71,28 @@ const Hero = () => {
                   </a>
                   <ul class="right-side-icons">
                     <li>
+                      <a
+                        class="icon-container"
+                        href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <BsLinkedin class="icon" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="icon-container"
+                        href="https://github.com/tatyanakarlen"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <BsGithub class="icon" />
+                      </a>
+                    </li>
+                    <li>
                       <a class="icon-container" href="#">
-                      <BsLinkedin class="icon" />
-                      </a>
-                    </li>
-                    <li>
-                    <a class="icon-container"  href="#">
-                      <BsGithub class="icon" />
-                      </a>
-                    </li>
-                    <li>
-                    <a class="icon-container" href="#">
-                      <BsInstagram class="icon" />
+                        <BsInstagram class="icon" />
                       </a>
                     </li>
                   </ul>
@@ -92,19 +121,23 @@ const Hero = () => {
               </ul>
             </div>
             <>
-            { isSmallMobile ? 
-            <p>
-              Hi, thanks for stopping by! I'm a full-stack developer with a
-              passion for front-end development.  
-            </p> : <p>
-              Hi, thanks for stopping by! I'm a full-stack developer with a
-              passion for front-end development. When I'm not coding, I'm playing or teaching
-                  piano. My skills and past projects can be found below.
-                  
-            </p>
-            }
+              {isSmallMobile ? (
+                <p>
+                  Hi, thanks for stopping by! I'm a full-stack developer with a
+                  passion for front-end development.
+                </p>
+              ) : (
+                <p>
+                  Hi, thanks for stopping by! I'm a full-stack developer with a
+                  passion for front-end development. When I'm not coding, I'm
+                  playing or teaching piano. My skills and past projects can be
+                  found below.
+                </p>
+              )}
             </>
-            <a class="resume-link" href="#">Resume</a>
+            <a class="resume-link" href="#">
+              Resume
+            </a>
           </header>
         </div>
       )}
