@@ -7,6 +7,7 @@ const PortfolioBox = (props) => {
     <div class="Portfolio-Box-Container" id="portfolio">
       <div id="Projects-container">
       <h1 id="PROJECTS">&lt;Projects &#128187;&gt;</h1><br/><br/>
+      {/* <h1 id="PROJECTS">Projects &#128187;</h1><br/><br/> */}
       
       </div>
       {props.projects.map((m) => (

@@ -28,8 +28,8 @@ const Hero = () => {
             <header class="header">
               <div class="left-img-title-container">
                 <img src={bioPic}></img>
-                <h1>&lt;Tatyana Karlen&gt;</h1>
-                {/* <h1>Tatyana Karlen</h1> */}
+                {/* <h1>&lt;Tatyana Karlen&gt;</h1> */}
+                <h1>Tatyana Karlen</h1>
                 <h3>FULL-STACK DEVELOPER</h3>
                 <a
                   class="contact-me-link"
@@ -43,8 +43,8 @@ const Hero = () => {
                 </a>
               </div>
               <div class="right-about-me-container">
-                <h1>&lt; &frasl; About Me&gt;</h1>
-                {/* <h1>About Me</h1> */}
+                {/* <h1>&lt; &frasl; About Me&gt;</h1> */}
+                <h1>About Me</h1>
                 <p>
                   <span class="hi-wave-intro">
                     Hi &#128075; thanks for stopping by!

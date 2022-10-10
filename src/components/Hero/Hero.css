@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
 .outerHeroDiv {
   /* width: calc(90% - 90px); */
   width: 90%;
@@ -48,14 +51,16 @@
 .left-img-title-container img {
   border-radius: 10%;
   margin: 0 auto;
-  width: 225px;
-  height: 225px;
+  width: 200px;
+  height: 200px;
   box-shadow: rgb(0 0 0 / 24%) 0px 5px 8px;
 }
 
 .left-img-title-container h1 {
   font-size: 3rem;
   margin-top: 15px;
+  font-family: 'Permanent Marker';
+  color: #333; 
   
   /* font-weight: 400; */
   
@@ -66,7 +71,7 @@
 .left-img-title-container h3 {
   font-size: 1.5rem;
   margin-top: 8px;
-  
+  color: #515253; 
   
   font-weight: 500;
   
@@ -107,16 +112,19 @@
 .right-about-me-container h1 {
   margin: 24px 0;
   font-size: 4.5rem;
+  font-family: 'Permanent Marker';
+  color: #333; 
   
   /* font-weight: 200; */
 }
 
 .right-about-me-container p {
   font-size: 2rem;
-  letter-spacing: 1px;
-  /* color: #505458;  */
-  /* font-weight:200;  */
-  /* font-weight: bold; */
+    letter-spacing: 1px;
+    color: #515253;
+    /* font-weight: 200; */
+    /* font-weight: bold; */
+    margin-top: -2rem;
   
   
 }
@@ -128,7 +136,7 @@
 }
 
 .right-about-me-container .hi-wave-intro {
-  color: #000000; 
+  color: #2b2929; 
   font-weight: bold; 
 }
 
@@ -227,6 +235,8 @@ text-decoration: none;
   /* font-size: 3.5rem;  */
   font-size: 2em;
   margin-top: 15px; 
+  font-family: 'Permanent Marker';
+  color: #333; 
   
 }
 
@@ -235,6 +245,7 @@ text-decoration: none;
   margin-top: 1rem;
   font-size: 1em;
   font-weight: 500;
+  color: #515253; 
 }
 
 .btn-icons-container-mobile {
@@ -293,10 +304,11 @@ text-decoration: none;
 
 .mobile-header p {
   /* font-size: 2rem; */
-  font-size: 1.5em;
+  font-size: 1.25em;
   padding-top: 10px; 
   width: 85%;
   letter-spacing: 1px;
+  color: #515253; 
 }
 
 .mobile-header .resume-link {
@@ -337,7 +349,7 @@ text-decoration: none;
     font-size: 3rem;
   }
   .mobile-header p {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
   .mobile-header .resume-link {
     padding: 12px 33px;
