@@ -146,6 +146,10 @@
   height: 45px;
   z-index: 5;
  }
+
+ .hamburger:hover {
+   cursor: pointer;
+ }
   
  .hamburger div {
   position: relative;
@@ -156,6 +160,10 @@
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
  }
+
+ 
+
+
   
   
  .nav {
@@ -207,7 +215,10 @@
  }
  nav a:hover {
   color: #f7f7f7;
+  
  }
+
+ 
  nav a:hover:before {
   height: 100%;
  }

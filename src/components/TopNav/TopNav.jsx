@@ -74,36 +74,24 @@ export default function TopNav() {
       <label
         for="toggle"
         class="hamburger"
-        // style={hamburgerStyles}
-        // style={hamburgerColor}
+        
+       
         onClick={() => {
-          // setIsNavExpanded(!isNavExpanded);
+          
           setIsChecked(!isChecked);
         }}
       >
         <div
           class="top-bun"
-          // style={topBunStyles}
-          // style={hamburgerColor}
-          // onClick={() => {
-          //   setIsNavExpanded(!isNavExpanded);
-          // }}
+        
         ></div>
         <div
           class="meat"
-          // style={meatStyles}
-          // style={hamburgerColor}
-          // onClick={() => {
-          //   setIsNavExpanded(!isNavExpanded);
-          // }}
+          
         ></div>
         <div
           class="bottom-bun"
-          // style={bottomBun}
-          // style={hamburgerColor}
-          // onClick={() => {
-          //   setIsNavExpanded(!isNavExpanded);
-          // }}
+        
         ></div>
       </label>
 
