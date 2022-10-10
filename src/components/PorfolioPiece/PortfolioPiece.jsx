@@ -73,6 +73,8 @@ const PortfolioPiece = (props) => {
         </div>
         <br />
         <br />
+        <br />
+        <br />
 
         <div id="bottom-text-div">
           <p class="project-details">{props.body}</p>
