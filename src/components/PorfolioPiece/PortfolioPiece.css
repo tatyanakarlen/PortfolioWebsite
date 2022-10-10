@@ -6,6 +6,8 @@
   text-align: left;
   font-size: 2rem; 
   text-decoration: underline;
+  color:#333; 
+ 
   
 }
 
@@ -19,6 +21,7 @@
   /* text-decoration: underline; */
   font-size: 1.75rem; 
   text-align: left;
+  color:#333; 
   
 }
 
@@ -31,7 +34,7 @@
 }
 
 .project-details a {
-    color: #000000;
+    color: #333;
   font-weight: bold;
 }
 
@@ -50,6 +53,10 @@
 
 #main-img-container {
   height: auto;
+}
+
+#port-piece-container {
+    color: #515253; 
 }
 
 @media only screen and (max-width: 1225px) {
