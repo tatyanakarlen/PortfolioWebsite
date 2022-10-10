@@ -14,7 +14,7 @@ function BioPortfolioPage(props) {
       <PortfolioBox projects={props.projects} />
       <br />
       <br />
-      <footer id="footer" class="text">
+      <footer id="footer" class="text" style={{fontSize: '1.75rem'}}>
         Copyright Tatyana Karlen 2022
       </footer>
       <br />
