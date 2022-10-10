@@ -35,7 +35,7 @@ function App() {
      headline: "Content-management dashboard+magazine SPA built with", 
      tech: ["React", "MongoDB", "NodeJS", "Express", "Bootstrap CSS"], 
      images: [img1, img2, img3, img4, img5, img6], 
-     bullet1: "Enables user/content manager to perform CRUD operations with authors and articles. Features a magazine page where readers can view, search and share articles on social-media",
+     bullet1: "Enables user/content manager to add authors and articles to the database. Features a magazine page where readers can view, search and share articles on social-media",
      bullet2: "Created AJAX API endpoints to fetch data based on user interactions", 
      bullet3: "Implemented JWT User Authentication, React Hooks, photo image-uploads via Cloudinary, and social-media share links",
      
