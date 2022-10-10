@@ -28,7 +28,7 @@ const Hero = () => {
             <header class="header">
               <div class="left-img-title-container">
                 <img src={bioPic}></img>
-                {/* <h1>&lt;Tatyana Karlen&gt;</h1> */}
+               
                 <h1>Tatyana Karlen</h1>
                 <h3>FULL-STACK DEVELOPER</h3>
                 <a
