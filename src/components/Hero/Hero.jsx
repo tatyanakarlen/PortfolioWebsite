@@ -144,7 +144,7 @@ const Hero = () => {
                     Hi &#128075; thanks for stopping by!
                   </span>{' '}
                   I'm a{' '}
-                  <span style={{ color: '#b20456', fontWeight: 'bold' }}>
+                  <span style={{ color: '#b20456', fontWeight: 'bold', fontSize: '1.1em' }}>
                     full-stack developer
                   </span>{' '}
                   with a passion for front-end development.
@@ -155,7 +155,7 @@ const Hero = () => {
                     Hi &#128075; thanks for stopping by!
                   </span>{' '}
                   I'm a{' '}
-                  <span style={{ color: '#b20456', fontWeight: 'bold' }}>
+                  <span style={{ color: '#b20456', fontWeight: 'bold', fontSize: '1.1em' }}>
                     full-stack developer
                   </span>{' '}
                   with a passion for front-end development. When I'm not coding,

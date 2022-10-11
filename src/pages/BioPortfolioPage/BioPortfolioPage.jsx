@@ -6,12 +6,13 @@ import Skills from '../../components/Skills/Skills.jsx'
 import { useMediaQuery } from 'react-responsive';
 import MobileAbout from '../../components/MobileAbout/MobileAbout.jsx';
 
+import { RiCopyrightFill } from 'react-icons/ri';
+
 function BioPortfolioPage(props) {
 
   const isSmallMobile = useMediaQuery({ query: '(max-width: 500px)' });
 
   return (
-    // <div style={{backgroundColor: '#ffffff'}}>
     <div>
       <TopNav />
       <Hero />
@@ -20,8 +21,10 @@ function BioPortfolioPage(props) {
       <PortfolioBox projects={props.projects} />
       <br />
       <br />
-      <footer id="footer" class="text" style={{fontSize: '1.75rem', textAlign: 'center'}}>
-        Copyright Tatyana Karlen 2022
+      <br />
+      <br />
+      <footer id="footer" class="text" style={{fontSize: '1.75rem', textAlign: 'center', marginTop: '2rem'}}>
+      Copyright Tatyana Karlen 2022
       </footer>
       <br />
       <br />
