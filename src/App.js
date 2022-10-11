@@ -47,7 +47,6 @@ function App() {
         'Python',
         'postgreSQL',
         'Materialize CSS',
-        'Bootstrap CSS',
         'AWS',
       ],
       images: [img7, img8, img9, img10],
@@ -64,7 +63,7 @@ function App() {
       title: 'Thriftd',
       headline:
         'Depop/Shopify-style peer-to-peer shopping application built with',
-      tech: ['NodeJS', 'Express', 'MongoDB'],
+      tech: ['NodeJS', 'Express', 'MongoDB', 'HTML', 'CSS'],
       images: [img13, img11, img12, img14, img15],
       bullet1:
         'Developed a RESTful MEN-stack CRUD application where users can post items for sale and wish-list/buy other user’s items',
