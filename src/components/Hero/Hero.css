@@ -336,28 +336,7 @@ text-decoration: none;
   }
 }
 
-@media (max-width: 575px) {
-  .skills-outter-wrapper {
-    width: 86%;
-  }
-  .skills-icon-container {
-    gap: 4rem; 
-    width: 90%;
-  }
- }
 
- @media (max-width: 460px) {
-
-  .skills-outter-wrapper {
-    width: 100%; 
-  }
-  
-  .skills-icon-container {
-    
-    width: 100%;
-    gap: 4rem; 
-  }
- }
 
 @media (max-width: 400px) {
   .mobile-header {

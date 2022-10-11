@@ -43,4 +43,39 @@
     
 }
 
+@media (max-width: 575px) {
+    .skills-outter-wrapper {
+      width: 86%;
+    }
+    .skills-icon-container {
+      gap: 4rem; 
+      width: 90%;
+    }
+   }
+  
+   @media (max-width: 460px) {
+  
+    .skills-outter-wrapper {
+      width: 82%; 
+    }
+    
+    .skills-icon-container {
+      
+      width: 100%;
+      gap: 3rem; 
+    }
+   }
+
+   @media (max-width: 403px) {
+  
+    /* .skills-outter-wrapper {
+      width: 82%; 
+    } */
+    
+    .skill-icon-container {
+      
+        width: 80px; 
+    }
+   }
+
 
