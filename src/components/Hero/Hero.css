@@ -371,6 +371,16 @@ text-decoration: none;
   }
  }
 
+ @media (max-width: 768px) and (max-height: 1024px){
+  .mobile-header {
+    font-size: 22px; 
+  }
+  .mobile-header img {
+    height: 250px;
+    width: 250px;
+  }
+ }
+
 
 
 
