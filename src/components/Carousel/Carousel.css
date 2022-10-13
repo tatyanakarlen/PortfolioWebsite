@@ -15,17 +15,39 @@
     /* tried contain, works better */
   }
   
-  .right-arr {
+  /* .right-arr {
     font-size: 2.5rem;
     color: rgb(49, 49, 49);
     transition: 200ms;
     margin: 0.5rem;
+    position:absolute; 
+  } */
+
+  .right-arr {
+    font-size: 2.5em;
+    color: rgb(49, 49, 49);
+    transition: 200ms;
+    margin: 1rem;
+    position: absolute;
+    top: calc(50% - 30px);
   }
+
+  .left-arr {
+    font-size: 2.5em;
+    color: rgb(49, 49, 49);
+    transition: 200ms;
+    /* margin: 1rem; */
+    position: absolute;
+    top: calc(50% - 15px);
+    left: -3.5rem;
+  }
+
+ 
   
   .right-arr:hover {
     color: rgb(88, 88, 88);
     cursor: pointer;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
   }
   
   .slide {
@@ -74,5 +96,5 @@
 
   #icon-container {
     background-color: #f7f7f7;
-    margin-top: 0.4rem; 
+    margin-top: 0.8rem; 
   }

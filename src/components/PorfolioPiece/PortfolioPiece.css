@@ -93,6 +93,8 @@
   width: 80vw;
   height: auto;
   margin: 0 auto;
+  /* new addition below */
+  position: relative; 
 }
 /* changed from 85vw to 80vw */
 

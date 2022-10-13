@@ -51,16 +51,21 @@ export default function Carousel(props) {
                 <AiFillCloseCircle
                   id="X"
                   onClick={() => props.setCarouselActive(false)}
+                  
                 />
+               
+                <FaArrowAltCircleRight className="right-arr" onClick={nextSlide} />
+                <FaArrowAltCircleLeft className="left-arr" onClick={nextSlide} />
+                
               </div>
             )}
           </div>
         );
       })}
-      <div id="icon-container">
+      {/* <div id="icon-container">
         <FaArrowAltCircleLeft className="right-arr" onClick={prevSlide} />
         <FaArrowAltCircleRight className="right-arr" onClick={nextSlide} />
-      </div>
+      </div> */}
     </div>
   );
 }
