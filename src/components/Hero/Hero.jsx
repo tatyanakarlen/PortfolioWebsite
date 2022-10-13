@@ -165,7 +165,7 @@ const Hero = () => {
                   with a passion for front-end development. When I'm not coding,
                   I'm playing or teaching piano. My skills and past projects can
                   be found below.
-                  <br/><br/><span style={{fontWeight:'bold'}}>Looking to collaborate or hire me? I'd love
+                  <br/><br/><span>Looking to collaborate or hire me? I'd love
         to hear from you!</span>
                 </p>
               
