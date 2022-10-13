@@ -17,6 +17,15 @@
     letter-spacing: 1px;
 }
 
+.mobile-about-me #mobile-contact {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+
+
+
 .bold-span {
     color: #b20456;
     font-weight: 600;

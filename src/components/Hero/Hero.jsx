@@ -139,6 +139,7 @@ const Hero = () => {
             </div>
             <>
               {isSmallMobile ? (
+                <>
                 <p>
                   <span style={{ fontWeight: 'bold' }}>
                     Hi &#128075; thanks for stopping by!
@@ -149,7 +150,10 @@ const Hero = () => {
                   </span>{' '}
                   with a passion for front-end development.
                 </p>
+                
+                </>
               ) : (
+                <>
                 <p>
                   <span style={{ fontWeight: 'bold' }}>
                     Hi &#128075; thanks for stopping by!
@@ -164,6 +168,9 @@ const Hero = () => {
                   <br/><br/><span style={{fontWeight:'bold'}}>Looking to collaborate or hire me? I'd love
         to hear from you!</span>
                 </p>
+              
+                </>
+                
               )}
             </>
             <a id="mobile-resume-link" href="#">
