@@ -1,142 +1,8 @@
-
-
-/* .Nav {
-  
-  height: 50px;
-  
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  position: relative;
-  padding: 0.5rem 0rem;
-  background-color: #f7f7f7;
-  
-  
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 8%);
-  
-  overflow-wrap: break-word;
-  position: fixed;
-  top: 0px;
-  z-index: 1;
-}
-
-#name-link {
-  display: flex;
-  flex-direction: column;
-  max-width: 80%;
-}
-
-.nav-left-link {
-  text-decoration: none;
-  font-weight: bold;
-  margin-left: 1.7rem;
- 
-  font-size: 2rem;
-   display: block; 
-    max-width: 100%; 
-
-  line-height: 1.4em !important;
-}
-
-
-
-.navigation-menu {
-  margin-left: auto;
-}
-
-.navigation-menu ul {
-  display: flex;
-  padding: 0;
-}
-.navigation-menu li {
-  list-style-type: none;
-  margin: 0 1rem;
-}
-.navigation-menu li a {
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  color: #2b2929; 
-  font-size: 1.75rem;
-  font-weight: 500; 
- 
-  padding: 8px;
-}
-
-.navigation-menu li a:hover {
-  color: #b20456;
-}
-
-
-
-.hamburger {
-  border: 0;
-  height: 40px;
-  width: 40px;
-
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-  position: absolute;
-  top: 50%;
-  right: 25px;
-  transform: translateY(-50%);
-  display: none;
-}
-
-
-@media screen and (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .navigation-menu ul {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    height: calc(100vh - 59px);
-    background-color: #ffffff;
-    border-top: 1px solid #2b2929; 
-  }
-
-  @media screen and (max-width: 768px) {
-    .navigation-menu ul {
-  
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    .navigation-menu.expanded ul {
-      display: block;
-    }
-  }
-  .navigation-menu li {
-    text-align: center;
-    margin: 0;
-  }
-  .navigation-menu li a {
-    color: #2b2929; 
-    width: 100%;
-    padding: 1.5rem 0;
-  }
-  .navigation-menu li:hover {
-    background-color: #eee;
-  }
-} */
-
-
-
 #toggle {
   display: none;
- }
-  
-  
- .hamburger {
-  /* position: absolute; */
+}
+
+.hamburger {
   position: fixed;
   top: 5em;
   right: 5%;
@@ -145,13 +11,13 @@
   width: 2em;
   height: 45px;
   z-index: 5;
- }
+}
 
- .hamburger:hover {
-   cursor: pointer;
- }
-  
- .hamburger div {
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.hamburger div {
   position: relative;
   width: 3em;
   height: 7px;
@@ -159,41 +25,37 @@
   background-color: #333;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
- }
+}
 
- 
-
-
-  
-  
- .nav {
+.nav {
   position: fixed;
   width: 100%;
   height: 100%;
   background-color: #b20456;
-  top: -100%; left: 0; right: 0; bottom: 0;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   transform: scale(0);
- }
- .nav-wrapper {
+}
+.nav-wrapper {
   position: relative;
   overflow: hidden;
   overflow-y: auto;
   height: 100%;
   display: flex;
-    justify-content: center;
- }
- nav {
-  /* text-align: left;
-  margin-left: 25%; */
+  justify-content: center;
+}
+nav {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
-  
- nav a {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
   position: relative;
   text-decoration: none;
   color: #f7f7f7;
@@ -203,8 +65,8 @@
   margin-top: 1.25em;
   transition: color 0.2s ease-in-out;
   letter-spacing: 1px;
- }
- nav a:before {
+}
+nav a:before {
   content: '';
   height: 0;
   position: absolute;
@@ -212,40 +74,34 @@
   background-color: white;
   left: -0.5em;
   transition: all 0.2s ease-in-out;
- }
- nav a:hover {
+}
+nav a:hover {
   color: #f7f7f7;
-  
- }
+}
 
- 
- nav a:hover:before {
+nav a:hover:before {
   height: 100%;
- }
-  
-  
- #toggle:checked + .hamburger .top-bun {
+}
+
+#toggle:checked + .hamburger .top-bun {
   transform: rotate(-45deg);
   margin-top: 25px;
   background-color: #f7f7f7;
- }
- #toggle:checked + .hamburger .bottom-bun {
+}
+#toggle:checked + .hamburger .bottom-bun {
   opacity: 0;
   transform: rotate(45deg);
- }
- #toggle:checked + .hamburger .meat {
+}
+#toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
   margin-top: -7px;
   background-color: #f7f7f7;
- }
-  
- #toggle:checked + .hamburger + .nav {
+}
+
+#toggle:checked + .hamburger + .nav {
   top: 0;
   transform: scale(1);
- }
- 
-
-
+}
 
 /* .hamburger {
   transform: rotate(-45deg);
@@ -274,9 +130,3 @@
   top: 0;
   transform: scale(1);
 } */
-
-
-
-
-
-

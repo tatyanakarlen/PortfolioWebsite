@@ -44,7 +44,6 @@ const PortfolioPiece = (props) => {
           <br />
           <br />
           <br />
-          {/* </div> */}
         </div>
         <br />
         <br />

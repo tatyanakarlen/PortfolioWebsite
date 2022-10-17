@@ -3,7 +3,6 @@ import './TopNav.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
-import logo from '../../components/Images/Taty.png';
 
 export default function TopNav() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -50,9 +49,9 @@ export default function TopNav() {
   };
 
   let bottomBun = {
-    opacity: "0", 
-  transform: "rotate(45deg)"
-  }
+    opacity: '0',
+    transform: 'rotate(45deg)',
+  };
 
   let navStyles = {
     top: '0',
@@ -64,7 +63,7 @@ export default function TopNav() {
     topBunStyles = '';
     meatStyles = '';
     navStyles = '';
-    bottomBun = ''
+    bottomBun = '';
   }
 
   return (
@@ -74,25 +73,13 @@ export default function TopNav() {
       <label
         for="toggle"
         class="hamburger"
-        
-       
         onClick={() => {
-          
           setIsChecked(!isChecked);
         }}
       >
-        <div
-          class="top-bun"
-        
-        ></div>
-        <div
-          class="meat"
-          
-        ></div>
-        <div
-          class="bottom-bun"
-        
-        ></div>
+        <div class="top-bun"></div>
+        <div class="meat"></div>
+        <div class="bottom-bun"></div>
       </label>
 
       <div class="nav">
@@ -114,66 +101,5 @@ export default function TopNav() {
         </div>
       </div>
     </>
-    // <div className="Nav">
-    //   <div id="name-link">
-    //     <a onClick={linkNavStateTrigger} className="nav-left-link" href={aboutScrollTo}>
-    //       <img src={logo} style={{width: '55px', marginTop: '0.5rem'}}/>
-    //     </a>
-
-    //   </div>
-
-    //   <button
-    //     className="hamburger"
-    //     onClick={() => {
-    //       setIsNavExpanded(!isNavExpanded);
-    //     }}
-    //   >
-
-    //     <svg
-    //       style={{ backgroundColor: '#f7f7f7', color: '#2b2929' }}
-    //       xmlns="http://www.w3.org/2000/svg"
-    //       fill="white"
-    //       viewBox="0 0 24 24"
-    //       strokeWidth={1.5}
-    //       stroke="currentColor"
-    //       className="w-6 h-6"
-    //     >
-    //       <path
-    //         strokeLinecap="round"
-    //         strokeLinejoin="round"
-    //         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-    //       />
-    //     </svg>
-    //   </button>
-
-    //   <div
-    //     className={
-    //       isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
-    //     }
-    //   >
-    //     <ul id="ul" style={{ backgroundColor: '#f7f7f7' }}>
-
-    //       <li>
-    //         <a href="#skills" onClick={linkNavStateTrigger} className="link">
-    //           SKILLS
-    //         </a>
-    //       </li>
-
-    //       how to condionally style:   style={{color: currentLink ? '#c93082' : '#2e313a'}}
-
-    //       <li>
-    //         <a
-    //           onClick={() => {
-    //             setIsNavExpanded(!isNavExpanded);
-    //           }}
-    //           href="#portfolio"
-    //           className="link"
-    //         >
-    //           PORTFOLIO
-    //         </a>
-    //       </li>
-    //     </ul>
-    //   </div>
-    // </div>
   );
 }

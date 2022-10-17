@@ -1,101 +1,76 @@
 #image {
-    /* width: 85vw;
-    height: 85vh; */
-    height: 100%; 
-    width: 100%; 
-    margin-top: 1rem;
-    user-select: none;
-    
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
-    /* object-fit: fill; */
-    /* object-fit: contain; */
-    object-fit: cover;
-    
-    /* tried contain, works better */
-  }
-  
-  /* .right-arr {
-    font-size: 2.5rem;
-    color: rgb(49, 49, 49);
-    transition: 200ms;
-    margin: 0.5rem;
-    position:absolute; 
-  } */
+  height: 100%;
+  width: 100%;
+  margin-top: 1rem;
+  user-select: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+  object-fit: cover;
+}
 
-  .right-arr {
-    font-size: 2.5em;
-    color: rgb(49, 49, 49);
-    transition: 200ms;
-    margin: 1rem;
-    position: absolute;
-    top: calc(50% - 30px);
-  }
+.right-arr {
+  font-size: 2.5em;
+  color: rgb(49, 49, 49);
+  transition: 200ms;
+  margin: 1rem;
+  position: absolute;
+  top: calc(50% - 30px);
+}
 
-  .left-arr {
-    font-size: 2.5em;
-    color: rgb(49, 49, 49);
-    transition: 200ms;
-    /* margin: 1rem; */
-    position: absolute;
-    top: calc(50% - 15px);
-    left: -3.5rem;
-  }
+.left-arr {
+  font-size: 2.5em;
+  color: rgb(49, 49, 49);
+  transition: 200ms;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: -3.5rem;
+}
 
- 
-  
-  .right-arr:hover {
-    color: rgb(88, 88, 88);
-    cursor: pointer;
-    /* transform: scale(1.1); */
-  }
-  
-  .slide {
-    opacity: 0;
-    transition-duration: 100ms ease;
-    
-  }
-  
-  .slide.active {
-    opacity: 1;
-    transition-duration: 100ms;
-  }
-  
-  #title {
-    font-size: 2rem;
-    user-select: none;
-    font-family: 'Arial'; 
-    color: black; 
-  }
+.right-arr:hover {
+  color: rgb(88, 88, 88);
+  cursor: pointer;
+}
 
-  .col-2-pics {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* border: 2px solid red;  */
-    position: relative; 
-    
-  }
+.slide {
+  opacity: 0;
+  transition-duration: 100ms ease;
+}
 
-  #X {
-    transform: translateY(-1.5rem);
-    right: -0.1rem;
-    position: absolute; 
-    font-size: 2.2rem; 
-    cursor: pointer;
-    color: rgb(49, 49, 49);
-  }
+.slide.active {
+  opacity: 1;
+  transition-duration: 100ms;
+}
 
-  #X:hover {
-    color: rgb(88, 88, 88);
-    cursor: pointer;
-    
-  }
+#title {
+  font-size: 2rem;
+  user-select: none;
+  font-family: 'Arial';
+  color: black;
+}
 
-  
+.col-2-pics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
 
-  #icon-container {
-    background-color: #f7f7f7;
-    margin-top: 0.8rem; 
-  }
+#X {
+  transform: translateY(-1.5rem);
+  right: -0.1rem;
+  position: absolute;
+  font-size: 2.2rem;
+  cursor: pointer;
+  color: rgb(49, 49, 49);
+}
+
+#X:hover {
+  color: rgb(88, 88, 88);
+  cursor: pointer;
+}
+
+#icon-container {
+  background-color: #f7f7f7;
+  margin-top: 0.8rem;
+}
