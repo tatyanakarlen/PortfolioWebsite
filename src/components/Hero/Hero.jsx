@@ -26,7 +26,7 @@ const Hero = () => {
                 <img src={bioPic}></img>
 
                 <h1>Tatyana Karlen</h1>
-                <h3>FULL-STACK DEVELOPER</h3>
+                <h3>Full-Stack Developer</h3>
                 <a
                   class="contact-me-link"
                   href="mailto:tatyanakarlen@gmail.com"
@@ -46,9 +46,11 @@ const Hero = () => {
                   </span>{' '}
                   I'm a{' '}
                   <span class="full-stack-developer">full-stack developer</span>{' '}
-                  with a passion for front-end development. When I'm not coding,
-                  I'm playing or teaching piano. My skills and past projects can
-                  be found below.
+                  with a passion for front-end development. I graduated from
+                  General Assembly's{' '}
+                  <span class="bold-span">Software Engineering Immersive</span>{' '}
+                  program and I have a diploma in Fashion Arts and piano
+                  performance. My skills and past projects can be found below.
                   <br />
                   <br />
                   <span class="collaborate">
@@ -173,9 +175,10 @@ const Hero = () => {
                     >
                       full-stack developer
                     </span>{' '}
-                    with a passion for front-end development. When I'm not
-                    coding, I'm playing or teaching piano. My skills and past
-                    projects can be found below.
+                    with a passion for frontend development. I graduated from General Assembly's <span class='bold-span'>Software Engineering
+                    Immersive</span> program and I have a diploma in Fashion Arts and
+                    piano performance. My skills and past projects can be found
+                    below. 
                     <br />
                     <br />
                     <span>
