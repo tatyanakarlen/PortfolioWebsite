@@ -140,40 +140,57 @@ const Hero = () => {
             <>
               {isSmallMobile ? (
                 <>
-                <p>
-                  <span style={{ fontWeight: 'bold' }}>
-                    Hi &#128075; thanks for stopping by!
-                  </span>{' '}
-                  I'm a{' '}
-                  <span style={{ color: '#b20456', fontWeight: 'bold', fontSize: '1em' }}>
-                    full-stack developer
-                  </span>{' '}
-                  with a passion for front-end development.
-                </p>
-                
+                  <p>
+                    <span style={{ fontWeight: 'bold' }}>
+                      Hi &#128075; thanks for stopping by!
+                    </span>{' '}
+                    I'm a{' '}
+                    <span
+                      style={{
+                        color: '#b20456',
+                        fontWeight: 'bold',
+                        fontSize: '1em',
+                      }}
+                    >
+                      full-stack developer
+                    </span>{' '}
+                    with a passion for front-end development.
+                  </p>
                 </>
               ) : (
                 <>
-                <p>
-                  <span style={{ fontWeight: 'bold' }}>
-                    Hi &#128075; thanks for stopping by!
-                  </span>{' '}
-                  I'm a{' '}
-                  <span style={{ color: '#b20456', fontWeight: 'bold', fontSize: '1em' }}>
-                    full-stack developer
-                  </span>{' '}
-                  with a passion for front-end development. When I'm not coding,
-                  I'm playing or teaching piano. My skills and past projects can
-                  be found below.
-                  <br/><br/><span>Looking to collaborate or hire me? I'd love
-        to hear from you!</span>
-                </p>
-              
+                  <p>
+                    <span style={{ fontWeight: 'bold' }}>
+                      Hi &#128075; thanks for stopping by!
+                    </span>{' '}
+                    I'm a{' '}
+                    <span
+                      style={{
+                        color: '#b20456',
+                        fontWeight: 'bold',
+                        fontSize: '1em',
+                      }}
+                    >
+                      full-stack developer
+                    </span>{' '}
+                    with a passion for front-end development. When I'm not
+                    coding, I'm playing or teaching piano. My skills and past
+                    projects can be found below.
+                    <br />
+                    <br />
+                    <span>
+                      Looking to collaborate or hire me? I'd love to hear from
+                      you!
+                    </span>
+                  </p>
                 </>
-                
               )}
             </>
-            <a id="mobile-resume-link" href="#">
+            <a
+              id="mobile-resume-link"
+              target="_blank"
+              href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+            >
               Resume
             </a>
           </header>
