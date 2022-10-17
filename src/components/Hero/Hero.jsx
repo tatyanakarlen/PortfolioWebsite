@@ -49,8 +49,7 @@ const Hero = () => {
                   with a passion for front-end development. I graduated from
                   General Assembly's{' '}
                   <span class="bold-span">Software Engineering Immersive</span>{' '}
-                  program and I have a diploma in Fashion Arts and piano
-                  performance. My skills and past projects can be found below.
+                  program and I have a background in Fashion Arts and piano performance.
                   <br />
                   <br />
                   <span class="collaborate">
@@ -176,8 +175,7 @@ const Hero = () => {
                       full-stack developer
                     </span>{' '}
                     with a passion for frontend development. I graduated from General Assembly's <span class='bold-span'>Software Engineering
-                    Immersive</span> program and I have a diploma in Fashion Arts and
-                    piano performance. My skills and past projects can be found
+                    Immersive</span> program and I have a background in Fashion Arts and piano performance. My skills and past projects can be found
                     below. 
                     <br />
                     <br />
