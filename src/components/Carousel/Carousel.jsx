@@ -3,6 +3,13 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import './Carousel.css';
 import { AiFillCloseCircle } from 'react-icons/ai';
 
+import {IoIosArrowForward} from 'react-icons/io'; 
+import {IoIosArrowBack} from 'react-icons/io'; 
+import {IoMdCloseCircle} from 'react-icons/io'; 
+
+
+
+
 export default function Carousel(props) {
   const SliderData = [
     {
@@ -48,14 +55,15 @@ export default function Carousel(props) {
             {index === current && (
               <div>
                 <img id="image" alt="test" src={slide.image}></img>
-                <AiFillCloseCircle
+                
+                <IoMdCloseCircle
                   id="X"
                   onClick={() => props.setCarouselActive(false)}
                   
                 />
                
-                <FaArrowAltCircleRight className="right-arr" onClick={nextSlide} />
-                <FaArrowAltCircleLeft className="left-arr" onClick={nextSlide} />
+                <IoIosArrowForward className="right-arr" onClick={nextSlide} />
+                <IoIosArrowBack className="left-arr" onClick={nextSlide} />
                 
               </div>
             )}

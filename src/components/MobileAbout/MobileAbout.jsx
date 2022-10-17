@@ -21,7 +21,7 @@ const MobileAbout = () => {
                   rel="noopener noreferrer"
                 >
                   Contact&nbsp;
-                  <BsFillEnvelopeFill style={{ fontSize: '2rem' }} />
+                  <BsFillEnvelopeFill style={{ fontSize: '2rem', color: '#b20456' }} />
                 </a>
     </div>
   );

@@ -50,6 +50,7 @@
     .skills-icon-container {
       gap: 4rem; 
       width: 90%;
+      max-width: 100%;
     }
    }
   
