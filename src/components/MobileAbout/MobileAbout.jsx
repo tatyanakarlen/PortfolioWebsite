@@ -7,8 +7,8 @@ const MobileAbout = () => {
     <div class="mobile-about-me">
       <h1>&lt;ABOUT ME&gt;</h1>
       <p>
-        My name is Tatyana and I'm a full-stack{' '}
-        <span class="bold-span">web developer</span> with a passion for UI. I graduated from General Assembly's{' '}
+        My name is Tatyana and I'm a creative full-stack{' '}
+        <span class="bold-span">web developer</span>. I graduated from General Assembly's{' '}
         <span class="bold-span">Software Engineering Immersive</span> program
         and I have a background in Fashion Arts and piano performance. My skills and
         past projects can be found below.
