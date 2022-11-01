@@ -7,6 +7,7 @@ import { BsGithub } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 import { useMediaQuery } from 'react-responsive';
 import { AiOutlineDown } from 'react-icons/ai';
+// import { resume } from '../assets/TATYANA KARLEN-RESUME.pdf'
 
 import resume from '../assets/TATYANA KARLEN-RESUME.pdf';
 import isNavExpanded from '../TopNav/TopNav.jsx';
@@ -49,7 +50,8 @@ const Hero = () => {
                   with a passion for front-end development. I graduated from
                   General Assembly's{' '}
                   <span class="bold-span">Software Engineering Immersive</span>{' '}
-                  program and I have a background in Fashion Arts and piano performance.
+                  program and I have a background in Fashion Arts and piano
+                  performance.
                   <br />
                   <br />
                   <span class="collaborate">
@@ -61,7 +63,7 @@ const Hero = () => {
                   <a
                     id="resume-link"
                     target="_blank"
-                    href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+                    href="/static/media/TATYANA KARLEN-RESUME.b9999fab1ad1427d2fe2.pdf"
                   >
                     Resume
                   </a>
@@ -174,9 +176,13 @@ const Hero = () => {
                     >
                       full-stack developer
                     </span>{' '}
-                    with a passion for frontend development. I graduated from General Assembly's <span class='bold-span'>Software Engineering
-                    Immersive</span> program and I have a background in Fashion Arts and piano performance. My skills and past projects can be found
-                    below. 
+                    with a passion for frontend development. I graduated from
+                    General Assembly's{' '}
+                    <span class="bold-span">
+                      Software Engineering Immersive
+                    </span>{' '}
+                    program and I have a background in Fashion Arts and piano
+                    performance. My skills and past projects can be found below.
                     <br />
                     <br />
                     <span>
@@ -190,7 +196,7 @@ const Hero = () => {
             <a
               id="mobile-resume-link"
               target="_blank"
-              href="/static/media/TATYANA KARLEN-RESUME.826863f4950af7657361.pdf"
+              href="/static/media/TATYANA KARLEN-RESUME.b9999fab1ad1427d2fe2.pdf"
             >
               Resume
             </a>
