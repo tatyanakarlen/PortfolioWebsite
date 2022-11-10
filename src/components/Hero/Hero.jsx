@@ -25,7 +25,6 @@ const Hero = () => {
             <header class="header">
               <div class="left-img-title-container">
                 <img src={bioPic}></img>
-                <p>{resume}</p>
 
                 <h1>Tatyana Karlen</h1>
                 <h3>Full-Stack Developer</h3>
