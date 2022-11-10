@@ -9,7 +9,7 @@ import { useMediaQuery } from 'react-responsive';
 import { AiOutlineDown } from 'react-icons/ai';
 // import { resume } from '../assets/TATYANA KARLEN-RESUME.pdf'
 
-import resume from '../assets/TATYANA KARLEN-RESUME.pdf';
+import resume from '../assets/TATYANA KARLEN - RESUME.pdf';
 import isNavExpanded from '../TopNav/TopNav.jsx';
 
 const Hero = () => {
@@ -25,6 +25,7 @@ const Hero = () => {
             <header class="header">
               <div class="left-img-title-container">
                 <img src={bioPic}></img>
+                <p>{resume}</p>
 
                 <h1>Tatyana Karlen</h1>
                 <h3>Full-Stack Developer</h3>
@@ -63,7 +64,7 @@ const Hero = () => {
                   <a
                     id="resume-link"
                     target="_blank"
-                    href="/static/media/TATYANA KARLEN-RESUME.b9999fab1ad1427d2fe2.pdf"
+                    href="/static/media/TATYANA KARLEN - RESUME.c5403084a7b59e9b16f8.pdf"
                   >
                     Resume
                   </a>
@@ -196,7 +197,7 @@ const Hero = () => {
             <a
               id="mobile-resume-link"
               target="_blank"
-              href="/static/media/TATYANA KARLEN-RESUME.b9999fab1ad1427d2fe2.pdf"
+              href="/static/media/TATYANA KARLEN - RESUME.c5403084a7b59e9b16f8.pdf"
             >
               Resume
             </a>
