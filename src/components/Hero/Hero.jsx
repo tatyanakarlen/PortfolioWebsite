@@ -25,7 +25,6 @@ const Hero = () => {
             <header class="header">
               <div class="left-img-title-container">
                 <img src={bioPic}></img>
-
                 <h1>Tatyana Karlen</h1>
                 <h3>Full-Stack Developer</h3>
                 <a
@@ -63,7 +62,7 @@ const Hero = () => {
                   <a
                     id="resume-link"
                     target="_blank"
-                    href="/static/media/TATYANA KARLEN - RESUME.c5403084a7b59e9b16f8.pdf"
+                    href="/static/media/TATYANA KARLEN - RESUME.3ae8c19914c340c5e521.pdf"
                   >
                     Resume
                   </a>
@@ -196,7 +195,7 @@ const Hero = () => {
             <a
               id="mobile-resume-link"
               target="_blank"
-              href="/static/media/TATYANA KARLEN - RESUME.c5403084a7b59e9b16f8.pdf"
+              href="/static/media/TATYANA KARLEN - RESUME.3ae8c19914c340c5e521.pdf"
             >
               Resume
             </a>
