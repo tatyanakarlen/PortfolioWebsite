@@ -15,6 +15,7 @@ import isNavExpanded from '../TopNav/TopNav.jsx';
 const Hero = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 900px)' });
   const isSmallMobile = useMediaQuery({ query: '(max-width: 500px)' });
+  const resumeLink = "/static/media/TATYANA KARLEN - RESUME.3ae8c19914c340c5e521.pdf"
 
   return (
     <>
@@ -62,7 +63,7 @@ const Hero = () => {
                   <a
                     id="resume-link"
                     target="_blank"
-                    href="/static/media/TATYANA KARLEN - RESUME.3ae8c19914c340c5e521.pdf"
+                    href={resumeLink}
                   >
                     Resume
                   </a>
@@ -195,7 +196,7 @@ const Hero = () => {
             <a
               id="mobile-resume-link"
               target="_blank"
-              href="/static/media/TATYANA KARLEN - RESUME.3ae8c19914c340c5e521.pdf"
+              href={resumeLink}
             >
               Resume
             </a>

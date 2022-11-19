@@ -57,13 +57,15 @@
 }
 
 #X {
-  transform: translateY(-1.5rem);
-  right: -0.1rem;
-  position: absolute;
-  font-size: 2.2rem;
-  cursor: pointer;
-  color: rgb(49, 49, 49);
+  top: 8px;
+    right: -2.7rem;
+    position: absolute;
+    font-size: 2.2rem;
+    cursor: pointer;
+    color: rgb(49, 49, 49);
+    opacity: 0.8;
 }
+
 
 #X:hover {
   color: rgb(88, 88, 88);
