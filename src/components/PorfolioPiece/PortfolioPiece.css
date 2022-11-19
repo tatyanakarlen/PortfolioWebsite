@@ -1,18 +1,18 @@
 .project-title {
   font-weight: bold;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.9rem;
   text-decoration: underline;
   color: #333;
 }
 
 .project-details {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
 }
 
 #project-headline {
   font-weight: bold;
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   text-align: left;
   color: #333;
 }

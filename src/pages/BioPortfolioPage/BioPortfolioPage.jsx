@@ -23,7 +23,7 @@ function BioPortfolioPage(props) {
       <br />
       <br />
       <br />
-      <footer id="footer" class="text" style={{fontSize: '1.75rem', textAlign: 'center', marginTop: '2rem'}}>
+      <footer id="footer" class="text" style={{fontSize: '1.6rem', textAlign: 'center', marginTop: '2rem'}}>
       Copyright Tatyana Karlen 2022
       </footer>
       <br />
