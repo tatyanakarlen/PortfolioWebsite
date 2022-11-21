@@ -16,7 +16,7 @@ const Hero = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 900px)' });
   const isSmallMobile = useMediaQuery({ query: '(max-width: 500px)' });
   const resumeLink =
-    '/static/media/TATYANA_KARLEN_RESUME.3a0d044114b111a1b961.pdf';
+    '/static/media/TATYANA_KARLEN_RESUME.5ffedecd3f6f0c6ab413.pdf';
 
   return (
     <>
