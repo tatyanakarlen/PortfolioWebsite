@@ -9,13 +9,14 @@ import { useMediaQuery } from 'react-responsive';
 import { AiOutlineDown } from 'react-icons/ai';
 // import { resume } from '../assets/TATYANA KARLEN-RESUME.pdf'
 
-import resume from '../assets/TATYANA KARLEN - RESUME.pdf';
+import resume from '../assets/TATYANA_KARLEN_RESUME.pdf';
 import isNavExpanded from '../TopNav/TopNav.jsx';
 
 const Hero = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 900px)' });
   const isSmallMobile = useMediaQuery({ query: '(max-width: 500px)' });
-  const resumeLink = "/static/media/TATYANA KARLEN - RESUME.3ae8c19914c340c5e521.pdf"
+  const resumeLink =
+    '/static/media/TATYANA_KARLEN_RESUME.3a0d044114b111a1b961.pdf';
 
   return (
     <>
@@ -60,11 +61,7 @@ const Hero = () => {
                   </span>
                 </p>
                 <div class="btn-icons-container">
-                  <a
-                    id="resume-link"
-                    target="_blank"
-                    href={resumeLink}
-                  >
+                  <a id="resume-link" target="_blank" href={resumeLink}>
                     Resume
                   </a>
                   <ul class="right-side-icons">
@@ -193,11 +190,7 @@ const Hero = () => {
                 </>
               )}
             </>
-            <a
-              id="mobile-resume-link"
-              target="_blank"
-              href={resumeLink}
-            >
+            <a id="mobile-resume-link" target="_blank" href={resumeLink}>
               Resume
             </a>
           </header>
