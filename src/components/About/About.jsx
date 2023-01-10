@@ -7,7 +7,7 @@ const MobileAbout = () => {
     <div class="about-me" id="about-me">
       <h1 class="section-heading">About</h1>
 
-      <h3 class="h3-computer">diverse creative background</h3>
+      <h3 class="h3-computer">Diverse creative background</h3>
       <p class="bio">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
         assumenda totam autem dicta dolore sint quo quae,{' '}

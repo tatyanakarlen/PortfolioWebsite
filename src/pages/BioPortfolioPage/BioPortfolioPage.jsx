@@ -7,6 +7,8 @@ import { useMediaQuery } from 'react-responsive';
 import About from '../../components/About/About.jsx';
 import './BioPortfolioPage.css'
 
+
+
 import { RiCopyrightFill } from 'react-icons/ri';
 
 function BioPortfolioPage(props) {
@@ -24,6 +26,7 @@ function BioPortfolioPage(props) {
       <Hero />
       <About />
       <Skills />
+      <h1 style={{marginBottom: '-4rem'}}class="section-heading">Projects</h1>
        {props.projects.map((m) => (
         <PortfolioBox
           title={m.title}
