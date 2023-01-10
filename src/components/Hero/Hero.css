@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Jost:wght@300;400&family=Rubik+Mono+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Jost:wght@300;400&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
 
 header {
   color: white;
@@ -13,7 +13,6 @@ header {
   height: 100vh;
   background-color: #1b1b1b;
   color: white;
-  font-weight: 600;
   margin-top: 2rem;
 }
 
@@ -42,14 +41,7 @@ header .img-header-container {
   background-color: #1b1b1b;
 }
 
-header .img-header-container span {
-  font-family: Caramel;
-  text-shadow: #eb07df 0px 0px 5px, #eb07df 0px 0px 10px, #eb07df 0px 0px 15px,
-    #eb07df 0px 0px 20px, #eb07df 0px 0px 30px, #eb07df 0px 0px 40px,
-    #eb07df 0px 0px 50px, #eb07df 0px 0px 75px;
-  font-size: 5rem;
-  /* animation: flicker 1.5s infinite alternate;   */
-}
+
 
 .pink-neon-text {
   font-family: Caramel;
@@ -135,12 +127,8 @@ header img {
 }
 
 header p {
-  letter-spacing: inherit;
-  font-size: 2.3rem;
-  line-height: 3rem;
-  width: 85%;
-  color: #fff;
-  margin-bottom: unset;
+ 
+  margin-bottom: unset; 
   /* text-shadow: #eb07df 0px 0px 5px, #eb07df 0px 0px 10px, #eb07df 0px 0px 15px, #eb07df 0px 0px 20px, #eb07df 0px 0px 30px, #eb07df 0px 0px 40px, #eb07df 0px 0px 50px, #eb07df 0px 0px 75px; */
 }
 

@@ -41,7 +41,7 @@ const Hero = () => {
               <h1>Tatyana Karlen</h1>
 
               <h3>
-                Full-stack <span>web</span> developer
+                Full-stack <span class="pink-neon-text">web</span> developer
               </h3>
             </div>
           </div>

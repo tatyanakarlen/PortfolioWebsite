@@ -3,87 +3,69 @@ import './Skills.css';
 
 const Skills = () => {
   return (
-    <div class="skills-outter-wrapper" id="skills">
-      <h1>&lt;Skills &#128187;&gt;</h1>
+    <div class="skills">
+      <div>
+        <h1 class="section-heading">Skills</h1>
+        <p class="skills-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit
+          vel fugit vel.
+        </p>
+        <p class="bold-underlined-text">
+          Experienced with the following languages and tools:
+        </p>
+      </div>
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div class="skills-icon-container">
-        <div class="skill-icon-container">
-          <img
-            src="https://img.icons8.com/color/50/000000/javascript--v1.png"
-            alt="icon"
-          />
-          <p class="icon-text">Javascript</p>
-        </div>
-        <div class="skill-icon-container">
-          <img
-            src="https://img.icons8.com/plasticine/50/000000/react.png"
-            alt="icon"
-          />
-          <p class="icon-text">React</p>
-        </div>
-        <div class="skill-icon-container">
-          <img
-            src="https://img.icons8.com/color/50/000000/nodejs.png"
-            alt="icon"
-          />
-          <p class="icon-text">NodeJS</p>
-        </div>
-        <div class="skill-icon-container">
-          <img
-            src="https://img.icons8.com/color/50/000000/css3.png"
-            alt="icon"
-          />
-          <p class="icon-text">HTML</p>
-        </div>
-        <div class="skill-icon-container">
-          <img
-            src="https://img.icons8.com/color/50/000000/html-5--v1.png"
-            alt="icon"
-          />
-          <p class="icon-text">CSS</p>
-        </div>
-        <div class="skill-icon-container">
-          <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" />
-          <p class="icon-text">jQuery</p>
-        </div>
-        <div class="skill-icon-container">
-          <img src="https://img.icons8.com/ios-filled/50/000000/sass.png" />{' '}
-          <p class="icon-text">Sass</p>
-        </div>
-        <div class="skill-icon-container">
-          <img
-            src="https://img.icons8.com/color/50/000000/mongodb.png"
-            alt="icon"
-          />
-          <p class="icon-text">MongoDB</p>
-        </div>
-        <div class="skill-icon-container">
-          <img src="https://img.icons8.com/color/50/000000/postgreesql.png" />
-          <p class="icon-text">PostgreSQL</p>
-        </div>
-        <div class="skill-icon-container">
-          <img src="https://img.icons8.com/color/50/000000/api-settings.png" />
-          <p class="icon-text">Rest API</p>
-        </div>
 
-        <div class="skill-icon-container">
-          <img
-            src="https://img.icons8.com/fluency/50/000000/python.png"
-            alt="icon"
-          />
-          <p class="icon-text">Python</p>
+      <div class="skills-container-wrapper">
+        <div class="skill-container">
+          <div class="skills-icon-box">Javascript</div>
         </div>
-        <div class="skill-icon-container">
-          <img
-            src="https://img.icons8.com/windows/50/000000/django.png"
-            alt="icon"
-          />
-          <p class="icon-text">Django</p>
+        <div class="skill-container">
+          <div class="skills-icon-box">React</div>
         </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">HTML5</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">CSS3</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">Sass</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">Next.js</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">Python</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">Django</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">Node.js</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">Express</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">MongoDB</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">PostgreSQL</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">GitHub</div>
+        </div>
+        <div class="skill-container">
+          <div class="skills-icon-box">Wordpress</div>
+        </div>
+      </div>
+      <div class="img-container">
+        <img
+          src="https://media.giphy.com/media/xT9KVgmGTooXz0iDPW/giphy.gif"
+          alt=""
+          class="gif"
+        />
       </div>
     </div>
   );
