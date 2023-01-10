@@ -1,9 +1,16 @@
 import './PortfolioBox.css';
 import PortfolioPiece from '../PorfolioPiece/PortfolioPiece';
 import React, { useState } from 'react';
+// import { AiOutlineRead } from 'react-icons/ai';
+import { AiOutlineFolderOpen } from 'react-icons/ai';
+import { GoEyeClosed } from 'react-icons/go';
+
+
+
 
 const PortfolioBox = (props) => {
-  const [readMoreClicked, setReadMoreClicked] = useState(false);
+
+  const [readMoreActive, setReadMoreActive] = useState(false);
   let lastEl = props.tech[props.tech.length - 1];
 
   return (
@@ -20,7 +27,23 @@ const PortfolioBox = (props) => {
           </span>
         ))}
       </p>
-      <h3 class="read-more underlined">Read more</h3>
+      {readMoreActive ? 
+      <div class="read-more-pop-up">
+         <div class="icon-text-container">
+        <GoEyeClosed style={{fontSize: '2.75rem'}} />
+      <h3 class="read-more underlined" onClick={() => setReadMoreActive(!readMoreActive)}>Close</h3>
+      </div>
+      {/* <h3 class="read-more underlined" onClick={() => setReadMoreActive(!readMoreActive)}>Close</h3>  */}
+      <p class="underlined">-{props.bullet1}</p>
+          <p>-{props.bullet2}</p>
+          <p>-{props.bullet3}</p>
+      </div> :
+      <div class="icon-text-container">
+        <AiOutlineFolderOpen  class="icon" />
+      <h3 class="read-more underlined" onClick={() => setReadMoreActive(!readMoreActive)}>Read more</h3>
+      </div>
+      
+}
       <div class="carousel-container">
         <img src={props.images[0]} alt="project-image" />
       </div>

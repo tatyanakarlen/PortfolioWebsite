@@ -1,7 +1,7 @@
 
   
   .projects .read-more {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: 'Anonymous Pro';
     letter-spacing: 0.7px;
   }
@@ -27,6 +27,12 @@
     transform-style: preserve-3d;
     will-change: transform;
     cursor: pointer;
+  }
+
+  .icon-text-container {
+      display: flex; 
+      align-items: center;
+      gap: 0.7rem;
   }
 
 
