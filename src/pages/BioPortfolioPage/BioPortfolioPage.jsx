@@ -11,7 +11,11 @@ import { RiCopyrightFill } from 'react-icons/ri';
 
 function BioPortfolioPage(props) {
 
+  console.log(props.projects)
+
   const isSmallMobile = useMediaQuery({ query: '(max-width: 500px)' });
+
+  
 
   return (
     <div class="main-container">
@@ -19,8 +23,23 @@ function BioPortfolioPage(props) {
       <div class="inner-wrapper">
       <Hero />
       <About />
-      {/* { isSmallMobile && <MobileAbout />} */}
       <Skills />
+       {props.projects.map((m) => (
+        <PortfolioBox
+          title={m.title}
+          headline={m.headline}
+          images={m.images}
+          title={m.title}
+          tech={m.tech}
+          headline={m.headline}
+          bullet1={m.bullet1}
+          bullet2={m.bullet2}
+          bullet3={m.bullet3}
+          body={m.body}
+          deployedAppLink={m.deployedAppLink}
+          gitHubLink={m.gitHubLink}
+        />
+      ))} 
       {/* <PortfolioBox projects={props.projects} /> */}
       </div>
     </div>

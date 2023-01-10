@@ -1,25 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.Portfolio-Box-Container {
-    width: 85%; 
-    margin: auto; 
-}
+  
+  .projects .read-more {
+    font-size: 1.7rem;
+    font-family: 'Anonymous Pro';
+    letter-spacing: 0.7px;
+  }
+  
+  .projects .carousel-container {
+    overflow: hidden;
+    margin-top: 5rem;
+  }
 
-#Projects-container {
-    font-size: large;
+  .projects img {
+    transition: all 0.2s ease 0.1s; 
+    width: 100%;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    object-fit: cover;
+  }
+  
+  .projects img:hover {
+    width: 100%;
+    transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    will-change: transform;
+    cursor: pointer;
+  }
 
-}
 
-#PROJECTS {
-    font-size: 3.5rem; 
-    text-align: left;
-    padding-top: 75px; 
-    font-family: 'Permanent Marker';
-    color: #333; 
-    
-    
-    
+  
+ 
+  
+  
 
-}

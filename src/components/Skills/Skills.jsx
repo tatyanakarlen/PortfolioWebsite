@@ -57,7 +57,7 @@ const Skills = () => {
           <div class="skills-icon-box">GitHub</div>
         </div>
         <div class="skill-container">
-          <div class="skills-icon-box">Wordpress</div>
+          <div class="skills-icon-box">jQuery</div>
         </div>
       </div>
       <div class="img-container">
