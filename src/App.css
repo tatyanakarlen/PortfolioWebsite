@@ -1,20 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Jost:wght@300;400&display=swap');
+
 .App {
-  margin: 0px;
-  padding: 0px;
-  width: 100vw;
   overflow: hidden;
 
-  background-color: #f7f7f7;
-  color: #2b2929;
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
+  box-sizing: border-box;
 }
+
+:root {
+  /* neon green */
+  --color-green: rgb(79, 244, 3);
+  --color-primary-pink: #eb07df;
+  --color-blue: #7ef40b;
+}
+
+body {
+  position: relative;
+  font-family: 'Anonymous Pro';
+  letter-spacing: 0.7px;
+  color: #fff;
+}
+
+
+

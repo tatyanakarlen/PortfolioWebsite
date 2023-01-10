@@ -1,0 +1,12 @@
+.main-container {
+  position: relative;
+  background-color: #1b1b1b;
+  width: 100vw;
+}
+
+.inner-wrapper {
+    background-color: #1b1b1b;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 6rem;
+  }

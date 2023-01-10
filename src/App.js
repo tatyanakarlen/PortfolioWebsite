@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
 import BioPortfolioPage from './pages/BioPortfolioPage/BioPortfolioPage';
+// import './components/assets/images.jsx'
+// import './components/assets/data.jsx'
 
 import { Route, Routes, Navigate } from 'react-router-dom';
+
 import img1 from './components/Images/UntitledImages/UntitledTEST5.png';
 import img2 from './components/Images/UntitledImages/UntitledTEST6.png';
 import img3 from './components/Images/UntitledImages/UntitledTEST1.png';
