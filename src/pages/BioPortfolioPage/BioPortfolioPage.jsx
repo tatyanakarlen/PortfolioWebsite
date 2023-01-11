@@ -21,7 +21,7 @@ function BioPortfolioPage(props) {
 
   return (
     <div class="main-container">
-      {/* <TopNav /> */}
+      <TopNav />
       <div class="inner-wrapper">
       <Hero />
       <About />

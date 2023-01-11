@@ -1,4 +1,98 @@
-#toggle {
+
+.nav {
+  position: fixed;
+  height: 6rem;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 1.6rem;
+  box-sizing: border-box;
+  z-index: 500;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.hamburger {
+  width: 24px;
+  height: 12px;
+  transform: rotate(0deg);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 500;
+}
+
+.hamburger-line-straight {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: #fff;
+  box-shadow: none;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+  border-radius: 100px;
+  transform-origin: center center;
+  position: absolute;
+  transform: translate3d(0px, 0px, 0px) rotate(0deg);
+  margin-top: -2px;
+}
+
+#hamburger-line-1 {
+  margin-top: 1.2rem;
+}
+
+
+
+/* ////// what happans when clicked 
+#navi-toggle:checked + .hamburger .hamburger-line-straight {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: #fff;
+  box-shadow: none;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+  border-radius: 100px;
+  transform-origin: center center;
+  position: absolute;
+  //style prop for line 1
+  transform: translate3d(0px, 6px, 0px) rotate(45deg);
+
+  margin-top: -2px;
+}
+
+#navi-toggle:checked + .hamburger #hamburger-line-1 {
+  //style prop for line 2 
+  
+  background: #fff;
+  transform: translate3d(0px, 6px, 0px) rotate(-45deg);
+  transition-duration: 0.2s;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #toggle {
   display: none;
 }
 
@@ -101,32 +195,6 @@ nav a:hover:before {
 #toggle:checked + .hamburger + .nav {
   top: 0;
   transform: scale(1);
-}
-
-/* .hamburger {
-  transform: rotate(-45deg);
-  margin-top: 25px;
-  background-color: #f7f7f7;
-  opacity: 0;
-  transform: rotate(45deg);
-  transform: rotate(45deg);
-  margin-top: -7px;
-  top: 0;
-  transform: scale(1);
 } */
 
-/* .top-bun {
-  transform: rotate(-45deg);
-  margin-top: 25px;
-  background-color: #f7f7f7;
-} */
 
-/* .meat {
-  transform: rotate(45deg);
-  margin-top: -7px;
-} */
-
-/* .nav {
-  top: 0;
-  transform: scale(1);
-} */
