@@ -36,7 +36,9 @@ const TopNav = () => {
 
   return (
     <div className="nav">
-      <div className="hamburger">
+      <div 
+      onClick={() => setisHamburgerClicked(!isHamburgerClicked)}
+      className="hamburger">
 
       <span 
       className="hamburger-line-straight" 
@@ -44,7 +46,17 @@ const TopNav = () => {
       style={{
   transform: isHamburgerClicked ? 'translate3d(0px, 6px, 0px) rotate(45deg)' : 'translate3d(0px, 0px, 0px) rotate(0deg)'
 }}></span>
-      <span id="hamburger-line-1" className="hamburger-line-straight"></span>
+      <span 
+      onClick={() => setisHamburgerClicked(!isHamburgerClicked)}
+      id="hamburger-line-1" 
+      className="hamburger-line-straight"
+      style={{
+        transform: isHamburgerClicked ? 'translate3d(0px, 6px, 0px) rotate(-45deg)' : 'translate3d(0px, 0px, 0px) rotate(0deg)',
+        color: isHamburgerClicked && '#fff',
+        marginTop: isHamburgerClicked ? '-1.6px' : '1.2rem'
+      }}
+      
+      ></span>
       </div>
     </div>
   )

@@ -65,7 +65,7 @@
 
 #navi-toggle:checked + .hamburger #hamburger-line-1 {
   //style prop for line 2 
-  
+
   background: #fff;
   transform: translate3d(0px, 6px, 0px) rotate(-45deg);
   transition-duration: 0.2s;
