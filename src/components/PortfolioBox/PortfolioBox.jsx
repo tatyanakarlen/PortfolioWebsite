@@ -71,7 +71,7 @@ const PortfolioBox = (props) => {
       
 }   
      {!carouselActive ? 
-      <div class="carousel-container">
+      <div class="static-img-container">
         <img class="static-img"
         onClick={() => setCarouselActive(!carouselActive)}
         src={props.images[0]} alt="project-image" 
