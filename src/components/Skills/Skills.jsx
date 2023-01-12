@@ -45,9 +45,6 @@ const Skills = () => {
           <div class="skills-icon-box">Node.js</div>
         </div>
         <div class="skill-container">
-          <div class="skills-icon-box">Express</div>
-        </div>
-        <div class="skill-container">
           <div class="skills-icon-box">MongoDB</div>
         </div>
         <div class="skill-container">

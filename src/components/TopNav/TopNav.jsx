@@ -6,108 +6,129 @@ import { useMediaQuery } from 'react-responsive';
 import * as ReactDOM from 'react-dom';
 import { MdClosedCaptionDisabled } from 'react-icons/md';
 
-
-
 const TopNav = () => {
+  // const [isNavExpanded, setIsNavExpanded] = useState(false);
+  // const [isLinkClicked, setIsLinkClicked] = useState(false);
+  const [isHamburgerClicked, setisHamburgerClicked] = useState(false);
 
-    // const [isNavExpanded, setIsNavExpanded] = useState(false);
-    // const [isLinkClicked, setIsLinkClicked] = useState(false);
-    const [isHamburgerClicked, setisHamburgerClicked] = useState(false);
+  const ref = useRef([]);
+  const pushRef = (el) => ref.current.push(el);
 
-  
-const ref = useRef([]);
+  // const ref = useRef();
+  // const li = ref.current
+  // li.className = "fade-out"
 
-// const ref = useRef();
-// const li = ref.current
-// li.className = "fade-out"
+  // useEffect(() => {
+  //   if(ref.current) console.log(ref.current)
+  // }, [ref])
 
+  // console.log(ref.current)
 
+  // for (let i = 0; i < ref.current.length; i++) {
+  //   if (ref.current[i] !== null) {
+  //   ref.current[i].className = 'fade-over'
+  //   }
+  //   console.log(ref.current[i])
+  // }
 
-const pushRef = (el) => ref.current.push(el)
+  ///// code to change class name
 
-// useEffect(() => {
-//   if(ref.current) console.log(ref.current)
-// }, [ref])
+  const toggleNav = () => {
+    for (let i = 0; i < ref.current.length; ++i) {
+      if (ref.current[i] !== null) {
+        fadeIn(ref.current[i], i * 60);
+        // console.log(ref.current[i])
+      }
+    }
+  };
 
+  // 	for (let i = 0; i < ref.current.length; ++i) {
+  //     if (ref.current[i] !== null) {
+  //     fadeIn(ref.current[i], i * 60)
+  //   }
+  // }
 
+  // console.log(ref.current)
 
-for (let i = 0; i < ref.current.length; i++) {
-  // console.log(ref.current[i].className)
-  ref.current[i].className = 'fade-over'
-  console.log(ref.current[i])
-  // console.log(ref.current[i])
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  function fadeIn(item, delay) {
+    setTimeout(() => {
+      item.className = 'fade-in';
+    }, delay);
+  }
 
   return (
     <div className="nav">
-      <div 
-      onClick={() => setisHamburgerClicked(!isHamburgerClicked)}
-      className="hamburger">
+      {/* onChange={(e) => {
+                  const isFieldValid = e.target.value.length
+                  if (isFieldValid < 3) {
+                  setErrorMsg(`${e.target.name} is not valid`)
+                  } else {
+                    setErrorMsg('')
+                  }
+                  setFormValidMsg(!formValidMsg)
+                  setArticle({
+                    ...article,
+                    tags: e.target.value,
+                  })
+                  setArticleFormValidation({
+                    ...articleFormValidation, 
+                    tags: e.target.value,
+                 })
+                 checkValid()
+                }
+              } */}
 
-      <span 
-      className="hamburger-line-straight" 
-      onClick={() => setisHamburgerClicked(!isHamburgerClicked)}
-      style={{
-  transform: isHamburgerClicked ? 'translate3d(0px, 6px, 0px) rotate(45deg)' : 'translate3d(0px, 0px, 0px) rotate(0deg)'
-}}></span>
-      <span 
-      onClick={() => setisHamburgerClicked(!isHamburgerClicked)}
-      id="hamburger-line-1" 
-      className="hamburger-line-straight"
-      style={{
-        transform: isHamburgerClicked ? 'translate3d(0px, 6px, 0px) rotate(-45deg)' : 'translate3d(0px, 0px, 0px) rotate(0deg)',
-        color: isHamburgerClicked && '#fff',
-        marginTop: isHamburgerClicked ? '-1.6px' : '1.2rem'
-      }}
-      
-      ></span>
+      <div
+        onClick={() => {
+          setisHamburgerClicked(!isHamburgerClicked);
+          toggleNav();
+        }}
+        className="hamburger"
+      >
+        <span
+          className="hamburger-line-straight"
+          onClick={() => setisHamburgerClicked(!isHamburgerClicked)}
+          style={{
+            transform: isHamburgerClicked
+              ? 'translate3d(0px, 6px, 0px) rotate(45deg)'
+              : 'translate3d(0px, 0px, 0px) rotate(0deg)',
+          }}
+        ></span>
+        <span
+          onClick={() => setisHamburgerClicked(!isHamburgerClicked)}
+          id="hamburger-line-1"
+          className="hamburger-line-straight"
+          style={{
+            transform: isHamburgerClicked
+              ? 'translate3d(0px, 6px, 0px) rotate(-45deg)'
+              : 'translate3d(0px, 0px, 0px) rotate(0deg)',
+            color: isHamburgerClicked && '#fff',
+            marginTop: isHamburgerClicked ? '-1.6px' : '1.2rem',
+          }}
+        ></span>
       </div>
       <ul className="nav-menu">
-      <li ref={pushRef} className="fade-item" >HOME</li>
-      <li ref={pushRef} className="fade-item">ABOUT</li>
-      <li ref={pushRef} className="fade-item">SKILLS</li>
-      <li ref={pushRef} className="fade-item">PROJECTS</li>
-      <li ref={pushRef} className="fade-item">CONTACT</li>
+        <li ref={pushRef} className="fade-item">
+          HOME
+        </li>
+        <li ref={pushRef} className="fade-item">
+          ABOUT
+        </li>
+        <li ref={pushRef} className="fade-item">
+          SKILLS
+        </li>
+        <li ref={pushRef} className="fade-item">
+          PROJECTS
+        </li>
+        <li ref={pushRef} className="fade-item">
+          CONTACT
+        </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default TopNav
-
+export default TopNav;
 
 // export default function TopNav() {
 //   const [isNavExpanded, setIsNavExpanded] = useState(false);
