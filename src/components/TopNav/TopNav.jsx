@@ -77,30 +77,7 @@ const TopNav = () => {
 
   const toggleNav = () => {
     setisHamburgerClicked(!isHamburgerClicked);
-    // if (isHamburgerClicked) {
-    //   for (let i = 0; i < ref.current.length; ++i) {
-    //     if (ref.current[i] !== null) {
-    //       fadeIn(ref.current[i], i * 60);
-          
-    //     }
-    //   }
-      
-    // }
-
-    //  if(!isHamburgerClicked) {
-    //   for (let i = 0; i < ref.current.length; ++i) {
-    //     if (ref.current[i] !== null) {
-    //       fadeOut(ref.current[i], i * 60);
-    //       ref.current[i].className = "fade-item"
-    //     }
-
-        
-    //   }
-    // }
-  };
-
-  useEffect(() => {
-    if (isHamburgerClicked) {
+    if (!isHamburgerClicked) {
       for (let i = 0; i < ref.current.length; ++i) {
         if (ref.current[i] !== null) {
           fadeIn(ref.current[i], i * 60);
@@ -108,17 +85,40 @@ const TopNav = () => {
         }
       }
       
-    } else {
+    }
+
+     if(isHamburgerClicked) {
       for (let i = 0; i < ref.current.length; ++i) {
         if (ref.current[i] !== null) {
           fadeOut(ref.current[i], i * 60);
-          
+          // ref.current[i].className = "fade-item"
         }
 
         
       }
     }
-  }, [isHamburgerClicked])
+  };
+
+  // useEffect(() => {
+  //   if (isHamburgerClicked) {
+  //     for (let i = 0; i < ref.current.length; ++i) {
+  //       if (ref.current[i] !== null) {
+  //         fadeIn(ref.current[i], i * 60);
+          
+  //       }
+  //     }
+      
+  //   } else {
+  //     for (let i = 0; i < ref.current.length; ++i) {
+  //       if (ref.current[i] !== null) {
+  //         fadeOut(ref.current[i], i * 60);
+          
+  //       }
+
+        
+  //     }
+  //   }
+  // }, [isHamburgerClicked])
 
   
   function fadeIn(item, delay) {
@@ -190,7 +190,7 @@ const TopNav = () => {
           HOME
         </li>
         
-        <li ref={pushRef} className="fade-item">
+        <li ref={pushRef} className='fade-item'>
           ABOUT
         </li>
         <li ref={pushRef} className="fade-item">
