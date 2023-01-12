@@ -1,161 +1,37 @@
-import React from 'react';
 import './TopNav.css';
-import { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { useMediaQuery } from 'react-responsive';
-import * as ReactDOM from 'react-dom';
-import { MdClosedCaptionDisabled } from 'react-icons/md';
-import { IoMdTennisball } from 'react-icons/io';
+import { useState, useEffect } from 'react';
+
+const navMenuItems = ['HOME', 'ABOUT', 'SKILLS', 'PROJECTS', 'CONTACT'];
 
 const TopNav = () => {
-  // const [isNavExpanded, setIsNavExpanded] = useState(false);
-  // const [isLinkClicked, setIsLinkClicked] = useState(false);
   const [isHamburgerClicked, setisHamburgerClicked] = useState(false);
+  const [animation, setAnimation] = useState("nav-item-in")
+  const [hasUserClicked, setHasUserClicked] = useState(false)
 
-  const [testState, setTestState] = useState(false)
-
-  const checkNavStatus = () => {
-    if (isHamburgerClicked) {
-      console.log('its clicked')
-    }
-    else {
-      console.log(isHamburgerClicked, "here's the status")
-    }
-  }
-  
-  
-
-  const ref = useRef([]);
-  const pushRef = (el) => ref.current.push(el);
-
-  // const ref = useRef();
-  // const li = ref.current
-  // li.className = "fade-out"
-
-  // useEffect(() => {
-  //   if(ref.current) console.log(ref.current)
-  // }, [ref])
-
-  // console.log(ref.current)
-
-  // for (let i = 0; i < ref.current.length; i++) {
-  //   if (ref.current[i] !== null) {
-  //   ref.current[i].className = 'fade-over'
-  //   }
-  //   console.log(ref.current[i])
-  // }
-
-  ///// code to do fadeIn
-
-  // const toggleNav = () => {
-  //   for (let i = 0; i < ref.current.length; ++i) {
-  //     if (ref.current[i] !== null) {
-  //       fadeOut(ref.current[i], i * 60);
-       
-        
-  //     }
-  //   }
-    
-  // };
-
-  console.log(ref.current)
-
-   ///// code to do fadeOut
-
-  //  const toggleNav = () => {
-  //   for (let i = 0; i < ref.current.length; ++i) {
-  //     if (ref.current[i] !== null) {
-  //       fadeOut(ref.current[i], i * 60);
-       
-        
-  //     }
-  //   }
-  //   console.log(ref.current)
-  // };
-
- 
 
   const toggleNav = () => {
     setisHamburgerClicked(!isHamburgerClicked);
-    if (!isHamburgerClicked) {
-      for (let i = 0; i < ref.current.length; ++i) {
-        if (ref.current[i] !== null) {
-          fadeIn(ref.current[i], i * 60);
-          
-        }
-      }
-      
-    }
-
-     if(isHamburgerClicked) {
-      for (let i = 0; i < ref.current.length; ++i) {
-        if (ref.current[i] !== null) {
-          fadeOut(ref.current[i], i * 60);
-          // ref.current[i].className = "fade-item"
-        }
-
-        
-      }
-    }
+    setHasUserClicked(true)
   };
 
-  // useEffect(() => {
-  //   if (isHamburgerClicked) {
-  //     for (let i = 0; i < ref.current.length; ++i) {
-  //       if (ref.current[i] !== null) {
-  //         fadeIn(ref.current[i], i * 60);
-          
-  //       }
-  //     }
-      
-  //   } else {
-  //     for (let i = 0; i < ref.current.length; ++i) {
-  //       if (ref.current[i] !== null) {
-  //         fadeOut(ref.current[i], i * 60);
-          
-  //       }
+  useEffect(() => {
+    if (!hasUserClicked) {
+      return
+    }
+    if (isHamburgerClicked) {
+      setAnimation("nav-item-in fade-in")
+    } else {
+      setAnimation("nav-item-out fade-out")
+    }
+  }, [isHamburgerClicked, hasUserClicked]) 
 
-        
-  //     }
-  //   }
-  // }, [isHamburgerClicked])
-
-  
-  function fadeIn(item, delay) {
-    setTimeout(() => {
-      item.className = 'fade-in';
-    }, delay);
-  }
-
-  function fadeOut(item, delay) {
-    setTimeout(() => {
-      item.className = 'fade-out';
-    }, delay);
-  }
-
-  const checkTestState = () => {
-    testState ? console.log(testState) : console.log(testState)
-  }
-
-  
 
 
   return (
     <div className="nav">
-    
-
-      <div
-        onClick={() => {
-          toggleNav();
-          // setisHamburgerClicked(!isHamburgerClicked);
-           
-          checkNavStatus()
-        }}
-        className="hamburger"
-      >
+      <div onClick={toggleNav} className="hamburger">
         <span
           className="hamburger-line-straight"
-        
           style={{
             transform: isHamburgerClicked
               ? 'translate3d(0px, 6px, 0px) rotate(45deg)'
@@ -163,7 +39,6 @@ const TopNav = () => {
           }}
         ></span>
         <span
-         
           id="hamburger-line-1"
           className="hamburger-line-straight"
           style={{
@@ -176,32 +51,11 @@ const TopNav = () => {
         ></span>
       </div>
       <ul className="nav-menu">
-      {/* animation: fadeOut 0.6s 1;
-  animation-fill-mode: backwards; */}
-        <li ref={pushRef} className="fade-item" onClick={() => {
-          // setTestState(!testState)
-          checkTestState()
-        
-        } 
-      }
-
-          // style={{ color: testState ? 'red' : 'green'}}
-          >
-          HOME
-        </li>
-        
-        <li ref={pushRef} className='fade-item'>
-          ABOUT
-        </li>
-        <li ref={pushRef} className="fade-item">
-          SKILLS
-        </li>
-        <li ref={pushRef} className="fade-item">
-          PROJECTS
-        </li>
-        <li ref={pushRef} className="fade-item">
-          CONTACT
-        </li>
+        {navMenuItems.map((element, i) => (
+          <li 
+          style={{ animationDelay: `${i * 60}ms`}}
+          className={animation} key={i}>{element}</li>
+        ))}
       </ul>
     </div>
   );
