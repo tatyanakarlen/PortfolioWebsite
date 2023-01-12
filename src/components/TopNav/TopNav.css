@@ -55,6 +55,7 @@
 .nav-menu .fade-item {
   transition: 2s all ease-in-out;
   opacity: 0;
+  
 }
 
 .nav-menu .fade-in {
@@ -63,6 +64,14 @@
 /*    transform: translateX(10px) transition:    
 5s all ease-in-out;  */
 }
+
+.nav-menu .fade-out {
+ 
+
+  animation: fadeOut 0.6s 1;
+  animation-fill-mode: forwards;
+} 
+
 
 
 
@@ -75,6 +84,17 @@
       transform: translateX(15px)
     
   }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-15px)
+      
+    }
 }
 
 
