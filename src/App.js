@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import BioPortfolioPage from './pages/BioPortfolioPage/BioPortfolioPage';
+
 // import './components/assets/images.jsx'
 // import './components/assets/data.jsx'
 

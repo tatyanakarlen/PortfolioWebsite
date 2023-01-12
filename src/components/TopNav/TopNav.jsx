@@ -1,8 +1,10 @@
 import React from 'react';
 import './TopNav.css';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
+import * as ReactDOM from 'react-dom';
+import { MdClosedCaptionDisabled } from 'react-icons/md';
 
 
 
@@ -12,27 +14,62 @@ const TopNav = () => {
     // const [isLinkClicked, setIsLinkClicked] = useState(false);
     const [isHamburgerClicked, setisHamburgerClicked] = useState(false);
 
-    // const linkNavStateTrigger = isNavExpanded
-    //   ? () => {
-    //     setIsNavExpanded(!isNavExpanded);
-    //   }
-    // : '';
-
-    
-
-     //style prop for line 1
-//   transform: translate3d(0px, 6px, 0px) rotate(45deg);
-
-//   margin-top: -2px;
-// }
-
-// #navi-toggle:checked + .hamburger #hamburger-line-1 {
-//   //style prop for line 2 
   
-//   background: #fff;
-//   transform: translate3d(0px, 6px, 0px) rotate(-45deg);
-//   transition-duration: 0.2s;
-// } */
+const ref = useRef([]);
+
+// const ref = useRef();
+// const li = ref.current
+// li.className = "fade-out"
+
+
+
+const pushRef = (el) => ref.current.push(el)
+
+// useEffect(() => {
+//   if(ref.current) console.log(ref.current)
+// }, [ref])
+
+
+
+for (let i = 0; i < ref.current.length; i++) {
+  // console.log(ref.current[i].className)
+  ref.current[i].className = 'fade-over'
+  console.log(ref.current[i])
+  // console.log(ref.current[i])
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   return (
     <div className="nav">
@@ -58,6 +95,13 @@ const TopNav = () => {
       
       ></span>
       </div>
+      <ul className="nav-menu">
+      <li ref={pushRef} className="fade-item" >HOME</li>
+      <li ref={pushRef} className="fade-item">ABOUT</li>
+      <li ref={pushRef} className="fade-item">SKILLS</li>
+      <li ref={pushRef} className="fade-item">PROJECTS</li>
+      <li ref={pushRef} className="fade-item">CONTACT</li>
+      </ul>
     </div>
   )
 }

@@ -1,4 +1,3 @@
-
 .nav {
   position: fixed;
   height: 6rem;
@@ -12,7 +11,7 @@
   -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: justify;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .hamburger {
@@ -43,7 +42,15 @@
   margin-top: 1.2rem;
 }
 
-
+.nav-menu {
+  display: flex;
+  gap: 3.5rem;
+  list-style: none;
+  margin-left: 6rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
 
 /* ////// what happans when clicked 
 #navi-toggle:checked + .hamburger .hamburger-line-straight {
@@ -70,27 +77,6 @@
   transform: translate3d(0px, 6px, 0px) rotate(-45deg);
   transition-duration: 0.2s;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* #toggle {
   display: none;
@@ -196,5 +182,3 @@ nav a:hover:before {
   top: 0;
   transform: scale(1);
 } */
-
-
