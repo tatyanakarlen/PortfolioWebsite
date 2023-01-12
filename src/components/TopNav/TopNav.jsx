@@ -112,7 +112,7 @@ const TopNav = () => {
       for (let i = 0; i < ref.current.length; ++i) {
         if (ref.current[i] !== null) {
           fadeOut(ref.current[i], i * 60);
-          ref.current[i].className = "fade-item"
+          
         }
 
         
