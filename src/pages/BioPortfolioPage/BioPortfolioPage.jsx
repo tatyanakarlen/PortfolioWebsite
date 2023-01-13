@@ -24,6 +24,7 @@ function BioPortfolioPage(props) {
       <TopNav />
       <div class="inner-wrapper">
       <Hero />
+      <h1 class="section-heading">About</h1>
       <About />
       <Skills />
       <h1 style={{marginBottom: '-5rem'}}class="section-heading">Projects</h1>
