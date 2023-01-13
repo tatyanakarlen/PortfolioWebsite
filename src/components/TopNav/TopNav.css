@@ -12,6 +12,19 @@
   align-items: center;
   -webkit-box-pack: justify;
   justify-content: flex-start;
+
+  /* //////new  */
+  /* position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #b20456;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0); */
 }
 
 .hamburger {
@@ -42,22 +55,57 @@
   margin-top: 1.2rem;
 }
 
+.nav-menu-container {
+  height: 7.2rem;
+  line-height: 24px;
+  overflow-y: hidden;
+  position: absolute;
+  top: 1.9rem;
+  left: 3.4rem;
+  /* right: 16px; */
+  width: 100%;
+  /* transform: translateY(-50%); */
+  overflow-x: scroll;
+}
+
 .nav-menu {
-  display: flex;
+  /* display: flex;
   gap: 3.5rem;
   list-style: none;
   margin-left: 6rem;
   font-size: 1.8rem;
   text-transform: uppercase;
+  font-weight: 800; */
+  /* overflow-y: hidden; */
+  /* new///// */
+  display: flex;
+  gap: 3.4rem;
+  list-style: none;
+  margin-left: 5rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
   font-weight: 800;
 }
 
 .nav-menu .nav-item-in {
-  opacity: 0; 
+  transition: all 0.2s ease 0.1s;
+  /* font-size: 22px;
+  font-weight: bold; */
+}
+
+.nav-menu li:hover {
+  font-size: 2.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease 0.1s;
+}
+
+.nav-menu .nav-item-in {
+  opacity: 0;
 }
 
 .nav-menu .nav-item-out {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .nav-menu .fade-in {
@@ -68,41 +116,28 @@
 .nav-menu .fade-out {
   animation: fadeOut 0.6s;
   animation-fill-mode: both;
-} 
-
-
-
+}
 
 @keyframes fadeIn {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-      transform: translateX(15px)
-    
+    opacity: 1;
+    transform: translateX(15px);
   }
 }
 
 @keyframes fadeOut {
-    0% {
-        opacity: 1;
-        transform: translateX(15px)
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(-15px)
-        
-      
-    }
+  0% {
+    opacity: 1;
+    transform: translateX(15px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
 }
-
-
-
-
-
-
-
 
 /* ////// what happans when clicked 
 #navi-toggle:checked + .hamburger .hamburger-line-straight {

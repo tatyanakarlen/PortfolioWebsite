@@ -50,6 +50,7 @@ const TopNav = () => {
           }}
         ></span>
       </div>
+      <div className="nav-menu-container">
       <ul className="nav-menu">
         {navMenuItems.map((element, i) => (
           <li 
@@ -57,6 +58,7 @@ const TopNav = () => {
           className={animation} key={i}>{element}</li>
         ))}
       </ul>
+      </div>
     </div>
   );
 };
