@@ -5,27 +5,24 @@ const navMenuItems = ['HOME', 'ABOUT', 'SKILLS', 'PROJECTS', 'CONTACT'];
 
 const TopNav = () => {
   const [isHamburgerClicked, setisHamburgerClicked] = useState(false);
-  const [animation, setAnimation] = useState("nav-item-in")
-  const [hasUserClicked, setHasUserClicked] = useState(false)
-
+  const [animation, setAnimation] = useState('nav-item-in');
+  const [hasUserClicked, setHasUserClicked] = useState(false);
 
   const toggleNav = () => {
     setisHamburgerClicked(!isHamburgerClicked);
-    setHasUserClicked(true)
+    setHasUserClicked(true);
   };
 
   useEffect(() => {
     if (!hasUserClicked) {
-      return
+      return;
     }
     if (isHamburgerClicked) {
-      setAnimation("nav-item-in fade-in")
+      setAnimation('nav-item-in fade-in');
     } else {
-      setAnimation("nav-item-out fade-out")
+      setAnimation('nav-item-out fade-out');
     }
-  }, [isHamburgerClicked, hasUserClicked]) 
-
-
+  }, [isHamburgerClicked, hasUserClicked]);
 
   return (
     <div className="nav">
@@ -51,20 +48,23 @@ const TopNav = () => {
         ></span>
       </div>
       <div className="nav-menu-container">
-      <ul className="nav-menu">
-        {navMenuItems.map((element, i) => (
-          <li 
-          style={{ animationDelay: `${i * 60}ms`}}
-          className={animation} key={i}
-          >
-          <a href={`#${element}`.toLowerCase()}
-          onClick={toggleNav}
-          >
-          {element}
-            </a>
-          </li>
-        ))}
-      </ul>
+        <ul className="nav-menu">
+          {navMenuItems.map((element, i) => (
+            <li
+              style={{ animationDelay: `${i * 60}ms` }}
+              className={animation}
+              key={i}
+            >
+              <a href={element === 'HOME' ? `#` : `#${element}`.toLowerCase()}
+              onClick={toggleNav}
+              >
+                {element}
+              </a>
+
+              {/* { element === 'HOME' href="#" : href={`#${element}`.toLowerCase()}} */}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

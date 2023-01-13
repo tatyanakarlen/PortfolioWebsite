@@ -9,18 +9,16 @@ const MobileAbout = () => {
 
       <h3 class="h3-computer">Diverse creative background</h3>
       <p class="bio">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
-        assumenda totam autem dicta dolore sint quo quae,{' '}
-        <span class="neon-green-text">Software Engineering Immersive</span>{' '}
-        reprehenderit aliquid, perferendis eligendi cumque. Quasi labore nulla
-        harum ipsam maxime
-        <span>
+        Those that know me can attest that a I'm a wild spirit. Hardworking, creative and inspired, 
+        I have a background in fashion and piano performance.  
+        <br/>
+          <br/>
+          Always curious about the 'secret world' of coding, I started my journey with self-learning and later enrolled in 
+          General Assembly's <span class="neon-green-text">Software Engineering Immersive</span> where I learned full-stack development in a fast-paced environment.
           <br/>
           <br/>
-          voluptatibus nemo quaerat animi architecto repudiandae porro ea
-          adipisci sapiente dicta, tempora vel culpa aperiam fugit voluptatum
-          minus cupiditate!
-        </span>
+         When I'm not coding, I'm playing or teaching piano, listening to music or reading nerdy reviews. 
+         I have an unhealthy addiction to cult movies and the 80's. 
       </p>
     </div>
   );

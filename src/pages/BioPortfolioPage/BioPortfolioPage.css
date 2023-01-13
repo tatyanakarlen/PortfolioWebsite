@@ -30,7 +30,9 @@ p {
     font-size: 2.5rem;
     /* text-decoration: underline; */
     margin-bottom: 4rem;
-    padding-top: 6rem;
+    padding-top: 8rem;
+    /* margin-top: 10rem; */
+    /* padding-top: 6rem; */
     position: relative;
     /* max-width: 39rem; */
     margin-left: 12rem;
@@ -45,7 +47,7 @@ p {
     height: 2px;
     width: 97px;
     position: absolute;
-    top: 83%;
+    top: 89%;
     left: -119px;
     background: var(--color-green);
 }
