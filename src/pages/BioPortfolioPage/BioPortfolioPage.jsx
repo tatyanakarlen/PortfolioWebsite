@@ -24,10 +24,10 @@ function BioPortfolioPage(props) {
       <TopNav />
       <div class="inner-wrapper">
       <Hero />
-      <h1 class="section-heading">About</h1>
+      <h1 style={{marginTop: '10rem'}} id="about" class="section-heading">About</h1>
       <About />
       <Skills />
-      <h1 style={{marginTop: '10rem', marginBottom: '-5rem'}}class="section-heading">Projects</h1>
+      <h1 style={{marginTop: '10rem', marginBottom: '-5rem'}} class="section-heading" id="projects">Projects</h1>
        {props.projects.map((m) => (
         <PortfolioBox
           title={m.title}

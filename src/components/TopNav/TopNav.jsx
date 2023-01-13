@@ -55,7 +55,14 @@ const TopNav = () => {
         {navMenuItems.map((element, i) => (
           <li 
           style={{ animationDelay: `${i * 60}ms`}}
-          className={animation} key={i}>{element}</li>
+          className={animation} key={i}
+          >
+          <a href={`#${element}`.toLowerCase()}
+          onClick={toggleNav}
+          >
+          {element}
+            </a>
+          </li>
         ))}
       </ul>
       </div>

@@ -4,7 +4,7 @@ import { BsFillEnvelopeFill } from 'react-icons/bs';
 
 const MobileAbout = () => {
   return (
-    <div class="about-me" id="about-me">
+    <div class="about-me">
       
 
       <h3 class="h3-computer">Diverse creative background</h3>
