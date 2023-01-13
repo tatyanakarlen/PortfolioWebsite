@@ -8,6 +8,9 @@ import { BsInstagram } from 'react-icons/bs';
 import { MdOutlineMarkEmailUnread } from 'react-icons/md'
 import { useMediaQuery } from 'react-responsive';
 import { AiOutlineDown } from 'react-icons/ai';
+import { HiOutlineMail } from 'react-icons/hi';
+import { MdOutlineMailOutline } from 'react-icons/md';
+
 // import { resume } from '../assets/TATYANA KARLEN-RESUME.pdf'
 
 import resume from '../assets/TATYANA_KARLEN_RESUME.pdf';
@@ -72,7 +75,7 @@ const Hero = () => {
               </div>
               <div class="icon-text-container">
                 <li class="li-text icons-hover">
-                <MdOutlineMarkEmailUnread class="icon"/>
+                <MdOutlineMailOutline style={{fontSize: '4.5rem'}}class="icon"/>
                 </li>
               </div>
             </div>

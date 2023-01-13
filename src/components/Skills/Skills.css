@@ -34,3 +34,7 @@
   width: 40rem;
   object-fit: cover;
 }
+
+.skills #skills-experience-headline {
+  margin-top: 5rem; 
+}

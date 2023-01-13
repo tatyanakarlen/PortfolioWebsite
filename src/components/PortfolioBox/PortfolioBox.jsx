@@ -43,7 +43,7 @@ const PortfolioBox = (props) => {
     <div class="projects">
       {/* <h1 class="section-heading">Projects</h1> */}
       <h3 class="h3-computer">{props.title}</h3>
-      <p>
+      <p class="project-description">
         {props.headline}
         {props.tech.map((m) => (
           <span class="neon-green-text">

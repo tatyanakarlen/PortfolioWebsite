@@ -10,7 +10,7 @@ const Skills = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit
           vel fugit vel.
         </p>
-        <p class="bold-underlined-text">
+        <p id="skills-experience-headline" class="bold-underlined-text">
           Experienced with the following languages and tools:
         </p>
       </div>
@@ -53,11 +53,11 @@ const Skills = () => {
         
       </div>
       <div class="img-container">
-        {/* <img
+        <img
           src="https://media.giphy.com/media/xT9KVgmGTooXz0iDPW/giphy.gif"
           alt=""
           class="gif"
-        /> */}
+        />
       </div>
     </div>
   );

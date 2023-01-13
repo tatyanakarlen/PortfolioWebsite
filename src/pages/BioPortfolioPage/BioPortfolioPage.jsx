@@ -27,7 +27,7 @@ function BioPortfolioPage(props) {
       <h1 class="section-heading">About</h1>
       <About />
       <Skills />
-      <h1 style={{marginBottom: '-5rem'}}class="section-heading">Projects</h1>
+      <h1 style={{marginTop: '10rem', marginBottom: '-5rem'}}class="section-heading">Projects</h1>
        {props.projects.map((m) => (
         <PortfolioBox
           title={m.title}

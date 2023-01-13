@@ -11,6 +11,10 @@
     padding: 4.5rem 5rem;
     border-radius: 22px;
 }
+
+.projects .project-description {
+  width: 91%; 
+}
   
   
   
