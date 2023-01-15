@@ -41,7 +41,6 @@ export default function Carousel(props) {
   };
 
   let popUpVisibleStyles = '';
-  
 
   if (props.carouselActive) {
     popUpVisibleStyles = {
@@ -50,33 +49,9 @@ export default function Carousel(props) {
     };
   }
 
- 
-
   return (
     <div class="popup" style={popUpVisibleStyles}>
-        <IoMdCloseCircle
-                    id="X"
-                    onClick={() => props.setCarouselActive(false)}
-                  />
-                  <IoIosArrowForward
-                    className="right-arr"
-                    onClick={nextSlide}
-                  />
-                  <IoIosArrowBack className="left-arr" onClick={nextSlide} />
-    
-      {props.SliderData.map((slide, index) => {
-        return (
-          <div class="popup-content">
-           
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              
-                <>
-                  <img id="image" alt="test" src={slide.image}></img>
-                  {/* <IoMdCloseCircle
+      {/* <IoMdCloseCircle
                     id="X"
                     onClick={() => props.setCarouselActive(false)}
                   />
@@ -85,15 +60,42 @@ export default function Carousel(props) {
                     onClick={nextSlide}
                   />
                   <IoIosArrowBack className="left-arr" onClick={nextSlide} /> */}
-                </>
-             
-            )}
-          </div>
+
+      {props.SliderData.map((slide, index) => {
+        return (
+          <div class="popup-content">
+           
+
+            <div
+              className={index === current ? 'slide active' : 'slide'}
+              key={index}
+            >
+              {/* <IoMdCloseCircle
+                id="X"
+                onClick={() => props.setCarouselActive(false)}
+              />
+
+              <IoIosArrowForward className="right-arr" onClick={nextSlide} />
+              <IoIosArrowBack className="left-arr" onClick={nextSlide} /> */}
+              {index === current && (
+                <div class="img-icon-container">
+                  <img id="image" alt="test" src={slide.image}></img>
+                  <IoMdCloseCircle
+                    id="X"
+                    onClick={() => props.setCarouselActive(false)}
+                  />
+                  <IoIosArrowForward
+                    className="right-arr"
+                    onClick={nextSlide}
+                  />
+                  <IoIosArrowBack className="left-arr" onClick={nextSlide} />
+                </div>
+              )}
+            </div>
           </div>
         );
       })}
     </div>
-    
   );
 }
 
