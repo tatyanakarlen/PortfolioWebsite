@@ -4,7 +4,13 @@ import React, { useState } from 'react';
 // import { AiOutlineRead } from 'react-icons/ai';
 import { AiOutlineFolderOpen } from 'react-icons/ai';
 import { GoEyeClosed } from 'react-icons/go';
+import { CgWebsite } from 'react-icons/cg';
+import { BsGithub } from 'react-icons/bs';
+import { TbApps } from 'react-icons/tb';
+
+
 import Carousel from '../Carousel/Carousel';
+
 // import CarouselActive from '../../hooks'
 
 
@@ -24,24 +30,11 @@ const PortfolioBox = (props) => {
 
   let lastEl = props.tech[props.tech.length - 1];
 
-  // let opacity = '';
-  // if (carouselActive) {
-  //   opacity = {
-  //     filter: 'blur(10px)'
-  //     };
-  // }
-
-  //  console.log(opacity)
-
-  // backdrop-filter: blur(10px);
-  // -webkit-backdrop-filter: blur(10px);
+  
 
   return (
-    // style={{
-    //   textDecoration: completed ? 'line-through' : 'none'
-    // }}
+  
     <div class="projects">
-      {/* <h1 class="section-heading">Projects</h1> */}
       <h3 class="h3-computer">{props.title}</h3>
       <p class="project-description">
         {props.headline}
@@ -88,13 +81,50 @@ const PortfolioBox = (props) => {
          
         />
        </div>
+       
    
      }
+     <div className="demo-code-links-container">
+      <div><TbApps />
+      <a href={props.deployedAppLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      >Demo</a>
+      </div>
+      <div><BsGithub />
+      <a href={props.gitHubLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      >Code</a>
+      </div>
+     </div>
      </div>
   );
 };
 
 export default PortfolioBox;
+
+
+
+{/* <a
+style={{ color: '#b20456' }}
+href={props.deployedAppLink}
+target="_blank"
+rel="noopener noreferrer"
+>
+<span>here</span>
+</a>
+</p>
+<br />
+<p class="project-details proj-links">
+<span>View code on GitHub </span>
+<a
+style={{ color: '#b20456' }}
+href={props.gitHubLink}
+target="_blank"
+rel="noopener noreferrer"
+>
+<span>here</span> */}
 
 
 
