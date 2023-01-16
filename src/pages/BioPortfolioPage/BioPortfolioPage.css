@@ -26,23 +26,15 @@ p {
 
 .section-heading {
   color: var(--color-green);
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   margin-bottom: 3rem;
   padding-top: 8rem;
   position: relative;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
-/* .section-heading:before {
-  content: ' ';
-  display: block;
-  height: 2px;
-  width: 97px;
-  position: absolute;
-  top: 88%;
-  left: -119px;
-  background: var(--color-green);
-} */
+
 
 .h3-computer {
   font-family: 'Press Start 2P';
@@ -74,8 +66,8 @@ p {
 .bold-underlined-text {
   text-decoration: underline;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 2.1rem;
+  /* text-transform: uppercase; */
+  font-size: 2.6rem;
 }
 
 
