@@ -6,6 +6,7 @@ import Skills from '../../components/Skills/Skills.jsx';
 import Footer from '../../components/Footer/Footer';
 import { useMediaQuery } from 'react-responsive';
 import About from '../../components/About/About.jsx';
+import Contact from '../../components/Contact/Contact';
 import './BioPortfolioPage.css';
 
 import { RiCopyrightFill } from 'react-icons/ri';
@@ -48,6 +49,7 @@ function BioPortfolioPage(props) {
             gitHubLink={m.gitHubLink}
           />
         ))}
+        <Contact />
         <Footer />
       </div>
     </div>

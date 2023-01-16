@@ -26,12 +26,10 @@ p {
 
 .section-heading {
   color: var(--color-green);
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   margin-bottom: 3rem;
   padding-top: 8rem;
   position: relative;
-  /* margin-left: 12rem; */
-  text-transform: uppercase;
   text-decoration: underline;
 }
 
@@ -80,26 +78,15 @@ p {
   font-size: 2.1rem;
 }
 
-/* @media only screen and (max-width: 575px) {
-  .icons-container {
-    gap: 2rem; 
-  }
-  .icon {
-    font-size: 3rem;
-  }
 
-  .social-icons #mail-icon {
-    font-size: 4rem; 
-  }
-}
-
-@media only screen and (max-width: 525px) {
-  .icons-container {
-    gap: 1.25rem; 
-  }
-} */
 
 /* MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+  .popup-content {
+    width: 100%;
+  }
+}
 
 @media only screen and (max-width: 650px) {
   p {
@@ -110,7 +97,7 @@ p {
     font-size: 59.5%;
   }
   .projects {
-    padding: 4rem 4rem;
+    padding: 4rem 3.5rem;
   }
   .projects .project-description {
     width: 100%;
@@ -197,6 +184,12 @@ p {
   }
 }
 
+@media only screen and (max-width: 428px) {
+  .h3-computer {
+    font-size: 1.8rem; 
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .nav-menu {
     margin-left: 2.7rem;
@@ -213,7 +206,7 @@ p {
     gap: 2.5rem;
   }
   header {
-    gap: 2rem;
+    gap: 3rem;
   }
   p {
     width: 100%;
@@ -258,5 +251,11 @@ p {
   .nav-menu {
     margin-left: 1.8rem;
     gap: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 366px) {
+  html {
+    font-size: 50%; 
   }
 }

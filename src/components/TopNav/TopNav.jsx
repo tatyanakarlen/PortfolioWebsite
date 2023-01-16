@@ -50,9 +50,17 @@ const TopNav = () => {
           }}
         ></span>
       </div>
-      {/* // if isSmallMobile && element === 'SKILLS' 
-            //li li 
-            //else  */}
+    
+
+{/* <a
+                    class="social-links"
+                    href="mailto:tatyanakarlen@gmail.com"
+                    target="_blank"
+                    aria-label="Mail"
+                    rel="noopener noreferrer"
+                  > */}
+
+
       <div className="nav-menu-container">
         <ul className="nav-menu">
           {navMenuItems.map((element, i) => (
