@@ -2,16 +2,16 @@ import React from 'react';
 import './About.css';
 import { BsFillEnvelopeFill } from 'react-icons/bs';
 
-const MobileAbout = () => {
+const About = () => {
   return (
     <div class="about-me">
       <h3 class="h3-computer">Diverse creative background</h3>
-      <p class="bio">
+      <p class="paragraph">
         Welcome and thanks for stopping by! I'm a{' '}
         <span class="bold-underlined-text">
           jr.full-stack developer based in Toronto, Canada.
         </span>{' '}
-        I have a background in fashion arts, marketing and classical piano performance.
+        I have a background in fashion arts and classical piano performance.
         <br />
         <br />
         I graduated from <span>General Assembly's</span>{' '}
@@ -25,4 +25,4 @@ const MobileAbout = () => {
   );
 };
 
-export default MobileAbout;
+export default About;

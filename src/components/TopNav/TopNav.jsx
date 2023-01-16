@@ -1,9 +1,12 @@
 import './TopNav.css';
 import { useState, useEffect } from 'react';
+import { useMediaQuery } from 'react-responsive';
 
 const navMenuItems = ['HOME', 'ABOUT', 'SKILLS', 'PROJECTS', 'CONTACT'];
 
 const TopNav = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 475px)' });
+
   const [isHamburgerClicked, setisHamburgerClicked] = useState(false);
   const [animation, setAnimation] = useState('nav-item-in');
   const [hasUserClicked, setHasUserClicked] = useState(false);
@@ -47,9 +50,17 @@ const TopNav = () => {
           }}
         ></span>
       </div>
+      {/* // if isSmallMobile && element === 'SKILLS' 
+            //li li 
+            //else  */}
       <div className="nav-menu-container">
         <ul className="nav-menu">
           {navMenuItems.map((element, i) => (
+            isMobile && element === 'SKILLS' ?
+            element = ""
+            :
+
+            
             <li
               style={{ animationDelay: `${i * 60}ms` }}
               className={animation}
@@ -60,11 +71,27 @@ const TopNav = () => {
               >
                 {element}
               </a>
-
-              {/* { element === 'HOME' href="#" : href={`#${element}`.toLowerCase()}} */}
             </li>
           ))}
         </ul>
+
+{/* <ul className="nav-menu">
+          {navMenuItems.map((element, i) => (
+
+            
+            <li
+              style={{ animationDelay: `${i * 60}ms` }}
+              className={animation}
+              key={i}
+            >
+              <a href={element === 'HOME' ? `#` : `#${element}`.toLowerCase()}
+              onClick={toggleNav}
+              >
+                {element}
+              </a>
+            </li>
+          ))}
+        </ul> */}
       </div>
     </div>
   );

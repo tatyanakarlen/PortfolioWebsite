@@ -16,14 +16,12 @@ import resume  from '../assets/TATYANA_KARLEN_RESUME.pdf'
 import isNavExpanded from '../TopNav/TopNav.jsx';
 
 const Hero = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 900px)' });
-  const isSmallMobile = useMediaQuery({ query: '(max-width: 500px)' });
+  // const isMobile = useMediaQuery({ query: '(max-width: 475px)' });
+ 
   const resumeLink =
     '/static/media/TATYANA_KARLEN_RESUME.8f39e6b0ef483205c5b1.pdf';
 
-  //   <a id="mobile-resume-link" target="_blank" href={resumeLink}>
-  //   Resume
-  // </a>
+  
 
   return (
     <>
@@ -81,8 +79,9 @@ const Hero = () => {
                     rel="noopener noreferrer"
                   >
                     <MdOutlineMailOutline
-                      style={{ fontSize: '4.5rem' }}
-                      class="icon"
+                     id="mail-icon"
+                      
+                      
                     />
                   </a>
                 </li>

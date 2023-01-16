@@ -87,6 +87,10 @@ header img {
   text-decoration: underline;
 }
 
+.social-icons #mail-icon {
+  font-size: 4.5rem; 
+}
+
 .icon {
   font-size: 3.5rem;
   /* padding-right: 0.5rem; */
@@ -170,3 +174,31 @@ header .icon-container {
     text-shadow: none;
   }
 }
+
+/* @media only screen and (max-width: 575px) {
+  .icons-container {
+    gap: 2rem; 
+  }
+  .icon {
+    font-size: 3rem;
+  }
+
+  .social-icons #mail-icon {
+    font-size: 4rem; 
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .icons-container {
+    gap: 1.25rem; 
+  }
+} */
+
+/* @media only screen and (max-width: 450px) {
+  .icons-container {
+    gap: 1.25rem; 
+  }
+} */
+
+
+
