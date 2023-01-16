@@ -89,7 +89,7 @@ p {
     font-size: 59.5%;
   }
   .projects {
-    padding: 3.5rem 3rem;
+    padding: 3rem; 
   }
   .projects .project-description {
     width: 100%;
