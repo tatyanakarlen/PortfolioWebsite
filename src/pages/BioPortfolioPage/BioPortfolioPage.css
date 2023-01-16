@@ -156,7 +156,7 @@ p {
 
 @media only screen and (max-width: 464px) {
   .inner-wrapper {
-    padding: 2rem 4rem;
+    padding: 2rem 3.5rem;
   }
 }
 
