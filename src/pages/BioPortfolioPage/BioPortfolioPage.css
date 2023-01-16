@@ -26,14 +26,12 @@ p {
 
 .section-heading {
   color: var(--color-green);
-  font-family: Jost;
-  letter-spacing: 2px;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   margin-bottom: 3rem;
   padding-top: 8rem;
   position: relative;
   /* margin-left: 12rem; */
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   text-decoration: underline;
 }
 
@@ -82,8 +80,6 @@ p {
   font-size: 2.1rem;
 }
 
-
-
 /* @media only screen and (max-width: 575px) {
   .icons-container {
     gap: 2rem; 
@@ -113,33 +109,49 @@ p {
   html {
     font-size: 59.5%;
   }
+  .projects {
+    padding: 4rem 4rem;
+  }
+  .projects .project-description {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 575px) {
   .icons-container {
-    gap: 2rem; 
+    gap: 2rem;
   }
   .icon {
     font-size: 3rem;
   }
 
   .social-icons #mail-icon {
-    font-size: 4rem; 
+    font-size: 4rem;
   }
   .nav-menu {
     margin-left: 3rem;
+  }
 }
+
+@media only screen and (max-width: 566px) {
+  .h3-computer {
+    font-size: 1.75rem;
+  }
+  .skills .img-container img {
+    width: 100%;
+    
+  }
 }
 
 @media only screen and (max-width: 525px) {
   .icons-container {
-    gap: 1.25rem; 
+    gap: 1.25rem;
   }
   .nav-menu {
     margin-left: 2.5rem;
     gap: 3rem;
   }
-} 
+}
 
 @media only screen and (max-width: 500px) {
   html {
@@ -147,6 +159,9 @@ p {
   }
   .paragraph {
     width: 100%;
+  }
+  .skills-icon-box {
+    padding: 1.5rem 2rem;
   }
 }
 
@@ -157,10 +172,10 @@ p {
   }
   .nav-menu-container {
     line-height: 2.1rem;
-}
+  }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 464px) {
   .inner-wrapper {
     padding: 2rem 4.75rem;
   }
@@ -185,7 +200,10 @@ p {
 @media only screen and (max-width: 425px) {
   .nav-menu {
     margin-left: 2.7rem;
-   
+  }
+  .skills-icon-box {
+    padding: 1.5rem 1.7rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -193,7 +211,7 @@ p {
   .nav-menu {
     margin-left: 2rem;
     gap: 2.5rem;
-}
+  }
   header {
     gap: 2rem;
   }
@@ -240,5 +258,5 @@ p {
   .nav-menu {
     margin-left: 1.8rem;
     gap: 2.2rem;
-}
+  }
 }

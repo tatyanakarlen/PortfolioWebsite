@@ -22,8 +22,7 @@
   border-radius: 1.4rem;
   font-weight: 800;
   font-size: 1.85rem;
-  font-family: 'Jost';
-  letter-spacing: 2px;
+
 }
 
 
@@ -35,7 +34,7 @@
 }
 
 .skills .img-container img {
-  width: 40rem;
+  width: 80%;
   object-fit: cover;
 }
 
