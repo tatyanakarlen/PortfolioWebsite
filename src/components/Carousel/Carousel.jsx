@@ -5,6 +5,8 @@ import { AiFillCloseCircle } from 'react-icons/ai';
 import { IoIosArrowForward } from 'react-icons/io';
 import { IoIosArrowBack } from 'react-icons/io';
 import { IoMdCloseCircle } from 'react-icons/io';
+import { CgCloseO } from 'react-icons/cg';
+
 
 export default function Carousel(props) {
   const SliderData = [
@@ -51,15 +53,7 @@ export default function Carousel(props) {
 
   return (
     <div class="popup" style={popUpVisibleStyles}>
-      {/* <IoMdCloseCircle
-                    id="X"
-                    onClick={() => props.setCarouselActive(false)}
-                  />
-                  <IoIosArrowForward
-                    className="right-arr"
-                    onClick={nextSlide}
-                  />
-                  <IoIosArrowBack className="left-arr" onClick={nextSlide} /> */}
+     
 
       {props.SliderData.map((slide, index) => {
         return (
@@ -70,17 +64,11 @@ export default function Carousel(props) {
               className={index === current ? 'slide active' : 'slide'}
               key={index}
             >
-              {/* <IoMdCloseCircle
-                id="X"
-                onClick={() => props.setCarouselActive(false)}
-              />
-
-              <IoIosArrowForward className="right-arr" onClick={nextSlide} />
-              <IoIosArrowBack className="left-arr" onClick={nextSlide} /> */}
+             
               {index === current && (
                 <div class="img-icon-container">
                   <img id="image" alt="test" src={slide.image}></img>
-                  <IoMdCloseCircle
+                  <CgCloseO
                     id="X"
                     onClick={() => props.setCarouselActive(false)}
                   />

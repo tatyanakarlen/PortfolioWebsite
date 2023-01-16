@@ -25,31 +25,26 @@ p {
 }
 
 .section-heading {
+  font-family: jost;
   color: var(--color-green);
-    letter-spacing: inherit;
-    font-size: 2.6rem;
-    /* text-decoration: underline; */
-    margin-bottom: 4rem;
-    padding-top: 8rem;
-    /* margin-top: 10rem; */
-    /* padding-top: 6rem; */
-    position: relative;
-    /* max-width: 39rem; */
-    margin-left: 12rem;
-    /* padding-left: 1rem; */
-    text-transform: uppercase;
-  
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  padding-top: 8rem;
+  position: relative;
+  margin-left: 12rem;
+  text-transform: uppercase;
 }
 
-.section-heading:before{
-  content: " ";
-    display: block;
-    height: 2px;
-    width: 97px;
-    position: absolute;
-    top: 89%;
-    left: -119px;
-    background: var(--color-green);
+.section-heading:before {
+  content: ' ';
+  display: block;
+  height: 2px;
+  width: 97px;
+  position: absolute;
+  top: 82%;
+  left: -119px;
+  background: var(--color-green);
 }
 
 .h3-computer {
@@ -81,8 +76,7 @@ p {
 
 .bold-underlined-text {
   text-decoration: underline;
-  letter-spacing: 1.7px;
-  font-size: 2.1rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
-     
+  font-size: 2.1rem;
 }

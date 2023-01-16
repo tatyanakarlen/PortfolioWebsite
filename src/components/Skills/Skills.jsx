@@ -7,11 +7,10 @@ const Skills = () => {
       <div>
         <h1 class="section-heading">Skills</h1>
         <p class="skills-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit
-          vel fugit vel.
+         In addition to the skills listed below, I'm familiar with Agile methodology, REST API, jQuery, Wordpress, Elementor, Git and several CSS libraries including Bootstrap. 
         </p>
-        <p id="skills-experience-headline" class="bold-underlined-text">
-          Experienced with the following languages and tools:
+        <p id="skills-experience-headline">
+        <span class="bold-underlined-text">Experienced with the following languages and tools:</span>
         </p>
       </div>
       <br />
@@ -53,11 +52,11 @@ const Skills = () => {
         
       </div>
       <div class="img-container">
-        <img
+        {/* <img
           src="https://media.giphy.com/media/xT9KVgmGTooXz0iDPW/giphy.gif"
           alt=""
           class="gif"
-        />
+        /> */}
       </div>
     </div>
   );

@@ -67,7 +67,7 @@
 }
 
 .demo-code-links-container div {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: 0.7px;
   text-decoration: underline;
@@ -77,13 +77,17 @@
 }
 
 .demo-code-links-container div a {
-  color: white; 
+  color: white;
+  transition: all 0.2s ease 0.1s;
 }
+
+
+
 
 .demo-code-links-container div:hover {
   cursor: pointer;
 }
 
 .demo-code-links-container svg {
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
