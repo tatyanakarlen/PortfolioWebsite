@@ -11,7 +11,7 @@ const MobileAbout = () => {
         <span class="bold-underlined-text">
           jr.full-stack developer based in Toronto, Canada.
         </span>{' '}
-        I have a background in fashion arts, marketing and piano performance.
+        I have a background in fashion arts, marketing and classical piano performance.
         <br />
         <br />
         I graduated from <span>General Assembly's</span>{' '}
@@ -19,7 +19,7 @@ const MobileAbout = () => {
         where I learned full-stack development in a fast-paced environment. 
         <br />
         <br />
-       When I'm not coding, I'm playing or teaching piano. I have an unhealthy addiction to cult movies. 
+       When I'm not coding, I'm playing or teaching piano. I'm inspired by cult movies, the 80's and a DYI aesthetic.
       </p>
     </div>
   );

@@ -25,11 +25,10 @@ p {
 }
 
 .section-heading {
-  font-family: jost;
   color: var(--color-green);
-  letter-spacing: 2px;
+  /* letter-spacing: inherit; */
   font-size: 2.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   padding-top: 8rem;
   position: relative;
   margin-left: 12rem;
@@ -42,7 +41,7 @@ p {
   height: 2px;
   width: 97px;
   position: absolute;
-  top: 82%;
+  top: 88%;
   left: -119px;
   background: var(--color-green);
 }
