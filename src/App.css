@@ -38,6 +38,7 @@ html {
 body {
   position: relative;
   font-family: 'Anonymous Pro';
+  background-color: #1b1b1b;
   /* letter-spacing: 0.7px; */
   color: #fff;
 }
