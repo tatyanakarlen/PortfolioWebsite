@@ -2,7 +2,11 @@ import React, { useState } from 'react';
 import './App.css';
 import BioPortfolioPage from './pages/BioPortfolioPage/BioPortfolioPage';
 
+// import './components/assets/images.jsx'
+// import './components/assets/data.jsx'
+
 import { Route, Routes, Navigate } from 'react-router-dom';
+
 import img1 from './components/Images/UntitledImages/UntitledTEST5.png';
 import img2 from './components/Images/UntitledImages/UntitledTEST6.png';
 import img3 from './components/Images/UntitledImages/UntitledTEST1.png';
@@ -13,9 +17,12 @@ import img7 from './components/Images/Tinterest/TinScreenShot1.jpg';
 import img8 from './components/Images/Tinterest/TinScreenShot2.jpg';
 import img9 from './components/Images/Tinterest/TinScreenShot3.jpg';
 import img10 from './components/Images/Tinterest/TinScreenShot4.jpg';
-import img11 from './components/Images/Thriftd/Thriftd1.png';
-import img12 from './components/Images/Thriftd/Thriftd2.png';
-import img13 from './components/Images/Thriftd/Thriftd3.png';
+// import img11 from './components/Images/Thriftd/Thriftd1.png';
+// import img12 from './components/Images/Thriftd/Thriftd2.png';
+// import img13 from './components/Images/Thriftd/Thriftd3.png';
+import img11 from './components/Images/Thriftd/ThriftdRe-sized.png';
+import img12 from './components/Images/Thriftd/Thriftd-2-resized.png';
+import img13 from './components/Images/Thriftd/Thriftd-3-resized.png';
 import img14 from './components/Images/Thriftd/Thriftd4.png';
 import img15 from './components/Images/Thriftd/Thriftd5.png';
 import img16 from './components/Images/Classical/Classical1.png';

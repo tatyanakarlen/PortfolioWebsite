@@ -1,0 +1,17 @@
+.contact {
+    padding-bottom: 3rem;
+}
+
+
+.email{
+    font-size: 2.5rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact svg {
+    font-size: 8rem;
+    color: var(--color-green);
+}

@@ -1,0 +1,261 @@
+.main-container {
+  position: relative;
+  background-color: #1b1b1b;
+  width: 100vw;
+}
+
+.inner-wrapper {
+  background-color: #1b1b1b;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 6rem;
+}
+
+p {
+  letter-spacing: inherit;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  width: 85%;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  /* margin-bottom: unset; */
+  /* text-shadow: #eb07df 0px 0px 5px, #eb07df 0px 0px 10px, #eb07df 0px 0px 15px, #eb07df 0px 0px 20px, #eb07df 0px 0px 30px, #eb07df 0px 0px 40px, #eb07df 0px 0px 50px, #eb07df 0px 0px 75px; */
+}
+
+.section-heading {
+  color: var(--color-green);
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+  padding-top: 8rem;
+  position: relative;
+  text-decoration: underline;
+}
+
+/* .section-heading:before {
+  content: ' ';
+  display: block;
+  height: 2px;
+  width: 97px;
+  position: absolute;
+  top: 88%;
+  left: -119px;
+  background: var(--color-green);
+} */
+
+.h3-computer {
+  font-family: 'Press Start 2P';
+  font-size: 1.65rem;
+  line-height: 3.5rem;
+  letter-spacing: 1px;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.neon-green-text {
+  text-shadow: 0px 0px 9px rgb(50 211 58), 0px 0px 7px var(--color-green);
+  font-family: 'Anonymous Pro';
+  letter-spacing: 0.7px;
+  font-weight: 800;
+  font-size: 2.3rem;
+}
+
+.pink-neon-text {
+  font-family: Caramel;
+  text-shadow: #eb07df 0px 0px 5px, #eb07df 0px 0px 10px, #eb07df 0px 0px 15px,
+    #eb07df 0px 0px 20px, #eb07df 0px 0px 30px, #eb07df 0px 0px 40px,
+    #eb07df 0px 0px 50px, #eb07df 0px 0px 75px;
+  font-size: 5rem;
+}
+
+.bold-underlined-text {
+  text-decoration: underline;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 2.1rem;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+  .popup-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  p {
+    width: 90%;
+  }
+
+  html {
+    font-size: 59.5%;
+  }
+  .projects {
+    padding: 4rem 3.5rem;
+  }
+  .projects .project-description {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .icons-container {
+    gap: 2rem;
+  }
+  .icon {
+    font-size: 3rem;
+  }
+
+  .social-icons #mail-icon {
+    font-size: 4rem;
+  }
+  .nav-menu {
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 566px) {
+  .h3-computer {
+    font-size: 1.75rem;
+  }
+  .skills .img-container img {
+    width: 100%;
+    
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .icons-container {
+    gap: 1.25rem;
+  }
+  .nav-menu {
+    margin-left: 2.5rem;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 55.5%;
+  }
+  .paragraph {
+    width: 100%;
+  }
+  .skills-icon-box {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .nav-menu {
+    margin-left: 3.5rem;
+    font-size: 1.8rem;
+  }
+  .nav-menu-container {
+    line-height: 2.1rem;
+  }
+}
+
+@media only screen and (max-width: 464px) {
+  .inner-wrapper {
+    padding: 2rem 4.75rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  header img {
+    width: 15.5rem;
+    height: 15.5rem;
+  }
+  header h1 {
+    font-size: 2.6rem;
+  }
+  header .h1-container h3 {
+    font-size: 1.9rem;
+  }
+  .pink-neon-text {
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .h3-computer {
+    font-size: 1.8rem; 
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .nav-menu {
+    margin-left: 2.7rem;
+  }
+  .skills-icon-box {
+    padding: 1.5rem 1.7rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav-menu {
+    margin-left: 2rem;
+    gap: 2.5rem;
+  }
+  header {
+    gap: 3rem;
+  }
+  p {
+    width: 100%;
+  }
+  header .img-header-wrapper {
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header .h1-container h3 {
+    font-size: 2rem;
+    margin: 0 auto;
+    margin-top: -1.25rem;
+  }
+  .pink-neon-text {
+    font-size: 4.75rem;
+  }
+
+  header p {
+    font-size: 2.2rem;
+  }
+  .social-icons #resume-link {
+    font-size: 1.6rem;
+    padding: 1.3rem 3rem;
+  }
+  .icon {
+    font-size: 2.6rem;
+  }
+  .social-icons #mail-icon {
+    font-size: 3.5rem;
+  }
+  .icons-container {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .social-icons ul {
+    justify-content: space-between;
+  }
+  .nav-menu {
+    margin-left: 1.8rem;
+    gap: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 366px) {
+  html {
+    font-size: 50%; 
+  }
+}
