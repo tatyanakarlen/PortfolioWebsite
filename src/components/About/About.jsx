@@ -12,13 +12,13 @@ const About = () => {
         Toronto, Canada, I have a <span>diverse creative background</span> in
         fashion, piano performance and music pedagogy.
         <br />
-        <br />Always curious about the web, I enrolled in <span>General Assembly's</span>{' '}
+        <br />Always curious about the web, I graduated <span>General Assembly's</span>{' '}
         <span class="neon-green-text">Software Engineering Immersive</span>{' '}
         program where I learned full-stack development in a fast-paced
         environment.
+        {/* <br />
         <br />
-        <br />
-       When I'm not coding, I'm playing or teaching piano. I'm inspired by cult movies, the 80's and much more.
+       When I'm not coding, I'm playing or teaching piano. I'm inspired by cult movies, the 80's and much more. */}
       </p>
     </div>
   );
