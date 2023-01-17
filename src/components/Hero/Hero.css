@@ -172,8 +172,8 @@ header .icon-container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2.3rem;
-  margin-top: 3rem;
+  gap: 2.7rem;
+  margin-top: 2rem;
 }
 
 .mobile-icon-container ul {
