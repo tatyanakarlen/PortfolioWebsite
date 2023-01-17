@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div class="skills" id="skills">
       <div>
-        <h1 class="section-heading" style={{color: 'white', letterSpacing: '2px'}}>Experienced with the following tools:</h1>
+        <h1 class="section-heading" style={{color: 'white', letterSpacing: '2px'}}>Experienced with the following languages and tools:</h1>
         
         {/* <p id="skills-experience-headline" class="paragraph">
         <span class="bold-underlined-text">Experienced with the following languages and tools:</span>
