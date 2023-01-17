@@ -13,7 +13,7 @@ const About = () => {
         fashion, piano performance and music pedagogy.
         <br />
         <br />Always curious about the web, I graduated <span>General Assembly's</span>{' '}
-        <span class="neon-green-text">Software Engineering Immersive</span>{' '}
+        <span style={{textDecoration: 'underline'}}>Software Engineering Immersive</span>{' '}
         program where I learned full-stack development in a fast-paced
         environment.
         {/* <br />
