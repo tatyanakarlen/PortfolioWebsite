@@ -1,3 +1,7 @@
+.skills {
+  padding-top:5rem; 
+}
+
 .skills-container-wrapper {
   display: flex;
   align-items: center;

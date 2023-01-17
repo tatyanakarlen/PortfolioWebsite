@@ -88,7 +88,7 @@ header img {
 }
 
 .icon {
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 
 .icons-container {
@@ -173,7 +173,7 @@ header .icon-container {
   justify-content: center;
   align-items: center;
   gap: 2.3rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .mobile-icon-container ul {
@@ -201,7 +201,7 @@ header .icon-container {
 } */
 
 .mobile-bio-social-container h3 {
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 
 .mobile-bio-social-container h3 span {
