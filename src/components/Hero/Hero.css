@@ -211,8 +211,8 @@ header .icon-container {
 
 .mobile-bio-social-container h1 {
   font-family: 'Anonymous Pro';
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
   text-align: center;
   font-size: 2.5rem;
 }
