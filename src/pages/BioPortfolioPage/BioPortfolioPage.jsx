@@ -25,7 +25,7 @@ function BioPortfolioPage(props) {
         <About />
         <Skills />
         <h1
-          style={{ marginTop: '10rem', marginBottom: '-5rem', letterSpacing: '2px' }}
+          style={{ marginTop: '10rem', marginBottom: '-5rem', letterSpacing: '2px', lineHeight: '3rem' }}
           class="section-heading"
           id="projects"
         >
