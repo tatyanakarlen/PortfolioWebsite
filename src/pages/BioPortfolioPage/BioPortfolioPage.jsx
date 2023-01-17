@@ -21,14 +21,12 @@ function BioPortfolioPage(props) {
       <TopNav />
       <div class="inner-wrapper">
         <Hero />
-        <h1 style={{ marginTop: '10rem' }} id="about" class="section-heading">
-          About
-        </h1>
+        <h1 class="section-heading">About</h1>
         <About />
         <Skills />
         <h1
-          style={{ marginTop: '10rem', marginBottom: '-5rem' }}
-          class="section-heading"
+          style={{ marginTop: '10rem', marginBottom: '-5rem', color: 'rgb(79, 244, 3)' }}
+          class="bold-underlined-text"
           id="projects"
         >
           Click on project image to view gallery...

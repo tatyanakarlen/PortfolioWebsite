@@ -26,12 +26,13 @@ p {
 
 .section-heading {
   color: var(--color-green);
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
-  padding-top: 8rem;
-  position: relative;
-  text-decoration: underline;
-  text-transform: uppercase;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+    padding-top: 8rem;
+    position: relative;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
 }
 
 
@@ -166,7 +167,7 @@ p {
     height: 15.5rem;
   }
   header h1 {
-    font-size: 2.6rem;
+    font-size: 2.7rem;
   }
   header .h1-container h3 {
     font-size: 1.9rem;
@@ -193,6 +194,9 @@ p {
 }
 
 @media only screen and (max-width: 400px) {
+  html {
+    font-size: 50.0%;
+}
   .nav-menu {
     margin-left: 2rem;
     gap: 2.5rem;

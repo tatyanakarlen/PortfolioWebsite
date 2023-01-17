@@ -5,11 +5,11 @@ const Skills = () => {
   return (
     <div class="skills" id="skills">
       <div>
-        <h1 class="section-heading" style={{color: 'white', letterSpacing: '2px'}}>Experienced with the following languages and tools:</h1>
-        
-        {/* <p id="skills-experience-headline" class="paragraph">
-        <span class="bold-underlined-text">Experienced with the following languages and tools:</span>
-        </p> */}
+        <p id="skills-experience-headline" class="paragraph">
+          <span class="bold-underlined-text">
+            Experienced with the following languages and tools:
+          </span>
+        </p>
       </div>
       <br />
 
@@ -47,7 +47,6 @@ const Skills = () => {
         <div class="skill-container">
           <div class="skills-icon-box">PostgreSQL</div>
         </div>
-        
       </div>
       <div class="img-container">
         <img
@@ -56,7 +55,6 @@ const Skills = () => {
           class="gif"
         />
       </div>
-     
     </div>
   );
 };

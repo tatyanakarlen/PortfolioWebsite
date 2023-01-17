@@ -50,56 +50,28 @@ const TopNav = () => {
           }}
         ></span>
       </div>
-    
-
-{/* <a
-                    class="social-links"
-                    href="mailto:tatyanakarlen@gmail.com"
-                    target="_blank"
-                    aria-label="Mail"
-                    rel="noopener noreferrer"
-                  > */}
-
 
       <div className="nav-menu-container">
         <ul className="nav-menu">
-          {navMenuItems.map((element, i) => (
-            isMobile && element === 'SKILLS' ?
-            element = ""
-            :
-
-            
-            <li
-              style={{ animationDelay: `${i * 60}ms` }}
-              className={animation}
-              key={i}
-            >
-              <a href={element === 'HOME' ? `#` : `#${element}`.toLowerCase()}
-              onClick={toggleNav}
+          {navMenuItems.map((element, i) =>
+            isMobile && element === 'SKILLS' ? (
+              (element = '')
+            ) : (
+              <li
+                style={{ animationDelay: `${i * 60}ms` }}
+                className={animation}
+                key={i}
               >
-                {element}
-              </a>
-            </li>
-          ))}
+                <a
+                  href={element === 'HOME' ? `#` : `#${element}`.toLowerCase()}
+                  onClick={toggleNav}
+                >
+                  {element}
+                </a>
+              </li>
+            )
+          )}
         </ul>
-
-{/* <ul className="nav-menu">
-          {navMenuItems.map((element, i) => (
-
-            
-            <li
-              style={{ animationDelay: `${i * 60}ms` }}
-              className={animation}
-              key={i}
-            >
-              <a href={element === 'HOME' ? `#` : `#${element}`.toLowerCase()}
-              onClick={toggleNav}
-              >
-                {element}
-              </a>
-            </li>
-          ))}
-        </ul> */}
       </div>
     </div>
   );

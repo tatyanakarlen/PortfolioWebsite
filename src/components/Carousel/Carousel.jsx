@@ -7,26 +7,7 @@ import { IoIosArrowBack } from 'react-icons/io';
 import { IoMdCloseCircle } from 'react-icons/io';
 import { CgCloseO } from 'react-icons/cg';
 
-
 export default function Carousel(props) {
-  const SliderData = [
-    {
-      title: 'IMG-1',
-      image:
-        'https://i.pinimg.com/474x/f8/2e/9d/f82e9d000b829f8c81f500c51c8ffb60.jpg',
-    },
-    {
-      title: 'IMG-2',
-      image:
-        'https://i2.wp.com/bestlifeonline.com/wp-content/uploads/2019/03/antique-meat-press.jpg?resize=1200%2C803&ssl=1',
-    },
-    {
-      title: 'IMG-3',
-      image:
-        'https://images.bonanzastatic.com/afu/images/32b6/822a/7e3e_7413225783/s-l1600.jpg',
-    },
-  ];
-
   const [current, setCurrent] = useState(0);
   const length = props.SliderData.length;
 
@@ -53,18 +34,13 @@ export default function Carousel(props) {
 
   return (
     <div class="popup" style={popUpVisibleStyles}>
-     
-
       {props.SliderData.map((slide, index) => {
         return (
           <div class="popup-content">
-           
-
             <div
               className={index === current ? 'slide active' : 'slide'}
               key={index}
             >
-             
               {index === current && (
                 <div class="img-icon-container">
                   <img id="image" alt="test" src={slide.image}></img>
