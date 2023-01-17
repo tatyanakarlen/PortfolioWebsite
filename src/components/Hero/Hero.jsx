@@ -118,7 +118,7 @@ const Hero = () => {
             My name is <span class="Tatyana">Tatyana</span>
           </h3>
           <h1 class="mobile-bio-h1">
-            I'm a full-stack developer with a passion for <span class="neon-green-text">UI/UX</span>
+            I'm a full-stack developer with a passion for UI/UX
           </h1>
         </div>
         }
