@@ -53,7 +53,7 @@ function App() {
     {
       title: 'Spark',
       headline: 'Online dating single-page-application built with',
-      tech: ['Next.js', 'MySql', 'Typescript', 'ChakraUI'],
+      tech: ['Next.js', 'MySql', 'Typescript', 'Chakra UI'],
       images: [img19, img20, img21, img22, img23],
       bullet1:
         'Online-dating application where users can sign up and be matched with potential mates',
