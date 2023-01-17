@@ -8,18 +8,16 @@ const About = () => {
       <h3 class="h3-computer">Diverse creative background</h3>
       <p class="paragraph">
         Welcome and thanks for stopping by! I'm a{' '}
-        <span class="bold-underlined-text">
-          jr.full-stack developer based in Toronto, Canada.
-        </span>{' '}
-        I have a background in fashion arts and classical piano performance.
+          full-stack/front-end developer based in Toronto, Canada.
+        I have a background in fashion, piano performance and music pedagogy.
         <br />
         <br />
         I graduated from <span>General Assembly's</span>{' '}
         <span class="bold-underlined-text">Software Engineering Immersive</span> program{' '}
         where I learned full-stack development in a fast-paced environment. 
+        {/* <br />
         <br />
-        <br />
-       When I'm not coding, I'm playing or teaching piano. I'm inspired by cult movies, the 80's and a DYI aesthetic.
+       When I'm not coding, I'm playing or teaching piano. I'm inspired by cult movies, the 80's and a DYI aesthetic. */}
       </p>
     </div>
   );

@@ -5,10 +5,10 @@ const Skills = () => {
   return (
     <div class="skills" id="skills">
       <div>
-        <h1 class="section-heading">Skills</h1>
+        {/* <h1 class="section-heading">Skills</h1>
         <p class="paragraph">
          In addition to the skills listed below, I'm familiar with <span class="bold-underlined-text">Agile</span> methodology, REST API, jQuery, Wordpress, Elementor, Git and several CSS libraries including Bootstrap. 
-        </p>
+        </p> */}
         <p id="skills-experience-headline" class="paragraph">
         <span class="bold-underlined-text">Experienced with the following languages and tools:</span>
         </p>
@@ -58,6 +58,7 @@ const Skills = () => {
           class="gif"
         />
       </div>
+     
     </div>
   );
 };

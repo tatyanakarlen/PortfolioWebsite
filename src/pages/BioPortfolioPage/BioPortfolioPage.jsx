@@ -31,7 +31,7 @@ function BioPortfolioPage(props) {
           class="section-heading"
           id="projects"
         >
-          Projects
+          Click on project image to view gallery...
         </h1>
         {props.projects.map((m) => (
           <PortfolioBox
