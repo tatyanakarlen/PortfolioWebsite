@@ -11,7 +11,7 @@
 }
 
 .projects .read-more {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: 'Anonymous Pro';
   letter-spacing: 0.7px;
 }
@@ -46,6 +46,10 @@
   gap: 0.7rem;
 }
 
+.icon-text-container .project-pop-up-icon-text svg {
+  font-size: 3.1rem;
+}
+
 .project-pop-up-icon-text:hover {
   cursor: pointer;
 }
@@ -58,7 +62,7 @@
 }
 
 .demo-code-links-container div {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 800;
   letter-spacing: 0.7px;
   text-decoration: underline;
@@ -77,5 +81,5 @@
 }
 
 .demo-code-links-container svg {
-  font-size: 2.1rem;
+  font-size: 2.3rem;
 }

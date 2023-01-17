@@ -32,7 +32,7 @@ p {
     position: relative;
     text-decoration: underline;
     text-transform: uppercase;
-    /* letter-spacing: 2px; */
+    letter-spacing: 2px;
 }
 
 
@@ -98,15 +98,9 @@ p {
 }
 
 @media only screen and (max-width: 575px) {
-  .icons-container {
-    gap: 2rem;
-  }
-  .icon {
-    font-size: 3rem;
-  }
-
-  .social-icons #mail-icon {
-    font-size: 4rem;
+  header {
+    padding: 10rem 0;
+    height: auto;
   }
   .nav-menu {
     margin-left: 3rem;
@@ -124,9 +118,7 @@ p {
 }
 
 @media only screen and (max-width: 525px) {
-  .icons-container {
-    gap: 1.25rem;
-  }
+  
   .nav-menu {
     margin-left: 2.5rem;
     gap: 3rem;
@@ -225,25 +217,11 @@ p {
   header p {
     font-size: 2.2rem;
   }
-  .social-icons #resume-link {
-    font-size: 1.6rem;
-    padding: 1.3rem 3rem;
-  }
-  .icon {
-    font-size: 2.6rem;
-  }
-  .social-icons #mail-icon {
-    font-size: 3.5rem;
-  }
-  .icons-container {
-    gap: 1rem;
-  }
+  
 }
 
 @media only screen and (max-width: 375px) {
-  .social-icons ul {
-    justify-content: space-between;
-  }
+  
   .nav-menu {
     margin-left: 1.8rem;
     gap: 2.2rem;

@@ -1,0 +1,36 @@
+.mobile-about-me  {
+    width: 85%; 
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.mobile-about-me h1 {
+    font-family: 'Permanent Marker';
+    color: #333; 
+}
+
+.mobile-about-me p {
+   color: #515253; 
+   
+    font-size: 1.4em;
+    margin-top: 1em;
+    letter-spacing: 1px;
+}
+
+.mobile-about-me #mobile-contact {
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 8px 22px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size:2rem; 
+}
+
+
+
+
+.bold-span {
+    color: #b20456;
+    font-weight: 600;
+}
