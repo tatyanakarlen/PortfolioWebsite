@@ -5,11 +5,24 @@ const Skills = () => {
   return (
     <div class="skills" id="skills">
       <div>
-        <h1 class="section-heading" style={{color: 'white', letterSpacing: '2px'}}>Experienced with the following languages and tools:</h1>
-        
-        {/* <p id="skills-experience-headline" class="paragraph">
+        {/* <h1 class="section-heading" style={{color: 'white', letterSpacing: '2px'}}>Experienced with the following languages and tools:</h1>
+        <ul>
+          <li>-Javascript</li>
+          <li>-HTML</li>
+          <li>-CSS</li>
+          <li>-React</li>
+          <li>-Sass</li>
+          <li>-Next.js</li>
+          <li>-Python</li>
+          <li>-Django</li>
+          <li>-Node.js</li>
+          <li>-MongoDB</li>
+          <li>-PostgreSQL</li>
+        </ul>
+         */}
+        <p id="skills-experience-headline" class="paragraph">
         <span class="bold-underlined-text">Experienced with the following languages and tools:</span>
-        </p> */}
+        </p>
       </div>
       <br />
 
