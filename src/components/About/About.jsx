@@ -17,7 +17,7 @@ const About = () => {
         pedagogy.
         <br />
         <br />
-        Always curious about the web, I graduated General Assembly's{' '}
+        Always curious about the web, I graduated from General Assembly's{' '}
         <span>Software Engineering Immersive</span> program where I learned
         full-stack development in a fast-paced environment.
       </p>
