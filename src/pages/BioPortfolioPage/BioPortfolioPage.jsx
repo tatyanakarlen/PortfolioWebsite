@@ -21,11 +21,11 @@ function BioPortfolioPage(props) {
       <TopNav />
       <div class="inner-wrapper">
         <Hero />
-        <h1 style={{letterSpacing: 'unset'}}id="about"class="section-heading">About</h1>
+        <h1 id="about"class="section-heading">About</h1>
         <About />
         <Skills />
         <h1
-          style={{ marginTop: '10rem', marginBottom: '-5rem', letterSpacing: '2px', lineHeight: '2.5rem' }}
+          style={{ marginTop: '10rem', marginBottom: '-5rem', letterSpacing: '1.7px', lineHeight: '2.5rem' }}
           class="section-heading"
           id="projects"
         >
