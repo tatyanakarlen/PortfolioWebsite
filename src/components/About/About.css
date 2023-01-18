@@ -8,6 +8,7 @@
 .download h1 {
     font-size: 1.7rem;
     text-decoration: underline;
+    color: var(--color-green); 
     
 }
 
@@ -15,7 +16,7 @@
 
 .download svg {
     font-size: 3.25rem;
-    color: white; 
+    color: var(--color-green); 
 }
 
 .download-text-container {
