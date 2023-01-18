@@ -11,7 +11,6 @@ const About = () => {
 
   return (
     <div class="about-me">
-      {/* <h3 class="h3-computer">Diverse creative background</h3> */}
       <p class="paragraph">
         Welcome and thanks for stopping by! Based in Toronto, Canada, I have a{' '}
         diverse creative background in fashion, piano performance and music
@@ -23,24 +22,21 @@ const About = () => {
         full-stack development in a fast-paced environment.
       </p>
 
-      { isMobile ? 
+      {isMobile ? (
         <a class="social-links" href={resumeLink} target="_blank">
           <div className="download">
             <i id="download-icon" class="bi bi-download"></i>
             <h1>Resume</h1>
           </div>
         </a>
-        : 
+      ) : (
         <a class="social-links" href={certificateLink} target="_blank">
-        <div className="download">
-          <i id="download-icon" class="bi bi-download"></i>
-          <h1>Cerf</h1>
-        </div>
-      </a>
-      }
-
-
-      <h1>TK</h1>
+          <div className="download">
+            <i id="download-icon" class="bi bi-download"></i>
+            <h1>Cerf</h1>
+          </div>
+        </a>
+      )}
     </div>
   );
 };
