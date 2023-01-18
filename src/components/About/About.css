@@ -1,0 +1,31 @@
+.download{
+    /* font-size: 2.5rem; */
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.download h1 {
+    font-size: 1.7rem;
+    text-decoration: underline;
+    
+}
+
+
+
+.download svg {
+    font-size: 3.25rem;
+    color: white; 
+}
+
+.download-text-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.download-text-container h1 {
+    font-size: 2.5rem; 
+}
