@@ -20,9 +20,6 @@ const About = () => {
         General Assembly's <span>Software Engineering Immersive</span> program where I learned full-stack development in a fast-paced
         environment.
       </p>
-      <br />
-      <br />
-      {/* <div className="download"> */}
       <a class="social-links" href={resumeLink} target="_blank">
         <div className="download">
       <i id="download-icon" class="bi bi-download"></i>

@@ -7,13 +7,6 @@ const Skills = () => {
       <p>
       <h1 class="bold-underlined-text">Experienced with the following languages and tools:</h1>
       </p>
-      {/* <div>
-        <p id="skills-experience-headline" class="paragraph">
-          <span class="bold-underlined-text">
-            Experienced with the following languages and tools:
-          </span>
-        </p>
-      </div> */}
       <br />
 
       <div class="skills-container-wrapper">
