@@ -12,15 +12,15 @@ const About = () => {
       {/* <h3 class="h3-computer">Diverse creative background</h3> */}
       <p class="paragraph">
         Welcome and thanks for stopping by! Based in Toronto, Canada, I have a{' '}
-        <span>diverse creative background</span> in fashion, piano performance
+        diverse creative background in fashion, piano performance
         and music pedagogy.
         <br />
         <br />
         Always curious about the web, I graduated{' '}
         <span>General Assembly's</span>{' '}
-        <span>
+        
           Software Engineering Immersive
-        </span>{' '}
+        
         program where I learned full-stack development in a fast-paced
         environment.
       </p>
