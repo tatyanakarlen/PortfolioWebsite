@@ -90,6 +90,9 @@ p {
   .projects .project-description {
     width: 100%;
   }
+  header h1 {
+    font-size: 3.1rem;
+}
 }
 
 @media only screen and (max-width: 575px) {
@@ -139,6 +142,10 @@ p {
   .nav-menu-container {
     line-height: 2.1rem;
   }
+
+  #projects {
+    width: 85%; 
+  }
 }
 
 @media only screen and (max-width: 464px) {
@@ -152,9 +159,7 @@ p {
     width: 15.5rem;
     height: 15.5rem;
   }
-  header h1 {
-    font-size: 2.7rem;
-  }
+  
   header .h1-container h3 {
     font-size: 1.9rem;
   }
@@ -206,7 +211,7 @@ p {
   header .h1-container h3 {
     font-size: 2rem;
     margin: 0 auto;
-    margin-top: -1.25rem;
+    margin-top: -1rem;
   }
   .pink-neon-text {
     font-size: 4.75rem;
