@@ -17,11 +17,7 @@ const About = () => {
         <br />
         <br />
         Always curious about the web, I graduated{' '}
-        <span>General Assembly's</span>{' '}
-        
-          Software Engineering Immersive
-        
-        program where I learned full-stack development in a fast-paced
+        General Assembly's <span>Software Engineering Immersive</span> program where I learned full-stack development in a fast-paced
         environment.
       </p>
       <br />

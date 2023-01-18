@@ -10,17 +10,18 @@
 }
 
 .download h1 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     text-decoration: underline;
-    color: var(--color-green); 
+     
     
 }
 
 
 
 .download svg {
-    font-size: 3.25rem;
-    color: var(--color-green); 
+    font-size: 3.3rem;
+    color: white; 
+    
 }
 
 .download-text-container {
