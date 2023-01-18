@@ -96,6 +96,7 @@ p {
   .nav-menu {
     margin-left: 3rem;
   }
+
 }
 
 @media only screen and (max-width: 566px) {
@@ -123,6 +124,10 @@ p {
   }
   .skills-icon-box {
     padding: 1.5rem 2rem;
+  }
+  header {
+    padding: 1.5rem 0;
+    height: auto;
   }
 }
 
