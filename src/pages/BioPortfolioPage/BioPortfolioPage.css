@@ -26,15 +26,13 @@ p {
 
 .section-heading {
   color: var(--color-green);
-    font-size: 2.3rem;
-    margin-bottom: 3rem;
-    padding-top: 8rem;
-    position: relative;
-    text-decoration: underline;
-    text-transform: uppercase;
+  font-size: 2.3rem;
+  margin-bottom: 3rem;
+  padding-top: 8rem;
+  position: relative;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
-
-
 
 .h3-computer {
   font-family: 'Press Start 2P';
@@ -70,8 +68,6 @@ p {
   font-size: 2.2rem;
 }
 
-
-
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1000px) {
@@ -89,7 +85,7 @@ p {
     font-size: 59.5%;
   }
   .projects {
-    padding: 3rem 3.25rem 3rem 3.25rem; 
+    padding: 3rem 3.25rem 3rem 3.25rem;
   }
   .projects .project-description {
     width: 100%;
@@ -97,7 +93,6 @@ p {
 }
 
 @media only screen and (max-width: 575px) {
-  
   .nav-menu {
     margin-left: 3rem;
   }
@@ -109,12 +104,10 @@ p {
   }
   .skills .img-container img {
     width: 100%;
-    
   }
 }
 
 @media only screen and (max-width: 525px) {
-  
   .nav-menu {
     margin-left: 2.5rem;
     gap: 3rem;
@@ -167,7 +160,7 @@ p {
 
 @media only screen and (max-width: 428px) {
   .h3-computer {
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
   }
 }
 
@@ -187,8 +180,8 @@ p {
     height: auto;
   }
   html {
-    font-size: 50.0%;
-}
+    font-size: 50%;
+  }
   .nav-menu {
     margin-left: 2rem;
     gap: 2.5rem;
@@ -217,11 +210,12 @@ p {
   header p {
     font-size: 2.2rem;
   }
-  
+  .mobile-bio-social-container {
+    margin-top: 2rem;
+  }
 }
 
 @media only screen and (max-width: 375px) {
-  
   .nav-menu {
     margin-left: 1.8rem;
     gap: 2.2rem;
@@ -230,6 +224,6 @@ p {
 
 @media only screen and (max-width: 366px) {
   html {
-    font-size: 50%; 
+    font-size: 50%;
   }
 }
