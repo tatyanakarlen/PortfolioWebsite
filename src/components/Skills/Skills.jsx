@@ -4,13 +4,16 @@ import './Skills.css';
 const Skills = () => {
   return (
     <div class="skills" id="skills">
-      <div>
+      <p>
+      <h1 class="bold-underlined-text">Experienced with the following languages and tools:</h1>
+      </p>
+      {/* <div>
         <p id="skills-experience-headline" class="paragraph">
           <span class="bold-underlined-text">
             Experienced with the following languages and tools:
           </span>
         </p>
-      </div>
+      </div> */}
       <br />
 
       <div class="skills-container-wrapper">

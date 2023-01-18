@@ -22,14 +22,17 @@ const About = () => {
       </p>
       <br />
       <br />
-      <div className="download">
-      <a class="social-links" href={resumeLink}>
+      {/* <div className="download"> */}
+      <a class="social-links" href={resumeLink} target="_blank">
+        <div className="download">
       <i id="download-icon" class="bi bi-download"></i>
+      <h1>Resume</h1>
+      </div>
         </a>
-        <h1>Resume</h1>
+        
 
       
-      </div>
+      {/* </div> */}
     </div>
   );
 };
