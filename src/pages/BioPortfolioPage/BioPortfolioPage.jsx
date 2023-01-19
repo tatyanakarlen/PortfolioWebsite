@@ -21,15 +21,14 @@ function BioPortfolioPage(props) {
       <TopNav />
       <div class="inner-wrapper">
         <Hero />
-        <h1 id="about"class="section-heading">About</h1>
+        <h1 id="about" class="section-heading">
+          About
+        </h1>
         <About />
         <Skills />
-        <h1
-          style={{ marginTop: '10rem', marginBottom: '-5rem', letterSpacing: '1.7px', lineHeight: '2.5rem' }}
-          class="section-heading"
-          id="projects"
-        >
-          Click on project image to view gallery...
+        <h1 id="projects">
+          <i class="bi bi-hand-index-thumb"></i>
+          on project image to view gallery...
         </h1>
         {props.projects.map((m) => (
           <PortfolioBox

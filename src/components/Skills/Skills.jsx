@@ -44,6 +44,7 @@ const Skills = () => {
           <div class="skills-icon-box">PostgreSQL</div>
         </div>
       </div>
+    
       <div class="img-container">
         <img
           src="https://media.giphy.com/media/xT9KVgmGTooXz0iDPW/giphy.gif"

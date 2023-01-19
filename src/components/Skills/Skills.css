@@ -36,7 +36,9 @@
 .img-container {
   display: flex;
   justify-content: center;
-  margin-top: 17rem;
+  margin-top: 10rem;
+  background-color: #000;
+  padding: 5rem 2rem;
 }
 
 .skills .img-container img {
