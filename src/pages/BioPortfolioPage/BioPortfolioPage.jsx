@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import { useMediaQuery } from 'react-responsive';
 import About from '../../components/About/About.jsx';
 import Contact from '../../components/Contact/Contact';
+import MobileNav from '../../components/MobileNav/MobileNav';
 import './BioPortfolioPage.css';
 
 import { RiCopyrightFill } from 'react-icons/ri';
@@ -18,7 +19,8 @@ function BioPortfolioPage(props) {
 
   return (
     <div class="main-container">
-      <TopNav />
+      {/* <TopNav /> */}
+      <MobileNav />
       <div class="inner-wrapper">
         <Hero />
         <h1 id="about" class="section-heading">
