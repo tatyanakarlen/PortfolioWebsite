@@ -9,7 +9,7 @@ import { useMediaQuery } from 'react-responsive';
 
 
 const Hero = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 575px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
   const resumeLink =
     '/static/media/TATYANA_KARLEN_RESUME.8f39e6b0ef483205c5b1.pdf';
