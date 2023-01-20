@@ -97,14 +97,14 @@ header img {
   margin-top: 0.5rem;
 }
 .social-icons #resume-link {
-  font-size: 1.55rem;
-  padding: 1.2rem 3.6rem;
-  background-color: red;
-  border-radius: 5rem;
-  font-family: 'Press Start 2P';
-  letter-spacing: 1.5px;
-  color: white;
-  text-decoration: none;
+  font-size: 1.75rem;
+    padding: 1.3rem 3.7rem;
+    background-color: red;
+    border-radius: 5rem;
+    font-family: 'Press Start 2P';
+    letter-spacing: 1.5px;
+    color: white;
+    text-decoration: none;
 }
 
 .social-icons .social-links {
