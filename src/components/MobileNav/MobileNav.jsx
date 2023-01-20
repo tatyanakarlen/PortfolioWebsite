@@ -63,11 +63,6 @@ const MobileNav = () => {
             <br />
             <a 
             onClick={() => setIsNavExpanded(!isNavExpanded)}
-            href="#skills">SKILLS</a>
-            <br />
-            <br />
-            <a 
-            onClick={() => setIsNavExpanded(!isNavExpanded)}
             href="#projects"> PROJECTS</a>
             <br />
             <br />
