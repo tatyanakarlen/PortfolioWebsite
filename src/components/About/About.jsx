@@ -20,6 +20,9 @@ const About = () => {
         Always curious about the web, I graduated from General Assembly's{' '}
         <span>Software Engineering Immersive</span> program where I learned
         full-stack development in a fast-paced environment.
+        <br />
+        <br />
+        When I'm not coding, I'm playing or teaching piano. I'm inspired by cult movies, the 80's and much more.
       </p>
 
       {isMobile ? (
@@ -33,7 +36,7 @@ const About = () => {
         <a class="social-links" href={certificateLink} target="_blank">
           <div className="download">
             <i id="download-icon" class="bi bi-download"></i>
-            <h1>Cerf</h1>
+            <h1>Certificate</h1>
           </div>
         </a>
       )}
