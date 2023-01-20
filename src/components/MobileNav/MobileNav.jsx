@@ -21,7 +21,7 @@ const MobileNav = () => {
     expandedStyleTopBun = {
         transform: 'rotate(-45deg)',
         marginTop: '25px',
-        backgroundColor: '#f7f7f7',
+        backgroundColor: '#fff',
       };
       expandedStyleBottomBun = {
         opacity: '0',
@@ -30,7 +30,7 @@ const MobileNav = () => {
       expandedStyleMeat = {
         transform: 'rotate(45deg)',
         marginTop: '-7px',
-        backgroundColor: '#f7f7f7',
+        backgroundColor: '#fff',
       };
       expandedNav = {
         top: '0',
@@ -48,7 +48,7 @@ const MobileNav = () => {
       >
         <div style={expandedStyleTopBun} class="top-bun"></div>
         <div style={expandedStyleMeat } class="meat"></div>
-        <div style={expandedStyleBottomBun} class="bottom-bun"></div>
+        {/* <div style={expandedStyleBottomBun} class="bottom-bun"></div> */}
       </div>
       <div style={expandedNav}className="nav">
         <div className="nav-wrapper">

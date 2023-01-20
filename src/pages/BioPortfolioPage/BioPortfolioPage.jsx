@@ -9,6 +9,7 @@ import About from '../../components/About/About.jsx';
 import Contact from '../../components/Contact/Contact';
 import MobileNav from '../../components/MobileNav/MobileNav';
 import './BioPortfolioPage.css';
+import pointDown from '../../components/Images/pointing-down-finger-svgrepo-com.svg'
 
 import { RiCopyrightFill } from 'react-icons/ri';
 
@@ -28,10 +29,13 @@ function BioPortfolioPage(props) {
         </h1>
         <About />
         <Skills />
+        <div class="projects-headline">
         <h1 id="projects">
-          <i class="bi bi-hand-index-thumb"></i>
-          on project image to view gallery...
+          {/* <div><i class="bi bi-hand-index-thumb"></i></div> */}
+          <img src={pointDown} alt="" />
+          tap project image to view gallery...
         </h1>
+        </div>
         {props.projects.map((m) => (
           <PortfolioBox
             title={m.title}
