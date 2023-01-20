@@ -64,6 +64,7 @@ nav a {
   margin-top: 1.25em;
   transition: color 0.2s ease-in-out;
   letter-spacing: 1px;
+  font-weight: 800;
 }
 nav a:before {
   content: '';
