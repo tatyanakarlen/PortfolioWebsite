@@ -63,7 +63,7 @@ const MobileNav = () => {
             <br />
             <a 
             onClick={() => setIsNavExpanded(!isNavExpanded)}
-            href="#projects">SKILLS</a>
+            href="#skills">SKILLS</a>
             <br />
             <br />
             <a 
@@ -73,7 +73,7 @@ const MobileNav = () => {
             <br />
             <a 
             onClick={() => setIsNavExpanded(!isNavExpanded)}
-            href="#projects"> CONTACT</a>
+            href="#contact"> CONTACT</a>
             <br />
           </nav>
           
