@@ -1,11 +1,12 @@
 import React from 'react';
 import './Skills.css';
+import gif from '../Images/video-unscreen.gif'
 
 const Skills = () => {
   return (
     <div class="skills" id="skills">
       <p>
-      <h1 class="bold-underlined-text">Experienced with the following languages and tools:</h1>
+      <h1 class="section-heading">skills</h1>
       </p>
       <br />
 
@@ -47,7 +48,8 @@ const Skills = () => {
     
       {/* <div class="img-container">
         <img
-          src="https://media.giphy.com/media/xT9KVgmGTooXz0iDPW/giphy.gif"
+          // src="https://media2.giphy.com/media/hut4WMshl8Uxdpb0Ff/giphy.webp"
+          src={gif}
           alt=""
           class="gif"
         />
