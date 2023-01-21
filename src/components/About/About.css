@@ -1,5 +1,5 @@
 .paragraph span {
-    text-decoration: underline;
+    text-shadow: 0px 0px 3px rgb(50 211 58), 0px 0px 7px var(--color-green);
 }
 
 .download{
