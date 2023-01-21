@@ -9,6 +9,7 @@ const Skills = () => {
       <h1 class="bold-underlined-text">Experienced with the following languages and tools:</h1>
       </p>
       <br />
+      <br />
 
       <div class="skills-container-wrapper">
         <div class="skill-container">

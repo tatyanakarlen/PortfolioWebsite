@@ -53,7 +53,7 @@ const PortfolioBox = (props) => {
         <div class="icon-text-container project-pop-up-icon-text">
           <AiOutlineFolderOpen
             onClick={() => setReadMoreActive(!readMoreActive)}
-            // class="icon"
+            class="folder-icon"
           />
           <h3
             class="read-more underlined"

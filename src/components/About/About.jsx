@@ -36,7 +36,7 @@ const About = () => {
         <a class="social-links" href={certificateLink} target="_blank">
           <div className="download">
             <i id="download-icon" class="bi bi-download"></i>
-            <h1>Certificate</h1>
+            <h1>Resume</h1>
           </div>
         </a>
       )}
