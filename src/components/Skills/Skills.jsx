@@ -45,13 +45,13 @@ const Skills = () => {
         </div>
       </div>
     
-      <div class="img-container">
+      {/* <div class="img-container">
         <img
           src="https://media.giphy.com/media/xT9KVgmGTooXz0iDPW/giphy.gif"
           alt=""
           class="gif"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
