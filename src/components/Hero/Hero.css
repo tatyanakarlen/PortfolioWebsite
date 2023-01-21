@@ -25,9 +25,8 @@ header h1 {
 }
 
 header .h1-container h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-top: -1.5rem;
-  font-family: 'Anonymous Pro';
   letter-spacing: 0.7px;
 }
 
@@ -84,11 +83,11 @@ header img {
 }
 
 .social-icons #mail-icon {
-  font-size: 4.7rem;
+  font-size: 5rem;
 }
 
 .icon {
-  font-size: 3.75rem;
+  font-size: 4rem;
 }
 
 .icons-container {
@@ -126,6 +125,7 @@ header img {
 
 header p {
   margin-bottom: unset;
+  width: 86%; 
   
 }
 

@@ -45,6 +45,7 @@ const Hero = () => {
               <a id="resume-link" target="_blank" href={resumeLink}>
                 Resume
               </a>
+              
             </li>
             <div class="icons-container">
               <div class="icon-text-container">

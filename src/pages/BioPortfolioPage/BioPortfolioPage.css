@@ -11,11 +11,15 @@
   padding: 2rem 6rem;
 }
 
+p,
+h1 {
+  font-size: 2.5rem;
+}
+
 p {
   letter-spacing: inherit;
-  font-size: 2.1rem;
   line-height: 3rem;
-  width: 85%;
+  width: 92%;
   color: #fff;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -26,7 +30,6 @@ p {
 
 .section-heading {
   color: var(--color-green);
-  font-size: 2.1rem;
   margin-bottom: 3rem;
   padding-top: 8rem;
   position: relative;
@@ -36,7 +39,7 @@ p {
 
 .h3-computer {
   font-family: 'Press Start 2P';
-  font-size: 1.55rem;
+  font-size: 1.75rem;
   line-height: 3.5rem;
   letter-spacing: 1px;
 }
@@ -50,24 +53,18 @@ p {
   font-family: 'Anonymous Pro';
   letter-spacing: 0.7px;
   font-weight: 800;
-  font-size: 2.1rem;
 }
-
-
 
 .bold-underlined-text {
   text-decoration: underline;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-size: 2.1rem;
 }
 
-
-
 #projects {
-  display: flex; 
+  display: flex;
   align-items: center;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   font-weight: 800;
   padding-top: 9rem;
   margin-top: 8rem;
@@ -75,13 +72,13 @@ p {
   color: var(--color-green);
 }
 
-#projects i {
+/* #projects i {
   margin-right: 1.25rem;
-  color: rgb(79, 244, 3); 
-}
+  color: rgb(79, 244, 3);
+} */
 
 #projects img {
-  width: 3rem; 
+  width: 2.75rem;
   margin-right: 0.5rem;
 }
 
@@ -94,9 +91,67 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+  /* html {
+    font-size: 50%;
+  } */
+  header .img-header-wrapper {
+    flex-direction: column;
+  }
+  header .h1-container h3 {
+    margin: 0 auto;
+    margin-top: -1rem;
+  }
+  .inner-wrapper {
+    padding: 2rem 4rem;
+  }
+  .projects {
+    padding: 4rem 4rem;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* html {
+    font-size: 50%;
+  } */
+  .mobile-bio-social-container h1 {
+    width: 80%; 
+  }
+  .projects {
+    padding: 3rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .skills-icon-box {
+    padding: 1.5rem 2.5rem;
+    font-size: 1.85rem;
+}
+  
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 47%;
+  }
+  
+}
+
+/* @media only screen and (max-width: 768px) {
   .mobile-bio-social-container {
     gap: 3.7rem;
   }
+  header .img-header-container {
+   display: flex; 
+  flex-direction: column;
+   
+}
 }
 
 @media only screen and (max-width: 650px) {
@@ -264,4 +319,4 @@ p {
   html {
     font-size: 50%;
   }
-}
+} */
