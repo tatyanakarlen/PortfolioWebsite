@@ -107,7 +107,6 @@ p {
   .projects {
     padding: 4rem 4rem;
   }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -121,7 +120,7 @@ p {
     font-size: 50%;
   } */
   .mobile-bio-social-container h1 {
-    width: 80%; 
+    width: 80%;
   }
   .projects {
     padding: 3rem 3rem;
@@ -132,22 +131,26 @@ p {
   .skills-icon-box {
     padding: 1.5rem 2.5rem;
     font-size: 1.85rem;
-}
-  
+  }
 }
 
 @media only screen and (max-width: 400px) {
   html {
     font-size: 47%;
   }
-  
 }
 
 @media only screen and (max-width: 347px) {
   html {
     font-size: 43%;
   }
-  
+  header h1 {
+    font-size: 2.8rem;
+  }
+  h1,
+  p {
+    font-size: 2.2rem;
+  }
 }
 
 /* @media only screen and (max-width: 768px) {
