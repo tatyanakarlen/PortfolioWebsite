@@ -148,6 +148,9 @@ p {
   p {
     font-size: 2.2rem;
   }
+  .mobile-bio-social-container {
+    margin-top: 2rem;
+}
 }
 
 /* @media only screen and (max-width: 768px) {
