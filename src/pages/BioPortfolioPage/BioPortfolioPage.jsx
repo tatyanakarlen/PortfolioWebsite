@@ -29,12 +29,10 @@ function BioPortfolioPage(props) {
           About
         </h1>
         <About />
-        <Skills />
         <div class="projects-headline">
         <h1 id="projects">
-          {/* <div><i class="bi bi-hand-index-thumb"></i></div> */}
-          <img src={pointDown} alt="" />
-          {/* <AiOutlineArrowDown /> */}
+          <div><i class="bi bi-hand-index-thumb"></i></div>
+          {/* <img src={pointDown} alt="" /> */}
           tap project image to view gallery...
         </h1>
         </div>
@@ -54,6 +52,7 @@ function BioPortfolioPage(props) {
             gitHubLink={m.gitHubLink}
           />
         ))}
+         {/* <Skills /> */}
         <Contact />
         <Footer />
       </div>
