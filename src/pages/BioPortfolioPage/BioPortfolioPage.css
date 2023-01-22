@@ -116,14 +116,20 @@ p {
 }
 
 @media only screen and (max-width: 500px) {
-  /* html {
-    font-size: 50%;
-  } */
+  
   .mobile-bio-social-container h1 {
     width: 80%;
   }
   .projects {
     padding: 3rem 3rem;
+  }
+  h1,
+  p {
+    font-size: 2.1rem;
+  }
+  header {
+    padding: 17rem 0;
+    height: auto;
   }
 }
 
@@ -134,20 +140,16 @@ p {
   }
 }
 
+
+
 @media only screen and (max-width: 400px) {
   html {
     font-size: 50%;
   }
-}
-
-@media only screen and (max-width: 400px) {
   header h1 {
     font-size: 2.8rem;
   }
-  h1,
-  p {
-    font-size: 2.2rem;
-  }
+ 
   .mobile-bio-social-container {
     margin-top: 1rem;
 }
