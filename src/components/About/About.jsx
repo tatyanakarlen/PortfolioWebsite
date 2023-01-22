@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import { BsCloudDownload } from 'react-icons/bs';
 import { useMediaQuery } from 'react-responsive';
 
 const About = () => {
@@ -22,17 +21,17 @@ const About = () => {
         full-stack development in a fast-paced environment.
         <br />
         <br />
-        When I'm not coding, I'm playing or teaching piano. I'm inspired by cult movies, the 80's and much more.
-      </p>
+        I have experience with React, Javascript, HTML, CSS, Sass, Next.js, Python 3, Django, Node.js, MongoDB, PostgreSQL and more. 
+        </p>
 
-      {isMobile && 
+      {isMobile && (
         <a class="social-links" href={resumeLink} target="_blank">
           <div className="download">
             <i id="download-icon" class="bi bi-download"></i>
             <h1>Resume</h1>
           </div>
         </a>
-}
+      )}
     </div>
   );
 };
