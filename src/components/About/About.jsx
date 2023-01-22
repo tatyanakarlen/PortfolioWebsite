@@ -12,8 +12,7 @@ const About = () => {
     <div class="about-me">
       <p class="paragraph">
         Welcome and thanks for stopping by! Based in Toronto, Canada, I have a{' '}
-        diverse creative background in fashion, piano performance and music
-        pedagogy.
+        diverse creative background in fashion and piano performance and pedagogy. 
         <br />
         <br />
         Always curious about the web, I graduated from General Assembly's{' '}
