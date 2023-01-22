@@ -25,21 +25,14 @@ const About = () => {
         When I'm not coding, I'm playing or teaching piano. I'm inspired by cult movies, the 80's and much more.
       </p>
 
-      {isMobile ? (
+      {isMobile && 
         <a class="social-links" href={resumeLink} target="_blank">
           <div className="download">
             <i id="download-icon" class="bi bi-download"></i>
             <h1>Resume</h1>
           </div>
         </a>
-      ) : (
-        <a class="social-links" href={certificateLink} target="_blank">
-          <div className="download">
-            <i id="download-icon" class="bi bi-download"></i>
-            <h1>Resume</h1>
-          </div>
-        </a>
-      )}
+}
     </div>
   );
 };
