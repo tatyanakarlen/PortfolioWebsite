@@ -117,9 +117,9 @@ p {
 
 @media only screen and (max-width: 500px) {
   
-  .mobile-bio-social-container h1 {
+  /* .mobile-bio-social-container h1 {
     width: 80%;
-  }
+  } */
   .projects {
     padding: 3rem 3rem;
   }
