@@ -20,7 +20,7 @@ const About = () => {
         full-stack development in a fast-paced environment.
         <br />
         <br />
-        I have experience with React, Javascript, HTML, CSS, Sass, Next.js, Python 3, Django, Node.js, MongoDB, PostgreSQL and more. 
+        I have experience with React, Javascript, HTML, CSS, Sass, Next.js, Python, Django, Node.js, MongoDB, PostgreSQL and more. 
         </p>
 
       {isMobile && (
