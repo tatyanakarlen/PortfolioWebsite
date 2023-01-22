@@ -116,6 +116,9 @@ p {
 }
 
 @media only screen and (max-width: 500px) {
+  .inner-wrapper {
+    padding: 2rem 3rem;
+  }
   .mobile-bio-social-container {
     gap: 2.7rem;
   }
@@ -127,7 +130,7 @@ p {
     font-size: 2.1rem;
   }
   header {
-    padding: 14rem 0;
+    padding: 12.5rem 0;
     height: auto;
   }
 }
