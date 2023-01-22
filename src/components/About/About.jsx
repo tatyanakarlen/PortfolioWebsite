@@ -18,8 +18,8 @@ const About = () => {
         <br />
         <br />
         Always curious about the web, I graduated from General Assembly's{' '}
-        <span>Software Engineering Immersive program where I learned
-        full-stack development</span> in a fast-paced environment.
+        <span>Software Engineering Immersive</span> program where I learned
+        full-stack development in a fast-paced environment.
         <br />
         <br />
         When I'm not coding, I'm playing or teaching piano. I'm inspired by cult movies, the 80's and much more.
