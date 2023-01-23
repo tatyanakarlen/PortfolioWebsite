@@ -15,7 +15,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* background-color: #1b1b1b; */
 }
 
 *,
@@ -33,7 +32,6 @@ html {
 }
 
 :root {
-  /* neon green */
   --color-green: rgb(79, 244, 3);
   --color-primary-pink: #eb07df;
   --color-blue: #7ef40b;
@@ -43,7 +41,6 @@ body {
   position: relative;
   font-family: 'Anonymous Pro';
   background-color: #1b1b1b;
-  /* letter-spacing: 0.7px; */
   color: #fff;
 }
 

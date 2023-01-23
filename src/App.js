@@ -25,12 +25,11 @@ import img15 from './components/Images/Thriftd/Thriftd5.png';
 import img16 from './components/Images/Classical/Classical1.png';
 import img17 from './components/Images/Classical/Classical2.png';
 import img18 from './components/Images/Classical/Classical3.png';
-import img19 from './components/Images/Spark/Spark.png'
-import img20 from './components/Images/Spark/Spark1.png'
-import img21 from './components/Images/Spark/Spark2.png'
-import img22 from './components/Images/Spark/Spark3.png'
-import img23 from './components/Images/Spark/Spark4.png'
-
+import img19 from './components/Images/Spark/Spark.png';
+import img20 from './components/Images/Spark/Spark1.png';
+import img21 from './components/Images/Spark/Spark2.png';
+import img22 from './components/Images/Spark/Spark3.png';
+import img23 from './components/Images/Spark/Spark4.png';
 
 function App() {
   const [projects] = useState([
@@ -57,8 +56,7 @@ function App() {
       images: [img19, img20, img21, img22, img23],
       bullet1:
         'Online-dating application where users can sign up and be matched with potential mates',
-      bullet2:
-        'AJAX API endpoints to fetch data based on user interactions',
+      bullet2: 'AJAX API endpoints to fetch data based on user interactions',
       bullet3:
         'Features JWT User Authentication, React Hooks, photo image-uploads via Amazon S3',
 
@@ -68,13 +66,7 @@ function App() {
     {
       title: 'Tinterest',
       headline: 'Pinterest/Instagram-style app built with',
-      tech: [
-        'Django',
-        'Python',
-        'postgreSQL',
-        'Materialize CSS',
-        'AWS',
-      ],
+      tech: ['Django', 'Python', 'postgreSQL', 'Materialize CSS', 'AWS'],
       images: [img7, img8, img9, img10],
       bullet1:
         'Developed a social-media mobile-app where users can create, update and delete ‘interest’-type posts, as well as save and comment on each other’s posts',

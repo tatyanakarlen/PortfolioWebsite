@@ -20,14 +20,13 @@ header .h1-container {
 
 header h1 {
   font-family: 'Rubik Mono One';
-  font-size: 3rem;
+  font-size: 3.1rem;
   letter-spacing: 1.2px;
 }
 
 header .h1-container h3 {
   font-size: 2.1rem;
   margin-top: -1.5rem;
-
 }
 
 header .img-header-container {
@@ -96,14 +95,14 @@ header img {
   margin-top: 0.5rem;
 }
 .social-icons #resume-link {
-  font-size: 1.75rem;
-    padding: 1.3rem 3.7rem;
-    background-color: red;
-    border-radius: 5rem;
-    font-family: 'Press Start 2P';
-    letter-spacing: 1.5px;
-    color: white;
-    text-decoration: none;
+  background-color: red;
+  border-radius: 5rem;
+  color: #fff;
+  font-family: 'Press Start 2P';
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  padding: 1.3rem 3.8rem;
+  text-decoration: none;
 }
 
 .social-icons .social-links {
@@ -121,12 +120,9 @@ header img {
   font-weight: bold;
 }
 
-
-
 header p {
   margin-bottom: unset;
-  width: 86%; 
-  
+  width: 86%;
 }
 
 header .Tatyana {
@@ -196,10 +192,6 @@ header .icon-container {
   color: white;
 }
 
-/* .mobile-bio-text {
-  text-align: center; 
-} */
-
 .mobile-bio-social-container h3 {
   font-size: 2.1rem;
 }
@@ -213,5 +205,5 @@ header .icon-container {
   font-family: 'Anonymous Pro';
   text-align: center;
   font-size: 2.7rem;
-  width: 80%; 
+  width: 80%;
 }

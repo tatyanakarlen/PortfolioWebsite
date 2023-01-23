@@ -7,7 +7,6 @@ import { MdOutlineMailOutline } from 'react-icons/md';
 import resume from '../assets/TATYANA_KARLEN_RESUME.pdf';
 import { useMediaQuery } from 'react-responsive';
 
-
 const Hero = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
@@ -29,41 +28,82 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        { !isMobile ?
-        <>
-         <div class="bio-container">
-          <p>
-            My name is <span class="Tatyana">Tatyana</span> and I'm a{' '}
-            <span class="full-stack-developer">full-stack developer</span> with
-            a passion for front-end development. 
-          </p>
-        </div>
-        <div class="social-icons">
-          <ul>
-            <li>
-              {' '}
-              <a id="resume-link" target="_blank" href={resumeLink}>
-                Resume
-              </a>
-              
-            </li>
-            <div class="icons-container">
-              <div class="icon-text-container">
-                <li class="li-text icons-hover">
-                  <a class="social-links" href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/?originalSubdomain=ca">
-                    <BsLinkedin class="icon" />
+        {!isMobile ? (
+          <>
+            <div class="bio-container">
+              <p>
+                My name is <span class="Tatyana">Tatyana</span> and I'm a{' '}
+                <span class="full-stack-developer">full-stack developer</span>{' '}
+                with a passion for front-end development.
+              </p>
+            </div>
+            <div class="social-icons">
+              <ul>
+                <li>
+                  {' '}
+                  <a id="resume-link" target="_blank" href={resumeLink}>
+                    Resume
                   </a>
                 </li>
-              </div>
-              <div class="icon-text-container">
-                <li class="li-text icons-hover">
-                  <a class="social-links" href="https://github.com/tatyanakarlen">
-                    <BsGithub class="icon" />
+                <div class="icons-container">
+                  <div class="icon-text-container">
+                    <li class="li-text icons-hover">
+                      <a
+                        class="social-links"
+                        href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/?originalSubdomain=ca"
+                      >
+                        <BsLinkedin class="icon" />
+                      </a>
+                    </li>
+                  </div>
+                  <div class="icon-text-container">
+                    <li class="li-text icons-hover">
+                      <a
+                        class="social-links"
+                        href="https://github.com/tatyanakarlen"
+                      >
+                        <BsGithub class="icon" />
+                      </a>
+                    </li>
+                  </div>
+                  <div class="icon-text-container">
+                    <li class="li-text icons-hover">
+                      <a
+                        class="social-links"
+                        href="mailto:tatyanakarlen@gmail.com"
+                        target="_blank"
+                        aria-label="Mail"
+                        rel="noopener noreferrer"
+                      >
+                        <MdOutlineMailOutline id="mail-icon" />
+                      </a>
+                    </li>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </>
+        ) : (
+          <div className="mobile-bio-social-container">
+            <div className="mobile-icon-container">
+              <ul className="mobile-icon-list">
+                <li>
+                  <a
+                    class="social-links"
+                    href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/?originalSubdomain=ca"
+                  >
+                    <BsLinkedin class="mobile-icon" />
                   </a>
                 </li>
-              </div>
-              <div class="icon-text-container">
-                <li class="li-text icons-hover">
+                <li>
+                  <a
+                    class="social-links"
+                    href="https://github.com/tatyanakarlen"
+                  >
+                    <BsGithub class="mobile-icon" />
+                  </a>
+                </li>
+                <li>
                   <a
                     class="social-links"
                     href="mailto:tatyanakarlen@gmail.com"
@@ -71,60 +111,20 @@ const Hero = () => {
                     aria-label="Mail"
                     rel="noopener noreferrer"
                   >
-                    <MdOutlineMailOutline
-                     id="mail-icon"
-                      
-                      
-                    />
+                    <MdOutlineMailOutline id="mail-icon" class="mobile-icon" />
                   </a>
                 </li>
-              </div>
+              </ul>
             </div>
-          </ul>
-        </div>
-        </> : 
 
-
-        <div className="mobile-bio-social-container">
-          <div className="mobile-icon-container">
-            <ul className="mobile-icon-list">
-              <li>
-                <a
-                  class="social-links"
-                  href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/?originalSubdomain=ca"
-                >
-                  <BsLinkedin class="mobile-icon" />
-                </a>
-              </li>
-              <li>
-                <a class="social-links" href="https://github.com/tatyanakarlen">
-                  <BsGithub class="mobile-icon" />
-                </a>
-              </li>
-              <li>
-                <a
-                  class="social-links"
-                  href="mailto:tatyanakarlen@gmail.com"
-                  target="_blank"
-                  aria-label="Mail"
-                  rel="noopener noreferrer"
-                >
-                  <MdOutlineMailOutline id="mail-icon" class="mobile-icon" />
-                </a>
-              </li>
-            </ul>
+            <h3>
+              My name is <span class="Tatyana">Tatyana</span>
+            </h3>
+            <h1 class="mobile-bio-h1">
+              I'm a full-stack developer with a passion for UI/UX
+            </h1>
           </div>
-
-          <h3>
-            My name is <span class="Tatyana">Tatyana</span>
-          </h3>
-          <h1 class="mobile-bio-h1">
-            I'm a full-stack developer with a passion for UI/UX
-          </h1>
-        </div>
-        }
-
-       
+        )}
       </header>
     </>
   );
