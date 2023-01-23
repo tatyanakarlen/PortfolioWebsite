@@ -64,7 +64,6 @@ header img {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  font-weight: 800;
   margin-top: 2rem;
 }
 
@@ -128,7 +127,6 @@ header p {
 header .Tatyana {
   color: #00ec34;
   text-decoration: underline;
-  font-weight: 800;
 }
 
 header .icon-container {

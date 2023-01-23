@@ -13,7 +13,12 @@
 
 p,
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
+}
+
+p, .neon-green-text, #projects, .social-icons ul, header .Tatyana, .demo-code-links-container div, 
+.contact , nav a {
+  font-weight: 800; 
 }
 
 p {
@@ -23,7 +28,6 @@ p {
   color: #fff;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  font-weight: 600;
   /* text-shadow: #eb07df 0px 0px 5px, #eb07df 0px 0px 10px, #eb07df 0px 0px 15px, #eb07df 0px 0px 20px, #eb07df 0px 0px 30px, #eb07df 0px 0px 40px, #eb07df 0px 0px 50px, #eb07df 0px 0px 75px; */
 }
 
@@ -38,7 +42,7 @@ p {
 
 .h3-computer {
   font-family: 'Press Start 2P';
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   line-height: 3.5rem;
   letter-spacing: 1px;
 }
@@ -50,13 +54,11 @@ p {
 .neon-green-text {
   text-shadow: 0px 0px 3px rgb(50 211 58), 0px 0px 7px var(--color-green);
   font-family: 'Anonymous Pro';
-  letter-spacing: 0.7px;
-  font-weight: 800;
 }
 
 .bold-underlined-text {
   text-decoration: underline;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
@@ -64,7 +66,6 @@ p {
   display: flex;
   align-items: center;
   font-size: 1.8rem;
-  font-weight: 800;
   padding-top: 9rem;
   margin-top: 8rem;
   margin-bottom: -2rem;

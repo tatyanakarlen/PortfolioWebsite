@@ -17,7 +17,7 @@ const About = () => {
         <br />
         <br />
         Always curious about the web, I graduated from General Assembly's{' '}
-        <span>Software Engineering Immersive</span> program where I learned
+        <span class="bold-underlined-text">Software Engineering Immersive</span> program where I learned
         full-stack development in a fast-paced environment.
         <br />
         <br />I have experience with React, Javascript, HTML, CSS, Sass,
