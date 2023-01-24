@@ -109,6 +109,10 @@ p {
   html {
     font-size: 50%;
   }
+
+  header {
+    gap: 2rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
