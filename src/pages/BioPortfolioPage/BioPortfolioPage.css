@@ -24,7 +24,7 @@ p, .neon-green-text, #projects, .social-icons ul, header .Tatyana, .demo-code-li
 p {
   letter-spacing: inherit;
   line-height: 3rem;
-  width: 92%;
+  width: 90%;
   color: #fff;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -124,6 +124,9 @@ p {
   h1,
   p {
     font-size: 2.1rem;
+  }
+  p {
+    width: unset; 
   }
   header {
     padding: 12.5rem 0;
