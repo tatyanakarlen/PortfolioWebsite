@@ -130,7 +130,7 @@ p {
     font-size: 2.1rem;
   }
   p {
-    width: unset; 
+    width: 95%; 
   }
   header {
     padding: 12.5rem 0;
