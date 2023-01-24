@@ -35,8 +35,8 @@ function App() {
   const [projects] = useState([
     {
       title: 'Untitled Magazine',
-      headline: 'Content-management dashboard+magazine SPA built with',
-      tech: ['React', 'MongoDB', 'NodeJS', 'Express', 'Bootstrap CSS'],
+      headline: 'Content-management MERN-stack dashboard+magazine built with',
+      tech: ['React', 'MongoDB', 'NodeJS', 'Express', 'Bootstrap'],
       images: [img1, img2, img3, img4, img5, img6],
       bullet1:
         'Enables user/content manager to add authors and articles to the database. Features a magazine page where readers can view, search and share articles on social-media',
@@ -80,7 +80,7 @@ function App() {
     {
       title: 'Thriftd',
       headline:
-        'Depop/Shopify-style peer-to-peer shopping application built with',
+        'Depop/Shopify-style peer-to-peer e-commerce application built with',
       tech: ['NodeJS', 'Express', 'MongoDB', 'HTML', 'CSS'],
       images: [img13, img11, img12, img14, img15],
       bullet1:
