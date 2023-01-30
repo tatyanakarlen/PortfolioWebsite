@@ -52,7 +52,7 @@ export default function Carousel(props) {
                     className="right-arr"
                     onClick={nextSlide}
                   />
-                  <IoIosArrowBack className="left-arr" onClick={nextSlide} />
+                  <IoIosArrowBack className="left-arr" onClick={prevSlide} />
                 </div>
               )}
             </div>
