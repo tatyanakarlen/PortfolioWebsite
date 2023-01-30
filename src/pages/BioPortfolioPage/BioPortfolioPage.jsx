@@ -31,8 +31,8 @@ function BioPortfolioPage(props) {
         <div class="projects-headline">
           <h1 id="projects">
             {/* <div><i class="bi bi-hand-index-thumb"></i></div> */}
-            <img src={pointDown} alt="" />
-            tap project image to view gallery...
+            <img src={pointDown} alt="" /> 
+           tap project image to view gallery...
           </h1>
         </div>
         {props.projects.map((m) => (

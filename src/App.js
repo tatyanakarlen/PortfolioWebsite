@@ -30,6 +30,7 @@ import img20 from './components/Images/Spark/Spark1.png';
 import img21 from './components/Images/Spark/Spark2.png';
 import img22 from './components/Images/Spark/Spark3.png';
 import img23 from './components/Images/Spark/Spark4.png';
+import img24 from './components/Images/Spark/Spark5.png';
 
 function App() {
   const [projects] = useState([
@@ -53,7 +54,7 @@ function App() {
       title: 'Spark',
       headline: 'Online dating single-page-application built with',
       tech: ['Next.js', 'MySql', 'Typescript', 'Chakra UI'],
-      images: [img19, img20, img21, img22, img23],
+      images: [img19, img24, img20, img21, img22, img23],
       bullet1:
         'Online-dating application where users can sign up and be matched with potential mates',
       bullet2: 'AJAX API endpoints to fetch data based on user interactions',
