@@ -31,7 +31,7 @@
   left: -4rem;
 }
 
-.right-arr:hover {
+.right-arr:hover, .left-arr:hover {
   color: rgb(88, 88, 88);
   cursor: pointer;
 }
