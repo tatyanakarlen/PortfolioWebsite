@@ -33,3 +33,7 @@
 .download-text-container h1 {
   font-size: 2.5rem;
 }
+
+.paragraph span {
+  text-decoration: underline;
+}
