@@ -97,13 +97,6 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-  /* header .img-header-wrapper {
-    flex-direction: column;
-  }
-  header .h1-container h3 {
-    margin: 0 auto;
-    margin-top: -1rem;
-  } */
   .inner-wrapper {
     padding: 2rem 4rem;
   }
@@ -116,10 +109,6 @@ p {
   html {
     font-size: 50%;
   }
-
-  /* header {
-    gap: 2.5rem;
-  } */
 }
 
 @media only screen and (max-width: 519px) {
@@ -142,9 +131,6 @@ p {
   .inner-wrapper {
     padding: 2rem 2.5rem;
   }
-  /* .mobile-bio-social-container {
-    gap: 2.7rem;
-  } */
   .projects {
     padding: 3rem 3rem;
   }
@@ -155,10 +141,6 @@ p {
   p {
     width: 95%;
   }
-  /* header {
-    padding: 12.5rem 0;
-    height: auto;
-  } */
 }
 
 @media only screen and (max-width: 435px) {
@@ -177,10 +159,13 @@ p {
   }
   .header-icon-container .header-icon {
     font-size: 3.75rem;
-}
-.header-icon-container #mail-icon {
-  font-size: 5rem;
-}
+  }
+  .header-icon-container #mail-icon {
+    font-size: 5rem;
+  }
+  .header-icon-container ul {
+    margin-left: -3rem;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -190,7 +175,6 @@ p {
   .hamburger {
     top: 7rem;
   }
-  
 }
 
 @media only screen and (max-width: 391px) {
@@ -199,7 +183,7 @@ p {
   }
   .header-inner-wrapper h3 {
     letter-spacing: 4px;
-}
+  }
 }
 
 /* header h1 {
