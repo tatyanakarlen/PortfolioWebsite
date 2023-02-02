@@ -36,7 +36,7 @@ function App() {
   const [projects] = useState([
     {
       title: 'Untitled Magazine',
-      headline: 'Content-management MERN stack dashboard and onlione magazine built with',
+      headline: 'Content-management MERN stack dashboard and online magazine built with',
       tech: ['React', 'MongoDB', 'NodeJS', 'Express', 'Bootstrap'],
       images: [img1, img2, img3, img4, img5, img6],
       bullet1:
