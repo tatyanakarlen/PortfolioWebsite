@@ -16,9 +16,15 @@ h1 {
   font-size: 2.3rem;
 }
 
-p, .neon-green-text, #projects, .social-icons ul, header .Tatyana, .demo-code-links-container div, 
-.contact , nav a {
-  font-weight: 800; 
+p,
+.neon-green-text,
+#projects,
+.social-icons ul,
+header .Tatyana,
+.demo-code-links-container div,
+.contact,
+nav a {
+  font-weight: 800;
 }
 
 p {
@@ -33,7 +39,7 @@ p {
 
 .section-heading {
   color: var(--color-green);
-  font-size: 2.25rem; 
+  font-size: 2.25rem;
   margin-bottom: 3rem;
   padding-top: 8rem;
   position: relative;
@@ -74,15 +80,13 @@ p {
 }
 
 #projects i {
-  margin-right: 1rem; 
+  margin-right: 1rem;
 }
 
 #projects img {
   width: 2.75rem;
   margin-right: 0.5rem;
 }
-
-
 
 /* MEDIA QUERIES */
 
@@ -118,6 +122,22 @@ p {
   } */
 }
 
+@media only screen and (max-width: 519px) {
+  .header-inner-wrapper h1 {
+    font-size: 3rem;
+  }
+  .header-inner-wrapper h3 {
+    font-size: 2rem;
+  }
+
+  .header-inner-wrapper svg {
+    margin-right: -3rem;
+  }
+  .header-icon-container ul {
+    gap: 7rem;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .inner-wrapper {
     padding: 2rem 2.5rem;
@@ -133,12 +153,21 @@ p {
     font-size: 2.1rem;
   }
   p {
-    width: 95%; 
+    width: 95%;
   }
   /* header {
     padding: 12.5rem 0;
     height: auto;
   } */
+}
+
+@media only screen and (max-width: 435px) {
+  .header-inner-wrapper h1 {
+    letter-spacing: 12px;
+  }
+  .header-inner-wrapper h3 {
+    letter-spacing: 8px;
+  }
 }
 
 @media only screen and (max-width: 420px) {
@@ -150,19 +179,30 @@ p {
 
 @media only screen and (max-width: 400px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
   }
-  /* header h1 {
+  .hamburger {
+    top: 7rem;
+  }
+  .header-inner-wrapper {
+    gap: 3.5rem; 
+  }
+}
+
+@media only screen and (max-width: 369px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/* header h1 {
     font-size: 2.9rem;
   } */
 
-  /* header {
+/* header {
     padding: 8.5rem 0;
   } */
 
-  /* .mobile-bio-social-container {
+/* .mobile-bio-social-container {
     margin-top: 2rem;
   } */
-}
-
-
