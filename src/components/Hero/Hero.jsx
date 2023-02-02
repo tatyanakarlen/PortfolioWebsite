@@ -6,6 +6,8 @@ import { BsGithub } from 'react-icons/bs';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import resume from '../assets/TATYANA_KARLEN_RESUME.pdf';
 import { useMediaQuery } from 'react-responsive';
+import ComputerIcon from '../ComputerIcon'
+// import Holograph1 from '../Images/computer.svg'
 
 const Hero = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
@@ -15,7 +17,54 @@ const Hero = () => {
 
   return (
     <>
-      <header>
+    <header>
+      <div class="header-inner-wrapper">
+      <ComputerIcon />
+      <h1>TATYANA KARLEN</h1>
+    
+      <div class="h3-container">
+      <h3>FULL STACK DEVELOPER</h3>
+      </div>
+      <div class="header-icon-container">
+        <ul>
+          <li>
+          <BsLinkedin class="header-icon"/>
+          </li>
+          <li>
+          <BsGithub class="header-icon"/>
+          </li>
+          <li>
+          <MdOutlineMailOutline id="mail-icon"class="header-icon"/>
+          </li>
+        </ul>
+      </div>
+      <a class="resume-link" href="#">RESUME</a>
+      </div>
+   
+     
+     
+     
+     
+    
+
+
+
+
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+      {/* <header>
         <div class="img-header-container">
           <div class="img-header-wrapper">
             <img src={bioPic} />
@@ -125,7 +174,7 @@ const Hero = () => {
             </h1>
           </div>
         )}
-      </header>
+      </header> */}
     </>
   );
 };
