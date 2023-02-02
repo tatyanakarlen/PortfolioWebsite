@@ -1,4 +1,4 @@
-header {
+/* header {
   color: white;
   margin: 0 auto;
   display: flex;
@@ -58,7 +58,11 @@ header img {
   box-shadow: 0 4px 8px rgb(134 151 168 / 25%);
 }
 
-/* /////// social icons */
+
+
+
+
+
 
 .social-icons ul {
   display: flex;
@@ -135,7 +139,7 @@ header .icon-container {
   margin: 0 auto;
 }
 
-/* Animate neon flicker */
+
 @keyframes flicker {
   0%,
   19%,
@@ -159,7 +163,8 @@ header .icon-container {
   }
 }
 
-/* /////// MOBILE HEADER STYLES */
+
+
 
 .mobile-bio-social-container {
   display: flex;
@@ -204,4 +209,99 @@ header .icon-container {
   text-align: center;
   font-size: 2.7rem;
   width: 80%;
+} */
+
+
+
+
+/* ////// OLD STUFF ABOVE */
+
+
+/* ////// NEW STUFF BELOW */
+
+.header {
+  height: 100vh; 
 }
+
+.header-inner-wrapper {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem; 
+  height: 100vh;
+}
+
+.header-inner-wrapper h1 {
+  font-size: 4rem; 
+  letter-spacing: 15px; 
+}
+
+.header-inner-wrapper h3 {
+  font-size: 2.25rem; 
+  letter-spacing: 10px; 
+  font-style:italic; 
+  
+}
+
+.header-inner-wrapper .h3-container {
+  border-top: 1px solid white; 
+  border-bottom: 1px solid white; 
+  
+
+  
+
+}
+
+
+/* #test {
+  width: 500px;
+  border: 1px  #CCC solid;
+  height: 200px;
+
+  box-shadow: 
+      inset 0px 11px 8px -10px #CCC,
+      inset 0px -11px 8px -10px #CCC; 
+} */
+
+.header-icon-container {
+  padding-top: 1rem;
+}
+
+.header-icon-container .header-icon {
+    font-size: 3.5rem; 
+    transition: all 0.2s ease 0.1s;
+}
+
+.header-icon-container .header-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.header-icon-container #mail-icon {
+  font-size: 4.5rem; 
+}
+
+.header-inner-wrapper .resume-link {
+  background-image: url('../Images//holograph1.png');
+  border-radius: 22px;
+  padding: 1.1rem 3.5rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 800;
+  /* font-family: 'Press Start 2P'; */
+  color: #c100aa;
+  letter-spacing: 5px;
+}
+
+.header-inner-wrapper .icon-links {
+  color: white; 
+}
+
+.header-icon-container ul {
+  list-style: none;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+

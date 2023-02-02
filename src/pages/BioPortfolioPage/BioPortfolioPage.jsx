@@ -12,6 +12,7 @@ import './BioPortfolioPage.css';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import pointDown from '../../components/Images/pointing-down-finger-svgrepo-com.svg';
 
+
 import { RiCopyrightFill } from 'react-icons/ri';
 
 function BioPortfolioPage(props) {
@@ -24,14 +25,12 @@ function BioPortfolioPage(props) {
       <MobileNav />
       <div class="inner-wrapper">
         <Hero />
-        <h1 id="about" class="section-heading">
-          About
-        </h1>
         <About />
         <div class="projects-headline">
           <h1 id="projects">
             {/* <div><i class="bi bi-hand-index-thumb"></i></div> */}
             <img src={pointDown} alt="" /> 
+            {/* <PointerIcon id="pointer-icon"/> */}
            tap project image to view gallery...
           </h1>
         </div>
