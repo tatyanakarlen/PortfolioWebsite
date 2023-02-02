@@ -175,6 +175,12 @@ p {
     padding: 1.5rem 2.5rem;
     font-size: 1.85rem;
   }
+  .header-icon-container .header-icon {
+    font-size: 3.75rem;
+}
+.header-icon-container #mail-icon {
+  font-size: 5rem;
+}
 }
 
 @media only screen and (max-width: 400px) {
@@ -184,6 +190,7 @@ p {
   .hamburger {
     top: 7rem;
   }
+  
 }
 
 @media only screen and (max-width: 391px) {
