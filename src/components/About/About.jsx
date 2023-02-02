@@ -20,7 +20,7 @@ const About = () => {
         Always curious about the web, I graduated from General Assembly's{' '}
         <span>Software Engineering Immersive</span> program where I learned
         full-stack development in a fast-paced environment. I have experience with React, Javascript, HTML, CSS, Sass,
-        Next.js, Python, Django, Node.js, MongoDB, PostgreSQL and more. When I'm not coding, I'm playing or teaching piano. I have a terrible addiction to cult movies. 
+        Next.js, Python, Django, Node.js, MongoDB, PostgreSQL and more. 
       </p>
      
 
