@@ -179,7 +179,7 @@ p {
 
 @media only screen and (max-width: 400px) {
   html {
-    font-size: 45%;
+    font-size: 50%;
   }
   .hamburger {
     top: 7rem;
@@ -189,12 +189,12 @@ p {
   }
 }
 
-@media only screen and (max-width: 369px) {
+@media only screen and (max-width: 391px) {
   .header-inner-wrapper h1 {
-    letter-spacing: 10px;
+    letter-spacing: 6px;
   }
   .header-inner-wrapper h3 {
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 }
 
