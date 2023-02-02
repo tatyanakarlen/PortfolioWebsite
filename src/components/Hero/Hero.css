@@ -248,8 +248,22 @@ header .icon-container {
 .header-inner-wrapper .h3-container {
   border-top: 1px solid white; 
   border-bottom: 1px solid white; 
+  
+
+  
 
 }
+
+
+/* #test {
+  width: 500px;
+  border: 1px  #CCC solid;
+  height: 200px;
+
+  box-shadow: 
+      inset 0px 11px 8px -10px #CCC,
+      inset 0px -11px 8px -10px #CCC; 
+} */
 
 .header-icon-container {
   padding-top: 1rem;
@@ -257,22 +271,32 @@ header .icon-container {
 
 .header-icon-container .header-icon {
     font-size: 3.5rem; 
+    transition: all 0.2s ease 0.1s;
+}
+
+.header-icon-container .header-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .header-icon-container #mail-icon {
   font-size: 4.5rem; 
 }
 
-.header-inner-wrapper a {
+.header-inner-wrapper .resume-link {
   background-image: url('../Images//holograph1.png');
   border-radius: 22px;
-  padding: 1rem 3.5rem;
+  padding: 1.1rem 3.5rem;
   text-decoration: none;
   font-size: 1.7rem;
   font-weight: 800;
   /* font-family: 'Press Start 2P'; */
   color: #c100aa;
   letter-spacing: 5px;
+}
+
+.header-inner-wrapper .icon-links {
+  color: white; 
 }
 
 .header-icon-container ul {

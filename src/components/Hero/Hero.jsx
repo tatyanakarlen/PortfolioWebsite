@@ -4,6 +4,7 @@ import bioPic from '../Images/1660857374155.jpeg';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { MdOutlineMailOutline } from 'react-icons/md';
+import {GoCloudDownload} from 'react-icons/go'
 import resume from '../assets/TATYANA_KARLEN_RESUME.pdf';
 import { useMediaQuery } from 'react-responsive';
 import ComputerIcon from '../ComputerIcon'
@@ -28,18 +29,41 @@ const Hero = () => {
       <div class="header-icon-container">
         <ul>
           <li>
+            <a 
+            class="icon-links"
+            href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/?originalSubdomain=ca"
+            target="_blank"
+            >
           <BsLinkedin class="header-icon"/>
+          </a>
           </li>
           <li>
+            <a 
+            class="icon-links"
+            href="https://github.com/tatyanakarlen"
+            target="_blank"
+            >
           <BsGithub class="header-icon"/>
+          </a>
           </li>
           <li>
+            <a 
+            class="icon-links"
+            href="mailto:tatyanakarlen@gmail.com"
+            target="_blank"
+            aria-label="Mail"
+            rel="noopener noreferrer"
+            >
           <MdOutlineMailOutline id="mail-icon"class="header-icon"/>
+          </a>
           </li>
         </ul>
       </div>
-      <a class="resume-link" href="#">RESUME</a>
+      <a class="resume-link" target="_blank" href={resumeLink}>RESUME</a>
       </div>
+
+
+      
    
      
      
