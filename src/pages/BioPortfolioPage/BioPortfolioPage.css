@@ -184,9 +184,6 @@ p {
   .hamburger {
     top: 7rem;
   }
-  .header-inner-wrapper {
-    gap: 3.5rem;
-  }
 }
 
 @media only screen and (max-width: 391px) {
