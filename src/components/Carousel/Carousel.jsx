@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import './Carousel.css';
-import { AiFillCloseCircle } from 'react-icons/ai';
 import { IoIosArrowForward } from 'react-icons/io';
 import { IoIosArrowBack } from 'react-icons/io';
-import { IoMdCloseCircle } from 'react-icons/io';
 import { CgCloseO } from 'react-icons/cg';
 
 export default function Carousel(props) {
