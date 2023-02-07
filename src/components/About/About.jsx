@@ -17,10 +17,16 @@ const About = () => {
         Welcome and thanks for stopping by! I'm a full-stack developer with a passion for UI/UX and front-end development. Based in Toronto, Canada, I have a{' '}
         diverse creative background in fashion, piano performance and music
         pedagogy.
+       <br/>
+       <br/>
         Always curious about the web, I graduated from General Assembly's{' '}
         <span>Software Engineering Immersive</span> program where I learned
-        full-stack development in a fast-paced environment. I have experience with React, Javascript, HTML, CSS, Sass,
-        Next.js, Python, Django, Node.js, MongoDB, PostgreSQL and more. 
+        full-stack development in a fast-paced environment. I am currently interning at a startup called 905devshop as a full-stack React web developer.  
+
+        <br/>
+        <br/>
+        I have experience with React, Javascript, HTML, CSS, Sass,
+        Next.js, Python, Django, Node.js, MongoDB, PostgreSQL and more. My past projects can be found below. 
       </p>
      
 
