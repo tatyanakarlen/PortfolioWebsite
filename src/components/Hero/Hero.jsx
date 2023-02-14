@@ -2,6 +2,7 @@ import React from 'react';
 import './Hero.css';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
+import { BiChevronsDown } from 'react-icons/bi'
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { useMediaQuery } from 'react-responsive';
 import ComputerIcon from '../ComputerIcon';
@@ -55,10 +56,14 @@ const Hero = () => {
               </li>
             </ul>
           </div>
+          <BiChevronsDown class="chevron-down-icon"/>
           {/* <a class="resume-link" target="_blank" href={resumeLink}>
             RESUME
           </a> */}
         </div>
+        
+       
+        
       </header>
     </>
   );

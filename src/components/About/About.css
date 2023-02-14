@@ -40,7 +40,6 @@
 .resume-container {
   color: white;
   font-size: 2rem;
-  font-weight: 800;
 }
 
 .resume-container a {
@@ -53,4 +52,9 @@
 .resume-container a,
 .resume-container svg {
   text-shadow: 0 0 3px #32d33a, 0 0 7px var(--color-green);
+  font-weight: 600;
+}
+
+.resume-container svg {
+  font-weight: 600;
 }
