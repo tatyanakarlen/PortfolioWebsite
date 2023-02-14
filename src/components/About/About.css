@@ -40,3 +40,18 @@
 .paragraph span {
   text-decoration: underline;
 }
+
+.resume-container {
+  
+  color: white; 
+  text-shadow: 0px 0px 3px rgb(50 211 58), 0px 0px 7px var(--color-green);
+  font-size: 2rem; 
+  
+}
+
+.resume-container a {
+  color: white; 
+  display: flex; 
+  align-items: center;
+  gap: 0.5rem; 
+}

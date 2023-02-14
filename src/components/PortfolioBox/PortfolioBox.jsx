@@ -78,8 +78,6 @@ const PortfolioBox = (props) => {
             setCarouselActive={setCarouselActive}
             carouselActive={carouselActive}
             SliderData={SliderData}
-            carouselActive={carouselActive}
-            setCarouselActive={setCarouselActive}
           />
         </div>
       )}

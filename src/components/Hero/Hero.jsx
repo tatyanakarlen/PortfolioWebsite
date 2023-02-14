@@ -55,9 +55,9 @@ const Hero = () => {
               </li>
             </ul>
           </div>
-          <a class="resume-link" target="_blank" href={resumeLink}>
+          {/* <a class="resume-link" target="_blank" href={resumeLink}>
             RESUME
-          </a>
+          </a> */}
         </div>
       </header>
     </>
