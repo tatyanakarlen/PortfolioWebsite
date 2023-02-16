@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import { useMediaQuery } from 'react-responsive';
-import { BsDownload } from 'react-icons/bs';
+import { HiOutlineDownload } from 'react-icons/hi';
 
 const About = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
@@ -34,9 +34,13 @@ const About = () => {
 
       <div class="resume-container">
         <a class="resume-link" target="_blank" href={resumeLink}>
-          <i class="bi bi-download"></i>
-          Resume
+          <HiOutlineDownload />
+          resume
         </a>
+        {/* <a class="resume-link" target="_blank" href={resumeLink}>
+          <i class="bi bi-download"></i>
+          Certificate
+        </a> */}
       </div>
     </div>
   );

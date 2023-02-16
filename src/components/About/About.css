@@ -37,7 +37,7 @@
   text-decoration: underline;
 }
 
-.resume-container {
+/* .resume-container {
   color: white;
   font-size: 2rem;
 }
@@ -56,6 +56,29 @@
 }
 
 .resume-container svg {
-  font-weight: 600;
-  font-size: 2.5rem; 
+  
+  font-size: 2.2rem; 
+} */
+
+.resume-container {
+  display: flex; 
+  /* justify-content: center; */
+  align-items: center;
 }
+
+.resume-container a {
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  /* padding: 1rem; */
+  border: 2px solid white;
+  border-radius: 25px;
+  font-size: 1.9rem;
+  display: flex;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+.resume-container svg {
+  font-size: 2.1rem; 
+} 

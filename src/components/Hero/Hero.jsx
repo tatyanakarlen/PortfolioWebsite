@@ -56,10 +56,8 @@ const Hero = () => {
               </li>
             </ul>
           </div>
-          <BiChevronsDown class="chevron-down-icon"/>
-          {/* <a class="resume-link" target="_blank" href={resumeLink}>
-            RESUME
-          </a> */}
+          {/* <BiChevronsDown class="chevron-down-icon"/> */}
+       
         </div>
         
        
