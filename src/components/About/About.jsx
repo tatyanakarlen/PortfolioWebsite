@@ -31,16 +31,12 @@ const About = () => {
         Next.js, Python, Django, Node.js, MongoDB, PostgreSQL and more. My past
         projects can be found below.
       </p>
-
+      <br />
       <div class="resume-container">
         <a class="resume-link" target="_blank" href={resumeLink}>
           <HiOutlineDownload />
           resume
         </a>
-        {/* <a class="resume-link" target="_blank" href={resumeLink}>
-          <i class="bi bi-download"></i>
-          Certificate
-        </a> */}
       </div>
     </div>
   );
