@@ -59,13 +59,16 @@
 
 .resume-link-container {
   align-items: center;
-    display: flex;
-    font-size: 2.5rem;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  font-size: 2rem;
+  gap: 1.5rem;
+  display: inline-flex;
+  background-color: #2e2e2ea6;
+  padding: 0.8rem 2.5rem;
+  border-radius: 2.2rem;
 }
 
 .resume-link-container svg {
   color: var(--color-green);
-    font-size: 8rem;
+    font-size: 6rem;
 }
