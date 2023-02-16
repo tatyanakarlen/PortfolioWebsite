@@ -61,7 +61,7 @@
   align-items: center;
   display: flex;
   font-size: 2rem;
-  gap: 1.5rem;
+  gap: 1.1rem;
   display: inline-flex;
   background-color: #2e2e2ea6;
   padding: 0.8rem 2.5rem;
@@ -71,4 +71,44 @@
 .resume-link-container svg {
   color: var(--color-green);
     font-size: 6rem;
+    -webkit-animation-duration: 0.9s;
+  animation-duration: 0.9s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: bottom;
+  transform-origin: bottom;
+  -webkit-animation-name: float;
+  animation-name: float;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
