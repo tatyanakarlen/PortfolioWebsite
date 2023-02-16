@@ -33,12 +33,18 @@ const About = () => {
         projects can be found below.
       </p>
       <br />
-      <div class="resume-container">
+      <div className="resume-link-container">
+        <h3>Download my resume</h3>
+        <HiOutlineDownload />
+
+
+      </div>
+      {/* <div class="resume-container">
         <a class="resume-link" target="_blank" href={resumeLink}>
           <HiOutlineDownload />
           resume
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
