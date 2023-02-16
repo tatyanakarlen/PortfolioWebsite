@@ -34,7 +34,7 @@ const About = () => {
       </p>
       <br />
       <div className="resume-link-container">
-        <h3>Download my resume</h3>
+        <h3>Resume</h3>
         <a target="_blank" href={resumeLink}>
         <HiOutlineDownload />
         </a>
