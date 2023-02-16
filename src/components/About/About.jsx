@@ -2,11 +2,12 @@ import React from 'react';
 import './About.css';
 import { useMediaQuery } from 'react-responsive';
 import { HiOutlineDownload } from 'react-icons/hi';
+import resume from '../assets/TATYANA_KARLEN_RESUME.pdf';
 
 const About = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   const resumeLink =
-    '/static/media/TATYANA_KARLEN_RESUME.8f39e6b0ef483205c5b1.pdf';
+    '/static/media/TATYANA_KARLEN_RESUME.5ffedecd3f6f0c6ab413.pdf';
   const certificateLink = '/static/media/certificate.1fa87be4353136a2925e.png';
 
   return (
