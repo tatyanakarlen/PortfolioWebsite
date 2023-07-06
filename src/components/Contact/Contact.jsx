@@ -4,13 +4,13 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div class="contact" id="contact">
-      <h1 class="section-heading">Contact</h1>
+    <div className="contact" id="contact">
+      <h1 className="section-heading">Contact</h1>
       <p>Looking to collaborate or hire me? I'd love to hear from you!</p>
-      <div class="email">
+      <div className="email">
         <h3>E-mail me</h3>
         <a
-          class="social-links"
+          className="social-links"
           href="mailto:tatyanakarlen@gmail.com"
           target="_blank"
           aria-label="Mail"

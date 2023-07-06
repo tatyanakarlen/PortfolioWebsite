@@ -42,9 +42,8 @@ const MobileNav = () => {
         className="hamburger"
         onClick={() => setIsNavExpanded(!isNavExpanded)}
       >
-        <div style={expandedStyleTopBun} class="top-bun"></div>
-        <div style={expandedStyleMeat} class="meat"></div>
-        {/* <div style={expandedStyleBottomBun} class="bottom-bun"></div> */}
+        <div style={expandedStyleTopBun} className="top-bun"></div>
+        <div style={expandedStyleMeat} className="meat"></div>
       </div>
       <div style={expandedNav} className="nav">
         <div className="nav-wrapper">

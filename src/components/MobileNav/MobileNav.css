@@ -6,7 +6,7 @@
   margin-top: -45px;
   width: 2rem;
   height: 45px;
-  z-index: 1000;
+  z-index: 5000;
 }
 
 .hamburger:hover {
@@ -37,6 +37,7 @@
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   transform: scale(0);
+  z-index: 1000;
 }
 .nav-wrapper {
   position: relative;

@@ -18,45 +18,45 @@ const PortfolioBox = (props) => {
   let lastEl = props.tech[props.tech.length - 1];
 
   return (
-    <div class="projects">
-      <h3 class="h3-computer">{props.title}</h3>
-      <p class="project-description">
+    <div className="projects">
+      <h3 className="h3-computer">{props.title}</h3>
+      <p className="project-description">
         {props.headline}
-        {props.tech.map((m) => (
-          <span class="neon-green-text">
+        {props.tech.map((m, index) => (
+          <span key={index} className="neon-green-text">
             {' '}
             {m}
-            {m != lastEl && <span class="punctuation">,</span>}
+            {m != lastEl && <span className="punctuation">,</span>}
           </span>
         ))}
       </p>
       {readMoreActive ? (
-        <div class="read-more-pop-up">
-          <div class="icon-text-container project-pop-up-icon-text">
+        <div className="read-more-pop-up">
+          <div className="icon-text-container project-pop-up-icon-text">
             <GoEyeClosed
               style={{ fontSize: '2.75rem' }}
               onClick={() => setReadMoreActive(!readMoreActive)}
             />
             <h3
-              class="read-more underlined"
+              className="read-more underlined"
               onClick={() => setReadMoreActive(!readMoreActive)}
             >
               Close
             </h3>
           </div>
 
-          <p class="underlined">-{props.bullet1}</p>
+          <p className="underlined">-{props.bullet1}</p>
           <p>-{props.bullet2}</p>
           <p>-{props.bullet3}</p>
         </div>
       ) : (
-        <div class="icon-text-container project-pop-up-icon-text">
+        <div className="icon-text-container project-pop-up-icon-text">
           <AiOutlineFolderOpen
             onClick={() => setReadMoreActive(!readMoreActive)}
-            class="folder-icon"
+            className="folder-icon"
           />
           <h3
-            class="read-more underlined"
+            className="read-more underlined"
             onClick={() => setReadMoreActive(!readMoreActive)}
           >
             Read more
@@ -64,9 +64,9 @@ const PortfolioBox = (props) => {
         </div>
       )}
       {!carouselActive ? (
-        <div class="static-img-container">
+        <div className="static-img-container">
           <img
-            class="static-img"
+            className="static-img"
             onClick={() => setCarouselActive(!carouselActive)}
             src={props.images[0]}
             alt="project-image"
