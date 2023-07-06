@@ -31,9 +31,38 @@ import img21 from './components/Images/Spark/Spark2.png';
 import img22 from './components/Images/Spark/Spark3.png';
 import img23 from './components/Images/Spark/Spark4.png';
 import img24 from './components/Images/Spark/Spark5.png';
+import img26 from './components/Images/CookBook/cookbook.png'
+import img27 from './components/Images/CookBook/cookbook1.png'
+import img28 from './components/Images/CookBook/cookbook2.png'
+import img29 from './components/Images/CookBook/CookBook3.png'
+import img30 from './components/Images/CookBook/cookbook4.png'
+import img31 from './components/Images/CookBook/cookbook5.png'
+import img32 from './components/Images/CookBook/CookBook6.png'
+
+
+import images from './components/assets/Images';
+
+
+
+
+
 
 function App() {
   const [projects] = useState([
+    {
+      title: 'CookBook / Spoonacular',
+      headline: 'Recipe app built with',
+      tech: ['React', 'Firebase', 'Spoonacular API', 'Bootstrap'],
+      images: [img26, img27, img28, img29, img30, img31, img32],
+      bullet1:
+        'Mobile-responsive recipe app that allows a user to search for recipes from Spoonacular food/recipe API based on keywords and view individual recipes.',
+      bullet2: 'Features Firebase user authentication and database',
+      bullet3:
+        'Allows a user to like/save and unlike/unsave recipes stored in a Firebase cloud database.',
+
+      deployedAppLink: 'https://cookbookspoonacularapi.netlify.app/',
+      gitHubLink: 'https://github.com/tatyanakarlen/Spoonacular',
+    },
     {
       title: 'Untitled Magazine',
       headline: 'Content-management MERN stack dashboard and online magazine built with',

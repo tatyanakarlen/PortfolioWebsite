@@ -4,15 +4,23 @@ import img3 from '../Images/UntitledImages/UntitledTEST1.png';
 import img4 from '../Images/UntitledImages/UntitledTEST2.png';
 import img5 from '../Images/UntitledImages/UntitledTEST3.png';
 import img6 from '../Images/UntitledImages/UntitledTEST4.png';
-import img7 from '../Images/Tinterest/TinScreenShot1.jpg';
-import img8 from '../Images/Tinterest/TinScreenShot2.jpg';
-import img9 from '../Images/Tinterest/TinScreenShot3.jpg';
-import img10 from '../Images/Tinterest/TinScreenShot4.jpg';
-import img11 from '../Images/Thriftd/Thriftd1.png';
-import img12 from '../Images/Thriftd/Thriftd2.png';
-import img13 from '../Images/Thriftd/Thriftd3.png';
-import img14 from '../Images/Thriftd/Thriftd4.png';
-import img15 from '../Images/Thriftd/Thriftd5.png';
-import img16 from '../Images/Classical/Classical1.png';
-import img17 from '../Images/Classical/Classical2.png';
-import img18 from '../Images/Classical/Classical3.png'
+
+import { useState } from 'react';
+
+
+import React from 'react'
+
+const Images = () => {
+
+    const [unTitledImages] =  useState ([
+        img1, img2, img3, img4, img5, img6
+    ])
+  
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Images
