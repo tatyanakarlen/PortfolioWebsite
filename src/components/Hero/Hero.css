@@ -9,8 +9,8 @@
 }
 
 .header-inner-wrapper h1 {
-  font-size: 4rem;
-  letter-spacing: 15px;
+  font-size: 3.5rem;
+  letter-spacing: 10px;
 }
 
 .header-inner-wrapper h3 {
@@ -30,7 +30,7 @@
 }
 
 .header-icon-container .header-icon {
-  font-size: 3.5rem;
+  font-size: 3rem;
   transition: all 0.2s ease 0.1s;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .header-icon-container #mail-icon {
-  font-size: 4.5rem;
+  font-size: 3.9rem;
 }
 
 .header-inner-wrapper .icon-links {
