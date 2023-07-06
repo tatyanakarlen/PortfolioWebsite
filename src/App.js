@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import BioPortfolioPage from './pages/BioPortfolioPage/BioPortfolioPage';
 
-// import './components/assets/images.jsx'
-// import './components/assets/data.jsx'
-
 import { Route, Routes, Navigate } from 'react-router-dom';
 
 import img1 from './components/Images/UntitledImages/UntitledTEST5.png';
@@ -38,12 +35,6 @@ import img29 from './components/Images/CookBook/CookBook3.png'
 import img30 from './components/Images/CookBook/cookbook4.png'
 import img31 from './components/Images/CookBook/cookbook5.png'
 import img32 from './components/Images/CookBook/CookBook6.png'
-
-
-import images from './components/assets/Images';
-
-
-
 
 
 
