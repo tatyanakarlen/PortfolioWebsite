@@ -1,4 +1,16 @@
-.main-container {
+.container {
+  /* max-width: 750px;
+  margin: 0px auto; */
+  padding: 4rem; 
+}
+
+
+
+
+
+
+
+/* .main-container {
   position: relative;
   background-color: #1b1b1b;
   width: 100vw;
@@ -30,10 +42,8 @@ nav a {
 p {
   letter-spacing: inherit;
   line-height: 3rem;
-  color: #fff;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  /* text-shadow: #eb07df 0px 0px 5px, #eb07df 0px 0px 10px, #eb07df 0px 0px 15px, #eb07df 0px 0px 20px, #eb07df 0px 0px 30px, #eb07df 0px 0px 40px, #eb07df 0px 0px 50px, #eb07df 0px 0px 75px; */
 }
 
 .section-heading {
@@ -75,7 +85,6 @@ p {
   padding-top: 9rem;
   margin-top: 8rem;
   margin-bottom: -2rem;
-  color: var(--color-green);
 }
 
 #projects i {
@@ -87,7 +96,7 @@ p {
   margin-right: 0.5rem;
 }
 
-/* MEDIA QUERIES */
+
 
 @media only screen and (max-width: 1000px) {
   .popup-content {
@@ -175,7 +184,7 @@ p {
     top: 7rem;
   }
   .header-inner-wrapper {
-    padding-top: 0; 
+    padding-top: 0;
   }
 }
 
@@ -186,4 +195,4 @@ p {
   .header-inner-wrapper h3 {
     letter-spacing: 4px;
   }
-}
+} */

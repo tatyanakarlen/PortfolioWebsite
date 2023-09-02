@@ -19,7 +19,6 @@ const MobileNav = () => {
     expandedStyleTopBun = {
       transform: 'rotate(-45deg)',
       marginTop: '25px',
-      backgroundColor: '#fff',
     };
     expandedStyleBottomBun = {
       opacity: '0',
@@ -28,7 +27,6 @@ const MobileNav = () => {
     expandedStyleMeat = {
       transform: 'rotate(45deg)',
       marginTop: '-7px',
-      backgroundColor: '#fff',
     };
     expandedNav = {
       top: '0',
