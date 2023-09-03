@@ -13,7 +13,7 @@ const Hero = () => {
         <h1 class="line__1">Tatyana</h1>
         <h1 class="line__2">Karlen</h1>
       </div>
-      <h2>Full-stack developer</h2>
+      <h2 className="typing-demo">Full-stack developer</h2>
       <ul>
         <li>
           <a
@@ -34,7 +34,7 @@ const Hero = () => {
             aria-label="Mail"
             rel="noopener noreferrer"
           >
-            <MdOutlineMailOutline />
+            <MdOutlineMailOutline id="mail-icon" />
           </a>
         </li>
       </ul>
@@ -45,6 +45,7 @@ const Hero = () => {
         graduated from General Assembly's Software Engineering Immersive program
         where I learned full-stack development in a fast-paced environment.
       </p>
+   
       {/* <div class="section-container hero">
         <div class="typing-demo">> Tatyana Karlen</div>
         <p>

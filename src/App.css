@@ -30,7 +30,7 @@ html {
 
 :root {
   --color-primary: rgb(227, 29, 243);
-  --color-secondary: orange; 
+  --color-secondary: rgba(255, 255, 255, 0.8); 
 
  
 }

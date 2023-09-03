@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import About from '../../components/About/About.jsx';
 import Contact from '../../components/Contact/Contact';
 import MobileNav from '../../components/MobileNav/MobileNav';
+import Skills from '../../components/Skills/Skills';
 import './BioPortfolioPage.css';
 
 function BioPortfolioPage(props) {
@@ -12,6 +13,7 @@ function BioPortfolioPage(props) {
     <div className="container">
       <MobileNav />
       <Hero />
+      <Skills />
 
 
 

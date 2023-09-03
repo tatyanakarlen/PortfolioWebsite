@@ -2,21 +2,20 @@
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  margin-top: 7rem;
+  margin-top: 10rem;
+  height: 100vh;
 }
-
 
 .hero h2 {
   font-size: 2.5rem;
-  /* margin-top: 3rem; */
   text-decoration: underline;
 }
 
 .hero ul {
   display: flex;
-  /* margin-top: 4rem; */
   list-style-type: none;
   gap: 2rem;
+  margin-top: 1rem;
 }
 
 .hero li svg {
@@ -28,45 +27,66 @@
 }
 
 .hero p {
-  /* margin-top: 2rem; */
-  font-size: 2rem;
-  width: 70%;
-  line-height: 2.5rem;
+  font-size: 2.2rem;
+  max-width: 900px;
+  line-height: 3rem;
 }
 
 .hero h1 {
   font-size: 5rem;
 }
 
-/* // typing */
-
-.wrapper {
- 
+#mail-icon {
+  font-size: 3.3rem;
+  margin-top: -0.3rem;
 }
 
-.line__1,
 .line__2 {
-  white-space: nowrap; /* keep text in one line */
-  overflow: hidden; /* hide text behind the cursor */
+  margin-top: 2rem;
+}
+
+.typing-demo {
+  width: 31rem;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  border-right: 4px solid;
+  font-size: 2.2rem;
+  overflow: hidden; 
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: var(--color-secondary);
+  }
+}
+
+/* // typing */
+
+/* .line__1,
+.line__2 {
+  white-space: nowrap; 
+  overflow: hidden; 
   font-size: 5rem;
   font-weight: bold;
   text-align: left;
 }
 
 .line__1 {
-  border-right: 2px solid #02020200; 
-  padding-bottom: 1rem; 
-
-  /* define animation types for text + cursor */
-  animation: animated-text__1 2s steps(30, end) 1s 1 normal both,
-    animated-cursor__1 900ms steps(30, end) 3.5;
+  border-right: 2px solid #02020200;
+  padding-bottom: 1rem;
+  animation: animated-text__1 2s steps(30, end) 0s 1 normal both,
+    animated-cursor__1 900ms steps(30, end) 2.25;
 }
 
 .line__2 {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
   margin-top: 1rem;
-
-  /* define animation types for text + cursor */
   animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
     animated-cursor__2 900ms steps(30, end) infinite;
   -webkit-animation-delay: 3s;
@@ -106,107 +126,5 @@
   }
   to {
     width: 18rem;
-  }
-}
-
-/* .header-inner-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-  height: 100vh;
-  padding-top: 7rem;
-}
-
-.header-inner-wrapper h1 {
-  font-size: 3.5rem;
-  letter-spacing: 10px;
-}
-
-.header-inner-wrapper h3 {
-  font-size: 2.25rem;
-  letter-spacing: 10px;
-  font-style: italic;
-  text-shadow: 0px 0px 3px rgb(50 211 58), 0px 0px 7px var(--color-green);
-}
-
-.header-inner-wrapper .h3-container {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-}
-
-.header-icon-container {
-  padding-top: 1rem;
-}
-
-.header-icon-container .header-icon {
-  font-size: 3rem;
-  transition: all 0.2s ease 0.1s;
-}
-
-.header-icon-container .header-icon:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-}
-
-.header-icon-container #mail-icon {
-  font-size: 3.9rem;
-}
-
-.header-inner-wrapper .icon-links {
-  color: white;
-}
-
-.header-icon-container ul {
-  list-style: none;
-  display: flex;
-  gap: 4rem;
-  align-items: center;
-}
-
-header .header-inner-wrapper .chevron-down-icon {
-  font-size: 3.25rem;
-  margin-top: 2rem;
-  margin-right: 1rem;
-  -webkit-animation-duration: 0.9s;
-  animation-duration: 0.9s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-transform-origin: bottom;
-  transform-origin: bottom;
-  -webkit-animation-name: float;
-  animation-name: float;
-  -webkit-animation-timing-function: ease;
-  animation-timing-function: ease;
-}
-
-@-webkit-keyframes float {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
-@keyframes float {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
   }
 } */
