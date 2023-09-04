@@ -7,16 +7,19 @@ import Contact from '../../components/Contact/Contact';
 import MobileNav from '../../components/MobileNav/MobileNav';
 import Skills from '../../components/Skills/Skills'
 import Projects from '../../components/Projects/Projects';
+import DesktopNav from '../../components/DesktopNav/DesktopNav';
 import './BioPortfolioPage.css';
 
 function BioPortfolioPage(props) {
   return (
     <div className="container">
+      {/* <DesktopNav /> */}
       <MobileNav />
       <Hero />
       <Skills />
       <Projects projects={props.projects}/>
       <Contact />
+      <Footer />
 
 
 

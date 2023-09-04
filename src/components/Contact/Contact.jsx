@@ -5,10 +5,10 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className="section-container contact" id="contact">
-      {/* <h2 className="h2-heading">Contact</h2> */}
+      <h2 className="h2-heading">Contact</h2>
       <p>Looking to collaborate or hire me? I'd love to hear from you!</p>
       <div className="email">
-        <h2 className="h2-heading">E-mail me</h2>
+        <h2>E-mail me</h2>
         <a
           className="social-links"
           href="mailto:tatyanakarlen@gmail.com"

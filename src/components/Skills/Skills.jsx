@@ -19,7 +19,7 @@ import tailwind from '../../Assets/skills-imgs/tailwind-css-icon.svg'
 
 const Skills = () => {
   return (
-    <div class="section-container skills">
+    <div id="skills" class="section-container skills">
       <h2 class="h2-heading">Skills</h2>
       <div class="skills-container">
         <div class="skills-icon-container">
