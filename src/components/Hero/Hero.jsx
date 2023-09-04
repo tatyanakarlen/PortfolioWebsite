@@ -7,9 +7,8 @@ import { ImDownload } from 'react-icons/im';
 
 
 const Hero = () => {
-
   const resumeLink =
-    '/static/media/TATYANA_KARLEN_RESUME.pdf';
+    '/static/media/TATYANA_KARLEN_RESUME.72c080b065903cbbc344.pdf';
 
   return (
     <div className="section-container hero">
@@ -60,9 +59,7 @@ const Hero = () => {
         graduated from General Assembly's Software Engineering Immersive program
         where I learned full-stack development in a fast-paced environment.
       </p>
-      </div>
-
-    
+    </div>
   );
 };
 

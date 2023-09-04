@@ -1,10 +1,16 @@
 import React from 'react';
 import './About.css';
 import { HiOutlineDownload } from 'react-icons/hi';
+import { useState } from 'react'
+import resume from '../assets/TATYANA_KARLEN_RESUME.pdf'
 
 const About = () => {
-  const resumeLink =
-    '/static/media/TATYANA_KARLEN_RESUME.5ffedecd3f6f0c6ab413.pdf';
+ 
+
+    const [resume] = useState(resume)
+
+    
+   
 
   return (
     <div id="about" className="about-me">
@@ -31,7 +37,7 @@ const About = () => {
       <br />
       <div className="resume-link-container">
         <h3>Resume</h3>
-        <a target="_blank" href={resumeLink}>
+        <a target="_blank" href={resume}>
           <HiOutlineDownload />
         </a>
       </div>
