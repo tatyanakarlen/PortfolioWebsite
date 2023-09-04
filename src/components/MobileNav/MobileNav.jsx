@@ -19,7 +19,6 @@ const MobileNav = () => {
     expandedStyleTopBun = {
       transform: 'rotate(-45deg)',
       marginTop: '25px',
-      backgroundColor: '#fff',
     };
     expandedStyleBottomBun = {
       opacity: '0',
@@ -28,7 +27,6 @@ const MobileNav = () => {
     expandedStyleMeat = {
       transform: 'rotate(45deg)',
       marginTop: '-7px',
-      backgroundColor: '#fff',
     };
     expandedNav = {
       top: '0',
@@ -49,11 +47,11 @@ const MobileNav = () => {
         <div className="nav-wrapper">
           <nav>
             <a onClick={() => setIsNavExpanded(!isNavExpanded)} href="#">
-              HOME
+              Home
             </a>
             <br />
-            <a onClick={() => setIsNavExpanded(!isNavExpanded)} href="#about">
-              ABOUT
+            <a onClick={() => setIsNavExpanded(!isNavExpanded)} href="#skills">
+              Skills
             </a>
             <br />
             <a
@@ -61,13 +59,13 @@ const MobileNav = () => {
               href="#projects"
             >
               {' '}
-              PROJECTS
+              Projects
             </a>
             <br />
             <br />
             <a onClick={() => setIsNavExpanded(!isNavExpanded)} href="#contact">
               {' '}
-              CONTACT
+              Contact
             </a>
             <br />
           </nav>

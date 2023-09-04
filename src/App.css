@@ -4,12 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
 
-
 .App {
   overflow: hidden;
   letter-spacing: 1px;
-  background-color: #1b1b1b;
-
+  position: relative;
 }
 
 * {
@@ -32,17 +30,16 @@ html {
 }
 
 :root {
-  --color-green: rgb(79, 244, 3);
-  --color-primary-pink: #eb07df;
-  --color-blue: #7ef40b;
+  --color-primary: rgb(227, 29, 243);
+  --color-secondary: rgba(255, 255, 255, 0.8); 
+
+ 
 }
 
 body {
   position: relative;
   font-family: 'Anonymous Pro';
-  background-color: #1b1b1b;
-  color: #fff;
+  background-color: rgb(21, 21, 21); 
+  color: rgb(227, 29, 243); 
+
 }
-
-
-

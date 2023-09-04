@@ -1,31 +1,37 @@
-.projects:not(:first-child) {
-  margin-top: 6rem;
+.project-container {
+  background-color: #000;
+  width: 100%;
+  padding: 3.2rem;
+  border-radius: 6px;
+  margin-top: 5rem;
+  max-width: 700px;
 }
 
-.projects:first-child {
-  margin-top: 10rem;
+.project-container h2 {
+  font-family: 'Press Start 2P';
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  line-height: 3rem;
 }
 
-.projects {
-  margin-top: 10rem;
-  background-color: #2e2e2ea6;
-  padding: 4rem 4rem;
-  border-radius: 22px;
+.project-container p {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-
-.projects .read-more {
+.project-container .read-more {
   font-size: 1.65rem;
   font-family: 'Anonymous Pro';
   letter-spacing: 0.7px;
+  text-decoration: underline;
 }
 
-.projects .static-img-container {
+.project-container .static-img-container {
   overflow: hidden;
   margin-top: 5rem;
 }
 
-.projects img {
+.project-container img {
   transition: all 0.2s ease 0.1s;
   width: 100%;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -35,7 +41,7 @@
   vertical-align: top;
 }
 
-.projects .static-img:hover {
+.project-container .static-img:hover {
   width: 100%;
   transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -48,6 +54,7 @@
   display: flex;
   align-items: center;
   gap: 0.7rem;
+  margin-top: 1rem;
 }
 
 .icon-text-container .folder-icon {
@@ -74,7 +81,7 @@
 }
 
 .demo-code-links-container div a {
-  color: white;
+  color: var(--color-primary);
   transition: all 0.2s ease 0.1s;
 }
 

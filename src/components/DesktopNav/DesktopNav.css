@@ -1,0 +1,15 @@
+.desktop-nav {
+  position: absolute;
+  right: 5rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 3rem;
+}
+
+.links li {
+  font-size: 2rem;
+}

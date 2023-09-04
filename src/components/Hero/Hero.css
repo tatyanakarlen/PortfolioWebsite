@@ -1,101 +1,134 @@
-.header-inner-wrapper {
+.hero {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-  height: 100vh;
-  padding-top: 7rem;
-}
-
-.header-inner-wrapper h1 {
-  font-size: 3.5rem;
-  letter-spacing: 10px;
-}
-
-.header-inner-wrapper h3 {
-  font-size: 2.25rem;
-  letter-spacing: 10px;
-  font-style: italic;
-  text-shadow: 0px 0px 3px rgb(50 211 58), 0px 0px 7px var(--color-green);
-}
-
-.header-inner-wrapper .h3-container {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-}
-
-.header-icon-container {
-  padding-top: 1rem;
-}
-
-.header-icon-container .header-icon {
-  font-size: 3rem;
-  transition: all 0.2s ease 0.1s;
-}
-
-.header-icon-container .header-icon:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-}
-
-.header-icon-container #mail-icon {
-  font-size: 3.9rem;
-}
-
-.header-inner-wrapper .icon-links {
-  color: white;
-}
-
-.header-icon-container ul {
-  list-style: none;
-  display: flex;
   gap: 4rem;
-  align-items: center;
+  margin-top: 12rem;
+  height: 100vh;
 }
 
-header .header-inner-wrapper .chevron-down-icon {
-  font-size: 3.25rem;
+.hero h2 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.hero ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.hero li svg {
+  color: var(--color-primary);
+}
+
+.hero li svg {
+  font-size: 2.7rem;
+}
+
+.hero p {
+  max-width: 900px;
+  line-height: 3rem;
+}
+
+.hero h1 {
+  font-size: 5rem;
+}
+
+#mail-icon {
+  font-size: 3.3rem;
+  margin-top: -0.3rem;
+}
+
+#download-icon {
+  font-size: 2.9rem;
+  margin-top: -4px;
+}
+
+.line__2 {
   margin-top: 2rem;
-  margin-right: 1rem;
-  -webkit-animation-duration: 0.9s;
-  animation-duration: 0.9s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-transform-origin: bottom;
-  transform-origin: bottom;
-  -webkit-animation-name: float;
-  animation-name: float;
-  -webkit-animation-timing-function: ease;
-  animation-timing-function: ease;
 }
 
-@-webkit-keyframes float {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+.typing-demo {
+  width: 31rem;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  border-right: 4px solid;
+  font-size: 2.2rem;
+  overflow: hidden; 
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
 }
 
-@keyframes float {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
+@keyframes blink {
   50% {
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    border-color: var(--color-secondary);
   }
 }
+
+/* // typing */
+
+/* .line__1,
+.line__2 {
+  white-space: nowrap; 
+  overflow: hidden; 
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.line__1 {
+  border-right: 2px solid #02020200;
+  padding-bottom: 1rem;
+  animation: animated-text__1 2s steps(30, end) 0s 1 normal both,
+    animated-cursor__1 900ms steps(30, end) 2.25;
+}
+
+.line__2 {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+  margin-top: 1rem;
+  animation: animated-text__2 2s steps(30, end) 1s 1 normal both,
+    animated-cursor__2 900ms steps(30, end) infinite;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+@keyframes animated-cursor__1 {
+  from {
+    border-right-color: rgba(17, 17, 17, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-cursor__2 {
+  from {
+    border-right-color: rgba(17, 17, 17, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-text__1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 22rem;
+  }
+}
+
+@keyframes animated-text__2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 18rem;
+  }
+} */
