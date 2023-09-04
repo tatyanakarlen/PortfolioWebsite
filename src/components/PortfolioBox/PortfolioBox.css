@@ -1,31 +1,23 @@
-.projects:not(:first-child) {
+/* .projects:not(:first-child) {
   margin-top: 6rem;
 }
 
 .projects:first-child {
   margin-top: 10rem;
-}
+} */
 
-.projects {
-  margin-top: 10rem;
-  background-color: #2e2e2ea6;
-  padding: 4rem 4rem;
-  border-radius: 22px;
-}
-
-
-.projects .read-more {
+.project .read-more {
   font-size: 1.65rem;
   font-family: 'Anonymous Pro';
   letter-spacing: 0.7px;
 }
 
-.projects .static-img-container {
+.project .static-img-container {
   overflow: hidden;
   margin-top: 5rem;
 }
 
-.projects img {
+.project img {
   transition: all 0.2s ease 0.1s;
   width: 100%;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -35,7 +27,7 @@
   vertical-align: top;
 }
 
-.projects .static-img:hover {
+.project .static-img:hover {
   width: 100%;
   transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);

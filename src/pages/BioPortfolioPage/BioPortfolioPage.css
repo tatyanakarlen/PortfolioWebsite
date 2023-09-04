@@ -5,56 +5,12 @@
 }
 
 .h2-heading {
-  border-bottom: 4px solid var(--color-secondary);
-  line-height: 3.5rem;
-  font-size: 2.3rem;
+  /* border-bottom: 4px solid var(--color-secondary); */
+  /* line-height: 3.5rem; */
+  font-size: 2.5rem;
+  text-decoration: underline;
 }
 
-.skills {
-  /* padding: 2rem 4rem; */
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.skills-container {
-  margin-top: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.skills-icon-container {
-  width: 4.5rem;
-  height: 4.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.skills-icon-container p {
-  font-size: 1rem;
-  font-weight: bold;
-  /* color: orange; */
-}
-
-.skills-icon-container:hover {
-  color: orange;
-}
-
-.skills-icon-container img {
-  cursor: pointer;
-  width: 3rem;
-  height: 3rem;
-  filter: invert(20%) sepia(90%) saturate(3092%) hue-rotate(285deg)
-    brightness(104%) contrast(107%);
-}
-
-.skills-icon-container img:hover {
-  filter: invert(86%) sepia(37%) saturate(7067%) hue-rotate(358deg)
-    brightness(100%) contrast(103%);
-}
 
 
 

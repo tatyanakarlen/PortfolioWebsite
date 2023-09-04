@@ -18,7 +18,7 @@ const PortfolioBox = (props) => {
   let lastEl = props.tech[props.tech.length - 1];
 
   return (
-    <div className="projects">
+    <div className="project">
       <h3 className="h3-computer">{props.title}</h3>
       <p className="project-description">
         {props.headline}
