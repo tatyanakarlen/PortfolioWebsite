@@ -44,6 +44,17 @@ p {
     padding: 2.5rem;
   }
 }
+
+
+@media only screen and (max-width: 400px) {
+  .container {
+    padding: 1.5rem;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+
 @media only screen and (max-width: 355px) {
   .skills-container {
     gap: 3rem;
