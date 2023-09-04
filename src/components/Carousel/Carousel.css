@@ -107,7 +107,7 @@
 
 .popup-content {
   position: absolute;
-  width: 100%;
+  width: 80%;
   /* // supposed to be 80% */
   border-radius: 3px;
   overflow: hidden;
