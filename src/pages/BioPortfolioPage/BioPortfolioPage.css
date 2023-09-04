@@ -48,7 +48,7 @@ p {
 
 @media only screen and (max-width: 400px) {
   .container {
-    padding: 1.5rem;
+    padding: 2rem;
   }
   html {
     font-size: 50%;
