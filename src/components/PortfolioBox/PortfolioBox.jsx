@@ -78,7 +78,7 @@ const PortfolioBox = (props) => {
           </h3>
         </div>
       )}
-      {!carouselActive ? (
+      {/* {!carouselActive ? ( */}
         <div className="static-img-container">
           <img
             className="static-img"
@@ -87,7 +87,7 @@ const PortfolioBox = (props) => {
             alt="project-image"
           />
         </div>
-      ) : (
+      {/* ) : (
         <div id="img-container-carousel">
           <Carousel
             setCarouselActive={setCarouselActive}
@@ -95,7 +95,7 @@ const PortfolioBox = (props) => {
             SliderData={SliderData}
           />
         </div>
-      )}
+      )} */}
       <div className="demo-code-links-container">
         <div>
           <TbApps />
