@@ -7,6 +7,10 @@ import { ImDownload } from 'react-icons/im';
 
 
 const Hero = () => {
+
+  const resumeLink =
+    '/static/media/TATYANA_KARLEN_RESUME.pdf';
+
   return (
     <div className="section-container hero">
       <div class="wrapper">
@@ -40,7 +44,7 @@ const Hero = () => {
         </li>
         <li>
           <a
-            href="mailto:tatyanakarlen@gmail.com"
+            href={resumeLink}
             target="_blank"
             aria-label="Mail"
             rel="noopener noreferrer"
