@@ -11,10 +11,11 @@
   font-family: 'Press Start 2P';
   font-size: 1.7rem;
   margin-top: 1rem;
+  line-height: 3rem;
 }
 
 .project-container p {
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding-bottom: 2rem;
 }
 
