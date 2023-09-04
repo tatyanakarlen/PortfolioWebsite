@@ -16,6 +16,7 @@ function BioPortfolioPage(props) {
       <Hero />
       <Skills />
       <Projects projects={props.projects}/>
+      <Contact />
 
 
 

@@ -1,18 +1,27 @@
-.contact {
+/* .contact {
   padding-bottom: 3rem;
   margin-top: 10rem;
+} */
+.contact {
+  margin-top: 10rem;
+}
+.contact p {
+  margin-top: 4rem;
+  max-width: 600px;
 }
 
 .email {
   font-size: 2.5rem;
-  gap: 2rem;
+  gap: 2.5rem;
   display: flex;
-  justify-content: center;
+  margin-top: 2rem;
+  /* justify-content: center; */
   align-items: center;
+  text-decoration: underline;
   
 }
 
 .contact svg {
-  font-size: 8rem;
-  color: var(--color-green);
+  font-size: 7rem;
+  color: var(--color-primary);
 }

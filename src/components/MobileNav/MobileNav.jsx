@@ -47,11 +47,11 @@ const MobileNav = () => {
         <div className="nav-wrapper">
           <nav>
             <a onClick={() => setIsNavExpanded(!isNavExpanded)} href="#">
-              HOME
+              Home
             </a>
             <br />
             <a onClick={() => setIsNavExpanded(!isNavExpanded)} href="#about">
-              ABOUT
+              About
             </a>
             <br />
             <a
@@ -59,13 +59,13 @@ const MobileNav = () => {
               href="#projects"
             >
               {' '}
-              PROJECTS
+              Projects
             </a>
             <br />
             <br />
             <a onClick={() => setIsNavExpanded(!isNavExpanded)} href="#contact">
               {' '}
-              CONTACT
+              Contact
             </a>
             <br />
           </nav>

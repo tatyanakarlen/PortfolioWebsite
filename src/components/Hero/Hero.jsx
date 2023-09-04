@@ -3,6 +3,8 @@ import './Hero.css';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { MdOutlineMailOutline } from 'react-icons/md';
+import { AiOutlineDownload } from 'react-icons/ai'
+import { ImDownload } from 'react-icons/im'
 
 import ComputerIcon from '../ComputerIcon';
 
@@ -35,6 +37,16 @@ const Hero = () => {
             rel="noopener noreferrer"
           >
             <MdOutlineMailOutline id="mail-icon" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:tatyanakarlen@gmail.com"
+            target="_blank"
+            aria-label="Mail"
+            rel="noopener noreferrer"
+          >
+            <ImDownload id="download-icon"/>
           </a>
         </li>
       </ul>

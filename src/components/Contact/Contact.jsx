@@ -4,11 +4,11 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="contact" id="contact">
-      <h1 className="section-heading">Contact</h1>
+    <div className="section-container contact" id="contact">
+      {/* <h2 className="h2-heading">Contact</h2> */}
       <p>Looking to collaborate or hire me? I'd love to hear from you!</p>
       <div className="email">
-        <h3>E-mail me</h3>
+        <h2 className="h2-heading">E-mail me</h2>
         <a
           className="social-links"
           href="mailto:tatyanakarlen@gmail.com"
