@@ -12,7 +12,6 @@ import './BioPortfolioPage.css';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import pointDown from '../../components/Images/pointing-down-finger-svgrepo-com.svg';
 
-
 import { RiCopyrightFill } from 'react-icons/ri';
 
 function BioPortfolioPage(props) {
@@ -21,38 +20,37 @@ function BioPortfolioPage(props) {
   const isSmallMobile = useMediaQuery({ query: '(max-width: 500px)' });
 
   return (
-    <div class="main-container">
+    <div class="container">
       <MobileNav />
-      <div class="inner-wrapper">
-        <Hero />
-        <About />
-        <div class="projects-headline">
-          <h1 id="projects">
-            {/* <div><i class="bi bi-hand-index-thumb"></i></div> */}
-            <img src={pointDown} alt="" /> 
-            {/* <PointerIcon id="pointer-icon"/> */}
-           tap project image to view gallery...
-          </h1>
-        </div>
-        {props.projects.map((m) => (
-          <PortfolioBox
-            title={m.title}
-            headline={m.headline}
-            images={m.images}
-            title={m.title}
-            tech={m.tech}
-            headline={m.headline}
-            bullet1={m.bullet1}
-            bullet2={m.bullet2}
-            bullet3={m.bullet3}
-            body={m.body}
-            deployedAppLink={m.deployedAppLink}
-            gitHubLink={m.gitHubLink}
-          />
-        ))}
-        <Contact />
-        <Footer />
+
+      <Hero />
+      
+      <div class="projects-headline">
+        <h1 id="projects">
+          {/* <div><i class="bi bi-hand-index-thumb"></i></div> */}
+          <img src={pointDown} alt="" />
+          {/* <PointerIcon id="pointer-icon"/> */}
+          tap project image to view gallery...
+        </h1>
       </div>
+      {props.projects.map((m) => (
+        <PortfolioBox
+          title={m.title}
+          headline={m.headline}
+          images={m.images}
+          title={m.title}
+          tech={m.tech}
+          headline={m.headline}
+          bullet1={m.bullet1}
+          bullet2={m.bullet2}
+          bullet3={m.bullet3}
+          body={m.body}
+          deployedAppLink={m.deployedAppLink}
+          gitHubLink={m.gitHubLink}
+        />
+      ))}
+      <Contact />
+      <Footer />
     </div>
   );
 }

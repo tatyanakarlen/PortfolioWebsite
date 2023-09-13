@@ -1,4 +1,4 @@
-.main-container {
+/* .main-container {
   position: relative;
   background-color: #1b1b1b;
   width: 100vw;
@@ -9,6 +9,10 @@
   max-width: 725px;
   margin: 0 auto;
   padding: 2rem 6rem;
+} */
+
+.container {
+  padding: 4rem; 
 }
 
 p,
