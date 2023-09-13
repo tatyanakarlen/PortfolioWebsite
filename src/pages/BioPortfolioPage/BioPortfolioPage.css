@@ -1,24 +1,18 @@
-/* .main-container {
-  position: relative;
-  background-color: #1b1b1b;
-  width: 100vw;
-}
-
-.inner-wrapper {
-  background-color: #1b1b1b;
-  max-width: 725px;
-  margin: 0 auto;
-  padding: 2rem 6rem;
-} */
-
 .container {
-  padding: 4rem; 
+  padding: 4rem;
 }
 
-p,
-h1 {
-  font-size: 2.3rem;
+.h2-heading {
+  font-size: 2.5rem;
+  text-decoration: underline;
 }
+
+p {
+  font-size: 2.1rem;
+}
+
+
+
 
 p,
 .neon-green-text,
@@ -31,14 +25,7 @@ nav a {
   font-weight: 800;
 }
 
-p {
-  letter-spacing: inherit;
-  line-height: 3rem;
-  color: #fff;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  /* text-shadow: #eb07df 0px 0px 5px, #eb07df 0px 0px 10px, #eb07df 0px 0px 15px, #eb07df 0px 0px 20px, #eb07df 0px 0px 30px, #eb07df 0px 0px 40px, #eb07df 0px 0px 50px, #eb07df 0px 0px 75px; */
-}
+
 
 .section-heading {
   color: var(--color-green);
