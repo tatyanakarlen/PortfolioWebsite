@@ -40,7 +40,7 @@ import img31 from './components/Images/CookBook/cookbook5.png'
 import img32 from './components/Images/CookBook/CookBook6.png'
 
 
-import images from './components/assets/Images';
+
 
 
 
