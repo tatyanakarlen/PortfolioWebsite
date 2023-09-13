@@ -9,10 +9,8 @@
 
 p {
   font-size: 2.1rem;
+  line-height: 3rem;
 }
-
-
-
 
 p,
 .neon-green-text,
@@ -24,8 +22,6 @@ header .Tatyana,
 nav a {
   font-weight: 800;
 }
-
-
 
 .section-heading {
   color: var(--color-green);
@@ -40,8 +36,8 @@ nav a {
 .h3-computer {
   font-family: 'Press Start 2P';
   font-size: 1.7rem;
-  line-height: 3.5rem;
-  letter-spacing: 1px;
+  line-height: 3rem;
+  margin-top: 1rem;
 }
 
 .underlined {
@@ -166,7 +162,7 @@ nav a {
     top: 7rem;
   }
   .header-inner-wrapper {
-    padding-top: 0; 
+    padding-top: 0;
   }
 }
 

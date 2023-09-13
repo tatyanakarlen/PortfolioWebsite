@@ -25,13 +25,8 @@ function BioPortfolioPage(props) {
 
       <Hero />
       
-      <div class="projects-headline">
-        <h1 id="projects">
-          {/* <div><i class="bi bi-hand-index-thumb"></i></div> */}
-          <img src={pointDown} alt="" />
-          {/* <PointerIcon id="pointer-icon"/> */}
-          tap project image to view gallery...
-        </h1>
+      <div className="projects-headline">
+       <h2 className="h2-heading">Projects</h2>
       </div>
       {props.projects.map((m) => (
         <PortfolioBox

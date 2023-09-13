@@ -50,7 +50,7 @@ import img32 from './components/Images/CookBook/CookBook6.png'
 function App() {
   const [projects] = useState([
     {
-      title: 'CookBook / Spoonacular',
+      title: 'CookBook',
       headline: 'Recipe app built with',
       tech: ['React', 'Firebase', 'Spoonacular API', 'Bootstrap'],
       images: [img26, img27, img28, img29, img30, img31, img32],

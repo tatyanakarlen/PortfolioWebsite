@@ -8,13 +8,17 @@
 
 .projects {
   background-color: #2e2e2ea6;
-    width: 100%;
-    padding: 3.2rem;
-    border-radius: 22px;
-    margin-top: 5rem;
-    max-width: 700px;
+  width: 100%;
+  padding: 3.2rem;
+  border-radius: 22px;
+  margin-top: 5rem;
+  max-width: 700px;
 }
 
+.project-description {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 .projects .read-more {
   font-size: 1.65rem;
@@ -50,6 +54,7 @@
   display: flex;
   align-items: center;
   gap: 0.7rem;
+  margin-top: 1rem;
 }
 
 .icon-text-container .folder-icon {

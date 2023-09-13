@@ -4,12 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
 
-
 .App {
   overflow: hidden;
   letter-spacing: 1px;
-  background-color: #1b1b1b;
-
 }
 
 * {
@@ -43,6 +40,3 @@ body {
   background-color: #1b1b1b;
   color: #fff;
 }
-
-
-
