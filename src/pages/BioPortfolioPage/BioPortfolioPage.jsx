@@ -1,32 +1,23 @@
 import React from 'react';
-import TopNav from '../../components/TopNav/TopNav';
 import Hero from '../../components/Hero/Hero';
 import PortfolioBox from '../../components/PortfolioBox/PortfolioBox';
 import Skills from '../../components/Skills/Skills.jsx';
 import Footer from '../../components/Footer/Footer';
-import { useMediaQuery } from 'react-responsive';
-import About from '../../components/About/About.jsx';
 import Contact from '../../components/Contact/Contact';
 import MobileNav from '../../components/MobileNav/MobileNav';
 import './BioPortfolioPage.css';
-import { AiOutlineArrowDown } from 'react-icons/ai';
-import pointDown from '../../components/Images/pointing-down-finger-svgrepo-com.svg';
-
-import { RiCopyrightFill } from 'react-icons/ri';
 
 function BioPortfolioPage(props) {
   console.log(props.projects);
-
-  const isSmallMobile = useMediaQuery({ query: '(max-width: 500px)' });
 
   return (
     <div class="container">
       <MobileNav />
 
       <Hero />
-      
-      <div className="projects-headline">
-       <h2 className="h2-heading">Projects</h2>
+
+      <div id="#projects" className="projects-headline">
+        <h2 className="h2-heading">Projects</h2>
       </div>
       {props.projects.map((m) => (
         <PortfolioBox
