@@ -5,17 +5,18 @@ import Skills from '../../components/Skills/Skills.jsx';
 import Footer from '../../components/Footer/Footer';
 import Contact from '../../components/Contact/Contact';
 import MobileNav from '../../components/MobileNav/MobileNav';
+import About from '../../components/About/About';
 import './BioPortfolioPage.css';
 
 function BioPortfolioPage(props) {
   console.log(props.projects);
 
   return (
-    <div class="container">
+    <div>
       <MobileNav />
-
+      <div className="app-container">
       <Hero />
-
+      {/* <About /> */}
       <div id="#projects" className="projects-headline">
         <h2 className="h2-heading">Projects</h2>
       </div>
@@ -37,6 +38,7 @@ function BioPortfolioPage(props) {
       ))}
       <Contact />
       <Footer />
+      </div>
     </div>
   );
 }

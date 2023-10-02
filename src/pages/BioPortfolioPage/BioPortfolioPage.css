@@ -1,5 +1,7 @@
-.container {
-  padding: 4rem;
+.app-container {
+  max-width: 700px;
+  margin: 0 auto;
+  /* padding: 4rem; */
 }
 
 .h2-heading {
@@ -8,19 +10,14 @@
 }
 
 p {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   line-height: 3rem;
 }
 
-p,
-.neon-green-text,
-#projects,
-.social-icons ul,
-header .Tatyana,
-.demo-code-links-container div,
-.contact,
-nav a {
-  font-weight: 700;
+
+
+p, h1, h2, h3, h4, h5, h6, span {
+  letter-spacing: 2px;
 }
 
 .section-heading {
@@ -44,10 +41,7 @@ nav a {
   text-decoration: underline;
 }
 
-.neon-green-text {
-  text-shadow: 0px 0px 3px rgb(50 211 58), 0px 0px 7px var(--color-green);
-  font-family: 'Anonymous Pro';
-}
+
 
 .bold-underlined-text {
   text-decoration: underline;
