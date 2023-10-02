@@ -1,15 +1,44 @@
 .desktop-nav {
-  position: absolute;
-  right: 5rem;
+  height: 6rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .links {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   list-style-type: none;
   gap: 3rem;
 }
 
 .links li {
   font-size: 2rem;
+}
+
+.social-links {
+  font-size: 2rem;
+}
+
+.social-links {
+  /* background-color: #090808;
+  padding: 0.5rem;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.social-links svg {
+  color: #fce0f6;
+  font-size: 2.1rem;
+}
+
+.social-link-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.3rem;
 }

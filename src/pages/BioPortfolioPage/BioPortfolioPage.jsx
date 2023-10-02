@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
 import PortfolioBox from '../../components/PortfolioBox/PortfolioBox';
+import DesktopNav from '../../components/DesktopNav/DesktopNav'
 import Skills from '../../components/Skills/Skills.jsx';
 import Footer from '../../components/Footer/Footer';
 import Contact from '../../components/Contact/Contact';
@@ -13,7 +14,8 @@ function BioPortfolioPage(props) {
 
   return (
     <div>
-      <MobileNav />
+      {/* <MobileNav /> */}
+      <DesktopNav />
       <div className="app-container">
       <Hero />
       {/* <About /> */}
