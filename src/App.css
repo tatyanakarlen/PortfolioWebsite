@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Jost:wght@300;400&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-
-
 
 .App {
   overflow: hidden;
@@ -38,28 +31,12 @@ html {
 
 :root {
   --color-green: rgb(79, 244, 3);
-  --color-primary-pink: #eb07df;
+  --color-text-pink: #f1e4f4;
   --color-blue: #7ef40b;
 }
 
 body {
-  /* background-image: url("../src/Assets/background.jpg");
-  background-repeat: no-repeat; 
-  object-fit: cover;
-  background-attachment: fixed; */
-  
-  /* overflow: hidden;
-  
-  flex-grow: 1;
-  background-attachment: fixed;
-  position: relative;
-  font-family: 'Anonymous Pro';
-  /* background-color: #1b1b1b; */
-  /* background-color: #000;
-  color: #fff;
-  font-family: 'Anonymous Pro'; */
   font-family: 'Oswald';
-  /* font-weight: 200; */
   background-color: rgb(36 35 35);
-  color: #f1e4f4; 
+  color: #f1e4f4;
 }

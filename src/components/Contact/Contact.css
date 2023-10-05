@@ -1,20 +1,52 @@
-.contact {
-  margin-top: 10rem;
-}
 .contact p {
-  margin-top: 4rem;
+  margin-top: 1rem;
   max-width: 600px;
+  padding-bottom: 1rem;
+}
+
+.connect {
+  /* font-size: 1.7rem; */
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  background: #000;
+  padding: 4rem;
+  border-radius: 10px;
+  /* align-items: c; */
+}
+
+.connect a {
+  color: var(--color-text-pink);
+  text-decoration: none;
+  transition: transform .3s ease,-webkit-transform .3s ease;
+}
+
+.connect a:hover {
+  transform: translateY(-5px);
 }
 
 .email {
-  font-size: 2.2rem;
-  gap: 2.5rem;
   display: flex;
-  margin-top: 2rem;
+  gap: 2rem;
   align-items: center;
 }
 
-.contact svg {
-  font-size: 7rem;
-  color: white;
+.email h2 {
+  font-size: 2.2rem;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  padding-top: 1rem;
+}
+
+
+
+.email svg {
+  font-size: 4rem;
+}
+
+.social {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 2.5rem;
 }

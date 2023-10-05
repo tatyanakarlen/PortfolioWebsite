@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from '../../components/Hero/Hero';
 import PortfolioBox from '../../components/PortfolioBox/PortfolioBox';
 import DesktopNav from '../../components/DesktopNav/DesktopNav'
+import Projects from '../../components/Projects/Projects';
+import Experience from '../../components/Experience/Experience';
 import Skills from '../../components/Skills/Skills.jsx';
 import Footer from '../../components/Footer/Footer';
 import Contact from '../../components/Contact/Contact';
@@ -18,11 +20,12 @@ function BioPortfolioPage(props) {
       <DesktopNav />
       <div className="app-container">
       <Hero />
-      {/* <About /> */}
-      <div id="#projects" className="projects-headline">
-        <h2 className="h2-heading">Projects</h2>
-      </div>
-      {props.projects.map((m) => (
+      <Skills />
+      {/* <Experience /> */}
+     
+      <Projects projects={props.projects}/>
+
+      {/* {props.projects.map((m) => (
         <PortfolioBox
           title={m.title}
           headline={m.headline}
@@ -37,7 +40,8 @@ function BioPortfolioPage(props) {
           deployedAppLink={m.deployedAppLink}
           gitHubLink={m.gitHubLink}
         />
-      ))}
+      ))} */}
+       <About />
       <Contact />
       <Footer />
       </div>

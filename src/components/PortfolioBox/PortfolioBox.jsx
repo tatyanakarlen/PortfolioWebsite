@@ -19,7 +19,7 @@ const PortfolioBox = (props) => {
 
   return (
     <div class="projects">
-      <h3 class="h3-computer">{props.title}</h3>
+      <h3>{props.title}</h3>
       <p class="project-description">
         {props.headline}
         {props.tech.map((m) => (
@@ -34,7 +34,7 @@ const PortfolioBox = (props) => {
         <div class="read-more-pop-up">
           <div class="icon-text-container project-pop-up-icon-text">
             <GoEyeClosed
-              style={{ fontSize: '2.75rem' }}
+              style={{ fontSize: '2rem' }}
               onClick={() => setReadMoreActive(!readMoreActive)}
             />
             <h3
@@ -45,9 +45,9 @@ const PortfolioBox = (props) => {
             </h3>
           </div>
 
-          <p class="underlined">-{props.bullet1}</p>
-          <p>-{props.bullet2}</p>
-          <p>-{props.bullet3}</p>
+          <p class="bullet">-{props.bullet1}</p>
+          <p class="bullet">-{props.bullet2}</p>
+          <p class="bullet">-{props.bullet3}</p>
         </div>
       ) : (
         <div class="icon-text-container project-pop-up-icon-text">

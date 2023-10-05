@@ -1,12 +1,21 @@
 .app-container {
   max-width: 700px;
   margin: 0 auto;
-  /* padding: 4rem; */
 }
 
-.h2-heading {
-  font-size: 2.5rem;
-  text-decoration: underline;
+.section-container {
+  padding: 5rem;
+}
+
+.section-heading {
+  font-size: 2.8rem;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 p {
@@ -14,49 +23,16 @@ p {
   line-height: 3rem;
 }
 
-
-
-p, h1, h2, h3, h4, h5, h6, span {
-  letter-spacing: 2px;
-}
-
-.section-heading {
-  color: var(--color-green);
-  font-size: 2.25rem;
-  margin-bottom: 3rem;
-  padding-top: 8rem;
-  position: relative;
-  text-decoration: underline;
-  text-transform: uppercase;
-}
-
-.h3-computer {
-  font-family: 'Press Start 2P';
-  font-size: 1.7rem;
-  line-height: 3rem;
-  margin-top: 1rem;
-}
-
-.underlined {
-  text-decoration: underline;
-}
-
-
-
-.bold-underlined-text {
-  text-decoration: underline;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-}
-
-#projects {
-  display: flex;
-  align-items: center;
-  font-size: 1.8rem;
-  padding-top: 9rem;
-  margin-top: 8rem;
-  margin-bottom: -2rem;
-  color: var(--color-green);
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div {
+  letter-spacing: 2.5px;
 }
 
 #projects i {

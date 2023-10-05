@@ -1,0 +1,9 @@
+.experience {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.experience svg {
+  font-size: 6rem;
+}

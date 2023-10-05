@@ -76,7 +76,6 @@
   flex-direction: column;
   justify-content: end;
   gap: 2.5rem;
-  padding: 5rem;
 }
 
 .hero img {
@@ -85,56 +84,18 @@
   border-radius: 50%;
 }
 
-.hero ul {
-  display: flex;
-  list-style-type: none;
-  gap: 2rem;
-  margin-top: 1rem;
-}
-
-.hero li svg {
-  color: #fce0f6;
-}
-
-.hero li svg {
-  font-size: 2.5rem;
-}
-
 .hero p {
   line-height: 3.5rem;
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 
 .hero h1 {
-  font-size: 4.25rem;
-  margin-top: 3rem;
+  font-size: 3.6rem;
 }
 
-#mail-icon {
-  font-size: 3.3rem;
-  margin-top: -0.3rem;
-}
-
-#download-icon {
-  font-size: 2.9rem;
-  margin-top: -4px;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-}
 
 .line__2 {
   margin-top: 2rem;
-}
-
-.inner-container {
-  background-color: #000;
-  max-width: 750px;
-  display: flex;
-  flex-direction: column;
-  padding: 3rem;
-  margin-top: 10rem;
 }
 
 .hero button {
@@ -147,25 +108,9 @@
   padding: 2rem;
   width: 98%;
   font-family: 'Oswald';
-  letter-spacing: 3px; 
+  letter-spacing: 3px;
   font-weight: bold;
   cursor: pointer;
-}
-
-.inner-container ul {
-  margin-top: 2rem;
-
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  font-size: 1.8rem;
-  gap: 1rem;
-  line-height: 2.3rem;
-}
-
-.inner-container ul li span {
-  color: pink;
-  font-size: 1.9rem;
 }
 
 .typing-demo {
