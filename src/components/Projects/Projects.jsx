@@ -4,7 +4,7 @@ import PortfolioBox from '../PortfolioBox/PortfolioBox';
 
 const Projects = ({ projects }) => {
   return (
-    <div className="section-container">
+    <div id="projects"className="section-container">
       <h2 className="section-heading">Projects</h2>
       {projects.map((m, index) => (
         <PortfolioBox

@@ -11,23 +11,19 @@
   align-items: center;
   list-style-type: none;
   gap: 3rem;
+  cursor: pointer;
 }
 
-.links li {
+.links a {
   font-size: 2rem;
+  text-decoration: none; 
+  color: var(--color-text-pink);
 }
 
 .social-links {
   font-size: 2rem;
 }
 
-.social-links svg {
-  color: #f7eaf4; 
-  font-size: 2.2rem;
-}
 
-.social-link-container {
-  display: flex;
-  gap: 2rem;
-  margin-top: 0.3rem;
-}
+
+

@@ -101,6 +101,9 @@ div {
   .skills-icon-box {
     padding: 1rem 1.5rem;
   }
+  .hero {
+    height: 85vh;
+  }
 }
 
 @media only screen and (max-width: 383px) {
@@ -111,90 +114,3 @@ div {
     padding: 2rem;
   }
 }
-
-/* @media only screen and (max-width: 768px) {
-  .inner-wrapper {
-    padding: 2rem 4rem;
-  }
-  .projects {
-    padding: 4rem 4rem;
-  }
-} */
-
-/* @media only screen and (max-width: 519px) {
-  .header-inner-wrapper h1 {
-    font-size: 3rem;
-  }
-  .header-inner-wrapper h3 {
-    font-size: 2rem;
-  }
-
-  .header-inner-wrapper svg {
-    margin-right: -3rem;
-  }
-  .header-icon-container ul {
-    gap: 7rem;
-  }
-} */
-
-/* @media only screen and (max-width: 500px) {
-  .inner-wrapper {
-    padding: 2rem 2.5rem;
-  }
-  .projects {
-    padding: 3rem 3rem;
-  }
-  h1,
-  p {
-    font-size: 2.1rem;
-  }
-  p {
-    width: 95%;
-  }
-}
-
-@media only screen and (max-width: 435px) {
-  .header-inner-wrapper h1 {
-    letter-spacing: 12px;
-  }
-  .header-inner-wrapper h3 {
-    letter-spacing: 8px;
-  }
-} */
-
-/* @media only screen and (max-width: 420px) {
-  .skills-icon-box {
-    padding: 1.5rem 2.5rem;
-    font-size: 1.85rem;
-  }
-  .header-icon-container .header-icon {
-    font-size: 4rem;
-  }
-  .header-icon-container #mail-icon {
-    font-size: 5rem;
-  }
-  .header-icon-container ul {
-    margin-left: -3rem;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  html {
-    font-size: 50%;
-  }
-  .hamburger {
-    top: 7rem;
-  }
-  .header-inner-wrapper {
-    padding-top: 0;
-  }
-}
-
-@media only screen and (max-width: 391px) {
-  .header-inner-wrapper h1 {
-    letter-spacing: 6px;
-  }
-  .header-inner-wrapper h3 {
-    letter-spacing: 4px;
-  }
-} */
