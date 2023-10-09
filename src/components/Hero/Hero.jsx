@@ -31,7 +31,12 @@ const Hero = () => {
           </p>
         )}
       </>
-      <button>Contact Me</button>
+      <a
+       href="mailto:tatyanakarlen@gmail.com"
+       target="_blank"
+       aria-label="Mail"
+       rel="noopener noreferrer"
+      >Contact Me</a>
     </div>
   );
 };
