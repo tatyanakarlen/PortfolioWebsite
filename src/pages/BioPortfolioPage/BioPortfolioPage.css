@@ -1,62 +1,200 @@
-.container {
-  padding: 4rem;
+.app-container {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.h2-heading {
-  font-size: 2.5rem;
-  text-decoration: underline;
+.section-container {
+  padding: 5rem;
+}
+
+.section-heading {
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 p {
-  font-size: 2.1rem;
+  font-size: 1.9rem;
+  line-height: 3rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .container {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div {
+  letter-spacing: 2.5px;
+}
+
+#projects i {
+  margin-right: 1rem;
+}
+
+#projects img {
+  width: 2.75rem;
+  margin-right: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+  .popup-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hero {
+    height: 100vh;
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  .html {
+    font-size: 57.5%;
+  }
+}
+
+@media only screen and (max-width: 529px) {
+  .skills-icon-box {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 514px) {
+  .section-container {
+    padding: 2.5rem;
+  }
+  .projects {
     padding: 3rem;
   }
-  .project-container {
-    padding: 2.5rem;
-  }
-}
-
-@media only screen and (max-width: 533px) {
-  .skills {
-    margin-top: 10rem;
-  }
-  .project-container {
-    margin-top: 4rem;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .project-container {
+  .connect {
     padding: 2rem;
   }
-  .hero {
-    height: unset;
-    margin-top: 7rem;
+}
+
+@media only screen and (max-width: 431px) {
+  .skills-container-wrapper {
+    gap: 1.5rem;
+  }
+  .skills-icon-box {
+    font-size: 1.5rem;
   }
 }
 
-@media only screen and (max-width: 420px) {
-  .container {
-    padding: 2.5rem;
+@media only screen and (max-width: 403px) {
+  .projects {
+    padding: 2rem;
+  }
+  .skills-icon-box {
+    padding: 1rem 1.5rem;
   }
 }
 
+@media only screen and (max-width: 383px) {
+  .hero p {
+    line-height: 3rem;
+  }
+  .section-container {
+    padding: 2rem;
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+  .inner-wrapper {
+    padding: 2rem 4rem;
+  }
+  .projects {
+    padding: 4rem 4rem;
+  }
+} */
+
+/* @media only screen and (max-width: 519px) {
+  .header-inner-wrapper h1 {
+    font-size: 3rem;
+  }
+  .header-inner-wrapper h3 {
+    font-size: 2rem;
+  }
+
+  .header-inner-wrapper svg {
+    margin-right: -3rem;
+  }
+  .header-icon-container ul {
+    gap: 7rem;
+  }
+} */
+
+/* @media only screen and (max-width: 500px) {
+  .inner-wrapper {
+    padding: 2rem 2.5rem;
+  }
+  .projects {
+    padding: 3rem 3rem;
+  }
+  h1,
+  p {
+    font-size: 2.1rem;
+  }
+  p {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .header-inner-wrapper h1 {
+    letter-spacing: 12px;
+  }
+  .header-inner-wrapper h3 {
+    letter-spacing: 8px;
+  }
+} */
+
+/* @media only screen and (max-width: 420px) {
+  .skills-icon-box {
+    padding: 1.5rem 2.5rem;
+    font-size: 1.85rem;
+  }
+  .header-icon-container .header-icon {
+    font-size: 4rem;
+  }
+  .header-icon-container #mail-icon {
+    font-size: 5rem;
+  }
+  .header-icon-container ul {
+    margin-left: -3rem;
+  }
+}
 
 @media only screen and (max-width: 400px) {
-  .container {
-    padding: 2rem;
-  }
   html {
     font-size: 50%;
   }
-}
-
-@media only screen and (max-width: 355px) {
-  .skills-container {
-    gap: 3rem;
+  .hamburger {
+    top: 7rem;
+  }
+  .header-inner-wrapper {
+    padding-top: 0;
   }
 }
+
+@media only screen and (max-width: 391px) {
+  .header-inner-wrapper h1 {
+    letter-spacing: 6px;
+  }
+  .header-inner-wrapper h3 {
+    letter-spacing: 4px;
+  }
+} */

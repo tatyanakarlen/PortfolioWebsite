@@ -1,5 +1,7 @@
 import React from 'react';
-import './DesktopNav.css'
+import { BsLinkedin } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
+import './DesktopNav.css';
 
 const DesktopNav = () => {
   return (
@@ -8,6 +10,21 @@ const DesktopNav = () => {
         <li>About</li>
         <li>Projects</li>
         <li>Contact</li>
+        {/* <div class="social-link-container">
+          <li class="social-links">
+            <a
+              href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/?originalSubdomain=ca"
+              target="_blank"
+            >
+              <BsLinkedin />
+            </a>
+          </li>
+          <li class="social-links">
+            <a href="https://github.com/tatyanakarlen" target="_blank">
+              <BsGithub />
+            </a>
+          </li>
+        </div> */}
       </ul>
     </div>
   );

@@ -1,74 +1,52 @@
 import React from 'react';
 import './Skills.css';
-import css from '../../Assets/skills-imgs/css3.svg'
-import django from '../../Assets/skills-imgs/django-icon-svgrepo-com.svg'
-import html from '../../Assets/skills-imgs/html5.svg'
-import postgreSQL from '../../Assets/skills-imgs/icons8-postgresql (1).svg'
-import javascript from '../../Assets/skills-imgs/js.svg'
-import MUI from '../../Assets/skills-imgs/material-ui-1.svg'
-import mongodb from '../../Assets/skills-imgs/mongodb-svgrepo-com.svg'
-import nextjs from '../../Assets/skills-imgs/next-js.svg'
-import nodejs from '../../Assets/skills-imgs/node-js.svg'
-import python from '../../Assets/skills-imgs/python.svg'
-import react from '../../Assets/skills-imgs/react-2.svg'
-import tailwind from '../../Assets/skills-imgs/tailwind-css-icon.svg'
-
-
-
-
+import gif from '../Images/video-unscreen.gif';
 
 const Skills = () => {
   return (
-    <div id="skills" class="section-container skills">
-      <h2 class="h2-heading">Skills</h2>
-      <div class="skills-container">
-        <div class="skills-icon-container">
-          <img src={react} />
-          <p>React</p>
+    <div className="skills section-container" id="skills">
+      <h1 className="section-heading skills-heading">Skills</h1>
+
+      <br />
+      <br />
+
+      <div className="skills-container-wrapper">
+        <div className="skill-container">
+          <div className="skills-icon-box">Javascript</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={nextjs} />
-          <p>Next.js</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">React</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={javascript} />
-          <p>Javascript</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">Next.js</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={html} />
-          <p>HTML</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">HTML5</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={css}/>
-          <p>CSS</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">CSS3</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={nodejs} />
-          <p>Node</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">Tailwind</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={python} />
-          <p>Python</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">MUI</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={django} />
-          <p>Django</p>
+
+        <div className="skill-container">
+          <div className="skills-icon-box">Python</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={mongodb} />
-          <p>MongoDB</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">Django</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={postgreSQL} />
-          <p>PostgreSQL</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">Node.js</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={tailwind} />
-          <p>Tailwind</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">MongoDB</div>
         </div>
-        <div class="skills-icon-container">
-          <img src={MUI}/>
-          <p>MUI</p>
+        <div className="skill-container">
+          <div className="skills-icon-box">PostgreSQL</div>
         </div>
       </div>
     </div>

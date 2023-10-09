@@ -1,46 +1,28 @@
 import React from 'react';
-import './About.css';
-import { HiOutlineDownload } from 'react-icons/hi';
-import { useState } from 'react'
-import resume from '../assets/TATYANA_KARLEN_RESUME.pdf'
+import './About.css'
 
 const About = () => {
- 
-
-    const [resume] = useState(resume)
-
-    
-   
-
   return (
-    <div id="about" className="about-me">
-      <div className="about-me-container">
-        <h3 className="section-heading">About</h3>
-      </div>
-      <p className="paragraph">
-        Welcome and thanks for stopping by! I'm a full-stack developer with a
-        passion for UI/UX and front-end development. Based in Toronto, Canada, I
-        have a diverse creative background in fashion, piano performance and
-        music pedagogy.
+    <div className="section-container about">
+      <h2 className="section-heading">About</h2>{' '}
+      <p>
+        Based in Toronto, I have a unique background in fashion, piano
+        performance and music pedagogy. I have a diploma in Fashion Arts from
+        Humber College and a Software Engineering Immersive certificate from
+        General Assembly.
+        <br />
+        <br />I discovered my passion for coding while working as a web content
+        developer at Sutton Group where I created and managed several websites
+        using popular content management systems such as Wix. I am currently
+        working as a front-end React developer at Nuclear Media.
         <br />
         <br />
-        Always curious about the web, I graduated from General Assembly's{' '}
-        <span>Software Engineering Immersive</span> program where I learned
-        full-stack development in a fast-paced environment. I am currently
-        interning at a startup called 905devshop as a full-stack React web
-        developer.
-        <br />
-        <br />I have experience with React, Javascript, HTML, CSS, Sass,
-        Next.js, Python, Django, Node.js, MongoDB, PostgreSQL and more. My past
-        projects can be found below.
+        Coding satisfies my need to create and build something from nothing.
+        When I'm not coding, I enjoy playing and teaching piano as I am also a
+        classically-trained pianist with a deep interest in classical, jazz, and
+        synthesizer music. I take pride in being modest, approachable,
+        cooperative and dependable.
       </p>
-      <br />
-      <div className="resume-link-container">
-        <h3>Resume</h3>
-        <a target="_blank" href={resume}>
-          <HiOutlineDownload />
-        </a>
-      </div>
     </div>
   );
 };

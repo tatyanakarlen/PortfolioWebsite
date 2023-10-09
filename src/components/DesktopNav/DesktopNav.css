@@ -1,15 +1,33 @@
 .desktop-nav {
-  position: absolute;
-  right: 5rem;
+  height: 6rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .links {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   list-style-type: none;
   gap: 3rem;
 }
 
 .links li {
   font-size: 2rem;
+}
+
+.social-links {
+  font-size: 2rem;
+}
+
+.social-links svg {
+  color: #f7eaf4; 
+  font-size: 2.2rem;
+}
+
+.social-link-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.3rem;
 }

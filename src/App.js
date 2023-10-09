@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 import BioPortfolioPage from './pages/BioPortfolioPage/BioPortfolioPage';
 
+// import './components/assets/images.jsx'
+// import './components/assets/data.jsx'
+
 import { Route, Routes, Navigate } from 'react-router-dom';
 
 import img1 from './components/Images/UntitledImages/UntitledTEST5.png';
@@ -38,11 +41,17 @@ import img32 from './components/Images/CookBook/CookBook6.png'
 
 
 
+
+
+
+
+
+
 function App() {
   const [projects] = useState([
     {
       title: 'CookBook',
-      headline: 'Recipe app built with',
+      headline: 'Recipe search and save app built with',
       tech: ['React', 'Firebase', 'Spoonacular API', 'Bootstrap'],
       images: [img26, img27, img28, img29, img30, img31, img32],
       bullet1:
