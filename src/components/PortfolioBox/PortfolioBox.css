@@ -33,21 +33,22 @@
 
 .projects img {
   transition: all 0.2s ease 0.1s;
-  width: 100%;
+
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
   object-fit: cover;
   vertical-align: top;
+  width: 100%;
 }
 
 .projects .static-img:hover {
-  width: 100%;
   transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
   will-change: transform;
   cursor: pointer;
+  width: 100%;
 }
 
 .icon-text-container {

@@ -41,11 +41,6 @@ div {
   margin-right: 1rem;
 }
 
-#projects img {
-  width: 2.75rem;
-  margin-right: 0.5rem;
-}
-
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1000px) {
