@@ -10,8 +10,6 @@ export default function Carousel(props) {
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
-    console.log(current);
-    console.log(length);
   };
 
   const prevSlide = () => {
@@ -30,16 +28,16 @@ export default function Carousel(props) {
   }
 
   return (
-    <div class="popup" style={popUpVisibleStyles}>
+    <div className="popup" style={popUpVisibleStyles}>
       {props.SliderData.map((slide, index) => {
         return (
-          <div class="popup-content">
+          <div className="popup-content">
             <div
               className={index === current ? 'slide active' : 'slide'}
               key={index}
             >
               {index === current && (
-                <div class="img-icon-container">
+                <div className="img-icon-container">
                   <img id="image" alt="test" src={slide.image}></img>
                   <CgCloseO
                     id="X"
@@ -58,37 +56,4 @@ export default function Carousel(props) {
       })}
     </div>
   );
-}
-
-{
-  /* <div class="popup" id="popup">
-<div class="popup-content">
-  <img></img>
-</div>
-</div> */
-}
-
-{
-  /* <div className="col-2-pics">
-{props.SliderData.map((slide, index) => {
-  return (
-    <div
-      className={index === current ? 'slide active' : 'slide'}
-      key={index}
-    >
-      {index === current && (
-        <div>
-          <img id="image" alt="test" src={slide.image}></img>
-          <IoMdCloseCircle
-            id="X"
-            onClick={() => props.setCarouselActive(false)}
-          />
-          <IoIosArrowForward className="right-arr" onClick={nextSlide} />
-          <IoIosArrowBack className="left-arr" onClick={nextSlide} />
-        </div>
-      )}
-    </div>
-  );
-})}
-</div> */
 }
