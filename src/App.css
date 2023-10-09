@@ -3,6 +3,7 @@
 .App {
   overflow: hidden;
   letter-spacing: 1px;
+  position: relative;
 }
 
 * {
