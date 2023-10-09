@@ -76,6 +76,7 @@
   flex-direction: column;
   justify-content: end;
   gap: 2.5rem;
+  box-sizing: border-box;
 }
 
 .hero img {
