@@ -1,31 +1,31 @@
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
-import PortfolioBox from '../../components/PortfolioBox/PortfolioBox';
-import DesktopNav from '../../components/DesktopNav/DesktopNav'
+import DesktopNav from '../../components/DesktopNav/DesktopNav';
 import Projects from '../../components/Projects/Projects';
-import Experience from '../../components/Experience/Experience';
 import Skills from '../../components/Skills/Skills.jsx';
 import Footer from '../../components/Footer/Footer';
 import Contact from '../../components/Contact/Contact';
+import { useMediaQuery } from 'react-responsive';
 import MobileNav from '../../components/MobileNav/MobileNav';
 import About from '../../components/About/About';
 import './BioPortfolioPage.css';
 
 function BioPortfolioPage(props) {
-  console.log(props.projects);
+  const isMobile = useMediaQuery({
+    query: '(max-width: 700px)',
+  });
 
   return (
     <div>
-      {/* <MobileNav /> */}
-      <DesktopNav />
-      <div className="app-container">
-      <Hero />
-      <Skills />
-      {/* <Experience /> */}
-     
-      <Projects projects={props.projects}/>
+      {isMobile ? <MobileNav /> : <DesktopNav />}
 
-      {/* {props.projects.map((m) => (
+      <div className="app-container">
+        <Hero />
+        <Skills />
+
+        <Projects projects={props.projects} />
+
+        {/* {props.projects.map((m) => (
         <PortfolioBox
           title={m.title}
           headline={m.headline}
@@ -41,9 +41,9 @@ function BioPortfolioPage(props) {
           gitHubLink={m.gitHubLink}
         />
       ))} */}
-       <About />
-      <Contact />
-      <Footer />
+        <About />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

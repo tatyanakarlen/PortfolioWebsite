@@ -30,13 +30,13 @@ html {
 }
 
 :root {
-  --color-green: rgb(79, 244, 3);
+  --color-background: rgb(36 35 35);
   --color-text-pink: #f1e4f4;
   --color-blue: #7ef40b;
 }
 
 body {
   font-family: 'Oswald';
-  background-color: rgb(36 35 35);
-  color: #f1e4f4;
+  background-color: var(--color-background);
+  color: var(--color-text-pink);
 }

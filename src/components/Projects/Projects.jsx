@@ -1,17 +1,17 @@
-import React from 'react'
-import './Projects.css'
-import PortfolioBox from '../PortfolioBox/PortfolioBox'
+import React from 'react';
+import './Projects.css';
+import PortfolioBox from '../PortfolioBox/PortfolioBox';
 
-const Projects = ({projects}) => {
+const Projects = ({ projects }) => {
   return (
     <div className="section-container">
       <h2 className="section-heading">Projects</h2>
-       {projects.map((m) => (
+      {projects.map((m, index) => (
         <PortfolioBox
+          key={index}
           title={m.title}
           headline={m.headline}
           images={m.images}
-          title={m.title}
           tech={m.tech}
           headline={m.headline}
           bullet1={m.bullet1}
@@ -21,9 +21,9 @@ const Projects = ({projects}) => {
           deployedAppLink={m.deployedAppLink}
           gitHubLink={m.gitHubLink}
         />
-      ))} 
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

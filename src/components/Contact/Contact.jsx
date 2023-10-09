@@ -13,7 +13,6 @@ const Contact = () => {
           I'm always interested in learning about new opportunities and meeting
           new people. Looking to connect or hire me? I'd love to hear from you!
         </p>{' '}
-        <hr/>
         <div className="email">
           <a
             className="social-links"

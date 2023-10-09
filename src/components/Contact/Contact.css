@@ -19,7 +19,7 @@
 .connect a {
   color: var(--color-text-pink);
   text-decoration: none;
-  transition: transform .3s ease,-webkit-transform .3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .connect a:hover {
@@ -33,13 +33,13 @@
 }
 
 .email h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   cursor: pointer;
   transition: all 0.7s ease;
-  padding-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: #1b1b1b;
 }
-
-
 
 .email svg {
   font-size: 4rem;

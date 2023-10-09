@@ -14,7 +14,7 @@ const About = () => {
         <br />I discovered my passion for coding while working as a web content
         developer at Sutton Group where I created and managed several websites
         using popular content management systems such as Wix. I am currently
-        working as a contract-based front-end developer at Nuclear Media.
+        working as a front-end React developer at Nuclear Media.
         <br />
         <br />
         Coding satisfies my need to create and build something from nothing.

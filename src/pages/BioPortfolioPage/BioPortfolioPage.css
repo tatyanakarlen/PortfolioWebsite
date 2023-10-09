@@ -8,7 +8,9 @@
 }
 
 .section-heading {
-  font-size: 2.8rem;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 hr {
@@ -19,7 +21,7 @@ hr {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 3rem;
 }
 
@@ -52,22 +54,74 @@ div {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
+  .hero {
+    height: 100vh;
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  .html {
+    font-size: 57.5%;
+  }
+}
+
+@media only screen and (max-width: 529px) {
+  .skills-icon-box {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 514px) {
+  .section-container {
+    padding: 2.5rem;
+  }
+  .projects {
+    padding: 3rem;
+  }
+  .connect {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 431px) {
+  .skills-container-wrapper {
+    gap: 1.5rem;
+  }
+  .skills-icon-box {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 403px) {
+  .projects {
+    padding: 2rem;
+  }
+  .skills-icon-box {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 383px) {
+  .hero p {
+    line-height: 3rem;
+  }
+  .section-container {
+    padding: 2rem;
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
   .inner-wrapper {
     padding: 2rem 4rem;
   }
   .projects {
     padding: 4rem 4rem;
   }
-}
+} */
 
-@media only screen and (max-width: 600px) {
-  html {
-    font-size: 50%;
-  }
-}
-
-@media only screen and (max-width: 519px) {
+/* @media only screen and (max-width: 519px) {
   .header-inner-wrapper h1 {
     font-size: 3rem;
   }
@@ -81,9 +135,9 @@ div {
   .header-icon-container ul {
     gap: 7rem;
   }
-}
+} */
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .inner-wrapper {
     padding: 2rem 2.5rem;
   }
@@ -106,9 +160,9 @@ div {
   .header-inner-wrapper h3 {
     letter-spacing: 8px;
   }
-}
+} */
 
-@media only screen and (max-width: 420px) {
+/* @media only screen and (max-width: 420px) {
   .skills-icon-box {
     padding: 1.5rem 2.5rem;
     font-size: 1.85rem;
@@ -143,4 +197,4 @@ div {
   .header-inner-wrapper h3 {
     letter-spacing: 4px;
   }
-}
+} */
