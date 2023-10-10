@@ -32,11 +32,13 @@ const Hero = () => {
         )}
       </>
       <a
-       href="mailto:tatyanakarlen@gmail.com"
-       target="_blank"
-       aria-label="Mail"
-       rel="noopener noreferrer"
-      >Contact Me</a>
+        href="mailto:tatyanakarlen@gmail.com"
+        target="_blank"
+        aria-label="Mail"
+        rel="noopener noreferrer"
+      >
+        Contact Me
+      </a>
     </div>
   );
 };

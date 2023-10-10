@@ -3,7 +3,6 @@
 .App {
   overflow: hidden;
   letter-spacing: 1px;
-  /* position: relative; */
 }
 
 * {
@@ -20,12 +19,9 @@
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-
   -webkit-font-smoothing: unset;
   -moz-osx-font-smoothing: unset;
-
   min-height: 100%; /* Look, it's not fixed anymore! */
-
   display: flex;
   flex-direction: column;
 }
@@ -33,7 +29,6 @@ html {
 :root {
   --color-background: rgb(36 35 35);
   --color-text-pink: #f1e4f4;
-  --color-blue: #7ef40b;
 }
 
 body {

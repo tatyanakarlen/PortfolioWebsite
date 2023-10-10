@@ -20,6 +20,7 @@ function BioPortfolioPage(props) {
       {isMobile ? <MobileNav /> : <DesktopNav />}
 
       <div className="app-container">
+    
         <Hero />
         <Skills />
 

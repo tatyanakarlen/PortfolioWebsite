@@ -1,6 +1,5 @@
 import React from 'react';
 import './Skills.css';
-import gif from '../Images/video-unscreen.gif';
 
 const Skills = () => {
   return (

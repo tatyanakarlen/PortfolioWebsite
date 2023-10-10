@@ -4,8 +4,6 @@ import React, { useState } from 'react';
 const MobileNav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
-  //   style props
-
   let expandedStyleTopBun = {};
 
   let expandedStyleBottomBun = {};
@@ -44,7 +42,6 @@ const MobileNav = () => {
       >
         <div style={expandedStyleTopBun} class="top-bun"></div>
         <div style={expandedStyleMeat} class="meat"></div>
-        {/* <div style={expandedStyleBottomBun} class="bottom-bun"></div> */}
       </div>
       <div style={expandedNav} className="nav">
         <div className="nav-wrapper">

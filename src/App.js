@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 import BioPortfolioPage from './pages/BioPortfolioPage/BioPortfolioPage';
-
-// import './components/assets/images.jsx'
-// import './components/assets/data.jsx'
-
 import { Route, Routes, Navigate } from 'react-router-dom';
 
 import img1 from './components/Images/UntitledImages/UntitledTEST5.png';

@@ -16,14 +16,10 @@
 
 .links a {
   font-size: 2rem;
-  text-decoration: none; 
+  text-decoration: none;
   color: var(--color-text-pink);
 }
 
 .social-links {
   font-size: 2rem;
 }
-
-
-
-

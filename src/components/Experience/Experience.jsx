@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css';
-import { IoCodeWorkingSharp } from 'react-icons/io5';
+
 
 const Experience = () => {
   return (
@@ -8,13 +8,13 @@ const Experience = () => {
       <h1 className="section-heading">Experience</h1>
       <div>
         <h2>
-        Nuclear Media <span>Aug 2023 - Present</span>
+          Nuclear Media <span>Aug 2023 - Present</span>
         </h2>
         <h3>Front-end developer</h3>
       </div>
       <div>
         <h2>
-        905devshop <span>Oct 2022 - Mar 2023</span>
+          905devshop <span>Oct 2022 - Mar 2023</span>
         </h2>
         <h3>Full-stack developer intern</h3>
       </div>

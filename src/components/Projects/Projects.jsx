@@ -1,5 +1,4 @@
 import React from 'react';
-import './Projects.css';
 import PortfolioBox from '../PortfolioBox/PortfolioBox';
 
 const Projects = ({ projects }) => {
