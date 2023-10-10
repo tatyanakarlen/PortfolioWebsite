@@ -88,6 +88,9 @@ div {
   .skills-icon-box {
     font-size: 1.5rem;
   }
+  .nav-container {
+    height: 0;
+}
 }
 
 @media only screen and (max-width: 403px) {
