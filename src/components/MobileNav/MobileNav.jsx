@@ -37,7 +37,7 @@ const MobileNav = () => {
   }
 
   return (
-    <>
+    <div className="nav-container">
       <div
         className="hamburger"
         onClick={() => setIsNavExpanded(!isNavExpanded)}
@@ -74,7 +74,7 @@ const MobileNav = () => {
           </nav>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

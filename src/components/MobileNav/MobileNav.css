@@ -1,3 +1,8 @@
+.nav-container {
+  height: 4rem;
+}
+
+
 .hamburger {
   position: fixed;
   top: 6rem;
