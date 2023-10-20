@@ -3,6 +3,7 @@
 .App {
   overflow: hidden;
   letter-spacing: 1px;
+  position: relative;
 }
 
 * {
@@ -21,7 +22,7 @@ html {
   font-size: 62.5%;
   -webkit-font-smoothing: unset;
   -moz-osx-font-smoothing: unset;
-  min-height: 100%; /* Look, it's not fixed anymore! */
+  height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
 }
@@ -32,6 +33,9 @@ html {
 }
 
 body {
+  min-height: 100vh; 
+  min-height: -webkit-fill-available;
+  width: 100%;
   font-family: 'Oswald';
   background-color: var(--color-background);
   color: var(--color-text-pink);
