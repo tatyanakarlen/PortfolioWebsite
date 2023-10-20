@@ -25,7 +25,7 @@ const MobileNav = () => {
     };
     expandedStyleMeat = {
       transform: 'rotate(45deg)',
-      marginTop: '-7px',
+      marginTop: '-6px',
       backgroundColor: '#fff',
     };
     expandedNav = {
