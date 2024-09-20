@@ -26,22 +26,7 @@ function BioPortfolioPage(props) {
 
         <Projects projects={props.projects} />
 
-        {/* {props.projects.map((m) => (
-        <PortfolioBox
-          title={m.title}
-          headline={m.headline}
-          images={m.images}
-          title={m.title}
-          tech={m.tech}
-          headline={m.headline}
-          bullet1={m.bullet1}
-          bullet2={m.bullet2}
-          bullet3={m.bullet3}
-          body={m.body}
-          deployedAppLink={m.deployedAppLink}
-          gitHubLink={m.gitHubLink}
-        />
-      ))} */}
+       
         <About />
         <Contact />
         <Footer />

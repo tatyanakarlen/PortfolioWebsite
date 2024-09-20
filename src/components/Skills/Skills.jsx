@@ -20,6 +20,9 @@ const Skills = () => {
           <div className="skills-icon-box">Next.js</div>
         </div>
         <div className="skill-container">
+          <div className="skills-icon-box">Redux</div>
+        </div>
+        <div className="skill-container">
           <div className="skills-icon-box">HTML5</div>
         </div>
         <div className="skill-container">

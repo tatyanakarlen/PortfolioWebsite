@@ -34,6 +34,15 @@ import img29 from './components/Images/CookBook/CookBook3.png'
 import img30 from './components/Images/CookBook/cookbook4.png'
 import img31 from './components/Images/CookBook/cookbook5.png'
 import img32 from './components/Images/CookBook/CookBook6.png'
+import img33 from './components/Images/FlixStream/Flix1.png'
+import img34 from './components/Images/FlixStream/Flix2.png'
+import img35 from './components/Images/FlixStream/Flix3.png'
+import img36 from './components/Images/FlixStream/Flix4.png'
+import img37 from './components/Images/FlixStream/Flix5.png'
+import img38 from './components/Images/FlixStream/Flix6.png'
+import img39 from './components/Images/FlixStream/Flix7.png'
+import img40 from './components/Images/FlixStream/Flix8.png'
+import img41 from './components/Images/FlixStream/Flix9.png'
 
 
 
@@ -45,6 +54,20 @@ import img32 from './components/Images/CookBook/CookBook6.png'
 
 function App() {
   const [projects] = useState([
+    {
+      title: 'Flixstream',
+      headline: 'Movie streaming app built with',
+      tech: ['React', 'Supabase (PostgreSQL)', 'Bootstrap'],
+      images: [img33, img34, img35, img36, img37, img38, img39, img40, img41],
+      bullet1:
+      'Mobile-responsive streaming app that allows users to browse and stream movies, with seamless navigation and user-friendly design.',
+      bullet2: 'Features Supabase user authentication and a robust database for managing user data, watchlists, and more.',
+      bullet3:
+      'Allows users to like/save and remove movies from their personalized watchlist, all stored securely in the Supabase database.',
+
+      deployedAppLink: 'https://flixstreamapp.netlify.app',
+      gitHubLink: 'https://github.com/tatyanakarlen/Flixstream',
+    },
     {
       title: 'CookBook',
       headline: 'Recipe search and save app built with',
