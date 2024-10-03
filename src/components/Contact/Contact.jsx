@@ -27,7 +27,7 @@ const Contact = () => {
         </div>{' '}
         <div className="social">
           <a
-            href="https://www.linkedin.com/in/tatyana-karlen-b1aa9941/?originalSubdomain=ca"
+            href="https://www.linkedin.com/in/tatyanakarlen/"
             target="_blank"
           >
             <BsLinkedin />
