@@ -3,7 +3,9 @@
   padding: 2rem;
   display: flex;
   align-items: center;
-  justify-content: end;
+  /* justify-content: end; */
+  position: absolute;
+  right: 0;
 }
 
 .links {
