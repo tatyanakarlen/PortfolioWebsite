@@ -12,7 +12,6 @@ const Projects = ({ projects }) => {
           headline={m.headline}
           images={m.images}
           tech={m.tech}
-          headline={m.headline}
           bullet1={m.bullet1}
           bullet2={m.bullet2}
           bullet3={m.bullet3}
